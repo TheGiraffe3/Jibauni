@@ -1,0 +1,43 @@
+shipyard "Sheragi Basics"
+	"Bronze Edge"
+	"Black Diamond"
+
+shipyard "Sheragi Advanced"
+	"Platinum Spear"
+	"Gold Shield"
+	"Ruby Hammer"
+	"White Brand"
+
+shipyard "Sheragi Superadvanced"
+	"Emerald Sword"
+
+shipyard "Jibauni Basics"
+	Larajal
+	Latbaliday
+	Daybal
+	Furus
+	Saghir
+	Minaldmasmin
+	Quyan
+
+shipyard "Jibauni Advanced"
+	Muraw
+	Duntay
+	"Qudaw (Normal)"
+	Nakil
+	Yiyharsi
+	Nathaq
+	Nathas
+	Nathar
+	Nakil
+	
+shipyard "Jibauni Colonism"
+	Safinat
+	Osra
+
+shipyard "Diba"
+	Llama
+	Ithquaya
+	Arbquaya
+	Tamquaya
+	Tahquaya

@@ -1,0 +1,303 @@
+# Copyright (c) 2024 by Peter Baker
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+ship "Llama"
+	sprite "ship/llama"
+	thumbnail "thumbnail/llama"
+	attributes
+		category "Fighter"
+		cost 725000
+		"shields" 2000
+		"hull" 1100
+		"automaton" 1
+		"bunks" 1
+		"mass" 55
+		"drag" .59
+		"diba gun ports" -1
+		"heat dissipation" .27
+		"outfit space" 0
+		"weapon capacity" 0
+		"thrust" 10
+		"turn" 30
+		"cargo space" 100
+		licenses
+			Diba
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Diba Laser"
+	gun 13 -21 "Diba Laser"
+	engine 3 36.5
+	leak "leak" 70 50
+	leak "flame" 50 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+
+ship "Ithquaya"
+	sprite "ship/ithquaya"
+	attributes
+		category "Interceptor"
+		"cost" 1000000
+		"shields" 2000
+		"hull" 1000
+		"automaton"1
+		"bunks" 1
+		"mass" 75
+		"drag" 1.5
+		"heat dissipation" .2
+		"diba gun ports" -2
+		"fuel capacity" 300
+		"cargo space" 1
+		"outfit space" 30
+		"weapon capacity" 30
+		"thrust" 40
+		"turn" 120
+		"reverse thrust" 2
+		"hull repair" .02
+		"shield generation" .2
+		"self destruct" .2
+#		"energy generation" 2.66
+#		"cooling" 5.6
+		"scram drive" .2
+		"jump fuel" 100
+		"hyperdrive" 1
+		licenses
+			Diba
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Diba Laser" 2
+	engine 0 0
+	gun 0 -44.5 "Diba Laser"
+	gun 0 44.5 "Diba Laser"
+		"angle" 180
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The smallest Diba ship."
+
+ship "Arbquaya"
+	sprite "ship/arbquaya"
+	attributes
+		category "Light Warship"
+		"cost" 2000000
+		"shields" 4000
+		"hull" 2000
+		"automaton"1
+		"bunks" 1
+		"mass" 150
+		"drag" 5
+		"heat dissipation" .4
+		"fuel capacity" 400
+		"cargo space" 2
+		"outfit space" 60
+		"diba gun ports" -4
+		"weapon capacity" 60
+		"thrust" 80
+		"turn" 240
+		"reverse thrust" 4
+		"hull repair" .04
+		"shield generation" .4
+		"self destruct" .5
+#		"energy generation" 5.32
+#		"cooling" 11.2
+		"scram drive" .4
+		"jump fuel" 100
+		"hyperdrive" 1
+		licenses
+			Diba
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Diba Laser" 4
+	engine 0 0
+	bay Fighter 0 121.5
+		over
+	gun -234 0 "Diba Laser"
+		angle 270
+		parallel
+	gun 234 0 "Diba Laser"
+		angle 90
+		parallel
+	gun 0 -224.5 "Diba Laser"
+		angle 180
+		parallel
+	gun 0 224.5 "Diba Laser"
+		parallel
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "A medium Diba ship."
+
+ship "Tamquaya"
+	sprite "ship/tamquaya"
+	attributes
+		category "Medium Warship"
+		"cost" 4000000
+		"shields" 8000
+		"hull" 4000
+		"automaton"1
+		"bunks" 1
+		"mass" 400
+		"drag" 8
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 4
+		"outfit space" 120
+		"weapon capacity" 120
+		"diba gun ports" -8
+		"thrust" 120
+		"turn" 360
+		"reverse thrust" 8
+		"hull repair" .08
+		"shield generation" .8
+		"self destruct" .7
+#		"energy generation" 10.64
+#		"cooling" 22.4
+		"scram drive" .6
+		"jump fuel" 100
+		"hyperdrive" 1
+		licenses
+			Diba
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Diba Laser" 8
+	engine 0 0
+	bay Fighter 0 -205
+		over
+	bay Fighter 0 184.5
+		over
+	gun 0 -345.5 "Diba Laser"
+	gun 0 345.5 "Diba Laser"
+		angle 180
+	gun -350.5 -3.5 "Diba Laser"
+		angle -90
+	gun -238.5 -246.5 "Diba Laser"
+		angle -45
+	gun -271.5 231.5 "Diba Laser"
+	gun 350.5 -3.5 "Diba Laser"
+		angle 90
+	gun 238.5 -246.5 "Diba Laser"
+		angle 45
+	gun 271.5 231.5 "Diba Laser"
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "A medium Diba ship."
+
+ship "Tahquaya"
+	sprite "ship/tahquaya"
+	attributes
+		category "Heavy Warship"
+		"cost" 8000000
+		"shields" 16000
+		"hull" 8000
+		"automaton"1
+		"bunks" 1
+		"mass" 600
+		"drag" 13
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 8
+		"diba gun ports" -16
+		"outfit space" 240
+		"weapon capacity" 240
+		"thrust" 160
+		"turn" 480
+		"reverse thrust" 8
+		"hull repair" .08
+		"shield generation" .8
+		"self destruct" .9
+#		"energy generation" 21.28
+#		"cooling" 44.8
+		"scram drive" .4
+		"jump fuel" 100
+		"hyperdrive" 1
+		licenses
+			"Diba"
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits	
+		"Diba Laser" 12
+	engine 0 0
+	bay Fighter 255.5 0
+		over
+	bay Fighter -255.5 0
+		over
+	bay Fighter 0 -296.5
+		over
+	bay Fighter 0 251.5
+		over
+	gun 0 -461.5 "Diba Laser"
+	gun 0 438.5 "Diba Laser"
+		angle 180
+	gun -466.5 -23.5 "Diba Laser"
+		angle 270
+	gun 466.5 -23.5 "Diba Laser"
+		angle 90
+	gun -186.5 -410.5 "Diba Laser"
+		angle 337.5
+	gun 186.5 -410.5 "Diba Laser"
+		angle 22.5
+	gun -330.5 -328.5 "Diba Laser"
+		angle 315
+	gun 330.5 -328.5 "Diba Laser"
+		angle 45
+	gun -429.5 -172.5 "Diba Laser"
+		angle 292.5
+	gun 429.5 -172.5 "Diba Laser"
+		angle 67.5
+	gun -328.5 338.5 "Diba Laser"
+		angle 225
+	gun 328.5 338.5 "Diba Laser"
+		angle 135
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The large Diba ship."

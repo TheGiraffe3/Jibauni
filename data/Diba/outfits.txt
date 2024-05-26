@@ -1,0 +1,24 @@
+outfit "Diba Laser"
+	category "Guns"
+	cost 60000
+	thumbnail "outfit/heavy laser"
+	"mass" 15
+	"outfit space" 0
+	"weapon capacity" 0
+	"gun ports" -1
+	"diba gun ports" 1
+	"unplunderable" 1
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" .4
+		"velocity" 800
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0
+		"firing heat" -2
+		"shield damage" 1.7
+		"hull damage" 2.4
+	description "This is appears to be a Heavy Laser from back in human space, except for the seeming fact that it has been heavily modified to only fit on Diba ships."

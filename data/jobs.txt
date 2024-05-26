@@ -1,0 +1,24 @@
+mission "Jibauni Pilgrims [0]"
+	name "Pilgrims to <planet>"
+	description "Bring these <fare> to <planet> in the <system> system. Payment will be <payment>. The pilgrimage requires that you get there before <date>."
+	job
+	repeat
+	deadline 10
+	cargo "pilgrimage supplies" 10 30
+	passengers 2 20
+	source
+		government "Jibauni" "Rebel Jibauni"
+	destination
+		government "Jibauni"
+		attributes religious
+	on accept
+		dialog "The <bunks> passengers get onto your ship, and get settled in their cabins."
+	on complete
+		payment
+		payment 1250
+		"Jibauni government" ++
+		"pilgrim help" ++
+		dialog "The <bunks> pilgrims get off the ship, but not before one of them hands you <payment>."
+	on fail
+		"pilgrim help" --
+		"left pilgrims" ++

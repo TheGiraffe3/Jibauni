@@ -1,0 +1,229 @@
+phrase "Jibauni Military"
+	word
+		"J. N. S. "
+	phrase
+		"Jibauni"
+
+phrase "Jibauni Civilian"
+	word
+		"C. S. "
+	phrase
+		"Jibauni"
+
+phrase "Rebel Jibauni Military"
+	word
+		"T. N. S. "
+	phrase
+		"Jibauni"
+
+phrase "Jibauni Fighters"
+	word
+		"J. F. S. "
+	phrase 
+		"Jibauni 1" 10
+		"Jibauni 2" 10
+		"Jibauni 3" 12
+		"Jibauni 4" 9
+	word
+		al
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+
+phrase "Jibauni"
+	phrase
+		"Jibauni 1" 10
+		"Jibauni 2" 10
+		"Jibauni 3" 12
+		"Jibauni 4" 9
+	word
+		" "
+	phrase
+		"Jibauni Median"
+	word
+		" "
+	phrase
+		"Jibauni 1" 10
+		"Jibauni 2" 10
+		"Jibauni 3" 12
+		"Jibauni 4" 9
+
+phrase "Jibauni 1"
+	word
+		Rabana
+		Allah
+		Malik
+		Musdus
+		Tirani
+		Batal
+		Yuton
+		Qinqin
+		Nabal
+		Nazir
+
+phrase "Jibauni Median"
+	word
+		al
+		wa 19
+
+phrase "Jibauni 2"
+	word
+		Salaam
+		Talab
+		Waltu
+		Malnina
+		Alhudu
+		Rahaa
+		Shaler
+		Qadas
+		Mulala
+		Rida
+
+phrase "Jibauni 3"
+	word
+		Harba
+		Qital
+		Sirae
+		Qasif
+		Rishi
+		Baiki
+		Tisha
+		Muna
+		Wahsa
+		Hariqi
+		Hayala
+		Miraka
+
+phrase "Jibauni 4"
+	word
+		Fayiz
+		Fatih
+		Fazhal
+		Munta
+		Sira
+		Hazima
+		Batal
+		Laqima
+		Alawan
+
+phrase "Diba"
+	phrase
+		"Diba Lordship"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+
+phrase "Diba Lordship"
+	word
+		L
+		O
+		R
+		D
+		S
+		H
+		I
+		P
+
+phrase "Sheragi Military"
+	phrase
+		"Sheragi 1a"
+	word
+		" "
+	phrase
+		"Sheragi 1b"
+
+phrase "Sheragi Civilian"
+	phrase
+		"Sheragi First 1" 6
+		"Sheragi First 2" 7
+	phrase
+		"Sheragi Last 1"
+		"Sheragi Last 2"
+
+phrase "Sheragi First 1"
+	word
+		Biyuk
+		Gishlu
+		Saigadar
+		Zerif
+		Yanma
+		Yukselen
+
+phrase "Sheragi First 2"
+	word
+		Jennu
+		Janikup
+		Tiichiul
+		Lorkor
+		Ingowilel
+		Ethimir
+		Lleisgarir
+
+phrase "Sheragi Last 1"
+	word
+		Scamitir
+		Machvilus
+		Savaski
+		Chavilry
+		Gegzini
+		Iliev
+		Kilich
+
+phrase "Sheragi Last 2"
+	word
+		Cayosin
+		Airemar
+		Arytiss
+		Daron
+		Woari
+		Letni
+		Caex
+
+phrase "Sheragi 1a"
+	word
+		Emerald
+		Amber
+		Opal
+		Diamond
+		Gold
+		Silver
+		Platinum
+		Ruby
+		Jade
+		Sapphire
+		Amethyst
+		Iron
+		Steel
+		Marble
+
+phrase "Sheragi 1b"	
+	word
+		Sword
+		Spear
+		Bow
+		Arrow
+		Ingot
+		Gem
+		Ring
+		Scepter
+		Crown
+		Treasure
+		Palace
+		Lord
+		Dragon

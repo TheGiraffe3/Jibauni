@@ -284,3 +284,24 @@ mission "Kanlanmo cargo"
         payment 5250
         dialog "You drop off the cargo at a large warehouse near the spaceport, which has many Jibauni hurrying to and fro. One hands you <payment>."
         
+mission "Kanlanmo (1 declined)"
+    landing
+    name "Kanlanmo to <planet>"
+    description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
+    source Taltahard
+    destination Kahbani
+    passengers 1
+    to offer
+        has "Kanlanmo 1: declined"
+        has "event: kanlanmo ready to kanlil"
+    on offer
+        conversation
+            `   Kanlanmo contacts you as you land. He asks, "Can you take me to <planet> now?"`
+            choice
+                `   "Sure!"`
+                    accept
+                `   "No. Later."`
+                    defer
+    on complete
+        payment 2500
+        dialog `Kanlanmo pays you <payment>, then says, "Meet me in the spaceport, in an hour."`

@@ -140,9 +140,9 @@ mission "Kanlanmo 1"
 	description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
 	passengers 1
 	to offer
-#		or
+	#	or
 		has "Kanlanmo 0: done"
-#			has "Kanlanmo (0 declined): done"
+	#		has "Kanlanmo (0 declined): done"
 	source Taltahard
 	destination Kahbani
 	on offer
@@ -244,11 +244,11 @@ mission "Kanlanmo 1"
 	on accept
 		conversation
 			branch manyquestions
-#				has
-#					and
-#						"jibauni come"
-#						"jibauni purple"
-#						"jibauni situation"
+		#		has
+		#			and
+		#				"jibauni come"
+		#				"jibauni purple"
+		#				"jibauni situation"
 				has "jibauni language question"
 			`	"Thank you for being willing to take me. I'll be in your ship soon."`
 			label manyquestions
@@ -267,3 +267,20 @@ mission "Kanlanmo 1"
 				`	"Maybe not the job..."`
 			`	"Your choice," he says. "As long as you can get back here and take me to Kanlil by seven days from now!"`
 				decline
+
+mission "Kanlanmo cargo"
+	name "Cargo to <planet>"
+	description "Take this <cargo> to <planet> by <day> for <payment>."
+	cargo random 1 15
+	deadline 3
+	job
+	source Kahbani
+    destination Baitoon
+    to offer
+        has "Kanlanmo 1: done"
+    on accept
+        dialog "The cargo is in a deserted lication near the <ship>. Weird."
+    on complete
+        payment 5250
+        dialog "You drop off the cargo at a large warehouse near the spaceport, which has many Jibauni hurrying to and fro. One hands you <payment>."
+        

@@ -1,0 +1,42 @@
+mission "Kanlanmo 3"
+    landing
+    name "Kanlanmo to <planet>"
+    description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
+    source Kanlil
+    destination Baitoon
+    passengers 1
+    to offer
+        has "Kanlanmo 2: done"
+    on offer
+        conversation
+            `   Kanlanmo comes back to your ship, looking rather discouaged. You consider talking to him.`
+            choice
+                `   (Ask what is wrong.)`
+                    goto question
+                `   (Leave him along, he has enough problems already.)`
+                    goto leavehim
+            label leavehim
+            `   Kanlanmo greets you as he comes in, then heads toward his cabin. He then appears to change his mind, and comes back toward you.`
+            choice
+                `   "What happened?"`
+                    goto question
+                `   "I'm kind of busy, can we talk later?"`
+                    goto destination
+            label question
+            `   "The insane people here won't furnish a good fleet," he says. "Not to blame them, because they do have a life that does not include fighting, but we were couring on most of our help from that corner."`
+            `   "Now, we're going to need more from other worlds."`
+            choice
+                `   "I have a large fleet, so I could help."`
+                    to display
+                        "total ships" > 10
+                    goto fleetlarge
+                `   "My fleet is not large, but it can fight the Rebel Jibauni."`
+                    to display
+                        and
+                            "total ships" < 10
+                            "total ships" > 1
+                    goto fleetsmall
+                `   "My ship can do some degree of damage."`
+                    to display
+                        not "flagship model: Puffin"
+                    goto singleship

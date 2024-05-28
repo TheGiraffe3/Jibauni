@@ -76,7 +76,7 @@ ship "Muraw"
 		"drag" 0.8
 		"heat dissipation" .2
 		"fuel capacity" 10
-		"cargo space" 1
+		"cargo space" 5
 		"outfit space" 65
 		"weapon capacity" 12
 		"engine capacity" 15

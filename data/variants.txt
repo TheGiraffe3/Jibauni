@@ -190,3 +190,15 @@ ship "Nathar" "Nathar (Government)"
 		"Ruksay Missile Launcher" 2
 		"Jibauni Medium Laser" 2
 		"Jibauni Government Helper License"
+
+ship "Muraw" "Muraw (Fighter)"
+	add attributes
+		"weapon capacity" 6
+		"outfit space" 8
+		"cargo space" -5
+	outfits
+		"Zarwal Laser Turret"	
+		"Watsaq Energy Generator"
+		"Saybatrit Battery"
+		
+		"Alhaja Engines"

@@ -404,3 +404,42 @@ mission "Kanlanmo 3"
         conversation
             `   "Thank you for working with me so long," says Kanlanmo as he leaves the ship. "Meet me in the spaceport in a hour or two if you want to hear about it. But I will not be available tomorrow or the day afterwards, so you will have to come soon."`
 
+mission "Kanlanmo 4"
+    landing
+    name "Hear about the Baitoon meeting"
+    source Kanlil
+    destination Baitoon
+    passengers 1
+    to offer
+        and
+            has "Kanlanmo 3: done"
+            not "event: nokanlanmomeet1"
+    on offer
+        conversation
+            `   When you get to the cafe, you see Kanlanmo already there, in earnest conversation with another Jibauni. As you walk up, the other Jibauni looks around. "Should I go?" he inquires of Kanlanmo.`
+            `   "No," orders Kanlanmo. "You should meet Captain <last>. <first>, this is Kasim Aboagye. His company makes most of our fighters and warships."`
+            choice
+                `   "Pleased to meet you."`
+                    goto shakehands
+                `   "What ships does he make?"`
+                    goto ships
+                `   (Nod)`
+                    goto nod
+            label shakehands
+            `   He reaches out his hand, and you shake it. "What ships do your shipyards make?" you ask.`
+                goto ships
+            label nod
+            `   He nods back in acknowledgement. "What ships do you make?" you ask.`
+                goto ships
+            label ships
+            `   Kasim lights up. "Aboagye Shipyards makes quite a few ships," he says. "The only ones we do not make are the Yiyharsi, Saghir, and one or two other ships, which are made by the untrustwor-"`
+            `   Kanlanmo cuts in, "Okay. Did you want to hear about the results of the meeting?"`
+            choice
+                `   "Yes."`
+                    goto meetingresults
+                `   "Kasim, what are the one or two other ships you do not make?"`
+                    goto daybalmuraw
+            label daybalmuraw
+            `   "To be specific, the Daybal and the Muraw. The Daybal is a not-great cargo carrying drone, but the Muraw has a turret mount on a fighter. Those crazy people of Res-redi's Sh-" "The results of the meeting," `
+
+            

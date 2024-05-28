@@ -351,11 +351,11 @@ mission "Kanlanmo 3"
             choice
                 `   "What happened?"`
                     goto question
-                `   "I'm kind of busy, can we talk later?"`
+                `   "I`m kind of busy, can we talk later?"`
                     goto destination
             label question
-            `   "The insane people here won't furnish a good fleet," he says. "Not to blame them, because they do have a life that does not include fighting, but we were couring on most of our help from that corner."`
-            `   "Now, we're going to need more from other worlds."`
+            `   "The insane people here won`t furnish a good fleet," he says. "Not to blame them, because they do have a life that does not include fighting, but we were couring on most of our help from that corner."`
+            `   "Now, we`re going to need more from other worlds."`
             choice
                 `   "I have a large fleet, so I could help."`
                     to display
@@ -371,3 +371,36 @@ mission "Kanlanmo 3"
                     to display
                         not "flagship model: Puffin"
                     goto singleship
+            label fleetlarge
+            `   "Great," he says. "I have seen your big fleet, and it does look powerful."
+                goto thanksoffer
+            label fleetsmall
+            `   "You know what?" he asks. "Every little bit counts, and your fleet is not insignificant."`
+                goto thanksoffer
+            label singleship
+            `   "Well, even if <ship> could not hurt a fly, the Rebel Jibauni would not like the idea of an alien fighting on our side. They were formed, as you know, to stop the Greens."`
+            label thanksoffer
+            `   "Anyway, thanks for offering to help fight the Rebels. It is very kind of you, a stranger, to fight our internal conflicts. Now, one more thing. Can you take me back to <planet>? I need to report back to The Leaders."`
+            goto choicetake
+            label destination
+            `   "Okay," he says. "By later I assume you mean once we are back on <planet>? Will you take me there?"`
+            label choicetake
+            choice
+                `   "Of course!"`
+                    goto accept
+                `   "Why not?"`
+                    goto accept
+                `   "No, I have had enough of working with the Jibauni."`
+                    decline
+            label accept
+            `   "Thank you for all your hard work, <first>. It really means a lot to us."`
+                accept
+    on accept
+        event "jibauni gather fleet against rebels" 25 35
+        log `Took a Jibauni named Kanlanmo around all the Jibauni systems. Reason is unknown so far.`
+    on complete
+        payment 15000
+        event "nokanlanmomeet1" 1
+        conversation
+            `   "Thank you for working with me so long," says Kanlanmo as he leaves the ship. "Meet me in the spaceport in a hour or two if you want to hear about it. But I will not be available tomorrow or the day afterwards, so you will have to come soon."`
+

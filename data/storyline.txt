@@ -441,5 +441,51 @@ mission "Kanlanmo 4"
                     goto daybalmuraw
             label daybalmuraw
             `   "To be specific, the Daybal and the Muraw. The Daybal is a not-great cargo carrying drone, but the Muraw has a turret mount on a fighter. Those crazy people of Res-redi's Sh-" "The results of the meeting," `
+            `   "The results of the meeting," Kanlanmo says icily, "are that the leaders are very pleased. They didn't expect Hajay to contibute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
+                goto ok
+            label meetingresults
+            `   "The leaders are very pleased. They didn't expect Hajay to contibute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
+            label ok
+            choice
+                `   "No questions."`
+                    goto done
+                `   "What is this other shipyard called?"`
+                    goto resredi
+            label resredi
+            `   "It's called Res-redi Shipyards. The quality of their ships is not high," replies Kasim. "And think of putting a turret mount on a fighter! Preposterous! The Res-redians have no idea of good ship design at all!"`
+            `   "You very well know that if <first> keeps working with us, Resredi will have to be involved, Kasim," remarks Kanlanmo.`
+            `   "<first>, will you volunteer to do some escort duty later, for the government?"`
+            choice
+                `   "Sure."`
+                    goto good
+                `   "No, I don't want to work with the Jibauni anymore."`
+                    goto stripped
+            label good
+            `   "Great. I will report that, then." Kasim cuts in, "You are lucky you said yes! Kanlanmo is the Undersecretary of the Department of Defense, and he can command you. He didn't have to give you a choice."`
+            choice
+                `   "I had no idea you were so powerful!"`
+                    goto power
+                `   "You mean I've been unknowingly transporting an important government offical?"`
+                    goto government
+            label power
+            `   "It isn't used the way you think, <last>," says Kanlanmo. "Thank you for saying yes, and now I have something to do." He hurries away."`
+            `   "Poor Kanlanmo," remarks Kasim. "He has been shy about his job ever since he was appointed to government office. I remember when-well, that's a story for another time. I too have something to do, so goodbye." He ambles away as you go back to your business.`
+                accept
+            label government
+            `   "Yes, you have," says Kanlanmo. "Goodbye, I have something to do." He hurries away."`
+            `   "Poor Kanlanmo," remarks Kasim. "He has been shy about his job ever since he was appointed to government office. I remember when-well, that's a story for another time. I too have something to do, so goodbye." He ambles away as you go back to your business.`
+                accept
+            label stripped
+            action
+                set "not working with jibauni"
+            `   "Your, admittedly mistaken, choice. I will tell my colleagues."`
+                decline
+    on accept
+        log `It turns out that Kanlanmo is Undersecretary of the Jibauni Department of Defense.`
+        log "People" "Kanlanmo" `Kanlanmo is a Jibauni who is very worried about the defense of his race’s systems. He apparently is Undersecretary of the Jibauni Department of Defense. Kanlanmo is also very shy about his job, according to Kasim Aboagye.`
+        log "People" "Kasim Aboagye" `Kasim is the owner of Aboagye Shipyards, which makes most of the Jibauni ships. He seems quite touchy about the other shipyards, called the Shipyards of Res-redi.`
+        fail
+    on decline
+        log `Decided not to work with the Jibauni any more.`    
 
             

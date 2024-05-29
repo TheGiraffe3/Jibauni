@@ -486,6 +486,31 @@ mission "Kanlanmo 4"
         log "People" "Kasim Aboagye" `Kasim is the owner of Aboagye Shipyards, which makes most of the Jibauni ships. He seems quite touchy about the other shipyards, called the Shipyards of Res-redi.`
         fail
     on decline
-        log `Decided not to work with the Jibauni any more.`    
-
+        log `Decided not to work with the Jibauni any more.`
+		
+		    
+mission "Jibauni Escorts Begin"
+    landing
+    name "Go to <planet>"
+    description "Kanlanmo has contacted you and asked you to pick up some Jibauni ships on <planet>, then report to him on Baitoon."
+    source
+        government "Jibauni" "Rebel Jibauni"
+    destination Taltahard
+    to offer
+        and
+            not "not working with jibauni"
+            has "event: jibauni gather fleet against rebels"
+    on offer
+        conversation
+            `   As <ship> touches down on the assigned pad, you receive a message from Kanlanmo.`
+            `   "Hello, <first>. Go to <planet>. There will be ships waiting for you to escort back to Baitoon. Meet me there after they arrive. Oh, and also have one bunk free when you get to <planet>."`
+            choice
+                `   "I'm on it!"`
+                    accept
+                `   "I have an urgent delivery, but I'll come later. Send the message again to remind me."`
+                    defer
+    on accept
+        log `Have begun working with the Jibauni once more. Currently supposed to escort some ships to Baitoon, the home planet.`
+    on complete
+        dialog `You should probably check the spaceport to find the ships.`
             

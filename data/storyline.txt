@@ -548,6 +548,11 @@ mission "Jibauni Escorts 0"
             merciful
             escort
             launching
+        ship "Nathar" "Hirrih"
+        ship "Muraw (Fighting)" "Hirrih 1"
+        ship "Muraw (Fighting)" "Hirrih 2"
+        ship "Muraw (Fighting)" "Hirrih 3"
+        ship "Muraw" "Hirrih 4"
         ship "Nakil" "Winner of Victory"
         ship "Larajal" "Winner 1"
         ship "Larajal" "Winner 2"
@@ -568,11 +573,6 @@ mission "Jibauni Escorts 0"
         ship "Furus" "Binbin"
         ship "Furus" "Minmin"
         ship "Furus" "Linlin"
-        ship "Nathar" "Hirrih"
-        ship "Muraw (Fighting)" "Hirrih 1"
-        ship "Muraw (Fighting)" "Hirrih 2"
-        ship "Muraw (Fighting)" "Hirrih 3"
-        ship "Muraw" "Hirrih 4"
     npc
         government "Rebel Jibauni"
         system destination
@@ -590,3 +590,31 @@ mission "Jibauni Escorts 0"
                 `   "Why wouldn't I?"`
                 `   "Yes, flying here was fun."`
             `   "Good. Now, can you-actually, meet me in the spaceport. I'll give you instructions there, but I have a report I need to make first."`
+
+mission "Jibauni Escorts 1 out"
+    name "Get ships from <planet>"
+    description "Pick up some more ships, from <planet>, them come back to <origin>."
+    source Baitoon
+    destination Kanlil
+    deadline 3
+    to offer
+        has "Jibauni Escorts 0: done"
+    on offer
+        conversation
+            `   Kanlanmo meets you in the spaceport, and hands you seventy-five thousand credits. "These are for bringing the Hirrih and company here safely.`
+            `   Also, the Leaders have decided to give you a daily salary of 200 credits, which seems to be all they can afford right now. They seem to figure having you around is advantageous."`
+            `   Now, could you get to <planet> and pick up the Yiyarsi and its escorts? We need every ship we can get, and the offensive starts in two weeks. Don't take any longer than one week getting them back here, okay?"`
+            choice
+                `   "I'll be fast."`
+                    accept
+                `   "Speed, here I come!"`
+                    accept
+                `   "I won't work with the Jibauni any more, thank you."`
+                    flee
+    on accept
+        "salary: Jibauni" == 200
+    on complete
+        conversation
+            `   What seems to be the captain of the fleet you will be escorting shows up on your viewpanel. "Meet me in the spaceport," they say. "As soon as possible!"`
+
+            

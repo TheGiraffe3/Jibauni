@@ -487,8 +487,8 @@ mission "Kanlanmo 4"
         fail
     on decline
         log `Decided not to work with the Jibauni any more.`
-		
-		    
+
+
 mission "Jibauni Escorts Begin"
     landing
     name "Go to <planet>"
@@ -514,3 +514,79 @@ mission "Jibauni Escorts Begin"
     on complete
         dialog `You should probably check the spaceport to find the ships.`
             
+mission "Jibauni Escorts 0"
+    landing
+    name "Ships to <planet>"
+    description "Kanlanmo has contacted you and asked you to pick up some Jibauni ships on <origin>, then report to him on <planet>."
+    source Taltahard
+    destination Baitoon
+    to offer
+        has "Jibauni Escorts Begin: done"
+    on offer
+        conversation
+            branch defer
+                has "Jibauni Escorts 0: deferred"
+            `   As you land and go into the spaceport, you see none other than Kasim Aboagye standing there to meet you. "Hello, <last>," he greets you. "How is it going? Your job is to escort the <npc> and company to Baitoon, and also, I'm coming in your ship. Okay?`
+                goto choice
+            label defer
+            `   "Are you finally ready to take me, the <npc>, and company to Baitoon, <first>?" Kasim asks as you step out of the <ship>.`
+                goto choice
+            label choice
+            choice
+                `   "Sure thing!"`
+                    accept
+                `   "Not now, sorry."`
+                    defer
+    npc accompany save
+        government Jibauni
+        personality
+            confusion 10
+            frugal
+            heroic
+            disables
+            opportunistic
+            merciful
+            escort
+            launching
+        ship "Nakil" "Winner of Victory"
+        ship "Larajal" "Winner 1"
+        ship "Larajal" "Winner 2"
+        ship "Muraw" "Winner 3"
+        ship "Muraw" "Winner 4"
+        ship "Latbaliday" "Winner 5"
+        ship "Latbaliday" "Winner 6"
+        ship "Duntay" "Winner 7"
+        ship "Duntay" "Winner 8"
+        ship "Duntay" "Winner 9"
+        ship "Duntay" "Winner 10"
+        ship "Yiyharsi" "Nabal"
+        ship "Yiyharsi" "Yabal"
+        ship "Yiyharsi" "Labal"
+        ship "Yiyharsi" "Dabal"
+        ship "Yiyharsi" "Mabal"
+        ship "Furus" "Sinsin"
+        ship "Furus" "Binbin"
+        ship "Furus" "Minmin"
+        ship "Furus" "Linlin"
+        ship "Nathar" "Hirrih"
+        ship "Muraw (Fighting)" "Hirrih 1"
+        ship "Muraw (Fighting)" "Hirrih 2"
+        ship "Muraw (Fighting)" "Hirrih 3"
+        ship "Muraw" "Hirrih 4"
+    npc
+        government "Rebel Jibauni"
+        system destination
+        personality
+            confusion 10
+            heroic
+        fleet "Small Rebel Jibauni Military" 2
+    on complete
+        log `Escorted some Jibauni ships from Taltahard to Baitoon. Will be escorting more soon.`
+        payment 75000
+        conversation
+            `   As you and Kasim get off your ship, Kanlanmo comes to greet you. "Hello! I see you've brought the ships all safe and sound!"`
+            choice
+                `   "Of course I have!"`
+                `   "Why wouldn't I?"`
+                `   "Yes, flying here was fun."`
+            `   "Good. Now, can you-actually, meet me in the spaceport. I'll give you instructions there, but I have a report I need to make first."`

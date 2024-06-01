@@ -1,0 +1,30 @@
+phrase "generic jibauni shipyard delivery"
+	word
+		The
+	word
+		" cargo "
+		" freight "
+	word
+		is
+	word
+		" speedily "
+		" quickly "
+	word
+		"unloaded from "
+		"taken off "
+	word
+		"your ship, "
+		"<ship>, "
+	word
+		and
+	word
+		" a sullen worker "
+		" a friendly worker "
+		" a group of workers "
+	word
+		" pays "
+		" gives "
+	word
+		"you <payment>."
+
+phrase "generic jibauni elimination"

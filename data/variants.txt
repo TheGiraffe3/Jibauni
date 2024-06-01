@@ -202,3 +202,11 @@ ship "Muraw" "Muraw (Fighter)"
 		"Saybatrit Battery"
 		
 		"Alhaja Engines"
+
+ship "Quyan" "Quyan (Fighting)"
+	outfits
+		"Zarwal Turret"
+		"Watsaq Energy Generator"
+		"Jibauni Hyperdrive"
+		"Jamum Shield Generator"
+		"Eimlaq Engines"

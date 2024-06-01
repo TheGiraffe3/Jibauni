@@ -22,3 +22,104 @@ mission "Jibauni Pilgrims [0]"
 	on fail
 		"pilgrim help" --
 		"left pilgrims" ++
+
+mission "Jibauni Kasim Cargo (pre-war)"
+	name "Cargo to <planet>"
+	description "Take these <cargo> to <planet> for Kasim Aboagye, a wealthy businessman. Payment will be <payment>."
+	job
+	repeat
+	cargo "Aboagye Shipyards Parts" 1 30
+	source
+		government "Jibauni" "Rebel Jibauni"
+	destination
+		government "Jibauni"
+		not planet Baitoon
+		not planet Lamalmuq
+		distance 1 5
+	to offer
+		not "event: jibauni rebel jibauni peace"
+	on complete
+		payment
+		payment 250
+		dialog phrase "generic jibauni shipyard delivery"
+
+mission "Jibauni Kasim Cargo (post-war)"
+	name "Cargo to <planet>"
+	description "Take these <cargo> to <planet> for Kasim Aboagye, a wealthy businessman. Payment will be <payment>, which is one thousand extra because of you knowing Kasim."
+	job
+	repeat
+	cargo "Aboagye Shipyards Parts" 1 30
+	source
+		government "Jibauni" "Rebel Jibauni"
+	destination
+		government "Jibauni"
+		not planet Baitoon
+		not planet Lamalmuq
+		distance 1 5
+	to offer
+		has "event: jibauni rebel jibauni peace"
+	on complete
+		payment
+		payment 1250
+		dialog phrase "generic jibauni shipyard delivery"
+
+mission "Jibauni Res-redi Cargo (pre-war)"
+	name "Cargo to <planet>"
+	description "Take these <cargo> to <planet> for the Shipyards of Res-redi, one of the most influential conpanies in history. When you complete the hauling, you will be paid <payment>."
+	job
+	repeat
+	cargo "Res-redi Shipyards Parts" 1 30
+	source
+		government "Jibauni" "Rebel Jibauni"
+	destination
+		system Huyya
+		system Hajay
+		system Almanhaq
+		not planet Lamalmuq
+	to offer
+		not "event: jibauni rebel jibauni peace"
+	on complete
+		payment
+		dialog phrase "generic jibauni shipyard delivery"
+
+mission "Jibauni Res-redi Cargo (post-war)"
+	name "Cargo to <planet>"
+	description "Take these <cargo> to <planet> for the Shipyards of Res-redi, one of the most influential conpanies in history. When you complete the hauling, you will be paid <payment>, an additional 1500 credits for knowing Res-redi."
+	job
+	repeat
+	cargo "Res-redi Shipyards Parts" 1 30
+	source
+		government "Jibauni" "Rebel Jibauni"
+	destination
+		system Huyya
+		system Hajay
+		system Almanhaq
+		not planet Lamalmuq
+	to offer
+		has "event: jibauni rebel jibauni peace"
+	on complete
+		payment
+		payment 1500
+		dialog phrase "generic jibauni shipyard delivery"
+
+mission "Jibauni Rebel Bounty Small"
+	name "Kill the <npc>"
+	description "The <npc>, a small Rebel Jibauni ship, is marauding near the <origin> system. Destroy it for <payment>, if you do it by <day>."
+	job
+	repeat
+	source
+		government "Jibauni"
+	npc kill
+		government "Rebel Jibauni"
+		personality
+			confusion 10
+			heroic
+			marked
+			nemesis
+		fleet
+			names "Rebel Jibauni Military"
+	
+
+	on complete
+		payment
+		dialog phrase "generic jibauni shipyard delivery"

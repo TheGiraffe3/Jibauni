@@ -353,7 +353,8 @@ ship "Furus"
 	description "While the Jibauni are not really into interceptors, preferring drones and fighters instead, they have built two, this one a speedy little ship with outsized engines. In fact, veteran captains tell new pilots not to get one-they might run into one of their own missiles! There are no recorded incidents of this happening, but given the size of the Furus’s engines and the abysmal speed of Rukjay missiles, it could happen any time."
 
 ship "Minaldmasmin"
-	sprite "ship/minaldmasmin"
+	sprite "ship/sunder"
+	thumbnail "ship/sunder"
 	attributes
 		category "Utility"
 		"cost" 4408000

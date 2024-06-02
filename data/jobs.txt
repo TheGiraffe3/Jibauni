@@ -202,3 +202,34 @@ mission "Jibauni Rebel Bounty Large"
 		on kill
 			payment 100000
 
+mission "Jibauni Passengers [0]"
+	name "Passengers to <planet>"
+	description "Take these <bunks> passengers to <planet> for <payment>."
+	job
+	repeat
+	passengers 2 15
+	source
+		government "Jibauni" "Rebel Jibauni"
+	to offer
+		random < 60
+	destination
+		distance 1 4
+	on complete
+		payment
+		dialog "The <bunks> passengers get off your ship to do whatever they wanted to go here for, but not before they pay you <payment>."
+
+mission "Jibauni Passengers [1]"
+	name "Passengers to <planet>"
+	description "Take these <bunks> passengers to <planet> for <payment>."
+	job
+	repeat
+	passengers 2 15
+	source
+		government "Jibauni" "Rebel Jibauni"
+	to offer
+		random < 60
+	destination
+		distance 1 4
+	on complete
+		payment
+		dialog "The <bunks> passengers get off your ship to do whatever they wanted to go here for, but not before they pay you <payment>."

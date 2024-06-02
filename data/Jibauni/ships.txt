@@ -35,6 +35,8 @@ ship "Larajal"
 #		"thruster slot" 1
 		"jibauni generator" .5
 		"fuel protection" .05
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -85,6 +87,8 @@ ship "Muraw"
 #		"thruster slot" 1
 		"jibauni generator" .5
 		"fuel protection" .05
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -133,6 +137,8 @@ ship "Latbaliday"
 #		"thruster slot" 1
 		"jibauni generator" .5
 		"fuel protection" .05
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -179,6 +185,8 @@ ship "Daybal"
 		"turn" 6
 		"energy generation" 0.0001
 		"fuel protection" .05
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -224,6 +232,8 @@ ship "Duntay"
 		"thrusting energy" .15
 		"reverse thrust" 1
 		"fuel protection" .05
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -270,6 +280,8 @@ ship "Saghir"
 #		"thruster slot" 1
 		"jibauni generator" 1
 		"fuel protection" .4
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 16
 			"shield damage" 175
@@ -323,6 +335,8 @@ ship "Furus"
 #		"thruster slot" 1
 		"jibauni generator" 1
 		"fuel protection" .15
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 25
 			"shield damage" 235
@@ -380,6 +394,8 @@ ship "Minaldmasmin"
 #		"thruster slot" 1
 		"jibauni generator" 2
 		"fuel protection" .2
+		licenses
+			"Jibauni Rebel Fighter"
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -437,6 +453,8 @@ ship "Qudaw"
 #		"thruster slot" 1
 		"jibauni generator" 2
 		"fuel protection" 5
+		licenses
+			"Jibauni Rebel Fighter"
 		weapon
 			"blast radius" 10000
 			"shield damage" 5000
@@ -481,6 +499,8 @@ ship "Nakil"
 #		"thruster slot" 1
 		"jibauni generator" 4
 		"fuel protection" .7
+		licenses
+			"Jibauni Government"
 		weapon
 			"blast radius" 320
 			"shield damage" 4000
@@ -538,6 +558,8 @@ ship "Quyan"
 #		"thruster slot" 1
 		"jibauni generator" 2
 		"fuel protection" .65
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -587,6 +609,8 @@ ship "Yiyharsi"
 #		"thruster slot" 1
 		"jibauni generator" 4
 		"fuel protection" 1
+		licenses
+			"Jibauni Rebel Fighter"
 		weapon
 			"blast radius" 72
 			"shield damage" 720
@@ -642,6 +666,8 @@ ship "Nathas"
 #		"thruster slot" 1
 		"jibauni generator" 4
 		"fuel protection" .6
+		licenses
+			"Jibauni Rebel Fighter"
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -700,6 +726,8 @@ ship "Nathaq"
 #		"thruster slot" 1
 		"jibauni generator" 4
 		"fuel protection" .7
+		licenses
+			"Jibauni Government"
 		weapon
 			"blast radius" 140
 			"shield damage" 1450
@@ -761,6 +789,8 @@ ship "Nathar"
 #		"thruster slot" 1
 		"jibauni generator" 4
 		"fuel protection" .8
+		licenses
+			"Jibauni Government"
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
@@ -828,6 +858,8 @@ ship "Safinat"
 #		"thruster slot" 3
 		"jibauni generator" 12
 		"fuel protection" .65
+		licenses
+			"Jibauni Government"
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -899,6 +931,8 @@ ship "Osra"
 #		"thruster slot" 1
 		"jibauni generator" .5
 		"fuel protection" .05
+		licenses
+			Jibauni
 		weapon
 			"blast radius" 12
 			"shield damage" 120

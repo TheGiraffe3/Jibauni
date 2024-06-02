@@ -11,6 +11,8 @@ mission "Jibauni Pilgrims [0]"
 	destination
 		government "Jibauni"
 		attributes religious
+	to offer
+		random < 80
 	on accept
 		dialog "The <bunks> passengers get onto your ship, and get settled in their cabins."
 	on complete
@@ -38,6 +40,7 @@ mission "Jibauni Kasim Cargo (pre-war)"
 		distance 1 5
 	to offer
 		not "event: jibauni rebel jibauni peace"
+		random < 65
 	on complete
 		payment
 		payment 250
@@ -57,6 +60,7 @@ mission "Jibauni Kasim Cargo (post-war)"
 		not planet Lamalmuq
 		distance 1 5
 	to offer
+		random < 50
 		has "event: jibauni rebel jibauni peace"
 	on complete
 		payment
@@ -78,6 +82,7 @@ mission "Jibauni Res-redi Cargo (pre-war)"
 		not planet Lamalmuq
 	to offer
 		not "event: jibauni rebel jibauni peace"
+		random < 65
 	on complete
 		payment
 		dialog phrase "generic jibauni shipyard delivery"
@@ -97,6 +102,7 @@ mission "Jibauni Res-redi Cargo (post-war)"
 		not planet Lamalmuq
 	to offer
 		has "event: jibauni rebel jibauni peace"
+		random < 50
 	on complete
 		payment
 		payment 1500
@@ -104,22 +110,95 @@ mission "Jibauni Res-redi Cargo (post-war)"
 
 mission "Jibauni Rebel Bounty Small"
 	name "Kill the <npc>"
-	description "The <npc>, a small Rebel Jibauni ship, is marauding near the <origin> system. Destroy it for <payment>, if you do it by <day>."
+	description "The <npc>, a small Rebel Jibauni ship, is marauding near the <origin> system. You will recieve <payment> for destroying it, if you do so by <day>."
 	job
 	repeat
+	"apparent payment" 40000
+	deadline 20
 	source
 		government "Jibauni"
+	to offer
+		random < 30
+		"combat rating" > 100
 	npc kill
 		government "Rebel Jibauni"
 		personality
 			confusion 10
 			heroic
-			marked
+			target
 			nemesis
+			staying
+		system
+			distance 1 1
 		fleet
 			names "Rebel Jibauni Military"
-	
+			variant
+				Saghir
+			variant
+				Furus
+			variant
+				Yiyharsi
+			variant
+				Minaldmasmin
+			variant
+				"Qudaw (Fighting)"
+		dialog phrase "jibauni got rid of bounty"
+		on kill
+			payment 40000
 
-	on complete
-		payment
-		dialog phrase "generic jibauni shipyard delivery"
+mission "Jibauni Rebel Bounty Large"
+	name "Kill the <npc>"
+	description "The large Rebel Jibauni ship <npc> has been attacking our ships near the <origin> system. Destroy it and its escorts by <day> if you wish to recieve <payment>."
+	job
+	repeat
+	"apparent payment" 100000
+	deadline 20
+	source
+		government "Jibauni"
+	to offer
+		random < 30
+		"combat rating" > 200
+	deadline 10
+	npc kill
+		government "Rebel Jibauni"
+		personality
+			confusion 10
+			heroic
+			target
+			nemesis
+			staying
+		system
+			distance 1 1
+		fleet
+			names "Rebel Jibauni Military"
+			variant
+				Nathar
+				Muraw 2
+			variant
+				Nathar
+				Latbaliday 2
+			variant
+				Nathar
+				Larajal 2
+			variant
+				Nathar
+				Larajal
+				Muraw
+			variant
+				Nathar
+				Latbaliday
+				Muraw
+			variant 2
+				Nakil
+				Muraw 2
+				Latbaliday 4
+				Duntay 4
+			variant 2
+				Nakil
+				Muraw 2
+				Larajal 4
+				Duntay 4
+		dialog phrase "jibauni got rid of bounty"
+		on kill
+			payment 100000
+

@@ -27,4 +27,30 @@ phrase "generic jibauni shipyard delivery"
 	word
 		"you <payment>."
 
-phrase "generic jibauni elimination"
+phrase "jibauni got rid of bounty"
+	word
+		"You have "
+	word
+		"destroyed "
+		"gotten rid of "
+	word
+		the
+	word
+		" enemy "
+		" target "
+	word
+		"ship"
+		"spacecraft"
+	word
+		", and the "
+	word
+		government
+		governor
+		ruler
+	word
+		" of <origin> "
+	word
+		happily
+		gladly
+	word
+		" pays you <payment>."

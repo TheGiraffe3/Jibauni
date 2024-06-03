@@ -233,3 +233,154 @@ mission "Jibauni Passengers [1]"
 	on complete
 		payment
 		dialog "The <bunks> passengers get off your ship to do whatever they wanted to go here for, but not before they pay you <payment>."
+
+mission "Jibauni Passengers [2]"
+	name "Jibauni to <planet>"
+	description "Take these large group of <bunks> passengers to <planet>. They are many, and so will collectively pay you <payment>."
+	job
+	repeat
+	passengers 20 120
+	source
+		government "Jibauni" "Rebel Jibauni"
+	to offer
+		random < 45
+	destination
+		distance 1 4
+		government "Jibauni" "Rebel Jibauni"
+	on complete
+		payment
+		payment 2000
+		dialog "As the group of Jibauni go out of your ship, they each hand you 1/<bunks>th of <payment>."
+
+#mission "Jibauni Risky Tourists"
+#	name "Risk-loving Tourists"
+#	description "These Jibauni are interested in touring non-Jibauni space. Discreetly take them to the marked systems and back for <payment>."
+#	job
+#	repeat
+#	passengers 2 20
+#	clearance "You find coordinates to land where there are no inhabitants."
+#	source
+#		government "Jibauni" "Rebel Jibauni"
+#	to offer
+#		random < 10
+#	"distance calculation settings"
+#		"all wormholes"
+#	stopover
+#		distance 2 5
+#		government "Sheragi" "Pirate" "Independant" "Free Worlds" "Republic"
+#	stopover
+#		distance 5 8
+#		government "Sheragi" "Pirate" "Independant" "Free Worlds" "Republic"
+#	stopover
+#		distance 2 5
+#		government "Diba" "Sheragi" "Pirate" "Independant" "Free Worlds" "Republic"
+#	on stopover
+#		conversation
+#			`	As your <bunks> passengers get out to stretch their legs and enjoy the scenary, you hear a patrol coming by with inquiring and perhaps angry thoughts."
+#			choice
+#				`	(Take off, don't risk my life.)`
+#					goto leftbehind
+#				`	"Everyone back on!"`
+#			`	As your passengers hurry back to your ship, you take off. Hopefully that was everyone.`
+#				depart
+#			label leftbehind
+#			`	Well, too bad for those poor Jibauni. You see them being surrounded by the other ships, but decide to take off anyway.`
+#				flee
+#				fail
+#	on complete
+#		payment
+#		payment 10000
+#		dialog "Your passengers walk away, excitedly taking about their trip. You find <payment> in their cabin."
+
+mission "Jibauni Rush Delivery [0]"
+	name "Rush to <planet>"
+	description "A character on <planet> is in dire need of <cargo> before <day>. Get it there by then for the reward of <payment>."
+	job
+	repeat
+	cargo random 2 10
+	deadline
+	source
+		government "Jibauni" "Rebel Jibauni"
+	to offer
+		random < 45
+	destination
+		distance 1 4
+		government "Jibauni" "Rebel Jibauni"
+	on complete
+		payment
+		payment 100
+		dialog "The cargo is speedily unloaded from your ship, and you are paid <payment> as the trolley leaves."
+
+mission "Jibauni Rush Delivery [1]"
+	name "Rush to <planet>"
+	description "Take this <cargo> to <planet> before <day> for a payment of <payment>."
+	job
+	repeat
+	cargo random 5 40
+	deadline
+	source
+		government "Jibauni" "Rebel Jibauni"
+	to offer
+		random < 45
+	destination
+		distance 1 4
+		government "Jibauni" "Rebel Jibauni"
+	on complete
+		payment
+		dialog "The cargo is unloaded from your ship and carted away."
+
+mission "Jibauni Rush Delivery [2]"
+	name "Rush to <planet>"
+	description "Take this <cargo> to <planet> before <day> for a payment of <payment>."
+	job
+	repeat
+	cargo random 5 40
+	deadline
+	source
+		government "Jibauni" "Rebel Jibauni"
+	to offer
+		random < 45
+	destination
+		distance 1 4
+		government "Jibauni" "Rebel Jibauni"
+	on complete
+		payment
+		dialog "The cargo is unloaded from your ship and carted away."
+
+mission "Jibauni Bulk Delivery [0]"
+	name "Bulk Delivery to <planet>"
+	description "Take these <cargo> to <planet>. For each set of <tons> that safely arrive, you will be paid <payment>."
+	job
+	repeat
+	cargo random 30 100
+	deadline
+	source
+		government "Jibauni" "Rebel Jibauni"
+	to offer
+		random < 80
+	destination
+		distance 1 4
+		government "Jibauni" "Rebel Jibauni"
+	on complete
+		payment
+		payment 1000
+		dialog "You take the cargo to a huge unloading facility, whence it is sent to the warehouses."
+
+mission "Jibauni Bulk Delivery [1]"
+	name "Bulk Delivery to <planet>"
+	description "Take these <cargo> to <planet>. For each set of <tons> that safely arrive, you will be paid <payment>."
+	job
+	repeat
+	cargo random 30 100
+	deadline
+	source
+		government "Jibauni" "Rebel Jibauni"
+	to offer
+		random < 80
+	destination
+		distance 1 4
+		government "Jibauni" "Rebel Jibauni"
+	on complete
+		payment
+		payment 3000
+		dialog "You take the cargo to a huge unloading facility, whence it is sent to the warehouses."

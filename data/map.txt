@@ -1139,14 +1139,18 @@ system Sollo
 
 planet Shenal
 	attributes sheragi
-	landscape land/badlands12
-	description "This appears to be where the main Sheragi government buildings and homes are, also having most of the Sheragi inhabitants of the systems nearby."
+	landscape land/"city16-sfiera"
+	description "On Shenal, cities sprawl across the globe, ever increasing to accomodate for the growing Sheragi population. This planet is the most densely populated in the entirety of Alrodel, even more so than the capital system."
+	description "This also is where the main Sheragi government buildings and homes are."
+	spaceport "The spaceport here is fairly standard for the Sheragi, with large hexagonal landing pads and transports hurrying about, ferrying people to and fro between the spaceport and surrounding city."
+	outfitter "Sheragi Basics"
+	outfitter "Sheragi Advanced"
 	shipyard "Sheragi Basics"
 
 planet "Diba Station"
 	attributes diba robot station
 	landscape land/station19
-	description "This seems to be where most Diba ships are produced, and also where the Diba leader lives when they are not in space."
+	description "This seems to be where most Diba ships are produced, and also where the Diba leader lives when he is not in space."
 	shipyard Diba
 	"required reputation" 20
 	bribe 1
@@ -1440,13 +1444,23 @@ system Somitaw
 		sprite planet/gas11
 		distance 5268
 		period 3189.075
-	object "Rise of Life"
+	object
 		sprite planet/ocean9
 		distance 4022.314
 		period 1230
+		object "Inhelk"
+			sprite planet/dust6
+			distance 800
+			period 50
 
-planet "Rise of Life"
-	description "This seems to be mostly a mining outpost and auxilary workplace, but it doesn't have many people and you are at the only major town."
+planet Inhelk
+	landscape land/desert6
+	description "Inhelk is much safer than the planet it orbits, but with large amounts of work being available and massive factories making use of materials shipped from all over Sheragi space to create all manner of goods, this is one of the Sheragi industrial giants."
+	spaceport "The spaceport borders a massive shipyard producing the equally sized Sheragi ships. Other than stare at the ships get made, there isn't much else to do besides watch the many spacecraft taking off and landing all the time."
+	outfitter "Sheragi Basics"
+	outfitter "Sheragi Advanced"
+	shipyard "Sheragi Basics"
+	shipyard "Sheragi Advanced"
 
 planet "Station of Power"
 	landscape land/sheragistation
@@ -1701,12 +1715,12 @@ system Chinjoka
 			period 142.153
 
 planet Inkon
-	landscape land/city5
-	description " "
-	spaceport " "
+	landscape land/space2
+	description "This station at the very edge of Sheragi space was created in a desperate bid to expand upon the limited amount of habitable space located in Alrodel. Many of the residents of Inkon are elderly Sheragi who choose to live here at the very edge of their space, where they are guaranteed safety from both pirates and perhaps-treacherous allies."
+	spaceport "The spaceport of Inkon is relatively small for the Sheragi, as the station rarely has to accommodate the large capital ships the Sheragi favor. Instead, it commonly receives transports and freighters."
 	government "Sheragi (Jibauni)"
-	shipyard "Sheragi Basics"
 	outfitter "Sheragi Basics"
+	outfitter "Sheragi Advanced"
 	"required reputation" 1
 
 system Draig
@@ -1772,17 +1786,15 @@ system Draig
 			distance 269
 			period 166.774
 	object Inkon
-		sprite planet/gas5
+		sprite planet/station8
 		distance 8902
 		period 13438.518
 
 planet Andeslid
-	landscape land/city20
-	description " "
-	spaceport " "
+	landscape land/lava8
+	description "The volcanic activity of Andeslid creates an abundance of raw metal deposits close to the surface, and a booming mining industry has grown here. All across the planet incredibly hazardous mines are hard at work fueling the intense material need of the Sheragi."
+	spaceport "The spaceport here is the only safe thing on the whole planet, strong enough to hold up against the intense strain of the freighters coming and going. It is also mostly heatproof, allowing for lava to erupt freely all around without causing problems."
 	government "Sheragi (Jibauni)"
-	shipyard "Sheragi Basics"
-	outfitter "Sheragi Basics"
 	"required reputation" 1
 
 system Zenido
@@ -1915,21 +1927,25 @@ system Ejderha
 			period 140.088
 
 planet Hinserdan
-	landscape land/city26
-	description " "
-	spaceport " "
-	government "Sheragi (Jibauni)"
+	landscape land/sky11
+	description "This planet is home to millions of Sheragi, many of which live here because Hinserdan is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering Alrodel."
+	spaceport "The spaceport here is one of the largest you've ever seen, seemingly built to hold the massive capital ships of the Sheragi military."
 	shipyard "Sheragi Basics"
+	shipyard "Sheragi Advanced"
 	outfitter "Sheragi Basics"
+	outfitter "Sheragi Advanced"
+	government "Sheragi (Jibauni)"
 	"required reputation" 1
 
 planet Zigzogzinzo
-	landscape land/city1
-	description " "
-	spaceport " "
+	landscape land/valley9
+	description "Zigzogzinzo is the primary economic centre of Sheragi space, all trading and business runs through the cloud cities here, in one way or another. The vast wealth that flows through this planet has led to it being the home of many of the wealthiest citizens. Rumour has it that near the top of the economic food chain of rich business owners is a Jibauni."
+	spaceport "Due to the sheer amount of money on Zigzogzinzo, the floating spaceport is so fancy that you feel slightly bad for scuffing your shoes along the gleaming white floor. They also seem to have made the spaceport with a set of viewing windows for the landscape."
 	government "Sheragi (Jibauni)"
 	shipyard "Sheragi Basics"
+	shipyard "Sheragi Advanced"
 	outfitter "Sheragi Basics"
+	outfitter "Sheragi Advanced"
 	"required reputation" 1
 
 system Rong
@@ -1984,12 +2000,11 @@ system Rong
 			period 183.791
 
 planet Linkson
-	landscape land/city11
-	description " "
-	spaceport " "
+	landscape land/forest4
+	description "Linkson is full of towering mountain ranges, divided by sprawling green valleys, many converted into farmland."
+	description "In addition, there are rumors of infiltrating Sheragi Pirates, and Jibauni outposts built to stop Sheragi trade."
+	spaceport "Inspired by the captivating beauty of the planet, the spaceport here was made with only aesthetics in mind. As such, it is one of the nicest looking you've ever seen, a perfect hexagonal shape seamlessly encircling a gorgeous Sheragi city of glistening spires."
 	government "Sheragi (Jibauni)"
-	shipyard "Sheragi Basics"
-	outfitter "Sheragi Basics"
 	"required reputation" 1
 
 system Sarkan
@@ -2056,11 +2071,10 @@ system Sarkan
 		period 3727.64
 
 planet Leasher
-	landscape land/city17
-	description " "
-	spaceport " "
+	landscape land/fields13
+	description "Leasher is one of the flattest worlds you've ever seen, great plains spread into the distance seemingly forever. The fertile soil here means that this planet is the primary supplier of agricultural goods in Sheragi space."
+	spaceport "The small amount of things to do here all have to do with the immense trading this planet is involved in. Few buildings dot the site, but many sheepfolds are scattered everywhere. There are also many weird silos and grain bins."
 	government "Sheragi (Jibauni)"
-	shipyard "Sheragi Basics"
 	outfitter "Sheragi Basics"
 	"required reputation" 1
 
@@ -2123,9 +2137,9 @@ system Dakon
 		period 1008.182
 
 planet Xicalins
-	landscape land/city11
-	description " "
-	spaceport " "
+	landscape land/canyon14
+	description "Xicalins is one giant testing area, with the majority of all research and development in Sheragi space carried out right here. The marks of this extensive technology can be seen all over the planet, and as you come in low you see a mountain range that has had its top taken clean off, leaving you only to wonder what kind of weapon could have done such a thing."
+	spaceport "The spaceport is located just outside of a university, students and scientists alike streaming in and out of its entry. There are also weapons bins scattered in many places, and a large collection of some type of documents."
 	government "Sheragi (Jibauni)"
 	shipyard "Sheragi Basics"
 	outfitter "Sheragi Basics"

@@ -1139,7 +1139,7 @@ system Sollo
 
 planet Shenal
 	attributes sheragi
-	landscape land/"city16-sfiera"
+	landscape land/forest3
 	description "On Shenal, cities sprawl across the globe, ever increasing to accomodate for the growing Sheragi population. This planet is the most densely populated in the entirety of Alrodel, even more so than the capital system."
 	description "This also is where the main Sheragi government buildings and homes are."
 	spaceport "The spaceport here is fairly standard for the Sheragi, with large hexagonal landing pads and transports hurrying about, ferrying people to and fro between the spaceport and surrounding city."

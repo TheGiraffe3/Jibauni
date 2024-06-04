@@ -733,7 +733,7 @@ system Sheraig
 	trade Plastic 398
 	fleet "Small Sheragi Military" 500
 	fleet "Large Sheragi Military" 1000
-	object Shenal
+	object Hinserdan
 		sprite planet/desert10-b
 		distance 1724.974
 		period 436.687
@@ -1926,7 +1926,7 @@ system Ejderha
 			distance 306
 			period 140.088
 
-planet Hinserdan
+planet Shenal
 	landscape land/sky11
 	description "This planet is home to millions of Sheragi, many of which live here because Hinserdan is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering Alrodel."
 	spaceport "The spaceport here is one of the largest you've ever seen, seemingly built to hold the massive capital ships of the Sheragi military."

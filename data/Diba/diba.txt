@@ -1,0 +1,198 @@
+fleet "Small Diba"
+	government Diba
+	names "Diba"
+	fighters "Diba"
+	cargo 2
+	commodities Food Clothing
+	personality
+		confusion 20
+		heroic
+		vindictive
+		unconstrained
+		ramming
+		mute 
+	variant 5
+		Ithquaya 2
+	variant 5
+		Arbquaya
+		Llama
+	variant 3
+		Tamquaya
+		Llama 2
+	variant 10
+		Ithquaya
+
+# hails
+
+phrase "diba explode"
+	word
+		"things "
+		"us "
+		"robots "
+		"glorious warriors "
+		"anything "
+
+phrase "diba bad"
+	word
+		"rude "
+		"impolite "
+		"mean "
+		"bad "
+		"wicked "
+		"evil "
+
+phrase "diba suspicion"
+	word
+		"Syndicate "
+		"Republic "
+		"Navy "
+		"Deep "
+		"planet of Earth "
+		"planet of Valhalla "
+
+phrase "friendly diba"
+	word
+		"Do not blow ${diba explode} up." 5
+		"Do not blow yourself up. "
+		"Are you from the ${diba suspicion}?" 4
+		"We come from Diba Station."
+
+phrase "friendly disabled diba"
+	phrase
+		"friendly disabled diba 1" 6
+		"friendly disabled diba 2" 4
+		"friendly disabled diba 3" 4
+
+phrase "friendly disabled diba 1"
+	word
+		"For the sake of glorious warriors, do not shoot us. "
+		"Do not blow us up, we may be a home for a glorious warrior."
+		"We come from Diba Station, so repair us."
+
+phrase "friendly disabled diba 2"
+	word
+		"Blowing "
+	word
+		"us "
+		"friends "
+	word
+		"up is ${diba bad}."
+
+phrase "friendly disabled diba 3"
+	word
+		"Don't be from the ${diba suspicion}. We are not in a very advantageous "
+	word
+		"position "
+		"situation "
+	word
+		"currently."
+		"at present."
+
+phrase "hostile diba"
+	phrase
+		"hostile diba 1" 5
+		"hostile diba 2" 3
+		"hostile diba 3" 3
+
+phrase "hostile diba 1"
+	word
+		"You must blow up."
+		"You are fighting a glorious all powerful warrior. Prepare to blow up."
+		"Time for destruction of hostiles."
+		"Robots blow up other things."
+		"We come from Diba Station, so we are invincible."
+
+phrase "hostile diba 2"
+	word
+		"Blow yourself up "
+	word
+		"immediately "
+		"right now "
+	word
+		"or else in ${digit} ${digit} nanoseconds."
+
+phrase "hostile diba 3"
+	word
+		"You "
+		"Your ship "
+	word
+		"must be from "
+		"must come from "
+	word
+		"the ${diba suspicion}! "
+	word
+		"Explode!"
+		" "
+
+phrase "hostile disabled diba"
+	phrase
+		"hostile disabled diba 1"
+		"hostile disabled diba 2"
+		"hostile disabled diba 3"
+
+phrase "hostile disabled diba 1"
+	word
+		"Self destructing in ${digit} seconds."
+		"Self destructing in ${digit} ${digit} ${digit} nanoseconds."
+		"We come from Diba Station, so do not blow us up."
+
+phrase "hostile disabled diba 2"
+	word
+		"You "
+		"Your ship "
+	word
+		"was from "
+	word
+		"the ${diba suspicion}! "
+	word
+		"And we "
+	word
+		"thought "
+		"believed "
+	word
+		"that you were "
+	word
+		"friendly "
+		"opposed to the ${diba suspicion}!"
+
+phrase "hostile disabled diba 3"
+	word
+		"Blowing "
+	word
+		"us "
+		"enemies "
+	word
+		"up is ${diba bad}!"
+
+# names
+
+phrase "Diba Lordship"
+	word
+		L
+		O
+		R
+		D
+		S
+		H
+		I
+		P
+
+phrase "Diba"
+	phrase
+		"Diba Lordship"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"

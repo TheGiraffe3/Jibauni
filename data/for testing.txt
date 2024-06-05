@@ -1,0 +1,17 @@
+shipyard "Diba"
+	Llama
+	Ithquaya
+	Arbquaya
+	Tamquaya
+	Tahquaya
+
+
+outfitter "Jibauni Cheat"
+	"Jibauni Government Helper License"
+	"Jibauni Rebel Fighter License"
+	"Jibauni License"
+	"Rebel Jibauni License"
+	"Rebel Jibauni Capital License"
+	"Jihtah Steering"
+	"Sheragi License"
+	"Sheragi Capital License"

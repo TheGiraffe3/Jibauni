@@ -1,0 +1,152 @@
+# shipyards
+
+shipyard "Sheragi Basics"
+	"Bronze Edge"
+	"Black Diamond"
+
+shipyard "Sheragi Advanced"
+	"Platinum Spear"
+	"Gold Shield"
+	"Ruby Hammer"
+	"White Brand"
+
+shipyard "Sheragi Superadvanced"
+	"Emerald Sword"
+
+# outfitters
+
+outfitter "Sheragi Basics"
+	"Fission Core"
+	"Kinetic Spear"
+	"Sheragi Solar Intake"
+	"Small Fusion Drive"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Map"
+	"Bunk Room"
+	"Small Bunk Room"
+	"Cargo Scanner"
+	"Light Particle Shielding"
+
+outfitter "Sheragi Advanced"
+	"Fission Core"
+	"Fusion Afterburner"
+	"Fusion Core"
+	"Fusion Power Converter"
+	"Kinetic Spear"
+	"Kinetic Spear Launcher"
+	"Kinetic Spear Rack"
+	"Large Fission Drive"
+	"Small EM Battery"
+	"Medium EM Battery"
+	"Large EM Battery"
+	"Small Hybrid Cooling"
+	"Medium Hybrid Cooling"
+	"Large Hybrid Cooling"
+	"Particle Waveform Cannon"
+	"Particle Waveform Turret"
+	"Sheragi Hyperdrive"
+	"Sheragi Pulse Beam"
+	"Sheragi Pulse Beam Turret"
+	"Sheragi Solar Intake"
+	"Small Fusion Drive"
+	"Electronic Warfare System"
+	"Fusion Drive"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Map"
+	"Outfit Scanner"
+	"Tactical Scanner"
+	Brig
+	"Luxury Accommodations"
+	"Dense Particle Shielding"
+
+# names
+
+phrase "Sheragi Military"
+	phrase
+		"Sheragi 1a"
+	word
+		" "
+	phrase
+		"Sheragi 1b"
+
+phrase "Sheragi Civilian"
+	phrase
+		"Sheragi First 1" 6
+		"Sheragi First 2" 7
+	phrase
+		"Sheragi Last 1"
+		"Sheragi Last 2"
+
+phrase "Sheragi First 1"
+	word
+		Biyuk
+		Gishlu
+		Saigadar
+		Zerif
+		Yanma
+		Yukselen
+
+phrase "Sheragi First 2"
+	word
+		Jennu
+		Janikup
+		Tiichiul
+		Lorkor
+		Ingowilel
+		Ethimir
+		Lleisgarir
+
+phrase "Sheragi Last 1"
+	word
+		Scamitir
+		Machvilus
+		Savaski
+		Chavilry
+		Gegzini
+		Iliev
+		Kilich
+
+phrase "Sheragi Last 2"
+	word
+		Cayosin
+		Airemar
+		Arytiss
+		Daron
+		Woari
+		Letni
+		Caex
+
+phrase "Sheragi 1a"
+	word
+		Emerald
+		Amber
+		Opal
+		Diamond
+		Gold
+		Silver
+		Platinum
+		Ruby
+		Jade
+		Sapphire
+		Amethyst
+		Iron
+		Steel
+		Marble
+
+phrase "Sheragi 1b"	
+	word
+		Sword
+		Spear
+		Bow
+		Arrow
+		Ingot
+		Gem
+		Ring
+		Scepter
+		Crown
+		Treasure
+		Palace
+		Lord
+		Dragon

@@ -1151,7 +1151,6 @@ planet "Diba Station"
 	attributes diba robot station
 	landscape land/station19
 	description "This seems to be where most Diba ships are produced, and also where the Diba leader lives when he is not in space."
-	shipyard Diba
 	"required reputation" 20
 	bribe 1
 	security 0.99

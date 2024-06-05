@@ -47,7 +47,7 @@ ship "Llama"
 	explode "small explosion" 5
 
 ship "Ithquaya"
-	sprite "ship/ithquaya"
+	sprite "ship/model 64"
 	attributes
 		category "Interceptor"
 		"cost" 1000000
@@ -98,7 +98,7 @@ ship "Ithquaya"
 	description "The smallest Diba ship."
 
 ship "Arbquaya"
-	sprite "ship/arbquaya"
+	sprite "ship/model 128"
 	attributes
 		category "Light Warship"
 		"cost" 2000000
@@ -159,7 +159,7 @@ ship "Arbquaya"
 	description "A medium Diba ship."
 
 ship "Tamquaya"
-	sprite "ship/tamquaya"
+	sprite "ship/model 256"
 	attributes
 		category "Medium Warship"
 		"cost" 4000000
@@ -224,7 +224,7 @@ ship "Tamquaya"
 	description "A medium Diba ship."
 
 ship "Tahquaya"
-	sprite "ship/tahquaya"
+	sprite "ship/model 512"
 	attributes
 		category "Heavy Warship"
 		"cost" 8000000

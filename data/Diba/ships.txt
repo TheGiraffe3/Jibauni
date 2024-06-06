@@ -246,8 +246,8 @@ ship "Tahquaya"
 		"hull repair" .08
 		"shield generation" .8
 		"self destruct" .9
-#		"energy generation" 21.28
-#		"cooling" 44.8
+		#"energy generation" 21.28
+		#"cooling" 44.8
 		"scram drive" .4
 		"jump fuel" 100
 		"hyperdrive" 1

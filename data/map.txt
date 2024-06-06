@@ -2216,3 +2216,339 @@ system Dodon
 			distance 416
 			period 320.731
 
+system Jonis
+	pos -1783 665
+	government "Sheragi (Pirate)"
+	habitable 4500
+	belt 1286
+	link Iyon
+	link Nin
+	link Piobin
+	link Taniyn
+	asteroids "small rock" 5 1.893
+	asteroids "medium rock" 27 1.414
+	asteroids "large rock" 13 1.643
+	asteroids "medium metal" 23 1.102
+	asteroids "large metal" 1 1.435
+	trade Clothing 428
+	trade Electronics 874
+	trade Equipment 415
+	trade Food 275
+	trade "Heavy Metals" 664
+	trade Industrial 563
+	trade "Luxury Goods" 1254
+	trade Medical 539
+	trade Metal 507
+	trade Plastic 326
+	object
+		sprite star/k-supergiant
+		period 10
+	object
+		sprite planet/gas17
+		distance 974
+		period 181.256
+		object
+			sprite planet/dust3
+			distance 262
+			period 160.307
+	object
+		sprite planet/browndwarf-l
+		distance 1834
+		period 468.331
+	object
+		sprite planet/gas8
+		distance 3244
+		period 1101.73
+		object
+			sprite planet/rock14-b
+			distance 346
+			period 168.435
+		object
+			sprite "planet/asteroid base"
+			distance 529
+			period 318.421
+		object
+			sprite planet/dust7-b
+			distance 702
+			period 703.082
+	object
+		sprite planet/gas10-hot
+		distance 4724
+		period 1936.059
+
+system Iyon
+	pos -1818.5 735.875
+	government "Sheragi (Pirate)"
+	habitable 230
+	belt 1608 9
+	belt 2213 5
+	link Jonis
+	asteroids "small rock" 2 2.648
+	asteroids "medium rock" 7 3.062
+	asteroids "large rock" 1 1.595
+	asteroids "small metal" 5 1.914
+	asteroids "medium metal" 42 2.201
+	asteroids "large metal" 7 3.094
+	minables aluminum 2 3.591
+	trade Clothing 395
+	trade Electronics 857
+	trade Equipment 365
+	trade Food 242
+	trade "Heavy Metals" 744
+	trade Industrial 582
+	trade "Luxury Goods" 1208
+	trade Medical 510
+	trade Metal 463
+	trade Plastic 331
+	object
+		sprite star/m3
+		period 10
+	object
+		sprite planet/earth-b
+		distance 312
+		period 145.354
+	object
+		sprite planet/gas6
+		distance 1346
+		period 1302.458
+		object
+			sprite planet/ice0
+			distance 394
+			period 295.628
+		object
+			sprite planet/dust5-b
+			distance 535
+			period 323.853
+		object
+			sprite planet/rock0
+			distance 721
+			period 731.819
+	object
+		sprite planet/gas11
+		distance 3000
+		period 4333.891
+		object
+			sprite planet/rock14-b
+			distance 304
+			period 138.716
+	object
+		sprite planet/gas13
+		distance 3930
+		period 6498.078
+	object
+		sprite planet/saturn
+		distance 6586
+		period 14097.064
+
+system Nin
+	pos -1871.5 638.875
+	government "Sheragi (Pirate)"
+	habitable 17025.003
+	belt 1636
+	belt 2139 5
+	link Jonis
+	asteroids "small rock" 14 2.349
+	asteroids "medium rock" 130 2.538
+	asteroids "large rock" 53 1.755
+	asteroids "medium metal" 27 2.43
+	asteroids "large metal" 1 1.755
+	minables uranium 4 3.793
+	minables titanium 38 2.544
+	trade Clothing 401
+	trade Electronics 850
+	trade Equipment 460
+	trade Food 276
+	trade "Heavy Metals" 730
+	trade Industrial 583
+	trade "Luxury Goods" 1270
+	trade Medical 564
+	trade Metal 471
+	trade Plastic 319
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 286
+		period 241.835
+	object
+		sprite star/b-supergiant
+		distance 286
+		period 241.835
+		offset 180
+	object
+		sprite planet/rock10
+		distance 901
+		period 82.909
+		object
+			sprite planet/miranda
+			distance 182
+			period 116.15
+	object
+		sprite planet/gas11-b
+		distance 1670
+		period 209.214
+		object
+			sprite planet/ice8-b
+			distance 294
+			period 190.556
+	object
+		sprite planet/gas9
+		distance 2722
+		period 435.36
+	object
+		sprite planet/uranus-b
+		distance 3434
+		period 616.903
+		object
+			sprite planet/lava0
+			distance 269
+			period 115.464
+
+system Piobin
+	pos -1808.5 591.875
+	government "Sheragi (Pirate)"
+	habitable 10366.563
+	belt 1159 3
+	belt 1866 5
+	link Jonis
+	asteroids "small rock" 3 2.434
+	asteroids "medium rock" 3 3.791
+	asteroids "large rock" 50 3.511
+	asteroids "small metal" 2 3.551
+	asteroids "medium metal" 48 2.873
+	asteroids "large metal" 3 3.152
+	minables silver 4 5.361
+	minables iron 5 5.521
+	minables titanium 6 4.629
+	trade Clothing 400
+	trade Electronics 889
+	trade Equipment 371
+	trade Food 291
+	trade "Heavy Metals" 748
+	trade Industrial 536
+	trade "Luxury Goods" 1256
+	trade Medical 554
+	trade Metal 488
+	trade Plastic 308
+	object
+		sprite star/f-supergiant
+		distance 384.5
+		period 376.977
+	object
+		sprite star/g-supergiant
+		distance 384.5
+		period 376.977
+		offset 180
+	object
+		sprite planet/tschyss
+		distance 1088
+		period 140.989
+	object
+		sprite planet/vesvi
+		distance 1878
+		period 319.732
+		object
+			sprite planet/rock0-b
+			distance 449
+			period 359.642
+	object
+		sprite planet/gas8-b
+		distance 2783
+		period 576.783
+	object
+		sprite planet/gas11
+		distance 4163
+		period 1055.242
+	object
+		sprite planet/uranus
+		distance 5794
+		period 1732.648
+	object
+		sprite planet/gas6
+		distance 8590
+		period 3127.752
+		object
+			sprite planet/dust4-b
+			distance 369
+			period 220.454
+
+system Quinlo
+	pos -1376 440
+	habitable 3650
+	belt 1615 10
+	"jump range" 150
+	link Haqal
+	link Huyya
+	link Kanalsa
+	link Kateaza
+	asteroids "small rock" 3 2.246
+	asteroids "medium rock" 92 1.958
+	asteroids "large rock" 5 1.498
+	asteroids "small metal" 5 1.469
+	asteroids "medium metal" 1 2.88
+	asteroids "large metal" 7 2.246
+	minables platinum 25 3.676
+	minables gold 40 3.481
+	minables silver 60 5
+	fleet "Small Jibauni Military" 700
+	fleet "Large Jibauni Military" 1000
+	fleet "Small Rebel Jibauni Military" 500
+	fleet "Large Rebel Jibauni Military" 1500
+	fleet "Heliarch (Jibauni)" 600
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/gas1-hot
+		distance 391
+		period 51.189
+	object
+		sprite planet/cloud2
+		distance 839
+		period 160.9
+	object
+		sprite planet/jupiter
+		distance 1725
+		period 474.348
+		object
+			sprite planet/oberon-b
+			distance 252
+			period 246.374
+		object
+			sprite planet/rock17
+			distance 370
+			period 438.326
+		object
+			sprite planet/rock20
+			distance 517
+			period 444.362
+	object
+		sprite planet/gas10-b
+		distance 2635
+		period 895.539
+	object
+		sprite planet/gas11-b
+		distance 4696
+		period 2130.618
+		object
+			sprite planet/moon56
+			distance 244
+			period nan
+		object
+			sprite planet/rock3-b
+			distance 311
+			period 207.32
+	object
+		sprite planet/gas8
+		distance 14914
+		period 12058.819
+		object
+			sprite planet/ice0
+			distance 332
+			period 228.669
+		object
+			sprite planet/rock7-b
+			distance 435
+			period 429.186
+		object
+			sprite planet/desert4-b
+			distance 536
+			period 587.028

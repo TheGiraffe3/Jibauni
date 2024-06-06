@@ -114,6 +114,7 @@ government "Sheragi (Jibauni)"
 		"Jibauni (Fueler)" 0.01
 		"Rebel Jibauni" -0.01
 		Diba -0.01
+		"Sheragi (Pirate)" -0.1
 #	"travel restrictions" 
 #		system "Sabibal"
 #		system "Hajay"
@@ -137,6 +138,7 @@ government "Sheragi Civilian (Jibauni)"
 		"Jibauni (Fueler)" 0.01
 		"Rebel Jibauni" -0.01
 		Diba -0.01
+		"Sheragi (Pirate)" -0.1
 	"friendly hail" "friendly sheragi civilian"
 	"friendly disabled hail" "friendly disabled sheragi civilian"
 	"hostile hail" "hostile sheragi civilian"
@@ -192,3 +194,14 @@ government "Heliarch (Jibauni)"
 		"Sheragi (Jibauni)" -1
 		"Sheragi Civilians (Jibauni)" -1
 		"Jibauni Civilians" -1
+
+government "Sheragi (Pirate)"
+	swizzle 19
+	color 0.275 0.667 0.784
+	"player reputation" -1000
+	"crew attack" 0.5
+	"crew defense" 3
+	"attitude toward"
+		Jibauni -0.1
+		Sheragi -0.1
+		"Sheragi Civilian (Jibauni)" -0.1

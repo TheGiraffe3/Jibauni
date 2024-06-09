@@ -22,6 +22,40 @@ fleet "Small Diba"
 	variant 10
 		Ithquaya
 
+fleet "Large Diba"
+	government Diba
+	names "Diba"
+	fighters "Diba"
+	cargo 2
+	commodities Food Clothing Metals "Heavy Metals" "Luxury Goods"
+	personality
+		confusion 15
+		heroic
+		vindictive
+		unconstrained
+		ramming
+		mute
+	variant 5
+		Tamquaya 2
+		Llama 4
+	variant 5
+		Tahquaya
+		Llama 4
+	variant
+		Tamquaya
+		Llama 2
+	variant 2
+		Tahquaya 3
+		Llama 12
+	variant 3
+		Tahquaya 2
+		Llama 8
+	variant
+		Ithquaya 8
+	variant
+		Arbquaya 5
+		Llama 5
+
 # hails
 
 phrase "diba explode"

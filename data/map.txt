@@ -14,6 +14,7 @@ system Jibtrav
 	pos -888 432
 	government Uninhabited
 	habitable 4458.262
+	arrival 5000
 	belt 1452 10
 	belt 1554 5
 	belt 2821 4
@@ -94,6 +95,8 @@ wormhole "Jibauni Wormhole"
 system Rabalin
 	pos -1534 500
 	government Jibauni
+	arrival 1200
+	departure 2200
 	habitable 22300.002
 	belt 1015
 	belt 2261 9
@@ -118,11 +121,11 @@ system Rabalin
 	trade Medical 542
 	trade Metal 262
 	trade Plastic 256
-	fleet "Small Jibauni Military" 500
-	fleet "Large Jibauni Military" 1000
+	fleet "Small Jibauni Military" 370
+	fleet "Large Jibauni Military" 1450
 	fleet "Jibauni Leaders" 5000
 	fleet "Large Jibauni Military" 1000
-	fleet "Jibauni Leaders" 5000
+	fleet "Jibauni Leaders" 8800
 	hazard "Jibauni Slowing" 200
 	object
 		sprite planet/browndwarf-l-rouge
@@ -167,6 +170,8 @@ system Rabalin
 system Hajay
 	pos -1534 435
 	government Jibauni
+	arrival 1500
+	departure 6000
 	habitable 7900
 	belt 1826 7
 	haze ship/test
@@ -190,9 +195,9 @@ system Hajay
 	trade Plastic 283
 	fleet "Hajay Pilgrim Transport" 600
 	fleet "Jibauni Pilgrim Transport" 900
-	fleet "Small Jibauni Military" 500
-	fleet "Large Jibauni Military" 1000
-	fleet "Jibauni Leaders" 5000
+	fleet "Small Jibauni Military" 900
+	fleet "Large Jibauni Military" 700
+	fleet "Jibauni Leaders" 8000
 	hazard "Jibauni Slowing" 200
 	object
 		sprite star/a-giant
@@ -258,6 +263,8 @@ system Hajay
 system Sabibal
 	pos -1469 503
 	government Jibauni
+	arrival 500
+	departure 500
 	habitable 1434.617
 	belt 1926 9
 	belt 2389 7
@@ -283,9 +290,9 @@ system Sabibal
 	trade Medical 521
 	trade Metal 197
 	trade Plastic 276
-	fleet "Small Jibauni Military" 500
-	fleet "Large Jibauni Military" 1000
-	fleet "Jibauni Leaders" 5000
+	fleet "Small Jibauni Military" 800
+	fleet "Large Jibauni Military" 700
+	fleet "Jibauni Leaders" 7350
 	hazard "Jibauni Slowing" 200
 	object
 		sprite star/o-dwarf
@@ -340,6 +347,8 @@ system Sabibal
 system Kanalsa
 	pos -1469 433
 	government Jibauni
+	arrival 50
+	departure 4500
 	habitable 17025
 	belt 1675 8
 	haze ship/test
@@ -360,9 +369,9 @@ system Kanalsa
 	trade Medical 430
 	trade Metal 191
 	trade Plastic 275
-	fleet "Small Jibauni Military" 500
-	fleet "Large Jibauni Military" 1000
-	fleet "Jibauni Leaders" 5000
+	fleet "Small Jibauni Military" 430
+	fleet "Large Jibauni Military" 900
+	fleet "Jibauni Leaders" 4920
 	hazard "Jibauni Slowing" 200
 	object
 		sprite star/b-supergiant
@@ -407,6 +416,8 @@ system Kanalsa
 system Huyya
 	pos -1439 470
 	government Jibauni
+	arrival 10
+	departure 300
 	habitable 2160
 	belt 1500
 	belt 750
@@ -431,11 +442,10 @@ system Huyya
 	trade Medical 514
 	trade Metal 224
 	trade Plastic 299
-	fleet "Small Jibauni Military" 500
-	fleet "Large Jibauni Military" 1000
-	fleet "Jibauni Leaders" 5000
-	fleet "Small Rebel Jibauni Military" 50000
-	fleet "Large Rebel Jibauni Military" 100000
+	fleet "Small Jibauni Military" 530
+	fleet "Large Jibauni Military" 940
+	fleet "Jibauni Leaders" 3880
+	fleet "Large Rebel Jibauni Military" 5920
 	hazard "Jibauni Disabled Remover" 1
 	hazard "Jibauni Slowing" 200
 	object
@@ -469,7 +479,8 @@ system Huyya
 system Kateaza
 	pos -1398 496
 	government Uninhabited
-	arrival 11000
+	arrival 1100
+	departure 7800
 	habitable 22749.505
 	belt 1831 3
 	belt 2226 7
@@ -483,10 +494,10 @@ system Kateaza
 	minables titanium 1 6.648
 	minables lead 2 7.433
 	fleet "Small Jibauni Military" 500
-	fleet "Large Jibauni Military" 1000
-	fleet "Jibauni Leaders" 5000
-	fleet "Small Rebel Jibauni Military" 600
-	fleet "Large Rebel Jibauni Military" 900
+	fleet "Large Jibauni Military" 860
+	fleet "Jibauni Leaders" 50000
+	fleet "Small Rebel Jibauni Military" 300
+	fleet "Large Rebel Jibauni Military" 1200
 	hazard "Jibauni Disabled Remover" 50
 	hazard "Jibauni Slowing" 200
 	object
@@ -543,6 +554,8 @@ system Kateaza
 system Almanhaq
 	pos -1390 535
 	government "Rebel Jibauni"
+	arrival 1020
+	departure 6000
 	habitable 14525.237
 	belt 1131 2
 	belt 1856 2
@@ -571,8 +584,9 @@ system Almanhaq
 	trade Medical 565
 	trade Metal 252
 	trade Plastic 477
-	fleet "Small Rebel Jibauni Military" 500
-	fleet "Large Rebel Jibauni Military" 1000
+	fleet "Small Rebel Jibauni Military" 460
+	fleet "Large Rebel Jibauni Military" 880
+	fleet "Large Jibauni Military" 5200
 	hazard "Jibauni Disabled Remover" 100
 	hazard "Jibauni Slowing" 200
 	object
@@ -664,8 +678,10 @@ planet Ramahedara
 	security 0
 
 system "Sol Diba"
+	hidden
 	pos -1457 643
 	government Diba
+	arrival 0
 	habitable 1310
 	haze ship/test
 	trade Clothing 376
@@ -678,6 +694,8 @@ system "Sol Diba"
 	trade Medical 668
 	trade Metal 485
 	trade Plastic 366
+	fleet "Small Diba" 580
+	fleet "Large Diba" 700
 	object
 		sprite star/f8
 		period 10
@@ -707,6 +725,7 @@ system "Sol Diba"
 		period 200
 
 system Sheraig
+	hidden
 	pos -1571 618
 	government "Sheragi (Jibauni)"
 	habitable 7742.093
@@ -802,7 +821,6 @@ system Hanal
 	asteroids "medium metal" 31 4.182
 	asteroids "large metal" 15 3.57
 	minables iron 8 5.932
-	hazard "Jibauni Slowing" 200
 	object
 		sprite star/g5
 		period 10
@@ -853,7 +871,6 @@ system Jicson
 	minables copper 18 8.191
 	minables tungsten 18 6.793
 	minables aluminum 26 8.372
-	hazard "Jibauni Slowing" 200
 	object
 		sprite star/g5
 		distance 149.712
@@ -929,7 +946,6 @@ system Nifon
 	asteroids "medium metal" 119 3.471
 	asteroids "large metal" 3 2.808
 	minables iron 30 5.223
-	hazard "Jibauni Slowing" 200
 	object
 		sprite star/a0
 		distance 130.201
@@ -1001,7 +1017,6 @@ system Mimson
 	asteroids "large metal" 19 2.631
 	minables copper 4 3.081
 	minables lead 26 2.151
-	hazard "Jibauni Slowing" 200
 	object
 		sprite planet/browndwarf-y-rouge
 		period 10
@@ -1061,7 +1076,6 @@ system Rilal
 	asteroids "small metal" 5 2.04
 	asteroids "large metal" 4 2.754
 	minables titanium 5 4.707
-	hazard "Jibauni Slowing" 200
 	object
 		sprite star/g5
 		distance 223
@@ -1105,7 +1119,6 @@ system Sollo
 	asteroids "medium metal" 7 2.018
 	asteroids "large metal" 3 2.784
 	minables titanium 3 3.56
-	hazard "Jibauni Slowing" 200
 	object
 		sprite star/o-dwarf
 		distance 206.059
@@ -1135,7 +1148,11 @@ system Sollo
 		sprite planet/cloud7
 			scale 2
 		distance 5168.236
-		period 100
+		period 591.6981
+	object Ramahedara
+		sprite planet/forest1
+		distance 6020.284
+		period 701.583
 
 planet Shenal
 	attributes sheragi
@@ -1158,6 +1175,8 @@ planet "Diba Station"
 system Haqal
 	pos -1325 512
 	government "Rebel Jibauni"
+	arrival 50
+	departure 2001
 	habitable 7000
 	belt 1430 9
 	haze ship/test
@@ -1180,8 +1199,8 @@ system Haqal
 	trade Medical 533
 	trade Metal 567
 	trade Plastic 465
-	fleet "Small Rebel Jibauni Military" 500
-	fleet "Large Rebel Jibauni Military" 1000
+	fleet "Small Rebel Jibauni Military" 300
+	fleet "Large Rebel Jibauni Military" 600
 	hazard "Jibauni Slowing" 200
 	object
 		sprite star/b0
@@ -1239,6 +1258,8 @@ system Haqal
 system Holo
 	pos -1362 576
 	government "Rebel Jibauni"
+	arrival 30
+	departure 1004
 	habitable 10
 	belt 1747 5
 	haze ship/test
@@ -1251,8 +1272,8 @@ system Holo
 	asteroids "medium metal" 1 0.974
 	asteroids "large metal" 85 1.551
 	minables aluminum 4 2.188
-	fleet "Small Rebel Jibauni Military" 500
-	fleet "Large Rebel Jibauni Military" 1000
+	fleet "Small Rebel Jibauni Military" 305
+	fleet "Large Rebel Jibauni Military" 730
 	hazard "Jibauni Slowing" 200
 	object
 		sprite planet/browndwarf-l-rouge
@@ -1297,6 +1318,8 @@ system Holo
 system Yinkin
 	pos -1295 562.667
 	government "Rebel Jibauni"
+	arrival 5001
+	departure 60
 	habitable 5600
 	belt 1216
 	haze ship/test
@@ -1320,8 +1343,8 @@ system Yinkin
 	trade Medical 570
 	trade Metal 368
 	trade Plastic 477
-	fleet "Small Rebel Jibauni Military" 500
-	fleet "Large Rebel Jibauni Military" 1000
+	fleet "Small Rebel Jibauni Military" 460
+	fleet "Large Rebel Jibauni Military" 700
 	hazard "Jibauni Slowing" 200
 	object
 		sprite star/b5
@@ -1372,6 +1395,7 @@ system Yinkin
 		period 1970
 
 system Somitaw
+	hidden
 	pos -1603 657
 	government "Sheragi (Jibauni)"
 	habitable 2300
@@ -1566,6 +1590,7 @@ planet Andwerfen
 	spaceport "Little is here except for the many armed patrols the Rebel Jibauni keep patrolling the neighborhoods, looking for disrupters of the peace. The Jibauni around you all look frightened, and the number here that must wish to get back to normal Jibauni space must be large."
 
 system Taniyn
+	hidden
 	pos -1692 628
 	government Uninhabited
 	habitable 8400
@@ -1636,6 +1661,7 @@ system Taniyn
 		period 9027.316
 
 system Chinjoka
+	hidden
 	pos -1672 696
 	government Uninhabited
 	habitable 7560.134
@@ -1723,6 +1749,7 @@ planet Inkon
 	"required reputation" 1
 
 system Draig
+	hidden
 	pos -1671 494
 	government "Sheragi (Jibauni)"
 	habitable 625
@@ -1797,6 +1824,7 @@ planet Andeslid
 	"required reputation" 1
 
 system Zenido
+	hidden
 	pos -1732 558
 	government "Sheragi (Jibauni)"
 	habitable 8523.497
@@ -1868,6 +1896,7 @@ system Zenido
 			period 264.681
 
 system Ejderha
+	hidden
 	pos -1669 794
 	government "Sheragi (Jibauni)"
 	habitable 1042.317
@@ -1948,6 +1977,7 @@ planet Zigzogzinzo
 	"required reputation" 1
 
 system Rong
+	hidden
 	pos -1547 787
 	government "Sheragi (Jibauni)"
 	habitable 22300
@@ -2007,6 +2037,7 @@ planet Linkson
 	"required reputation" 1
 
 system Sarkan
+	hidden
 	pos -1582 753
 	government Uninhabited
 	habitable 2560
@@ -2078,6 +2109,7 @@ planet Leasher
 	"required reputation" 1
 
 system Dakon
+	hidden
 	pos -1602 855
 	government "Sheragi (Jibauni)"
 	habitable 22300
@@ -2145,6 +2177,7 @@ planet Xicalins
 	"required reputation" 1
 
 system Dodon
+	hidden
 	pos -1658 576
 	government "Sheragi (Jibauni)"
 	habitable 980.051
@@ -2217,6 +2250,7 @@ system Dodon
 			period 320.731
 
 system Jonis
+	hidden
 	pos -1783 665
 	government "Sheragi (Pirate)"
 	habitable 4500
@@ -2277,6 +2311,7 @@ system Jonis
 		period 1936.059
 
 system Iyon
+	hidden
 	pos -1818.5 735.875
 	government "Sheragi (Pirate)"
 	habitable 230
@@ -2341,6 +2376,7 @@ system Iyon
 		period 14097.064
 
 system Nin
+	hidden
 	pos -1871.5 638.875
 	government "Sheragi (Pirate)"
 	habitable 17025.003
@@ -2403,6 +2439,7 @@ system Nin
 			period 115.464
 
 system Piobin
+	hidden
 	pos -1808.5 591.875
 	government "Sheragi (Pirate)"
 	habitable 10366.563
@@ -2472,6 +2509,13 @@ system Piobin
 
 system Quinlo
 	pos -1376 440
+	government Uninhabited
+	arrival
+		link 5000
+		jump 50
+	departure
+		link 50
+		jump 5000
 	habitable 3650
 	belt 1615 10
 	"jump range" 150

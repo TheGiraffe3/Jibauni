@@ -38,8 +38,10 @@ ship "Llama"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Diba Laser"
-	gun 13 -21 "Diba Laser"
+		"Diba Laser Turret"
+	turret 0 -21 "Diba Laser Turret"
+		angle 0
+		arc -5 5
 	engine 3 36.5
 	leak "leak" 70 50
 	leak "flame" 50 80
@@ -53,7 +55,7 @@ ship "Ithquaya"
 		"cost" 1000000
 		"shields" 2000
 		"hull" 1000
-		"automaton"1
+#		"automaton"1
 		"bunks" 1
 		"mass" 75
 		"drag" 1.5
@@ -75,18 +77,21 @@ ship "Ithquaya"
 		"jump fuel" 100
 		"hyperdrive" 1
 		licenses
-			Diba
+#			Diba
 		weapon
 			"blast radius" 80
 			"shield damage" 800
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Diba Laser" 2
+		"Diba Laser Turret" 2
 	engine 0 0
-	gun 0 -44.5 "Diba Laser"
-	gun 0 44.5 "Diba Laser"
-		"angle" 180
+	turret 0 -110 "Diba Laser Turret" # top
+		angle 0
+		arc -30 30
+	turret 0 100 "Diba Laser Turret" # bottom
+		angle 180
+		arc -30 30
 	leak "leak" 50 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -104,7 +109,7 @@ ship "Arbquaya"
 		"cost" 2000000
 		"shields" 4000
 		"hull" 2000
-		"automaton"1
+#		"automaton"1
 		"bunks" 1
 		"mass" 150
 		"drag" 5
@@ -126,28 +131,29 @@ ship "Arbquaya"
 		"jump fuel" 100
 		"hyperdrive" 1
 		licenses
-			Diba
+#			Diba
 		weapon
 			"blast radius" 80
 			"shield damage" 800
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Diba Laser" 4
+		"Diba Laser Turret" 4
 	engine 0 0
-	bay Fighter 0 121.5
+	bay Fighter 0 -13.5
 		over
-	gun -234 0 "Diba Laser"
-		angle 270
-		parallel
-	gun 234 0 "Diba Laser"
-		angle 90
-		parallel
-	gun 0 -224.5 "Diba Laser"
+	turret 0 -86.5 "Diba Laser Turret" # top
+		angle 0
+		arc -30 30
+	turret 0 123.5 "Diba Laser Turret" # bottom
 		angle 180
-		parallel
-	gun 0 224.5 "Diba Laser"
-		parallel
+		arc -30 30
+	turret -43.5 28.5 "Diba Laser Turret" # left
+		angle 270
+		arc -30 30
+	turret 43.5 28.5 "Diba Laser Turret" # right
+		angle 90
+		arc -30 30
 	leak "leak" 50 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -165,7 +171,7 @@ ship "Tamquaya"
 		"cost" 4000000
 		"shields" 8000
 		"hull" 4000
-		"automaton"1
+#		"automaton"1
 		"bunks" 1
 		"mass" 400
 		"drag" 8
@@ -187,32 +193,43 @@ ship "Tamquaya"
 		"jump fuel" 100
 		"hyperdrive" 1
 		licenses
-			Diba
+#			Diba
 		weapon
 			"blast radius" 80
 			"shield damage" 800
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Diba Laser" 8
+		"Diba Laser Turret" 8
 	engine 0 0
-	bay Fighter 0 -205
+	bay Fighter 0 -98.5
 		over
-	bay Fighter 0 184.5
+	bay Fighter 0 137.5
 		over
-	gun 0 -345.5 "Diba Laser"
-	gun 0 345.5 "Diba Laser"
+	turret 0 -96 # top
+		angle 0
+		arc -30 30
+	turret 0 96 # bottom
 		angle 180
-	gun -350.5 -3.5 "Diba Laser"
-		angle -90
-	gun -238.5 -246.5 "Diba Laser"
-		angle -45
-	gun -271.5 231.5 "Diba Laser"
-	gun 350.5 -3.5 "Diba Laser"
+		arc -30 30
+	turret -67.5 24.5 # left
+		angle 270
+		arc -30 30
+	turret 67.5 24.5 # right
 		angle 90
-	gun 238.5 -246.5 "Diba Laser"
+		arc -30 30
+	turret -55 -55 # top left
+		angle 315
+		arc -30 30
+	turret 55 -55 # top right
 		angle 45
-	gun 271.5 231.5 "Diba Laser"
+		arc -30 30
+	turret -50 105 # bottom left
+		angle 225
+		arc -30 30
+	turret 50 105 # bottom right
+		angle 135
+		arc -30 30
 	leak "leak" 50 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -252,14 +269,14 @@ ship "Tahquaya"
 		"jump fuel" 100
 		"hyperdrive" 1
 		licenses
-			"Diba"
+#			"Diba"
 		weapon
 			"blast radius" 80
 			"shield damage" 800
 			"hull damage" 400
 			"hit force" 1200
 	outfits	
-		"Diba Laser" 12
+		"Diba Laser Turret" 12
 	engine 0 0
 	bay Fighter 255.5 0
 		over

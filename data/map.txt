@@ -77,7 +77,7 @@ system Jibtrav
 		period 2880.829
 	object "Jibauni Wormhole"
 		sprite planet/wormhole
-		distance 6000
+		distance 230
 		period 1500
 
 system Men

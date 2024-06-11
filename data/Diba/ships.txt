@@ -67,7 +67,7 @@ ship "Ithquaya"
 		"weapon capacity" 30
 		"thrust" 40
 		"turn" 120
-		"reverse thrust" 2
+		#"reverse thrust" 2
 		"hull repair" .02
 		"shield generation" .2
 		"self destruct" .2
@@ -121,7 +121,7 @@ ship "Arbquaya"
 		"weapon capacity" 60
 		"thrust" 80
 		"turn" 240
-		"reverse thrust" 4
+		#"reverse thrust" 4
 		"hull repair" .04
 		"shield generation" .4
 		"self destruct" .5
@@ -183,7 +183,7 @@ ship "Tamquaya"
 		"diba gun ports" -8
 		"thrust" 120
 		"turn" 360
-		"reverse thrust" 8
+		#"reverse thrust" 8
 		"hull repair" .08
 		"shield generation" .8
 		"self destruct" .7
@@ -259,7 +259,7 @@ ship "Tahquaya"
 		"weapon capacity" 240
 		"thrust" 160
 		"turn" 480
-		"reverse thrust" 8
+		#"reverse thrust" 8
 		"hull repair" .08
 		"shield generation" .8
 		"self destruct" .9

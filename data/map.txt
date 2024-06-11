@@ -2274,6 +2274,8 @@ system Jonis
 	trade Medical 539
 	trade Metal 507
 	trade Plastic 326
+	fleet "Small Sheragi Pirates" 500
+	fleet "Large Sheragi Pirates" 1000
 	object
 		sprite star/k-supergiant
 		period 10

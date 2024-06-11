@@ -247,7 +247,7 @@ ship "Tahquaya"
 		"cost" 8000000
 		"shields" 16000
 		"hull" 8000
-		"automaton"1
+#		"automaton"1
 		"bunks" 1
 		"mass" 600
 		"drag" 13
@@ -287,36 +287,53 @@ ship "Tahquaya"
 	bay Fighter 0 251.5
 		over
 	turret 0 -139 # top
-
+		angle 0
+		arc -30 30
 	turret 0 139 # bottom
-
+		angle 180
+		arc -30 30
 	turret -126 0 # left
-
+		angle 270
+		arc -30 30
 	turret 126 0 # right
-
+		angle 90
+		arc -30 30
 	turret -90 -90 # top left
-
+		angle 315
+		arc -30 30
 	turret 90 90 # bottom right
-
+		angle 135
+		arc -30 30
 	turret -90 90 # bottom left
-
+		angle 225
+		arc -30 30
 	turret 90 -90 # top right
-
+		angle 45
+		arc -30 30
 	turret -116 -44.5 # between top left and left
-
+		angle 292.5
+		arc -30 30
 	turret -116 44.5 # between top right and right
-
+		angle 67.5
+		arc -30 30
 	turret -70.5 -109.5 # between top and top left
-
+		angle 337.5
+		arc -30 30
 	turret -70.5 109.5 # between top and top right
-
+		angle 22.5
+		arc -30 30
 	turret -43 139.5 # between bottom left and bottom
-
+		angle 202.5
+		arc -30 30
 	turret -118.5 59.5 # between left and bottom left
-
+		angle 247.5
+		arc -30 30
 	turret 43 139.5 # between bottom right and bottom
-	
+		angle 157.5
+		arc -30 30
 	turret 118.5 59.5 # between right and bottom right
+		angle 112.5
+		arc -30 30
 	leak "leak" 50 50
 	leak "flame" 50 80
 	leak "big leak" 90 30

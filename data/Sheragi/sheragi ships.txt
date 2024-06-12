@@ -228,6 +228,19 @@ ship "Gold Shield"
 	description "A powerful Sheragi carrier designed to quickly deploy fighters to swarm enemy ships. The ship comes equipped with a more powerful version of the repair system the Black Diamonds use. This increases its survivability, providing time for the fighters to finish off the enemy."
 
 
+ship "Gold Shield" "Gold Shield (Missile)"
+	outfits
+		"Kinetic Spear Launcher" 8
+		"Kinetic Spear" 48
+		"Sheragi Anti-Missile" 6
+		
+		"Medium EM Battery" 2
+		"Dense Particle Shielding"
+		"Large Hybrid Cooling"
+		"Electronic Warfare System" 2
+		"Sheragi Solar Intake" 2
+
+
 ship "Bronze Edge"
 	sprite "ship/bronzeedge"
 	thumbnail "thumbnail/bronzeedge"
@@ -299,7 +312,24 @@ ship "Bronze Edge"
 	explode "medium explosion" 28
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Sheragi, despite being large creatures, have managed to create a warship of relatively small size, having space for a few passengers while still being functional."
+	description "The Sheragi, although they are large creatures, have managed to create a warship of relatively small size, having space for a few passengers while still being functional."
+
+
+ship "Bronze Edge" "Bronze Edge (Missile)"
+	outfits
+		"Kinetic Spear Launcher" 3
+		"Kinetic Spear" 3
+		"Sheragi Anti-Missile"
+		
+		"Electronic Warfare System"
+		"Small EM Battery"
+		"Small Hybrid Cooling" 2
+		"Sheragi Solar Intake"
+		
+		"Large Fission Drive"
+		"Fusion Afterburner"
+		"Sheragi Hyperdrive"
+
 
 ship "Ruby Hammer"
 	sprite ship/rubyhammer
@@ -476,3 +506,15 @@ ship "White Brand"
 	explode "huge explosion" 32
 	"final explode" "final explosion large" 2
 	description "This Sheragi warship is a mainstay of the Sheragi military, providing the combat power neccesary while remaining cost effective enough that it can be present in numbers within the battlefield."
+
+ship "White Brand" "White Brand (Anti-Missile)"
+	outfits
+		"Particle Waveform Cannon" 2
+		"Sheragi Anti-Missile" 6
+		"Dense Particle Shielding"
+		"Medium EM Battery" 2
+		"Large Hybrid Cooling"
+		"Electronic Warfare System" 2
+		"Sheragi Solar Intake" 2
+		
+		"Small Fusion Drive"

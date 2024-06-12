@@ -354,8 +354,8 @@ outfit "Kinetic Spear Launcher"
 	cost 2250000
 	thumbnail "outfit/kinetic spear launcher"
 	"mass" 28
-	"outfit space" -40
-	"weapon capacity" -40
+	"outfit space" -20
+	"weapon capacity" -20
 	"gun ports" -1
 	"kinetic spear capacity" 6
 	weapon

@@ -260,6 +260,49 @@ fleet "Large Sheragi Military"
 		"Platinum Spear"
 		"Bronze Edge" 4
 		"White Brand" 5
+	variant 10
+		"Gold Shield (Missile)" 2
+		"Black Diamond" 16
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant 8
+		"Gold Shield (Missile)" 3
+		"Black Diamond" 24
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant 3
+		"Platinum Spear" 2
+		"Gold Shield (Missile)" 2
+		"Black Diamond" 22
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 3
+	variant 8
+		"Platinum Spear" 2
+		"Gold Shield (Missile)" 2
+		"Black Diamond" 16
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant 4
+		"Gold Shield (Missile)" 2
+		"Black Diamond" 28
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant 6
+		"Platinum Spear" 2
+		"Gold Shield (Missile)" 3
+		"Black Diamond" 24
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant
+		"Platinum Spear" 5
+		"Gold Shield (Missile)" 3
+		"Black Diamond" 36
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 3
+	variant 8
+		"Platinum Spear"
+		"Bronze Edge (Missile)" 4
+		"White Brand (Anti-Missile)" 5
 
 fleet "Small Sheragi Military"
 	government "Sheragi (Jibauni)"
@@ -299,6 +342,34 @@ fleet "Small Sheragi Military"
 		"Bronze Edge" 4
 	variant 12
 		"Bronze Edge" 3
+	variant
+		"Gold Shield (Missile)"
+		"Black Diamond" 8
+		"Bronze Edge (Missile)" 2
+	variant
+		"Platinum Spear"
+		"Bronze Edge (Missile)" 2
+	variant
+		"Platinum Spear"
+		"White Brand (Anti-Missile)"
+	variant
+		"White Brand (Anti-Missile)" 3
+		"Bronze Edge (Missile)" 2
+	variant 3
+		"White Brand (Anti-Missile)" 2
+		"Bronze Edge (Missile)" 2
+	variant 4
+		"White Brand (Anti-Missile)"
+		"Bronze Edge (Missile)" 2
+	variant 4
+		"White Brand (Anti-Missile)" 2
+	variant 6
+		"White Brand (Anti-Missile)"
+	variant 12
+		"Bronze Edge (Missile)" 4
+	variant 12
+		"Bronze Edge (Missile)" 3
+
 
 fleet "Small Sheragi Pirates"
 	government "Sheragi (Pirate)"
@@ -338,6 +409,33 @@ fleet "Small Sheragi Pirates"
 		"Bronze Edge" 4
 	variant 12
 		"Bronze Edge" 3
+	variant
+		"Gold Shield (Missile)"
+		"Black Diamond" 8
+		"Bronze Edge (Missile)" 2
+	variant
+		"Platinum Spear"
+		"Bronze Edge (Missile)" 2
+	variant
+		"Platinum Spear"
+		"White Brand (Anti-Missile)"
+	variant
+		"White Brand (Anti-Missile)" 3
+		"Bronze Edge (Missile)" 2
+	variant 3
+		"White Brand (Anti-Missile)" 2
+		"Bronze Edge (Missile)" 2
+	variant 4
+		"White Brand (Anti-Missile)"
+		"Bronze Edge (Missile)" 2
+	variant 4
+		"White Brand (Anti-Missile)" 2
+	variant 6
+		"White Brand (Anti-Missile)"
+	variant 12
+		"Bronze Edge (Missile)" 4
+	variant 12
+		"Bronze Edge (Missile)" 3
 
 fleet "Large Sheragi Pirates"
 	government "Sheragi (Pirate)"
@@ -393,3 +491,46 @@ fleet "Large Sheragi Pirates"
 		"Platinum Spear"
 		"Bronze Edge" 4
 		"White Brand" 5
+	variant 10
+		"Gold Shield (Missile)" 2
+		"Black Diamond" 16
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant 8
+		"Gold Shield (Missile)" 3
+		"Black Diamond" 24
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant 3
+		"Platinum Spear" 2
+		"Gold Shield (Missile)" 2
+		"Black Diamond" 22
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 3
+	variant 8
+		"Platinum Spear" 2
+		"Gold Shield (Missile)" 2
+		"Black Diamond" 16
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant 4
+		"Gold Shield (Missile)" 2
+		"Black Diamond" 28
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant 6
+		"Platinum Spear" 2
+		"Gold Shield (Missile)" 3
+		"Black Diamond" 24
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 2
+	variant
+		"Platinum Spear" 5
+		"Gold Shield (Missile)" 3
+		"Black Diamond" 36
+		"Bronze Edge (Missile)" 2
+		"White Brand (Anti-Missile)" 3
+	variant 8
+		"Platinum Spear"
+		"Bronze Edge (Missile)" 4
+		"White Brand (Anti-Missile)" 5

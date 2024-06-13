@@ -15,3 +15,10 @@ outfitter "Jibauni Cheat"
 	"Jihtah Steering"
 	"Sheragi License"
 	"Sheragi Capital License"
+	"Diba License"
+
+outfit "Diba License"
+	category "Licenses"
+	thumbnail "outfit/unkown"
+	"unplunderable" 1
+	description "This should not be in the game at all."

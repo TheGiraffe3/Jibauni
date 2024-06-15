@@ -448,7 +448,7 @@ phrase "hostile jibauni military"
 		"give battle to "
 		"seek to destroy "
 	word
-		"us?"
+		"us? "
 
 phrase "hostile jibauni military"
 	word

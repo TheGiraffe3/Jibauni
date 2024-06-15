@@ -408,6 +408,7 @@ system Kanalsa
 		sprite planet/nebula1
 		distance 3407.739
 		period 175
+		#hazard "Jibauni Gravity" 1
 		object
 			sprite planet/dust4
 			distance 301.985
@@ -474,6 +475,7 @@ system Huyya
 	object Baitoon
 		sprite planet/oberon
 		distance 3332
+		#hazard "Jibauni Gravity" 1
 		period 1655.353
 
 system Kateaza

@@ -330,6 +330,15 @@ ship "Tahquaya"
 	turret 73.5 134.5 # bottom right and bottom
 		angle 157.5
 		arc -30 30
+	turret 0 -118
+		angle 180
+		arc -50 50
+	turret -64.5 106.5
+		angle 45
+		arc -50 50
+	turret 64.5 106.5
+		angle 315
+		arc -50 50
 	leak "leak" 50 50
 	leak "flame" 50 80
 	leak "big leak" 90 30

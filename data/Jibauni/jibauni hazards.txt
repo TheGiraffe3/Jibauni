@@ -1,0 +1,5 @@
+hazard "Jibauni Gravity"
+	weapon	
+		"gravitational"
+		"hit force" -18
+		"damage dropoff" 150 2500

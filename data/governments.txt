@@ -44,7 +44,7 @@ government "Jibauni (Ruler)"
 	"hostile hail" "hostile jibauni"
 	"hostile disabled hail" "hostile disabled jibauni"
 
-government "Jibauni (Civilians)"
+government "Jibauni (Civilian)"
 	color 0 0.353 0
 	swizzle 20
 	"display name" "Jibauni Civilian"

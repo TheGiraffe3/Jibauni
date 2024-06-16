@@ -1966,7 +1966,6 @@ planet Hinserdan
 		services
 			trading
 			"offers missions"
-			"hire crew"
 	government "Sheragi (Jibauni)"
 
 planet Shenal

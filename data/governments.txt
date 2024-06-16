@@ -15,6 +15,7 @@ government Jibauni
 		board 0.5
 		capture 5
 		destroy 10
+	"bribe" 0.01
 #	"travel restrictions" 
 #		system "Somitaw"
 #		system "Haqal"
@@ -39,6 +40,7 @@ government "Jibauni (Ruler)"
 		"Jibauni" 1
 	"penalty for"
 		assist 0
+	"bribe" 0.05 # for daring to attack them
 	"friendly hail" "friendly jibauni civilian"
 	"friendly disabled hail" "friendly disabled jibauni civilian"
 	"hostile hail" "hostile jibauni"
@@ -61,6 +63,7 @@ government "Jibauni (Civilian)"
 		board 0.5
 		capture 5
 		destroy 10
+	"bribe" 0.02
 	"friendly hail" "friendly jibauni civilian"
 	"friendly disabled hail" "friendly disabled jibauni civilian"
 	"hostile hail" "hostile jibauni"
@@ -83,11 +86,16 @@ government "Rebel Jibauni"
 		board 0
 		capture 1
 		destroy 1000
+	"bribe" 0.07 # not worthy
 #	"travel restrictions"
 #		system Huyya
 #		system "Somitaw"
 #		system "Sabibal"
 #		system "Hajay"
+	"friendly hail" "friendly jibauni military"
+	"friendly disabled hail" "friendly disabled jibauni military"
+	"hostile hail" "hostile jibauni military"
+	"hostile disabled hail" "hostile disabled jibauni military"
 
 government "Jibauni (Fueler)"
 	color 0.196 0.392 0.118
@@ -100,6 +108,7 @@ government "Jibauni (Fueler)"
 		"Rebel Jibauni" -0.01
 		"Sheragi (Jibauni)" 0.01
 		"Diba" 0.01
+	"bribe" 10000
 
 government "Sheragi (Jibauni)"
 	swizzle 19
@@ -120,6 +129,7 @@ government "Sheragi (Jibauni)"
 #		system "Hajay"
 #		system "Huyya"
 #		system "Almanhaq"
+	"bribe" 0.01
 	"friendly hail" "friendly sheragi military"
 	"friendly disabled hail" "friendly disabled sheragi military"
 	"hostile hail" "hostile sheragi military"
@@ -139,6 +149,7 @@ government "Sheragi Civilian (Jibauni)"
 		"Rebel Jibauni" -0.01
 		Diba -0.01
 		"Sheragi (Pirate)" -0.1
+	"bribe" 0.02 # wasting their time
 	"friendly hail" "friendly sheragi civilian"
 	"friendly disabled hail" "friendly disabled sheragi civilian"
 	"hostile hail" "hostile sheragi civilian"
@@ -166,6 +177,7 @@ government Diba
 		ship Tamquaya
 		ship Ithquaya
 		ship Arbquaya
+	"bribe" 0.99 # leader'll let you off, but you pay dearly
 	"friendly hail" "friendly diba"
 	"friendly disabled hail" "friendly disabled diba"
 	"hostile hail" "hostile diba"
@@ -205,3 +217,6 @@ government "Sheragi (Pirate)"
 		Jibauni -0.1
 		Sheragi -0.1
 		"Sheragi Civilian (Jibauni)" -0.1
+		"Jibauni Civilian" -0.1
+		"Rebel Jibauni" -0.1
+	"bribe" 0.05 # unworthy

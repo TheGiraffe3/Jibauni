@@ -63,8 +63,6 @@ ship "Ithquaya"
 		"diba gun ports" -2
 		"fuel capacity" 300
 		"cargo space" 1
-		"outfit space" 30
-		"weapon capacity" 30
 		"thrust" 40
 		"turn" 120
 		"reverse thrust" 2
@@ -115,9 +113,7 @@ ship "Arbquaya"
 		"heat dissipation" .4
 		"fuel capacity" 400
 		"cargo space" 2
-		"outfit space" 60
 		"diba gun ports" -4
-		"weapon capacity" 60
 		"thrust" 80
 		"turn" 240
 		"reverse thrust" 4
@@ -176,8 +172,6 @@ ship "Tamquaya"
 		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 4
-		"outfit space" 120
-		"weapon capacity" 120
 		"diba gun ports" -8
 		"thrust" 120
 		"turn" 360
@@ -252,8 +246,6 @@ ship "Tahquaya"
 		"fuel capacity" 600
 		"cargo space" 8
 		"diba gun ports" -16
-		"outfit space" 240
-		"weapon capacity" 240
 		"thrust" 160
 		"turn" 480
 		"reverse thrust" 8

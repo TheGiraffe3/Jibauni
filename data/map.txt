@@ -752,9 +752,9 @@ system Sheraig
 	trade Medical 671
 	trade Metal 460
 	trade Plastic 398
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
-	object Hinserdan
+	fleet "Small Sheragi Military" 530
+	fleet "Large Sheragi Military" 720
+	object Shenal
 		sprite planet/desert10-b
 		distance 1724.974
 		period 436.687
@@ -1423,8 +1423,8 @@ system Somitaw
 	trade Medical 647
 	trade Metal 498
 	trade Plastic 419
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 700
+	fleet "Large Sheragi Military" 830
 	object
 		sprite star/m-giant
 		distance 45.051
@@ -1611,8 +1611,8 @@ system Taniyn
 	minables lead 44 4.481
 	minables silicon 28 4.255
 	minables neodymium 63 6.776
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 1100
+	fleet "Large Sheragi Military" 1500
 	hazard "Sheragi Ion" 500
 	object
 		sprite star/f-supergiant
@@ -1680,8 +1680,8 @@ system Chinjoka
 	asteroids "large metal" 11 1.197
 	minables aluminum 1 2.179
 	minables titanium 2 2.542
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 1300
+	fleet "Large Sheragi Military" 2000
 	hazard "Sheragi Ion" 500
 	object
 		sprite star/g-supergiant
@@ -1776,8 +1776,8 @@ system Draig
 	trade Medical 751
 	trade Metal 419
 	trade Plastic 295
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 850
+	fleet "Large Sheragi Military" 1215
 	object
 		sprite star/g5
 		period 10
@@ -1853,8 +1853,8 @@ system Zenido
 	trade Medical 718
 	trade Metal 441
 	trade Plastic 276
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 530
+	fleet "Large Sheragi Military" 820
 	object
 		sprite star/a5
 		distance 157.483
@@ -1923,8 +1923,8 @@ system Ejderha
 	trade Medical 636
 	trade Metal 518
 	trade Plastic 256
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 700
+	fleet "Large Sheragi Military" 750
 	object
 		sprite star/k0-old
 		distance 1.597
@@ -1958,7 +1958,7 @@ system Ejderha
 
 planet Shenal
 	landscape land/sky11
-	description "This planet is home to millions of Sheragi, many of which live here because Hinserdan is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering Alrodel."
+	description "This planet is home to millions of Sheragi, many of which live here because Shenal is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering Alrodel."
 	spaceport "The spaceport here is one of the largest you've ever seen, seemingly built to hold the massive capital ships of the Sheragi military."
 	shipyard "Sheragi Basics"
 	shipyard "Sheragi Advanced"
@@ -2004,8 +2004,8 @@ system Rong
 	trade Medical 855
 	trade Metal 485
 	trade Plastic 380
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 915
+	fleet "Large Sheragi Military" 1430
 	object
 		sprite star/o-giant
 		period 10
@@ -2055,8 +2055,8 @@ system Sarkan
 	minables gold 1 5.578
 	minables iron 2 8.06
 	minables copper 10 5.659
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 815
+	fleet "Large Sheragi Military" 1375
 	hazard "Sheragi Ion" 500
 	object
 		sprite star/f0
@@ -2135,8 +2135,8 @@ system Dakon
 	trade Medical 807
 	trade Metal 507
 	trade Plastic 338
-	fleet "Large Sheragi Military" 500
-	fleet "Small Sheragi Military" 100
+	fleet "Large Sheragi Military" 1050
+	fleet "Small Sheragi Military" 1230
 	object
 		sprite star/o-giant
 		period 10
@@ -2203,8 +2203,8 @@ system Dodon
 	trade Medical 701
 	trade Metal 503
 	trade Plastic 377
-	fleet "Small Sheragi Military" 500
-	fleet "Large Sheragi Military" 1000
+	fleet "Small Sheragi Military" 970
+	fleet "Large Sheragi Military" 1480
 	object
 		sprite planet/browndwarf-l-rouge
 		distance 253.5

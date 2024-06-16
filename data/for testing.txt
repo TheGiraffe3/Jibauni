@@ -16,6 +16,7 @@ outfitter "Jibauni Cheat"
 	"Sheragi License"
 	"Sheragi Capital License"
 	"Diba License"
+	"Jump Drive"
 
 outfit "Diba License"
 	category "Licenses"

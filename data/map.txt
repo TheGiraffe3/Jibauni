@@ -1956,6 +1956,19 @@ system Ejderha
 			distance 306
 			period 140.088
 
+planet Hinserdan
+	landscape land/sky1
+	description "Almost completely uninhabited, this planet is hardly useful at all."
+	port "Spaceport"
+		description "The spaceport does not give fuel or make repairs."
+		recharges
+			energy
+		services
+			trading
+			"offers missions"
+			"hire crew"
+	government "Sheragi (Jibauni)"
+
 planet Shenal
 	landscape land/sky11
 	description "This planet is home to millions of Sheragi, many of which live here because Shenal is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering Alrodel."

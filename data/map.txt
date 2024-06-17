@@ -1825,6 +1825,7 @@ planet Andeslid
 	spaceport "The spaceport here is the only safe thing on the whole planet, strong enough to hold up against the intense strain of the freighters coming and going. It is also mostly heatproof, allowing for lava to erupt freely all around without causing problems."
 	government "Sheragi (Jibauni)"
 	"required reputation" 1
+	outfitter "Cheat"
 
 system Zenido
 	hidden

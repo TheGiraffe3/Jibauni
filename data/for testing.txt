@@ -6,7 +6,7 @@ shipyard "Diba"
 	Tahquaya
 
 
-outfitter "Jibauni Cheat"
+outfitter "Cheat"
 	"Jibauni Government Helper License"
 	"Jibauni Rebel Fighter License"
 	"Jibauni License"
@@ -17,6 +17,7 @@ outfitter "Jibauni Cheat"
 	"Sheragi Capital License"
 	"Diba License"
 	"Jump Drive"
+	"Sheragi Pirate License"
 
 outfit "Diba License"
 	category "Licenses"

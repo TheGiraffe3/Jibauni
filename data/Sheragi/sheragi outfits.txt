@@ -390,10 +390,10 @@ outfit "Kinetic Spear Launcher"
 		"reload" 480
 		"firing energy" 1500
 		"firing heat" 120
-		"shield damage" 0
-		"hull damage" 5500
+		"shield damage" 2000
+		"hull damage" 3000
 		"hit force" 3000
-		"piercing" 1
+		"piercing" 0.75
 		"missile strength" 400
 	licenses
 		Sheragi

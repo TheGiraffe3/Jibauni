@@ -1,3 +1,16 @@
+# Copyright (c) 2024 by Loymdayddaud
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 # names
 phrase "Jibauni Military"
 	word
@@ -338,7 +351,7 @@ phrase "friendly disabled jibauni civilian 1"
 	word
 		"? "
 
-phrase "friendly disabled jibauni civilian 2"
+phrase "friendly disabled jibauni civilian 2"
 	word
 		"Being "
 	word
@@ -363,7 +376,7 @@ phrase "friendly disabled jibauni civilian 1"
 	word
 		"us! "
 
-phrase "friendly disabled jibauni civilian 3"
+phrase "friendly disabled jibauni civilian 3"
 	word
 		"Friend! "
 		"Person who is not hostile! "
@@ -394,7 +407,7 @@ phrase "friendly disabled jibauni civilian 1"
 	word
 		!
 
-phrase "friendly disabled jibauni military"
+phrase "friendly disabled jibauni military"
 	word
 		"As we have "
 	word
@@ -427,7 +440,7 @@ phrase "hostile jibauni military"
 		"hostile jibauni"
 		"hostile jibauni military"
 
-phrase "hostile jibauni"
+phrase "hostile jibauni"
 	word
 		"You "
 	word
@@ -450,7 +463,7 @@ phrase "hostile jibauni military"
 	word
 		"us? "
 
-phrase "hostile jibauni military"
+phrase "hostile jibauni military"
 	word
 		"Prepare to die,  "
 	word
@@ -482,7 +495,7 @@ phrase "hostile disabled jibauni civilian"
 		"blow you up! "
 		"turn you into a rapidly expanding cloud of debris! "
 
-phrase "hostile disabled jibauni military 1"
+phrase "hostile disabled jibauni military 1"
 	word
 		"We cannot be  "
 	word

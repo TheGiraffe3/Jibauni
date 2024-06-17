@@ -2337,6 +2337,16 @@ system Jonis
 		distance 4724
 		period 1936.059
 
+planet Bilinson
+	landscape land/badlands4
+	description " "
+	spaceport " "
+	government "Sheragi (Pirate)"
+	outfitter "Sheragi Basics"
+	outfitter "Sheragi Advanced"
+	shipyard "Sheragi Basics"
+	"required reputation" 10
+
 system Iyon
 	hidden
 	pos -1818.5 735.875
@@ -2389,7 +2399,7 @@ system Iyon
 		sprite planet/gas11
 		distance 3000
 		period 4333.891
-		object
+		object Bilinson
 			sprite planet/rock14-b
 			distance 304
 			period 138.716

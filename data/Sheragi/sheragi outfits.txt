@@ -247,7 +247,7 @@ outfit "Sheragi Pirate License"
 	category "Licenses"
 	thumbnail "outfit/sheragi license"
 	"unplunderable" 1
-	"Sheragi Pirate" 1
+	"shpi" 1
 	description "A license that will allow you to purchase all Pirate Sheragi technology and ships."
 
 outfit "Sheragi Capital License"

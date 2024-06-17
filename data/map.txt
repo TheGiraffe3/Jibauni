@@ -2264,6 +2264,15 @@ system Dodon
 			distance 416
 			period 320.731
 
+planet Rinson
+	landscape land/asteroid0
+	attributes "requires: shpi"
+	description " "
+	spaceport " "
+	government "Sheragi (Pirate)"
+	outfitter "Sheragi Basics"
+	"required reputation" 5
+
 system Jonis
 	hidden
 	pos -1783 665
@@ -2314,8 +2323,8 @@ system Jonis
 			sprite planet/rock14-b
 			distance 346
 			period 168.435
-		object
-			sprite "planet/asteroid base"
+		object Rinson
+			sprite "planet/asteroid base" # this was randomly generated but it was decided to use it anyway
 			distance 529
 			period 318.421
 		object

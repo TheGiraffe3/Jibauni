@@ -2412,6 +2412,12 @@ system Iyon
 		distance 6586
 		period 14097.064
 
+planet Andwesher
+	landscape land/water5
+	description "This is a quiet planet, with not much around. It is also mostly water, with only a bit of land on it."
+	spaceport "The few ships here are all Hammers, freighters with not much to recommend them. Some of those could fit your ship whole, and you are thankful that they are not too angry with you."
+	government "Sheragi (Pirate)"
+
 system Nin
 	hidden
 	pos -1871.5 638.875
@@ -2462,8 +2468,8 @@ system Nin
 			sprite planet/ice8-b
 			distance 294
 			period 190.556
-	object
-		sprite planet/gas9
+	object Andwesher
+		sprite planet/cloud5-b
 		distance 2722
 		period 435.36
 	object
@@ -2474,6 +2480,18 @@ system Nin
 			sprite planet/lava0
 			distance 269
 			period 115.464
+
+planet Zintolin
+	landscape land/haze1
+	description "This is the Pirate Capital, a huge planet with mountains and forests in all places. None of the Sheragi here have any resemblance to being trustful of your nature."
+	spaceport "As the Pirate Capital, there are numerous large ships here with all manners of outfits and captains. Unfortunately, none of them like you, and doing business is rather difficult."
+	spaceport "Each time you get back to your ship alive, you are quite thankful."
+	government "Sheragi (Pirate)"
+	outfitter "Sheragi Basics"
+	outfitter "Sheragi Advanced"
+	shipyard "Sheragi Basics"
+	shipyard "Sheragi Advanced"
+	"required reputation" 30
 
 system Piobin
 	hidden
@@ -2511,8 +2529,8 @@ system Piobin
 		distance 384.5
 		period 376.977
 		offset 180
-	object
-		sprite planet/tschyss
+	object Zintolin
+		sprite planet/cloud6
 		distance 1088
 		period 140.989
 	object

@@ -2268,8 +2268,8 @@ system Dodon
 planet Rinson
 	landscape land/asteroid0
 	attributes "requires: shpi"
-	description " "
-	spaceport " "
+	description "This base seems to be the main capital of all of the Pirate doings. Vast areas are dedicated to living areas, and even more to the advanced disguises this place must be famed for."
+	spaceport "Here, there is no lack of huge bays for capital ships. In fact, nothing at all has not got a dedicated hangar or refueling tube."
 	government "Sheragi (Pirate)"
 	outfitter "Sheragi Basics"
 	"required reputation" 5
@@ -2339,8 +2339,8 @@ system Jonis
 
 planet Bilinson
 	landscape land/badlands4
-	description " "
-	spaceport " "
+	description "Life of a Pirate is hard, but the inhabitents of Bilinson have managed to eke out a living. In fact, they are doing quite well, having access to most Sheragi technology and ships."
+	spaceport "The main facilities here are devoted to production. While the ships made here are few, outfits are in abundance and are not few."
 	government "Sheragi (Pirate)"
 	outfitter "Sheragi Basics"
 	outfitter "Sheragi Advanced"

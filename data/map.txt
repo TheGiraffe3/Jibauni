@@ -14,7 +14,7 @@ system Jibtrav
 	pos -888 432
 	government Uninhabited
 	habitable 4458.262
-	arrival 5000
+	#arrival 5000
 	belt 1452 10
 	belt 1554 5
 	belt 2821 4
@@ -95,8 +95,8 @@ wormhole "Jibauni Wormhole"
 system Rabalin
 	pos -1534 500
 	government Jibauni
-	arrival 1200
-	departure 2200
+	#arrival 1200
+	#departure 2200
 	habitable 22300.002
 	belt 1015
 	belt 2261 9
@@ -170,8 +170,8 @@ system Rabalin
 system Hajay
 	pos -1534 435
 	government Jibauni
-	arrival 1500
-	departure 6000
+	#arrival 1500
+	#departure 6000
 	habitable 7900
 	belt 1826 7
 	haze ship/test
@@ -263,8 +263,8 @@ system Hajay
 system Sabibal
 	pos -1469 503
 	government Jibauni
-	arrival 500
-	departure 500
+	#arrival 500
+	#departure 500
 	habitable 1434.617
 	belt 1926 9
 	belt 2389 7
@@ -347,8 +347,8 @@ system Sabibal
 system Kanalsa
 	pos -1469 433
 	government Jibauni
-	arrival 50
-	departure 4500
+	#arrival 50
+	#departure 4500
 	habitable 17025
 	belt 1675 8
 	haze ship/test
@@ -417,8 +417,8 @@ system Kanalsa
 system Huyya
 	pos -1439 470
 	government Jibauni
-	arrival 10
-	departure 300
+	#arrival 10
+	#departure 300
 	habitable 2160
 	belt 1500
 	belt 750
@@ -556,8 +556,8 @@ system Kateaza
 system Almanhaq
 	pos -1390 535
 	government "Rebel Jibauni"
-	arrival 1020
-	departure 6000
+	#arrival 1020
+	#departure 6000
 	habitable 14525.237
 	belt 1131 2
 	belt 1856 2
@@ -683,7 +683,7 @@ system "Sol Diba"
 	hidden
 	pos -1457 643
 	government Diba
-	arrival 0
+	#arrival 0
 	habitable 1310
 	haze ship/test
 	trade Clothing 376
@@ -1177,8 +1177,8 @@ planet "Diba Station"
 system Haqal
 	pos -1325 512
 	government "Rebel Jibauni"
-	arrival 50
-	departure 2001
+	#arrival 50
+	#departure 2001
 	habitable 7000
 	belt 1430 9
 	haze ship/test
@@ -1260,8 +1260,8 @@ system Haqal
 system Holo
 	pos -1362 576
 	government "Rebel Jibauni"
-	arrival 30
-	departure 1004
+	#arrival 30
+	#departure 1004
 	habitable 10
 	belt 1747 5
 	haze ship/test
@@ -1320,8 +1320,8 @@ system Holo
 system Yinkin
 	pos -1295 562.667
 	government "Rebel Jibauni"
-	arrival 5001
-	departure 60
+	#arrival 5001
+	#departure 60
 	habitable 5600
 	belt 1216
 	haze ship/test
@@ -2565,16 +2565,15 @@ system Piobin
 system Quinlo
 	pos -1376 440
 	government Uninhabited
-	arrival
-		link 5000
-		jump 50
-	departure
-		link 50
-		jump 5000
+	#arrival
+		#link 5000
+		#jump 50
+	#departure
+		#link 50
+		#jump 5000
 	habitable 3650
 	belt 1615 10
 	"jump range" 150
-	link Haqal
 	link Huyya
 	link Kanalsa
 	link Kateaza

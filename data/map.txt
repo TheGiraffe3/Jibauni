@@ -426,6 +426,7 @@ system Huyya
 	link Hajay
 	link Kanalsa
 	link Kateaza
+	link Quinlo
 	link Rabalin
 	link Sabibal
 	asteroids "small rock" 300 9
@@ -481,14 +482,15 @@ system Huyya
 system Kateaza
 	pos -1398 496
 	government Uninhabited
-	arrival 1100
-	departure 7800
+	#arrival 1100
+	#departure 7800
 	habitable 22749.505
 	belt 1831 3
 	belt 2226 7
 	haze ship/test
 	link Almanhaq
 	link Huyya
+	link Quinlo
 	asteroids "small rock" 2 4.464
 	asteroids "medium rock" 6 3.236
 	asteroids "large rock" 1 5.58
@@ -566,6 +568,7 @@ system Almanhaq
 	link Haqal
 	link Holo
 	link Kateaza
+	link Quinlo
 	link Yinkin
 	asteroids "small rock" 1 1.234
 	asteroids "medium rock" 71 1.656
@@ -2626,10 +2629,6 @@ system Quinlo
 		sprite planet/gas11-b
 		distance 4696
 		period 2130.618
-		object
-			sprite planet/moon56
-			distance 244
-			period nan
 		object
 			sprite planet/rock3-b
 			distance 311

@@ -1,5 +1,7 @@
+color "governments: Jibauni" 0 0.353 0
+
 government Jibauni
-	color 0 0.353 0
+	color "governments: Jibauni" 0 0.353 0
 	swizzle 20
 	"player reputation" 10
 	"crew attack" 3
@@ -27,7 +29,7 @@ government Jibauni
 	"hostile disabled hail" "hostile disabled jibauni military"
 
 government "Jibauni (Ruler)"
-	color 0 0.353 0
+	color "governments: Jibauni" 0 0.353 0
 	swizzle 19
 	"display name" "Jibauni Leaders"
 	"player reputation" 0
@@ -47,7 +49,7 @@ government "Jibauni (Ruler)"
 	"hostile disabled hail" "hostile disabled jibauni"
 
 government "Jibauni (Civilian)"
-	color 0 0.353 0
+	color "governments: Jibauni" 0 0.353 0
 	swizzle 20
 	"display name" "Jibauni Civilian"
 	"player reputation" 10
@@ -70,9 +72,10 @@ government "Jibauni (Civilian)"
 	"hostile disabled hail" "hostile disabled jibauni"
 
 
-government "Rebel Jibauni"
+government "Jibauni (Rebel)"
 	swizzle 18
 	color 0 0.196 0.196
+	"display name" "Rebel Jibauni"
 	"player reputation" -10
 	"crew attack" 3
 	"crew defense" 0.3

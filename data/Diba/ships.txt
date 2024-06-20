@@ -29,7 +29,7 @@ ship "Llama"
 		"weapon capacity" 0
 		"thrust" 10
 		"turn" 30
-		"cargo space" 100 # maybe should be lowered
+		"cargo space" 100 # maybe should be lowered?
 		licenses
 			Diba
 		weapon

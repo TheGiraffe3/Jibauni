@@ -13,26 +13,29 @@
 
 # shipyards
 
-shipyard "Jibauni Basics"
+shipyard "Aboagye Basics"
+	Duntay
+	Furus
 	Larajal
 	Latbaliday
-	Daybal
-	Furus
-	Saghir
-	Minaldmasmin
 	Quyan
 
-shipyard "Jibauni Advanced"
-	Muraw
-	Duntay
-	"Qudaw (Normal)"
+shipyard "Aboagye Advanced"
 	Nakil
-	Yiyharsi
-	Nathaq
-	Nathas
 	Nathar
-	Nakil
-	
+	Nathas
+	"Qudaw (Normal)"
+
+shipyard "Resredi Basics"
+	Muraw
+	Daybal
+	Saghir
+
+shipyard "Resredi Advanced"
+	Yiyharsi
+	Minaldmasmin
+	Nathaq
+
 shipyard "Jibauni Colonism"
 	Safinat
 	Osra

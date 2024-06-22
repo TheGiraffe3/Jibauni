@@ -1154,7 +1154,7 @@ system Sollo
 			scale 2
 		distance 5168.236
 		period 591.6981
-	object Ramahedara
+	object
 		sprite planet/forest1
 		distance 6020.284
 		period 701.583
@@ -1500,7 +1500,8 @@ planet Kanlil
 	description "As the station for the popular destination of Lamalmuq, this place is quite busy, also selling things that are illegal on that planet, such as Luxury Goods. In fact this is where the main trading of the system happens-in the place where all the passengers have layovers."
 	spaceport "Quite a few Jibauni are walking around, many with black robes. There also many of the Jibauni who wear the uniforms that here are the mark of being a spaceport employee. There are many ships nearby, and many people unloading and reloading all aspects of them."
 	government Jibauni
-	shipyard "Jibauni Basics"
+	shipyard "Aboagye Basics"
+	shipyard "Resredi Basics"
 	outfitter "Jibauni Advanced"
 	outfitter "Jibauni Basics"
 	"required reputation" 5

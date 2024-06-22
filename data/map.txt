@@ -341,7 +341,7 @@ system Sabibal
 		period 1140.66
 	object Landalmon
 		sprite planet/oberon
-		distance 9000
+		distance 6478.932
 		period 2000
 
 system Kanalsa

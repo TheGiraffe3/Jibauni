@@ -100,7 +100,7 @@ system Rabalin
 	habitable 22300.002
 	belt 1015
 	belt 2261 9
-	haze ship/test
+	haze _menu/haze-green
 	link Hajay
 	link Huyya
 	link Sabibal
@@ -174,7 +174,7 @@ system Hajay
 	#departure 6000
 	habitable 7900
 	belt 1826 7
-	haze ship/test
+	haze _menu/haze-green
 	link Huyya
 	link Kanalsa
 	link Rabalin
@@ -268,7 +268,7 @@ system Sabibal
 	habitable 1434.617
 	belt 1926 9
 	belt 2389 7
-	haze ship/test
+	haze _menu/haze-green
 	link Huyya
 	link Rabalin
 	asteroids "small rock" 2 3.689
@@ -351,7 +351,7 @@ system Kanalsa
 	#departure 4500
 	habitable 17025
 	belt 1675 8
-	haze ship/test
+	haze _menu/haze-green
 	link Hajay
 	link Huyya
 	asteroids "medium rock" 17 2.079
@@ -422,7 +422,7 @@ system Huyya
 	habitable 2160
 	belt 1500
 	belt 750
-	haze ship/test
+	haze _menu/haze-green
 	link Hajay
 	link Kanalsa
 	link Kateaza
@@ -487,7 +487,7 @@ system Kateaza
 	habitable 22749.505
 	belt 1831 3
 	belt 2226 7
-	haze ship/test
+	haze _menu/haze-green
 	link Almanhaq
 	link Huyya
 	link Quinlo
@@ -557,14 +557,14 @@ system Kateaza
 
 system Almanhaq
 	pos -1390 535
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 	#arrival 1020
 	#departure 6000
 	habitable 14525.237
 	belt 1131 2
 	belt 1856 2
 	belt 2560
-	haze ship/test
+	haze _menu/haze-green
 	link Haqal
 	link Holo
 	link Kateaza
@@ -688,7 +688,7 @@ system "Sol Diba"
 	government Diba
 	#arrival 0
 	habitable 1310
-	haze ship/test
+	haze _menu/haze-green
 	trade Clothing 376
 	trade Electronics 887
 	trade Equipment 512
@@ -735,7 +735,7 @@ system Sheraig
 	government "Sheragi (Jibauni)"
 	habitable 7742.093
 	belt 1420
-	haze ship/test
+	haze _menu/haze-green
 	link Somitaw
 	asteroids "small rock" 263 7.476
 	asteroids "medium rock" 2 4.872
@@ -817,7 +817,7 @@ system Hanal
 	habitable 625
 	belt 1662 6
 	belt 1914 10
-	haze ship/test
+	haze _menu/haze-green
 	link Mimson
 	link Nifon
 	asteroids "medium rock" 11 2.856
@@ -863,7 +863,7 @@ system Jicson
 	government Uninhabited
 	habitable 10019.512
 	belt 1173 3
-	haze ship/test
+	haze _menu/haze-green
 	link Mimson
 	link Nifon
 	link Rilal
@@ -940,7 +940,7 @@ system Nifon
 	habitable 10645.304
 	belt 1132 2
 	belt 1709 9
-	haze ship/test
+	haze _menu/haze-green
 	link Hanal
 	link Jicson
 	link Rilal
@@ -1011,7 +1011,7 @@ system Mimson
 	habitable 10
 	belt 1494 10
 	belt 2112 10
-	haze ship/test
+	haze _menu/haze-green
 	link Hanal
 	link Jicson
 	asteroids "small rock" 6 1.674
@@ -1071,7 +1071,7 @@ system Rilal
 	government Uninhabited
 	habitable 10
 	belt 1088 3
-	haze ship/test
+	haze _menu/haze-green
 	link Jicson
 	link Nifon
 	link Sollo
@@ -1116,7 +1116,7 @@ system Sollo
 	government Uninhabited
 	habitable 8010.345
 	belt 1056 3
-	haze ship/test
+	haze _menu/haze-green
 	link Rilal
 	asteroids "medium rock" 1 3.132
 	asteroids "large rock" 1 1.914
@@ -1179,12 +1179,12 @@ planet "Diba Station"
 
 system Haqal
 	pos -1325 512
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 	#arrival 50
 	#departure 2001
 	habitable 7000
 	belt 1430 9
-	haze ship/test
+	haze _menu/haze-green
 	link Almanhaq
 	link Yinkin
 	asteroids "small rock" 6 2.62
@@ -1262,12 +1262,12 @@ system Haqal
 
 system Holo
 	pos -1362 576
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 	#arrival 30
 	#departure 1004
 	habitable 10
 	belt 1747 5
-	haze ship/test
+	haze _menu/haze-green
 	link Almanhaq
 	link Yinkin
 	asteroids "small rock" 4 1.551
@@ -1322,12 +1322,12 @@ system Holo
 
 system Yinkin
 	pos -1295 562.667
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 	#arrival 5001
 	#departure 60
 	habitable 5600
 	belt 1216
-	haze ship/test
+	haze _menu/haze-green
 	link Almanhaq
 	link Haqal
 	link Holo
@@ -1405,7 +1405,7 @@ system Somitaw
 	government "Sheragi (Jibauni)"
 	habitable 2300
 	belt 1311 7
-	haze ship/test
+	haze _menu/haze-green
 	link Chinjoka
 	link Sheraig
 	asteroids "small rock" 17 1.989
@@ -1553,7 +1553,7 @@ planet Muntisir
 	landscape land/ocean2
 	description "This is where the Rebel Jibauni movement started, and where most of the Rebel population live. Many of them work in this city, where you lands, but there are cities far and wide across the planet, though most of those cites look to be quite small, smaller then this one which is none too large itself. There are also many oceans on this planet."
 	spaceport "The facilities of all kinds here are quite large, this planet having one of the best of the Jibauni spaceports. Rumor has it that there are secret passageways all over underneath the spaceport, and that in fact the whole spaceport is a cover for something far bigger that the Rebel Jibauni are building."
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 	shipyard "Jibauni Advanced"
 	shipyard "Jibauni Basics"
 	outfitter "Jibauni Advanced"
@@ -1575,7 +1575,7 @@ planet Sinsansun
 	landscape land/farm2
 	description "This is where a good portion of the food for the Rebel Jibauni comes from, as it is the second largest planet in Jibauni space devoted exclusively to farming and agriculture. But the animals here do not like light, and so there are artificial shades over a good portion of the planet, though the top of them has been very cleverly painted so as to look like the surface of the planet underneath."
 	spaceport "Many animals and barrels, baskets, and buckets of food are here at the market, and the price of Food here is astoundingly low. Clothing is also very cheap and plentiful here. But noticing that the traders for Luxury Goods and Heavy metals are few and far between is easy, and they do not seem to be getting very much business."
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 	shipyard "Jibauni Basics"
 	outfitter "Jibauni Advanced"
 	outfitter "Jibauni Basics"
@@ -1587,7 +1587,7 @@ planet Minmanmun
 	description ""
 	description "This planet is also a mining planet, so the rock has great scars in it at places and there are many machines to do the digging, scattered around parked and looking very untidy."
 	spaceport "When coming down for landing, most of what can be seen is rock, though ships above the city see nothing but planets and trees, due to the haphazard nature of the Rebels that terraformed this planet. Hovber, once down the street are wide and cool, with luxurious buildings and shady pathways."
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 
 planet Andwerfen
 	attributes capital "rebel jibauni" "seat of government"
@@ -1602,7 +1602,7 @@ system Taniyn
 	habitable 8400
 	belt 1377 7
 	belt 2106 7
-	haze ship/test
+	haze _menu/haze-green
 	link Chinjoka
 	link Dodon
 	link Zenido
@@ -1674,7 +1674,7 @@ system Chinjoka
 	habitable 7560.134
 	belt 1322 9
 	belt 2379 4
-	haze ship/test
+	haze _menu/haze-green
 	link Sarkan
 	link Somitaw
 	link Taniyn
@@ -1761,7 +1761,7 @@ system Draig
 	government "Sheragi (Jibauni)"
 	habitable 625
 	belt 1211 10
-	haze ship/test
+	haze _menu/haze-green
 	link Zenido
 	asteroids "small rock" 38 3.062
 	asteroids "medium rock" 47 2.306
@@ -1837,7 +1837,7 @@ system Zenido
 	government "Sheragi (Jibauni)"
 	habitable 8523.497
 	belt 1519 3
-	haze ship/test
+	haze _menu/haze-green
 	link Draig
 	link Taniyn
 	asteroids "small rock" 91 1.872
@@ -2202,7 +2202,7 @@ system Dodon
 	government "Sheragi (Jibauni)"
 	habitable 980.051
 	belt 1902 2
-	haze ship/test
+	haze _menu/haze-green
 	link Taniyn
 	asteroids "small rock" 18 2.075
 	asteroids "medium rock" 21 1.619

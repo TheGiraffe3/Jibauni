@@ -175,7 +175,7 @@ fleet "Jibauni Leaders"
 
 
 fleet "Large Rebel Jibauni Military"
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 	names "Rebel Jibauni Military"
 	cargo 3
 	personality
@@ -227,7 +227,7 @@ fleet "Large Rebel Jibauni Military"
 		Saghir 3
 
 fleet "Small Rebel Jibauni Military"
-	government "Rebel Jibauni"
+	government "Jibauni (Rebel)"
 	names "Rebel Jibauni Military"
 	cargo 2
 	personality

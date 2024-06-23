@@ -1590,7 +1590,7 @@ planet Minmanmun
 	government "Rebel Jibauni"
 
 planet Andwerfen
-	attributes capital rebel "seat of government"
+	attributes capital "rebel jibauni" "seat of government"
 	landscape land/rocks1
 	description "The place where the Rebels have their government is evident, because there are many fortified buildings and bunkers in readiness to shoot any invaders, and the many planetary defenses are very powerful."
 	spaceport "Little is here except for the many armed patrols the Rebel Jibauni keep patrolling the neighborhoods, looking for disrupters of the peace. The Jibauni around you all look frightened, and the number here that must wish to get back to normal Jibauni space must be large."
@@ -2189,7 +2189,7 @@ system Dakon
 
 planet Xicalins
 	landscape land/canyon14
-	description "Xicalins is one giant testing area, with the majority of all research and development in Sheragi space carried out right here. The marks of this extensive technology can be seen all over the planet, and as you come in low you see a mountain range that has had its top taken clean off, leaving you only to wonder what kind of weapon could have done such a thing."
+	description "Xicalins is one huge testing area, with the majority of all research and development in Sheragi space carried out right here. The marks of this extensive technology can be seen all over the planet, and as you come in low you see a mountain range that has had its top taken clean off, leaving you only to wonder what kind of weapon could have done such a thing."
 	spaceport "The spaceport is located just outside of a university, students and scientists alike streaming in and out of its entry. There are also weapons bins scattered in many places, and a large collection of some type of documents."
 	government "Sheragi (Jibauni)"
 	shipyard "Sheragi Basics"
@@ -2343,7 +2343,7 @@ system Jonis
 
 planet Bilinson
 	landscape land/badlands4
-	description "Life of a Pirate is hard, but the inhabitents of Bilinson have managed to eke out a living. In fact, they are doing quite well, having access to most Sheragi technology and ships."
+	description "The life of a Pirate is hard, but the inhabitents of Bilinson have managed to eke out a living. In fact, they are doing quite well, having access to most Sheragi technology and ships."
 	spaceport "The main facilities here are devoted to production. While the ships made here are few, outfits are in abundance and are not few."
 	government "Sheragi (Pirate)"
 	outfitter "Sheragi Basics"

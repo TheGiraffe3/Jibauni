@@ -9,6 +9,7 @@ It may break quite a few things, so use at your own risk.
 This plugin readds the Sheragi, and also adds a robotic faction called the Diba and a species named the Jibauni. 
 I am currently focusing on the Jibauni most, so the Sheragi and Diba are quite lacking in many respects. 
 The Jibauni use human ship sprites, which I am hoping will change soon (see Contributing). 
+You can find my fork of Endless Sky with the Jibauni integrated [here](https://github.com/TheGiraffe3/endless-sky/tree/Jibauni).
 
 ## Jibauni
 

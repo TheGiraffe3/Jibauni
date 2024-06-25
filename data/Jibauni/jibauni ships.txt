@@ -292,9 +292,9 @@ ship "Saghir"
 		"Ruksay Missile" 30
 		"Watsaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
 		"Jamum Shield Generator"
 		"Wasita Engines"
+		"Jibauni Hyperdrive"
 		
 	engine 0 0
 	gun 0 -10 "Ruksay Missile Launcher"
@@ -347,9 +347,9 @@ ship "Furus"
 		"Rukjay Missile" 30
 		"Watsaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
+		"Jibauni Hyperdrive"
 		
 	engine 0 0
 	gun 0 0 "Rukjay Missile Launcher"
@@ -406,10 +406,11 @@ ship "Minaldmasmin"
 		"Jibauni Mining Laser"
 		"Watsaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
-		
+
+		"Jibauni Hyperdrive"
+
 	engine 0 0
 	gun 0 0 "Jibauni Mining Laser"
 	gun 0 10 "Jibauni Small Laser"
@@ -460,9 +461,9 @@ ship "Qudaw"
 			"hull damage" 1000
 			"hit force" 10000
 	outfits
+		"Fueler 100"
 		"Watsaq Energy Generator"
 		"Wasita Engines"
-		"Fueler 100"
 		
 	engine 0 0
 	turret 0 0
@@ -509,9 +510,10 @@ ship "Nakil"
 		"Jibauni Anti-Missile"
 		"Tawasitaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
+
+		"Jibauni Hyperdrive"
 		
 	engine 0 0
 	turret 0 0 "Jibauni Anti-Missile"
@@ -568,9 +570,10 @@ ship "Quyan"
 		"Jibauni Anti-Missile"
 		"Watsaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
+
+		"Jibauni Hyperdrive"
 		
 	engine 0 0
 	turret 0 0 "Jibauni Anti-Missile"
@@ -616,16 +619,17 @@ ship "Yiyharsi"
 			"hull damage" 360
 			"hit force" 1080
 	outfits
-		"Jibauni Anti-Missile"
-		"Tawasitaq Energy Generator"
-		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
-		"Jamum Shield Generator"
-		"Wasita Engines"
 		"Ruksay Missile" 60
 		"Ruksay Missile Launcher" 2
 		"Jibauni Small Laser" 2
-		
+		"Jibauni Anti-Missile"
+		"Tawasitaq Energy Generator"
+		"Saybatrit Battery"
+		"Jamum Shield Generator"
+		"Wasita Engines"
+
+		"Jibauni Hyperdrive"
+
 	engine 0 0
 	gun 0 5 "Ruksay Missile Launcher"
 	gun 0 -5 "Ruksay Missile Launcher"
@@ -673,15 +677,16 @@ ship "Nathas"
 			"hull damage" 200
 			"hit force" 600
 	outfits
+		"Ruksay Missile" 30
+		"Ruksay Missile Launcher"
 		"Jibauni Anti-Missile"
 		"Tawasitaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
-		"Ruksay Missile" 30
-		"Ruksay Missile Launcher"
 		
+		"Jibauni Hyperdrive"
+
 	engine 0 0
 	gun 5 0 "Ruksay Missile Launcher"
 	turret 0 0 "Jibauni Anti-Missile"
@@ -733,15 +738,16 @@ ship "Nathaq"
 			"hull damage" 650
 			"hit force" 2100
 	outfits
+		"Ruksay Missile" 60
+		"Ruksay Missile Launcher" 2
 		"Jibauni Anti-Missile" 2
 		"Daltaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
-		"Ruksay Missile" 60
-		"Ruksay Missile Launcher" 2
 		"Jihtah Steering"
+
+		"Jibauni Hyperdrive"
 		
 	engine 0 0
 	gun 0 5 "Ruksay Missile Launcher"
@@ -796,18 +802,19 @@ ship "Nathar"
 			"hull damage" 1350
 			"hit force" 3900
 	outfits
-		"Jibauni Anti-Missile" 2
-		"Daltaq Energy Generator"
-		"Saybatrit Battery"
-		"Zarwal Laser Turret"
-		"Zarhal Laser Turret" 2
-		"Jibauni Hyperdrive"
-		"Jamum Shield Generator"
-		"Tamum Shield Generator"
-		"Eimlaq Engines"
 		"Ruksay Missile" 60
 		"Ruksay Missile Launcher" 2
 		"Jibauni Medium Laser" 2
+		"Zarwal Laser Turret"
+		"Zarhal Laser Turret" 2
+		"Jibauni Anti-Missile" 2
+		"Daltaq Energy Generator"
+		"Saybatrit Battery"
+		"Jamum Shield Generator"
+		"Tamum Shield Generator"
+		"Eimlaq Engines"
+
+		"Jibauni Hyperdrive"
 		
 	engine 0 0
 	gun 0 5 "Ruksay Missile Launcher"
@@ -865,17 +872,18 @@ ship "Safinat"
 			"hull damage" 2000
 			"hit force" 4500
 	outfits
-		"Jibauni Anti-Missile" 2
-		"Daltaq Energy Generator" 2
-		"Farbatal Battery"
-		"Zarhal Laser Turret" 5
-		"Jibauni Hyperdrive"
-		"Tamum Shield Generator" 3
-		"Eimlaq Engines" 2
-		"Wasita Engines"
 		"Rukjay Missile" 135
 		"Rukjay Missile Launcher" 3
 		"Jibauni Small Laser" 2
+		"Jibauni Anti-Missile" 2
+		"Zarhal Laser Turret" 5
+		"Daltaq Energy Generator" 2
+		"Farbatal Battery"
+		"Tamum Shield Generator" 3
+		"Eimlaq Engines" 2
+		"Wasita Engines"
+
+		"Jibauni Hyperdrive"
 		
 	engine 0 0
 	gun 0 5 "Rukjay Missile Launcher"
@@ -916,7 +924,7 @@ ship "Osra"
 		"shields" 750
 		"hull" 500
 		"automaton" 1
-		"bunks" 10
+		"bunks" 5
 		"mass" 60
 		"drag" .67
 		"heat dissipation" .9

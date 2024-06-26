@@ -204,7 +204,7 @@ government "Heliarch (Jibauni)"
 	color 1 .8 .5
 	"crew attack" 1.3
 	"crew defense" 2.8
-	"player reputation" -1000
+	"player reputation" -1
 	"display name" "Heliarch"
 	"friendly hail" "friendly heliarch"
 	"friendly disabled hail" "friendly disabled heliarch"

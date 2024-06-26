@@ -37,3 +37,89 @@ outfit "Diba License"
 	thumbnail "outfit/unkown"
 	"unplunderable" 1
 	description "This should not be in the game at all."
+
+start "cheatj"
+	name "Jibauni"
+	description `Cheat Jibauni.`
+	thumbnail "scene/lobby"
+	date 16 11 3013
+	system "Huyya"
+	planet "Baitoon"
+	conversation "default intro"
+	account
+		credits 596037689276289
+		score 800
+	set "license: Pilot's"
+	ship "Palavret"
+		sprite "ship/raider"
+		thumbnail "thumbnail/raider"
+		name "Tester"
+		attributes
+			category "Utility"
+			"cost" 16570000
+			"shields" 27000
+			"hull" 9000
+			"required crew" 145
+			"bunks" 250
+			"mass" 1770
+			"drag" 20.4
+			"heat dissipation" .3
+			"fuel capacity" 600
+			"cargo space" 175
+			"outfit space" 777
+			"weapon capacity" 339
+			"engine capacity" 159
+			weapon
+				"blast radius" 250
+				"shield damage" 3600
+				"hull damage" 1800
+				"hit force" 5400
+		outfits
+			"Grab-Strike Turret" 4
+			"Banisher Grav-Turret"
+			"Warder Anti-Missile"
+			"Firelight Missile Bank" 2
+			"Firelight Storage Rack"
+			"Firelight Missile" 50
+		
+			"Double Plasma Core"
+			"Generator (Inferno Class)"
+			"Systems Core (Medium)"
+			"Large Heat Shunt"
+			"Small Heat Shunt" 3
+			"Fuel Processor"
+			"Thermal Repeater Rifle" 196
+		
+			"Thruster (Planetary Class)"
+			"Steering (Planetary Class)"
+			"Bow Drive (Meteor Class)"
+			"Jump Drive"
+	
+		engine -20 127
+		engine 20 127
+		"reverse engine" -9 -154
+			zoom 0.7
+		"reverse engine" 9 -154
+			zoom 0.7
+		gun 32.5 -1 "Firelight Missile Bank"
+			angle 60
+		gun -32.5 -1 "Firelight Missile Bank"
+			angle 300
+		turret -10 -143 "Grab-Strike Turret"
+		turret 10 -143 "Grab-Strike Turret"
+		turret -36 -141 "Grab-Strike Turret"
+		turret 36 -141 "Grab-Strike Turret"
+		turret 0 41 "Banisher Grav-Turret"
+		turret 0 94 "Warder Anti-Missile"
+		bay "Fighter" -80 151 back
+			"launch effect" "korath internal"
+		bay "Fighter" 80 151 back
+			"launch effect" "korath internal"
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		explode "huge explosion" 10
+		"final explode" "final explosion large"
+		description "Successive raider designs have been the Korath warship of choice for plundering neighboring species for generations. Named for a celebrated captain who gave her life to ensure her crippled vessel made it back to port with its desperately needed cargo of stolen fish, the Palavret-Class Raiding Ship continues that grim tradition."
+		description "	Like all Exile ships, the Palavret has been adapted to house as many Korath as possible, as comfortably as possible, inflating its size beyond similarly armed warships. The spaceborne construction techniques employed allow for the ship's easy replacement, facilitating continued raids of nearby systems."

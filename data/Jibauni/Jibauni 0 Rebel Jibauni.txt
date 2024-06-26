@@ -46,7 +46,11 @@ mission "Kanlanmo 0"
 				`	"Just my fancy Jump Drive."`
 					goto jumpdriveentry
 			label jumpdriveentry
-			`	"Interesting," says the alien. "The only one who has ever done that before is an odd ship who seemed to come from the same general direction." It fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
+			`   "Interesting," says the alien. "The only one who has ever done that before is an odd ship who seemed to come from the same general direction." It fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
+				goto pinkship
+			label rudeentry
+			`   "There is an odd ship who seemed to come the way you did," says the alien as it fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
+				goto pinkship
 			label pinkship
 			choice
 				`	"Yes, I have, actually, called the Dominator, an Alpha ship."`
@@ -77,7 +81,7 @@ mission "Kanlanmo 0"
 			`"Okay," says Kanlanmo. "Chances are, I still won't have found transport, so I will be waiting here next time you come."`
 				decline
 			label notseen
-			`	"Okay. In that case, I have one more request for you. Can you take me to <planet> in the <system> system? I will mark it on your map, and explain more once we get there. Oh yes, and my name is Kanlanmo. Kanlanmo of the Jibauni."`
+			`	"Okay. In that case, I have another request for you. Can you take me to <planet> in the <system> system? I will mark it on your map, and explain more once we get there. Oh yes, and my name is Kanlanmo. Kanlanmo of the Jibauni."`
 			choice
 				`	"Of course! You can get on the <ship> right away!"`
 					accept
@@ -107,7 +111,7 @@ mission "Kanlanmo 0"
 			`	The alien announces, though to what you cannot see, "The stranger has been ignominiously impolite." It turns to you. "What do you say, "weirdo"? Will you apologize? Or not, and see what happens?"`
 			choice
 				`	"I apologize, and did not mean to insult you."`
-					goto pinkship
+					goto rudeentry
 				`	"Why apologize to a bunch of dinky T-Rex's?"`
 					goto deathexplode
 			label deathexplode
@@ -287,7 +291,7 @@ mission "Kanlanmo cargo"
 	cargo random 1 15
 	deadline 3
 	job
-	source Kahbani
+    source Kahbani
     destination Baitoon
     to offer
         has "Kanlanmo 1: done"

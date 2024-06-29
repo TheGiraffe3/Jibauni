@@ -12,8 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Larajal"
-	sprite "ship/finch"
-	thumbnail "thumbnail/finch"
+	sprite "ship/larajal"
+	thumbnail "thumbnail/larajal"
 	attributes
 		category "Fighter"
 		"cost" 850000

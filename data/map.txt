@@ -673,8 +673,9 @@ planet Baitoon
 	spaceport `This is the oldest existing spaceport in Jibauni space, and has many different sizes of hangars and pads to compensate for the large amounts of traffic this planet gets, because it is the third tourist destination in all of Jibauni space. All the buildings here are also old, and many of them are small and close together.`
 	government Jibauni
 	shipyard Diba
-	shipyard "Jibauni Advanced"
-	shipyard "Jibauni Basics"
+	shipyard "Aboagye Basics"
+	shipyard "Res-redi Advanced"
+	shipyard "Res-redi Basics"
 	shipyard "Jibauni Colonism"
 	shipyard "Sheragi Advanced"
 	shipyard "Sheragi Basics"
@@ -1594,7 +1595,8 @@ planet Sinsansun
 	description `This is where a good portion of the food for the Rebel Jibauni comes from, as it is the second largest planet in all of Jibauni space devoted exclusively to farming and agriculture. But the animals here do not like light, and so there are artificial shades over a good portion of the planet, though the top of them has been very cleverly painted to look like the surface of the planet beneath.`
 	spaceport `Many animals and barrels, baskets, and buckets of food are here at the market, and the price of Food here is astoundingly low. Clothing is also very cheap and plentiful here. However, noticing that the traders for Luxury Goods and Heavy metals are few and far between is easy, and they do not seem to be getting very much business.`
 	government "Jibauni (Rebel)"
-	shipyard "Jibauni Basics"
+	shipyard "Res-redi Advanced"
+	shipyard "Res-redi Basics"
 	outfitter "Jibauni Advanced"
 	outfitter "Jibauni Basics"
 

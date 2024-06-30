@@ -10,7 +10,7 @@ This plugin readds the Sheragi, and also adds a robotic faction called the Diba 
 
 I am currently focusing on the Jibauni most, so the Sheragi and Diba are quite lacking in many respects. 
 
-The Jibauni use human ship sprites, which I am hoping will change soon (see Contributing). 
+The Jibauni mostly use human ship sprites, which I am hoping will change soon (see Contributing). 
 
 You can find my fork of Endless Sky with the Jibauni integrated [here](https://github.com/TheGiraffe3/endless-sky/tree/Jibauni).
 
@@ -22,14 +22,14 @@ The Jibauni are the only ones to have a resemblance of a storyline right now. Th
 
 ## Diba
 
-The Diba are a faction of robots much like the Kor Mereti and Kor Sestor, except for these are contolled by an escaped Alpha. 
-They are the only ones whose ship sprites I made, and, of course, for that reason they really need better ones. 
+The Diba are a faction of robots much like the Kor Mereti and Kor Sestor, except for these are controlled by an escaped Alpha. 
+They currently use Mereti sprites, which should change.
 
 
 
 ## Sheragi
 
-This plugin also readds the Sheragi, and uses outfits and ship sprites mainly taken from @Petersupes ' plugin Sheragi Rebirth. These Sheragi do not use the Emerald Sword, though they have a less powerful version of it called the Platinum Spear that does not have a Dragonflame Cannon. 
+This plugin also readds the Sheragi, and uses outfits and ship sprites mainly taken from @Petersupes' plugin Sheragi Rebirth. These Sheragi do not use the Emerald Sword, though they have a less powerful version of it called the Platinum Spear, which does not have a Dragonflame Cannon. 
 
 
 

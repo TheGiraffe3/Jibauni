@@ -58,7 +58,7 @@ ship "Larajal"
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
 	description "The Jibauni like this fighter, as it is their only small ship with more than two gun ports. Unfortunately, those gun ports don't do very much damage. But they do do some, and the Larajal can be formidable in great numbers."
-	description "Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 ship "Muraw"
 	sprite "ship/barb"
@@ -108,8 +108,8 @@ ship "Muraw"
 	description "    Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 	
 ship "Latbaliday"
-	sprite "ship/dagger"
-	thumbnail "thumbnail/dagger"
+	sprite "ship/latbaliday"
+	thumbnail "thumbnail/latbaliday"
 	attributes
 		category "Fighter"
 		"cost" 675000
@@ -150,7 +150,9 @@ ship "Latbaliday"
 	explode "medium explosion" 50
 	"final explode" "final explosion tiny"
 	description "Made to hammer away at enemies without a distraction, the Latbaliday has high shields and hull, but only minimum potential as a weapon bearer."
-	description "    Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."ship "Daybal"
+	description "    Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+
+ship "Daybal"
 	sprite "ship/boxwing"
 	thumbnail "thumbnail/boxwing"
 	attributes

@@ -31,6 +31,7 @@ outfitter "Cheat"
 	"Diba License"
 	"Jump Drive"
 	"Sheragi Pirate License"
+	"Hyperdrive"
 
 outfit "Diba License"
 	category "Licenses"

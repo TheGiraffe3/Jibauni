@@ -1188,7 +1188,11 @@ planet "Diba Station"
 	attributes diba robot station
 	landscape land/station19
 	description `This seems to be where most Diba ships are produced, and also where the Diba leader lives when he is not in space.`
+	port "Robot Housing"
+		description `The robots here do not acknowledge your presence, and nothing is here to refuel you. There is one small fortified room that could be meant for a human, and nothing else, besides huge containers of something you can only guess at.`
 	"required reputation" 20
+	outfitter Diba
+	shipyard Diba
 	bribe 1
 	security 0.99
 

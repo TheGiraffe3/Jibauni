@@ -21,6 +21,8 @@ outfit "Diba Laser Turret"
 	"turret mounts" -1
 	"diba gun ports" 1
 	"unplunderable" 1
+	licenses
+		Diba
 	weapon
 		sprite "projectile/2x heavy laser"
 			"frame rate" 1
@@ -269,3 +271,15 @@ phrase "Diba"
 		"digit"
 	phrase
 		"digit"
+
+shipyard "Diba"
+	Llama
+	Ithquaya
+	Arbquaya
+	Tamquaya
+	Tahquaya
+	Falcon
+
+outfitter "Diba"
+	"Diba Laser Turret"
+	"Scram Drive"

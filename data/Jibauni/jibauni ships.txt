@@ -278,7 +278,7 @@ ship "Saghir"
 		"Saybatrit Battery"
 		"Jamum Shield Generator"
 		"Wasita Engines"
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		
 	engine 0 0
 	gun 0 -10 "Ruksay Missile Launcher"
@@ -330,7 +330,7 @@ ship "Furus"
 		"Saybatrit Battery"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		
 	engine 0 0
 	gun 0 0 "Rukjay Missile Launcher"
@@ -387,7 +387,7 @@ ship "Minaldmasmin"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
 
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 
 	engine 0 0
 	gun 0 0 "Jibauni Mining Laser"
@@ -485,7 +485,7 @@ ship "Nakil"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
 
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		
 	engine 0 0
 	turret 0 0 "Jibauni Anti-Missile"
@@ -542,7 +542,7 @@ ship "Quyan"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
 
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		
 	engine 0 0
 	turret 0 0 "Jibauni Anti-Missile"
@@ -594,7 +594,7 @@ ship "Yiyharsi"
 		"Jamum Shield Generator"
 		"Wasita Engines"
 
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 
 	engine 0 0
 	gun 0 5 "Ruksay Missile Launcher"
@@ -648,7 +648,7 @@ ship "Nathas"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
 		
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 
 	engine 0 0
 	gun 5 0 "Ruksay Missile Launcher"
@@ -710,7 +710,7 @@ ship "Nathaq"
 		"Eimlaq Engines"
 		"Jihtah Steering"
 
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		
 	engine 0 0
 	gun 0 5 "Ruksay Missile Launcher"
@@ -774,7 +774,7 @@ ship "Nathar"
 		"Tamum Shield Generator"
 		"Eimlaq Engines"
 
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		
 	engine 0 0
 	gun 0 5 "Ruksay Missile Launcher"
@@ -843,7 +843,7 @@ ship "Safinat"
 		"Eimlaq Engines" 2
 		"Wasita Engines"
 
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		
 	engine 0 0
 	gun 0 5 "Rukjay Missile Launcher"

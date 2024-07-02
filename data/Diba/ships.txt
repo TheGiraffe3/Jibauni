@@ -21,14 +21,14 @@ ship "Llama"
 		"hull" 1100
 		"automaton" 1
 		"bunks" 1
-		"mass" 55
+		"mass" 100
 		"drag" .59
 		"diba gun ports" -1
 		"heat dissipation" .27
 		"outfit space" 0
 		"weapon capacity" 0
 		"thrust" 10
-		"turn" 30
+		"turn" 60
 		"cargo space" 100 # maybe should be lowered?
 		licenses
 			Diba
@@ -57,7 +57,7 @@ ship "Ithquaya"
 		"hull" 1000
 		"automaton" 1
 		"bunks" 1
-		"mass" 75
+		"mass" 150
 		"drag" 1.5
 		"heat dissipation" .2
 		"diba gun ports" -2
@@ -66,7 +66,7 @@ ship "Ithquaya"
 		"outfit space" 0
 		"weapon capacity" 0
 		"thrust" 40
-		"turn" 120
+		"turn" 320
 		"reverse thrust" 2
 		"hull repair" .02
 		"shield generation" .2
@@ -110,7 +110,7 @@ ship "Arbquaya"
 		"hull" 2000
 		"automaton" 1
 		"bunks" 1
-		"mass" 150
+		"mass" 300
 		"drag" 5
 		"heat dissipation" .4
 		"fuel capacity" 400
@@ -119,7 +119,7 @@ ship "Arbquaya"
 		"outfit space" 0
 		"weapon capacity" 0
 		"thrust" 80
-		"turn" 240
+		"turn" 440
 		"reverse thrust" 4
 		"hull repair" .04
 		"shield generation" .4
@@ -171,7 +171,7 @@ ship "Tamquaya"
 		"hull" 4000
 		"automaton" 1
 		"bunks" 1
-		"mass" 400
+		"mass" 800
 		"drag" 8
 		"heat dissipation" .6
 		"fuel capacity" 500
@@ -180,7 +180,7 @@ ship "Tamquaya"
 		"outfit space" 0
 		"weapon capacity" 0
 		"thrust" 120
-		"turn" 360
+		"turn" 560
 		"reverse thrust" 8
 		"hull repair" .08
 		"shield generation" .8
@@ -246,7 +246,7 @@ ship "Tahquaya"
 		"hull" 8000
 		"automaton" 1
 		"bunks" 1
-		"mass" 600
+		"mass" 1200
 		"drag" 13
 		"heat dissipation" .8
 		"fuel capacity" 600
@@ -255,7 +255,7 @@ ship "Tahquaya"
 		"outfit space" 0
 		"weapon capacity" 0
 		"thrust" 160
-		"turn" 480
+		"turn" 680
 		"reverse thrust" 8
 		"hull repair" .08
 		"shield generation" .8

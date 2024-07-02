@@ -12,10 +12,7 @@ Jamum Shield Generator
 Tiny Bunk
 
 Amazinite on GitHub 
-a0 star 
 Jibauni Small Laser
-Mura•
-Phock•
 Zarwal Turret
 
 Zach Farmer on GitHub 
@@ -23,7 +20,7 @@ Saybatrit Battery
 Farbatal Battery
 
 Samuel Dennis on GitHub 
-Scythe 
+Scythe
 
 Ferociousfiend on GitHub 
 Jahgir Generator
@@ -35,7 +32,6 @@ Platinum Spear
 Bronze Edge
 Gold Shield
 Llama
-Opal Glaive
 Ruby Hammer
 White Brand
 Fission Core

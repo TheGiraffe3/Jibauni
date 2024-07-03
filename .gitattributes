@@ -1,7 +1,10 @@
-# Don't export the below things when downloading
+# Don't export the below things when downloading with the green "Code" button
 .gitattributes export-ignore
 
 README.md export-ignore
 
 jibaunispace export-ignore
 areajibtrav export-ignore
+sheragispace export-ignore
+allspace export-ignore
+dibaspace export-ignore

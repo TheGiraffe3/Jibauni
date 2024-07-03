@@ -166,8 +166,9 @@ outfit "Jibauni Small Laser"
 		"velocity" 425
 		"lifetime" 1
 		"reload" 1
-		"firing energy" .45
-		"firing heat" 1
+		"firing energy" .25
+		"firing heat" 0.5
+		"firing fuel" 0.1
 		"shield damage" 1
 		"hull damage" .5
 		"parallel"
@@ -189,9 +190,10 @@ outfit "Jibauni Medium Laser"
 		"parallel"
 		"velocity" 650
 		"lifetime" 1
-		"firing heat" 2
+		"firing heat" 1
 		"inaccuracy" 2
-		"firing energy" 1
+		"firing energy" 0.55
+		"firing fuel" 0.12
 		"shield damage" 1.93
 		"hull damage" 1.325
 		"reload" 1
@@ -357,9 +359,10 @@ outfit "Jibauni Anti-Missile"
 		"hardpoint sprite" "hardpoint/hai anti-missile"
 		"velocity" 155
 		"lifetime" 1
-		"anti-missile" 7
+		"anti-missile" 4
 		"firing energy" 6
-		"reload" 1
+		"firing fuel" 0.05
+		"reload" 5
 		"firing heat" 2
 
 outfit "Ruksay Missile"
@@ -399,6 +402,7 @@ outfit "Ruksay Missile Launcher"
 		"burst reload" 60
 		"firing energy" 1
 		"firing heat" 15
+		"firing fuel" 0.15
 		"homing" 2
 		"infrared tracking" .6
 		"shield damage" 225
@@ -446,6 +450,7 @@ outfit "Rukjay Missile Launcher"
 		"burst reload" 60
 		"firing energy" 1
 		"firing heat" 15
+		"firing fuel" 0.17
 		"acceleration" .3
 		"drag" .021
 		"turn" 4
@@ -479,8 +484,9 @@ outfit "Zarhal Laser Turret"
 		"hit effect" "laser impact"
 		"turret turn" 2
 		"reload" 1
-		"firing energy" 2
-		"firing heat" 4.5
+		"firing energy" 1
+		"firing heat" 2.25
+		"firing fuel" 0.12
 		"hit force" 30
 		"shield damage" 4.5
 		"hull damage" 2.2
@@ -502,8 +508,9 @@ outfit "Zarwal Laser Turret"
 		"inaccuracy" 2
 		"turret turn" 2.5
 		"reload" 1
-		"firing energy" 1
-		"firing heat" 2
+		"firing energy" 0.5
+		"firing heat" 1
+		"firing fuel" 0.1
 		"hit force" 30
 		"shield damage" 2.33
 		"hull damage" .83
@@ -530,7 +537,7 @@ outfit "Watsaq Energy Generator"
 	"energy generation" 3
 	"heat generation" 1.75
 	"mass" 20
-	"fuel generation" .1
+	"fuel generation" .2
 	"ramscoop" .15
 	"jibauni generator" -1
 
@@ -542,7 +549,7 @@ outfit "Tawasitaq Energy Generator"
 	"energy generation" 5
 	"heat generation" 1.9
 	"mass" 35
-	"fuel generation" .3
+	"fuel generation" .6
 	"ramscoop" .15
 	"jibauni generator" -2
 
@@ -554,7 +561,7 @@ outfit "Daltaq Energy Generator"
 	"energy generation" 13.8
 	"heat generation" 13.3
 	"mass" 90
-	"fuel generation" 1
+	"fuel generation" 2
 	"ramscoop" .15
 	"jibauni generator" -4
 

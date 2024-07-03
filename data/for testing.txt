@@ -39,6 +39,13 @@ outfit "Diba License"
 	"unplunderable" 1
 	description "This should not be in the game at all."
 
+conversation "blank"
+	scene "scene/lobby"
+	label start
+	`	What is your name?`
+	name
+	`	Good to know. Here is a custom ship, have fun!`
+
 start "cheatj"
 	name "Jibauni"
 	description `Cheat Jibauni.`
@@ -46,9 +53,9 @@ start "cheatj"
 	date 16 11 3013
 	system "Huyya"
 	planet "Baitoon"
-	conversation "default intro"
+	conversation "blank"
 	account
-		credits 596037689276289
+		credits 596000000000000
 		score 800
 	set "license: Pilot's"
 	ship "Palavret"
@@ -60,21 +67,21 @@ start "cheatj"
 			"cost" 16570000
 			"shields" 27000
 			"hull" 9000
-			"required crew" 145
-			"bunks" 250
-			"mass" 1770
-			"drag" 20.4
-			"heat dissipation" .3
-			"fuel capacity" 600
+			"required crew" 1
+			"bunks" 2500
+			"mass" 100
+			"drag" 0.5
+			"heat dissipation" .9
+			"fuel capacity" 60000
 			"cargo space" 175
-			"outfit space" 777
-			"weapon capacity" 339
-			"engine capacity" 159
+			"outfit space" 77700
+			"weapon capacity" 33900
+			"engine capacity" 15900
 			weapon
-				"blast radius" 250
-				"shield damage" 3600
-				"hull damage" 1800
-				"hit force" 5400
+				"blast radius" 25000000
+				"shield damage" 3600000
+				"hull damage" 180000000
+				"hit force" 54000000000
 		outfits
 			"Grab-Strike Turret" 4
 			"Banisher Grav-Turret"
@@ -112,6 +119,48 @@ start "cheatj"
 		turret 36 -141 "Grab-Strike Turret"
 		turret 0 41 "Banisher Grav-Turret"
 		turret 0 94 "Warder Anti-Missile"
+		gun 32.5 -1
+			angle 60
+		gun -32.5 -1
+			angle 300
+		turret -10 -143
+		turret 10 -143
+		turret -36 -141
+		turret 36 -141
+		turret 0 41
+		turret 0 94
+		gun 32.5 -1
+			angle 60
+		gun -32.5 -1
+			angle 300
+		turret -10 -143
+		turret 10 -143
+		turret -36 -141
+		turret 36 -141
+		turret 0 41
+		turret 0 94
+		gun 32.5 -1
+			angle 60
+		gun -32.5 -1
+			angle 300
+		turret -10 -143
+		turret 10 -143
+		turret -36 -141
+		turret 36 -141
+		turret 0 41
+		turret 0 94
+		bay "Fighter" -80 151 back
+			"launch effect" "korath internal"
+		bay "Fighter" 80 151 back
+			"launch effect" "korath internal"
+		bay "Fighter" -80 151 back
+			"launch effect" "korath internal"
+		bay "Fighter" 80 151 back
+			"launch effect" "korath internal"
+		bay "Fighter" -80 151 back
+			"launch effect" "korath internal"
+		bay "Fighter" 80 151 back
+			"launch effect" "korath internal"
 		bay "Fighter" -80 151 back
 			"launch effect" "korath internal"
 		bay "Fighter" 80 151 back

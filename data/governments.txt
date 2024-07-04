@@ -24,6 +24,7 @@ government Jibauni
 		"Jibauni (Fueler)" 0.01
 		"Jibauni (Civilian)" 1
 		"Jibauni (Ruler)" 1
+		"Pirate" -1
 	"penalty for"
 		assist -10
 		disable 0.2

@@ -31,6 +31,7 @@ ship "Larajal"
 		"engine capacity" 30
 		"jibauni generator" .5
 		"fuel protection" .05
+		"slowing resistance" 100
 		licenses
 			Jibauni
 		weapon
@@ -80,6 +81,7 @@ ship "Muraw"
 		"engine capacity" 15
 		"jibauni generator" .5
 		"fuel protection" .05
+		"slowing resistance" 100
 		licenses
 			Jibauni
 		weapon
@@ -127,6 +129,7 @@ ship "Latbaliday"
 		"engine capacity" 15
 		"jibauni generator" .5
 		"fuel protection" .05
+		"slowing resistance" 100
 		licenses
 			Jibauni
 		weapon
@@ -174,6 +177,7 @@ ship "Daybal"
 		"turn" 6
 		"energy generation" 0.0001
 		"fuel protection" .05
+		"slowing resistance" 1
 		licenses
 			Jibauni
 		weapon
@@ -218,6 +222,7 @@ ship "Duntay"
 		"thrusting energy" .15
 		"reverse thrust" 1
 		"fuel protection" .05
+		"slowing resistance" 100
 		licenses
 			Jibauni
 		weapon

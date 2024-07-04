@@ -95,7 +95,9 @@ fleet "Large Diba"
 		Ithquaya 8
 	variant
 		Arbquaya 5
-		Llama 5
+		Llama 10
+	variant
+		Llama 20
 
 # hails
 

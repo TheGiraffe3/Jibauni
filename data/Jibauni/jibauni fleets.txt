@@ -52,6 +52,28 @@ fleet "Hajay Pilgrim Transport"
 	variant 4
 		"Quyan (Inter-system)" 2
 
+fleet "Jibauni Fighter Patrol"
+	government Jibauni
+	names "Jibauni Fighters"
+	cargo 0
+	personality
+		heroic
+		disables
+		confusion 10
+	variant 20
+		Larajal 20
+	variant 20
+		Latbaliday 20
+	variant 10
+		Larajal 10
+		Muraw 10
+	variant 5
+		Larajal 7
+		Muraw 8
+		Latbaliday 7
+	variant
+		Larajal 30
+
 fleet "Large Jibauni Military"
 	government Jibauni
 	names "Jibauni Military"
@@ -77,11 +99,6 @@ fleet "Large Jibauni Military"
 		Larajal 2
 		Yiyharsi
 		Furus
-	variant 10000000
-#		Nathar
-#		Muraw 2
-#		Yiyharsi 4
-		"Qudaw (Leaker)"
 	variant 10
 		Yiyharsi
 		Nakil

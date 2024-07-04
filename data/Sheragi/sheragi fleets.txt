@@ -122,6 +122,8 @@ fleet "Large Sheragi Military"
 		"Platinum Spear"
 		"Bronze Edge" 4
 		"White Brand" 5
+	variant 1000
+		"Black Diamond" 20
 
 fleet "Small Sheragi Military"
 	government "Sheragi (Jibauni)"

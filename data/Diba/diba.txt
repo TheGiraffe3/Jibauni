@@ -51,7 +51,7 @@ fleet "Small Diba"
 		vindictive
 		unconstrained
 		ramming
-		mute 
+		mute
 	variant 5
 		Ithquaya 2
 	variant 5

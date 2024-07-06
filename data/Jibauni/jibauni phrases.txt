@@ -39,7 +39,7 @@ phrase "Jibauni Fighters"
 		"Jibauni 3" 12
 		"Jibauni 4" 9
 	word
-		al
+		" al "
 	phrase
 		"digit"
 	phrase

@@ -148,7 +148,7 @@ phrase "Sheragi 1a"
 		Steel
 		Marble
 
-phrase "Sheragi 1b"	
+phrase "Sheragi 1b"
 	word
 		Sword
 		Spear

@@ -663,13 +663,13 @@ outfit "Rebel Jibauni License"
 	category "Licenses"
 	thumbnail "outfit/license"
 	"unplunderable" 1
-	description " "
+	description "Placeholder."
 
 outfit "Rebel Jibauni Capital License"
 	category "Licenses"
 	thumbnail "outfit/militia license"
 	"unplunderable" 1
-	description " "
+	description "Placeholder."
 
 outfit "Jibauni Fuel Pod"
 	category "Systems"

@@ -12,8 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 ship "Larajal"
-	sprite "ship/larajal"
-	thumbnail "thumbnail/larajal"
+	sprite "ship/finch"
+	thumbnail "thumbnail/finch"
 	attributes
 		category "Fighter"
 		"cost" 850000
@@ -40,7 +40,7 @@ ship "Larajal"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Jibauni Small Laser" 3	
+		"Jibauni Small Laser" 3
 		"Jahgir Energy Generator"
 		"Saybatrit Battery"
 		
@@ -90,7 +90,7 @@ ship "Muraw"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Jibauni Anti-Missile"	
+		"Jibauni Anti-Missile"
 		"Watsaq Energy Generator"
 		"Saybatrit Battery"
 		
@@ -107,11 +107,11 @@ ship "Muraw"
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
 	description "The only small Jibauni ship with a turret mount, the Muraw mostly carries Anti-Missile Turrets as missile defense against attacks. However, it has no offensive armament."
-	description "    Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 	
 ship "Latbaliday"
-	sprite "ship/latbaliday"
-	thumbnail "thumbnail/latbaliday"
+	sprite "ship/dagger"
+	thumbnail "thumbnail/dagger"
 	attributes
 		category "Fighter"
 		"cost" 675000
@@ -138,7 +138,7 @@ ship "Latbaliday"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Jibauni Small Laser" 
+		"Jibauni Small Laser"
 		"Jahgir Energy Generator"
 		"Saybatrit Battery"
 
@@ -153,7 +153,7 @@ ship "Latbaliday"
 	explode "medium explosion" 50
 	"final explode" "final explosion tiny"
 	description "Made to hammer away at enemies without a distraction, the Latbaliday has high shields and hull, but only minimum potential as a weapon bearer."
-	description "    Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 ship "Daybal"
 	sprite "ship/boxwing"
@@ -186,7 +186,7 @@ ship "Daybal"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		
+
 	engine -5 0
 	engine 5 0
 	leak "leak" 50 50
@@ -196,7 +196,7 @@ ship "Daybal"
 	explode "small explosion" 25
 	"final explode" "final explosion medium"
 	description "The Daybal is useful for nothing except carrying cargo. However, its cargo space is not bad for such a small ship."
-	description "    Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 ship "Duntay"
 	sprite "ship/combat drone"
@@ -246,7 +246,7 @@ ship "Duntay"
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
 	description "The Jibauni drone weapons bearer, the Duntay mostly works by zipping around targets to confuse their turrets and do tiny amounts of damage at the same time."
-	description "    Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 ship "Saghir"
 	sprite "ship/sparrow"
@@ -276,7 +276,7 @@ ship "Saghir"
 			"hull damage" 90
 			"hit force" 250
 	outfits
-		"Jibauni Small Laser" 
+		"Jibauni Small Laser"
 		"Ruksay Missile Launcher"
 		"Ruksay Missile" 30
 		"Watsaq Energy Generator"
@@ -349,7 +349,7 @@ ship "Furus"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "While the Jibauni are not really into interceptors, preferring drones and fighters instead, they have built two, this one a speedy little ship with outsized engines. In fact, veteran captains tell new pilots not to get one-they might run into one of their own missiles! There are no recorded incidents of this happening, but given the size of the Furus’s engines and the abysmal speed of Rukjay missiles, it could happen any time."
+	description "While the Jibauni are not really into interceptors, preferring drones and fighters instead, they have built two, this one a speedy little ship with outsized engines. In fact, veteran captains tell new pilots not to get one, for they might run into one of their own missiles. There are no recorded incidents of this happening, but given the size of the Furus’s engines and the abysmal speed of Rukjay missiles, it could easily happen."
 
 ship "Minaldmasmin"
 	sprite "ship/sunder"

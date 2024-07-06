@@ -68,7 +68,7 @@ ship "Quyan" "Quyan (Inter-system)"
 		"Watsaq Generator"
 		"Eimlaq Engines"
 		"Large Bunk Room"
-		"Small Bunk Room"	
+		"Small Bunk Room"
 
 ship "Latbaliday" "Latbaliday (Bunks)"
 	outfits
@@ -204,13 +204,13 @@ ship "Nathar" "Nathar (Government)"
 		"Jibauni Medium Laser" 2
 		"Jibauni Government Helper License"
 
-ship "Muraw" "Muraw (Fighter)"
+ship "Muraw" "Muraw (Battle)"
 	add attributes
 		"weapon capacity" 6
 		"outfit space" 8
 		"cargo space" -5
 	outfits
-		"Zarwal Laser Turret"	
+		"Zarwal Laser Turret"
 		"Watsaq Energy Generator"
 		"Saybatrit Battery"
 		

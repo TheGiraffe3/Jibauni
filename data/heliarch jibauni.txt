@@ -134,4 +134,3 @@ ship "Heliarch Interdictor" "Heliarch Interdictor (Jibauni Jump)"
 		"Large Steering Module" 2
 		"Small Steering Module"
 		"Hyperdrive"
-	

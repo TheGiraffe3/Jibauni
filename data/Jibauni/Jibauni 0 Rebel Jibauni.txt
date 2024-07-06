@@ -46,10 +46,10 @@ mission "Kanlanmo 0"
 				`	"Just my fancy Jump Drive."`
 					goto jumpdriveentry
 			label jumpdriveentry
-			`   "Interesting," says the alien. "The only one who has ever done that before is an odd ship who seemed to come from the same general direction." It fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
+			`	"Interesting," says the alien. "The only one who has ever done that before is an odd ship who seemed to come from the same general direction." It fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
 				goto pinkship
 			label rudeentry
-			`   "There is an odd ship who seemed to come the way you did," says the alien as it fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
+			`	"There is an odd ship who seemed to come the way you did," says the alien as it fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
 				goto pinkship
 			label pinkship
 			choice

@@ -271,7 +271,7 @@ ship "Tahquaya"
 			"shield damage" 800
 			"hull damage" 400
 			"hit force" 1200
-	outfits	
+	outfits
 		"Diba Laser Turret" 12
 	engine 0 0
 	bay Fighter 255.5 0
@@ -348,3 +348,4 @@ ship "Tahquaya"
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
 	description "The large Diba ship."
+	

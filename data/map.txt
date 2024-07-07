@@ -677,8 +677,8 @@ planet Baitoon
 	government Jibauni
 	shipyard Diba
 	shipyard "Aboagye Basics"
-	shipyard "Res-redi Advanced"
-	shipyard "Res-redi Basics"
+	shipyard "Resredi Advanced"
+	shipyard "Resredi Basics"
 	shipyard "Jibauni Colonism"
 	shipyard "Sheragi Advanced"
 	shipyard "Sheragi Basics"
@@ -1588,8 +1588,8 @@ planet Muntisir
 	government "Jibauni (Rebel)"
 	shipyard "Aboagye Advanced"
 	shipyard "Aboagye Basics"
-	shipyard "Res-redi Advanced"
-	shipyard "Res-redi Basics"
+	shipyard "Resredi Advanced"
+	shipyard "Resredi Basics"
 	outfitter "Jibauni Advanced"
 	outfitter "Jibauni Basics"
 	"required reputation" 5
@@ -1610,8 +1610,8 @@ planet Sinsansun
 	description `This is where a good portion of the food for the Rebel Jibauni comes from, as it is the second largest planet in all of Jibauni space devoted exclusively to farming and agriculture. But the animals here do not like light, and so there are artificial shades over a good portion of the planet, though the top of them has been very cleverly painted to look like the surface of the planet beneath.`
 	spaceport `Many animals and barrels, baskets, and buckets of food are here at the market, and the price of Food here is astoundingly low. Clothing is also very cheap and plentiful here. However, noticing that the traders for Luxury Goods and Heavy metals are few and far between is easy, and they do not seem to be getting very much business.`
 	government "Jibauni (Rebel)"
-	shipyard "Res-redi Advanced"
-	shipyard "Res-redi Basics"
+	shipyard "Resredi Advanced"
+	shipyard "Resredi Basics"
 	outfitter "Jibauni Advanced"
 	outfitter "Jibauni Basics"
 

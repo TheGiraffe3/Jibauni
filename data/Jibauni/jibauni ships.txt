@@ -76,7 +76,7 @@ ship "Muraw"
 		"heat dissipation" .2
 		"fuel capacity" 10
 		"cargo space" 5
-		"outfit space" 65
+		"outfit space" 67
 		"weapon capacity" 12
 		"engine capacity" 15
 		"jibauni generator" .5
@@ -124,7 +124,7 @@ ship "Latbaliday"
 		"heat dissipation" .8
 		"fuel capacity" 10
 		"cargo space" 20
-		"outfit space" 50
+		"outfit space" 56
 		"weapon capacity" 26
 		"engine capacity" 15
 		"jibauni generator" .5
@@ -231,7 +231,7 @@ ship "Duntay"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Jibauni Small Laser" 
+		"Jibauni Small Laser"
 		"Jahgir Energy Generator"
 		"Alhaja Engines"
 		
@@ -263,7 +263,7 @@ ship "Saghir"
 		"heat dissipation" .2
 		"fuel capacity" 300
 		"cargo space" 10
-		"outfit space" 141
+		"outfit space" 143
 		"weapon capacity" 20
 		"engine capacity" 30
 		"jibauni generator" 1
@@ -349,7 +349,7 @@ ship "Furus"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "While the Jibauni are not really into interceptors, preferring drones and fighters instead, they have built two, this one a speedy little ship with outsized engines. In fact, veteran captains tell new pilots not to get one, for they might run into one of their own missiles. There are no recorded incidents of this happening, but given the size of the Furus’s engines and the abysmal speed of Rukjay missiles, it could easily happen."
+	description "While the Jibauni are not really into interceptors, preferring drones and fighters instead, they have built two, this one a speedy little ship with outsized engines. In fact, veteran captains tell new pilots not to get one, for they might run into one of their own missiles. There are no recorded incidents of this happening, but given the size of the Furus's engines and the abysmal speed of Rukjay missiles, it could easily happen."
 
 ship "Minaldmasmin"
 	sprite "ship/sunder"
@@ -365,8 +365,8 @@ ship "Minaldmasmin"
 		"drag" 6.49
 		"heat dissipation" .4
 		"fuel capacity" 400
-		"cargo space" 7
-		"outfit space" 200
+		"cargo space" 35
+		"outfit space" 202
 		"weapon capacity" 45
 		"engine capacity" 70
 		"atmosphere scan" 50

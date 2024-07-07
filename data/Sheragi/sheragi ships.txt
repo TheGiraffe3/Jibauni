@@ -243,9 +243,9 @@ ship "Gold Shield"
 
 ship "Gold Shield" "Gold Shield (Missile)"
 	outfits
-		"Kinetic Spear Launcher" 8
-		"Kinetic Spear" 48
-		"Sheragi Anti-Missile" 6
+		"Kinetic Spear Launcher" 6
+		"Kinetic Spear" 36
+		"Sheragi Anti-Missile" 5
 		
 		"Medium EM Battery" 2
 		"Dense Particle Shielding"
@@ -253,6 +253,20 @@ ship "Gold Shield" "Gold Shield (Missile)"
 		"Electronic Warfare System" 2
 		"Sheragi Solar Intake" 2
 		"Hyperdrive"
+	gun "Kinetic Spear Launcher"
+	gun "Kinetic Spear Launcher"
+	gun "Kinetic Spear Launcher"
+	gun "Kinetic Spear Launcher"
+	gun "Kinetic Spear Launcher"
+	gun "Kinetic Spear Launcher"
+	gun
+	gun
+	turret
+	turret "Sheragi Anti-Missile"
+	turret "Sheragi Anti-Missile"
+	turret "Sheragi Anti-Missile"
+	turret "Sheragi Anti-Missile"
+	turret "Sheragi Anti-Missile"
 
 
 ship "Bronze Edge"
@@ -519,7 +533,7 @@ ship "White Brand"
 	explode "large explosion" 45
 	explode "huge explosion" 32
 	"final explode" "final explosion large" 2
-	description "This Sheragi warship is a mainstay of the Sheragi military, providing the combat power neccesary while remaining cost effective enough that it can be present in numbers within the battlefield."
+	description "This Sheragi warship is a mainstay of the Sheragi military, providing the combat power necessary while remaining cost effective enough that it can be present in numbers within the battlefield."
 
 ship "White Brand" "White Brand (Anti-Missile)"
 	outfits

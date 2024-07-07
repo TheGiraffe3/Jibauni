@@ -94,7 +94,7 @@ phrase "friendly sheragi military"
 		"We fight with honor."
 		"We welcome you warrior."
 	word
-		" Honour upon you."
+		" Honor upon you."
 		"" 2
 
 phrase "friendly disabled sheragi military"
@@ -113,7 +113,7 @@ phrase "friendly disabled sheragi military"
 	word
 		" "
 	word
-		"Honour upon you."
+		"Honor upon you."
 		"" 2
 
 phrase "hostile sheragi civilian"
@@ -200,7 +200,7 @@ phrase "hostile disabled sheragi civilian"
 
 phrase "hostile sheragi military"
 	word
-		"You have dishonoured yourself warrior,"
+		"You have dishonored yourself warrior,"
 	word
 		" "
 	word
@@ -209,7 +209,7 @@ phrase "hostile sheragi military"
 
 phrase "hostile sheragi military"
 	word
-		"Dishonoured scum!"
+		"Dishonored scum!"
 		"Tarnished warrior!"
 	word
 		" "
@@ -219,7 +219,7 @@ phrase "hostile sheragi military"
 		
 phrase "hostile disabled sheragi military"
 	word
-		"Dishonoured one"
+		"Dishonored one"
 		"Disgraced warrior"
 	word
 		", you "
@@ -229,8 +229,8 @@ phrase "hostile disabled sheragi military"
 	word
 		" "
 	word
-		"Finish me so I may be granted the honour of death by combat."
-		"It brings me shame to be defeated by a dishonourable warrior such as you."
+		"Finish me so I may be granted the honor of death by combat."
+		"It brings me shame to be defeated by a dishonorable warrior such as you."
 
 phrase "hostile disabled sheragi military"
 	word

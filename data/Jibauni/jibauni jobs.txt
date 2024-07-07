@@ -123,7 +123,7 @@ mission "Jibauni Res-redi Cargo (post-war)"
 
 mission "Jibauni Rebel Bounty Small"
 	name "Kill the <npc>"
-	description "The <npc>, a small Rebel Jibauni ship, is marauding near the <origin> system. You will recieve <payment> for destroying it, if you do so by <day>."
+	description "The <npc>, a small Rebel Jibauni ship, is marauding near the <origin> system. You will receive <payment> for destroying it, if you do so by <day>."
 	job
 	repeat
 	"apparent payment" 40000
@@ -161,7 +161,7 @@ mission "Jibauni Rebel Bounty Small"
 
 mission "Jibauni Rebel Bounty Large"
 	name "Kill the <npc>"
-	description "The large Rebel Jibauni ship <npc> has been attacking our ships near the <origin> system. Destroy it and its escorts by <day> if you wish to recieve <payment>."
+	description "The large Rebel Jibauni ship <npc> has been attacking our ships near the <origin> system. Destroy it and its escorts by <day> if you wish to receive <payment>."
 	job
 	repeat
 	"apparent payment" 100000

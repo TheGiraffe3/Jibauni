@@ -20,8 +20,8 @@ ship "Nathar" "Nathar (Anti-Missile Missile)"
 		"Tamum Shield Generator"
 		"Daltaq Energy Generator"
 		"Saybatrit Battery"
-		"Large Ship Engines"
-		"Jibauni Hyperdrive"
+		"Eimlaq Engines"
+		"Hyperdrive"
 
 ship "Nathar" "Nathar (Laser)"
 	add attributes
@@ -32,10 +32,10 @@ ship "Nathar" "Nathar (Laser)"
 		"Zarhal Laser Turret" 4
 		"Outfits Expansion" 2
 		"Jibauni Medium Laser" 4
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Tamum Shield Generator"
-		"Large Ship Engines"
+		"Eimlaq Engines"
 		"Daltaq Energy Generator"
 		"Saybatrit Battery"
 
@@ -87,7 +87,7 @@ ship "Yiyharsi" "Yiyharsi (Bunks)"
 	outfits
 		"Wasita Engines"
 		"Tawasitaq Energy Generator"
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Large Bunk Room" 2
 		"Small Bunk Room"
 
@@ -104,7 +104,7 @@ ship "Safinat (Bunks Only)"
 	outfits
 		"Outfits Expansion" 17
 		"Eimlaq Engines" 2
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Daltaq Energy Generator" 2
 		"Large Bunk Room" 14
 		"Small Bunk Room"
@@ -145,7 +145,7 @@ ship "Yiyharsi" "Yiyharsi (Government)"
 		"Jibauni Anti-Missile"
 		"Tawasitaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Wasita Engines"
 		"Ruksay Missile" 60
@@ -160,7 +160,7 @@ ship "Furus" "Furus (Government)"
 		"Rukjay Missile" 30
 		"Watsaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
 		"Jibauni Government Helper License"
@@ -170,7 +170,7 @@ ship "Quyan" "Quyan (Government)"
 		"Jibauni Anti-Missile"
 		"Watsaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
 		"Jibauni Government Helper License"
@@ -180,7 +180,7 @@ ship "Nathaq" "Nathaq (Government)"
 		"Jibauni Anti-Missile" 2
 		"Daltaq Energy Generator"
 		"Saybatrit Battery"
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
 		"Ruksay Missile" 60
@@ -195,7 +195,7 @@ ship "Nathar" "Nathar (Government)"
 		"Saybatrit Battery"
 		"Zarwal Laser Turret"
 		"Zarhal Laser Turret" 2
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Tamum Shield Generator"
 		"Eimlaq Engines"
@@ -220,6 +220,6 @@ ship "Quyan" "Quyan (Fighting)"
 	outfits
 		"Zarwal Turret"
 		"Watsaq Energy Generator"
-		"Jibauni Hyperdrive"
+		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"

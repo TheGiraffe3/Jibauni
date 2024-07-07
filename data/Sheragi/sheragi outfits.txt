@@ -397,7 +397,7 @@ outfit "Kinetic Spear Launcher"
 		"missile strength" 400
 	licenses
 		Sheragi
-	description "The Sheragi Kinetic Spear Launcher is a weapon designed to rip through the hulls of ships. The weapon fires a large unguided tungsten rod which completley penetrates shields. The fact it is made of solid metal makes this weapon very difficult to shoot down with standard Anti-Missile systems."
+	description "The Sheragi Kinetic Spear Launcher is a weapon designed to rip through the hulls of ships. The weapon fires a large unguided tungsten rod which completely penetrates shields. The fact it is made of solid metal makes this weapon very difficult to shoot down with standard Anti-Missile systems."
 
 effect "kinetic impact"
 	sprite "effect/particle impact"

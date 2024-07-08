@@ -65,7 +65,7 @@ ship "Nathaq" "Nathaq (More Fuel)"
 
 ship "Quyan" "Quyan (Inter-system)"
 	outfits
-		"Watsaq Generator"
+		"Watsaq Energy Generator"
 		"Eimlaq Engines"
 		"Large Bunk Room"
 		"Small Bunk Room"

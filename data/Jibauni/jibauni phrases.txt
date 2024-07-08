@@ -438,7 +438,6 @@ phrase "friendly disabled jibauni military"
 phrase "hostile jibauni military"
 	phrase
 		"hostile jibauni"
-		"hostile jibauni military"
 
 phrase "hostile jibauni"
 	word

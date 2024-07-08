@@ -161,7 +161,7 @@ outfit "Jibauni Small Laser"
 		sprite "projectile/jibauni small laser"
 			"frame rate" 1
 		sound "jibauni small laser"
-		"hit effect" "beam laser impact"
+		"hit effect" "beam heavy laser impact"
 		"inaccuracy" .5
 		"velocity" 425
 		"lifetime" 1
@@ -185,7 +185,7 @@ outfit "Jibauni Medium Laser"
 	"gun ports" -1
 	weapon
 		sprite "projectile/jibauni medium laser"
-		"hit effect" "beam laser impact"
+		"hit effect" "beam heavy laser impact"
 		sound "jibauni medium laser"
 		"parallel"
 		"velocity" 650
@@ -245,7 +245,7 @@ outfit "Jibauni Hyperdrive"
 #	description "This cargo expansion is slightly better than the one in human space."
 #	description "	Unfortunately, rearranging the interior of your ship in such a fundamental way tends to interfere with its cooling systems."
 
-outfit "Fuel-leak 10"
+outfit "Fuel-Leak 10"
 	category "Turrets"
 	cost 15000
 	"mass" 8
@@ -254,7 +254,7 @@ outfit "Fuel-leak 10"
 	"outfit space" -8
 	"weapon capacity" -8
 
-outfit "Fuel-leak 25"
+outfit "Fuel-Leak 25"
 	category "Turrets"
 	cost 30000
 	"mass" 20
@@ -263,7 +263,7 @@ outfit "Fuel-leak 25"
 	"outfit space" -20
 	"weapon capacity" -20
 
-outfit "Fuel-leak 50"
+outfit "Fuel-Leak 50"
 	category "Turrets"
 	cost 55000
 	"mass" 45
@@ -276,7 +276,7 @@ outfit "Fuel-leak 50"
 	licenses
 		"Jibauni Rebel Fighter"
 
-outfit "Fuel-leak 100"
+outfit "Fuel-Leak 100"
 	category "Turrets"
 	cost 110000
 	"mass" 70
@@ -290,7 +290,7 @@ outfit "Fuel-leak 100"
 	licenses
 		"Jibauni Rebel Fighter"
 
-outfit "Fuel-leak All"
+outfit "Fuel-Leak All"
 	category "Guns"
 	cost 990000
 	"mass" 130
@@ -481,7 +481,7 @@ outfit "Zarhal Laser Turret"
 		sound "zarhal turret"
 		sprite "projectile/jibauni medium laser"
 		"inaccuracy" 2
-		"hit effect" "laser impact"
+		"hit effect" "heavy laser impact"
 		"turret turn" 2
 		"reload" 1
 		"firing energy" 1
@@ -504,7 +504,7 @@ outfit "Zarwal Laser Turret"
 	weapon
 		sound "zarwal turret"
 		sprite "projectile/jibauni small laser"
-		"hit effect" "laser impact"
+		"hit effect" "heavy laser impact"
 		"inaccuracy" 2
 		"turret turn" 2.5
 		"reload" 1

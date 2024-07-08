@@ -151,7 +151,7 @@ ship "Latbaliday"
 	explode "tiny explosion" 1
 	explode "small explosion" 1
 	explode "medium explosion" 50
-	"final explode" "final explosion tiny"
+	"final explode" "final explosion small"
 	description "Made to hammer away at enemies without a distraction, the Latbaliday has high shields and hull, but only minimum potential as a weapon bearer."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
@@ -830,7 +830,7 @@ ship "Safinat"
 		"jibauni generator" 12
 		"fuel protection" .65
 		licenses
-			"Jibauni Government"
+			"Jibauni Government Helper"
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -916,4 +916,4 @@ ship "Osra"
 	leak "flame" 50 80
 	leak "big leak" 90 30
 	explode "tiny explosion" 30
-	"final explode" "final explosion tiny"
+	"final explode" "final explosion small"

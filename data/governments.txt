@@ -57,15 +57,15 @@ government "Jibauni (Ruler)"
 	"penalty for"
 		assist 0
 	"bribe" 0.05 # for daring to attack them
-	"friendly hail" "friendly jibauni civilian"
-	"friendly disabled hail" "friendly disabled jibauni civilian"
+	"friendly hail" "friendly Jibauni (Civilian)"
+	"friendly disabled hail" "friendly disabled Jibauni (Civilian)"
 	"hostile hail" "hostile jibauni"
 	"hostile disabled hail" "hostile disabled jibauni"
 
 government "Jibauni (Civilian)"
 	color "governments: Jibauni" 0 0.353 0
 	swizzle 20
-	"display name" "Jibauni Civilian"
+	"display name" "Jibauni (Civilian)"
 	"player reputation" 10
 	"crew attack" 3
 	"crew defense" 0.5
@@ -80,8 +80,8 @@ government "Jibauni (Civilian)"
 		capture 5
 		destroy 10
 	"bribe" 0.02
-	"friendly hail" "friendly jibauni civilian"
-	"friendly disabled hail" "friendly disabled jibauni civilian"
+	"friendly hail" "friendly Jibauni (Civilian)"
+	"friendly disabled hail" "friendly disabled Jibauni (Civilian)"
 	"hostile hail" "hostile jibauni"
 	"hostile disabled hail" "hostile disabled jibauni"
 
@@ -222,8 +222,8 @@ government "Heliarch (Jibauni)"
 		"Rebel Jibauni" -1
 		Diba -1
 		"Sheragi (Jibauni)" -1
-		"Sheragi Civilians (Jibauni)" -1
-		"Jibauni Civilians" -1
+		"Sheragi Civilian (Jibauni)" -1
+		"Jibauni (Civilian)" -1
 
 government "Sheragi (Pirate)"
 	swizzle 19
@@ -235,6 +235,6 @@ government "Sheragi (Pirate)"
 		Jibauni -0.1
 		Sheragi -0.1
 		"Sheragi Civilian (Jibauni)" -0.1
-		"Jibauni Civilian" -0.1
+		"Jibauni (Civilian)" -0.1
 		"Rebel Jibauni" -0.1
 	"bribe" 0.05 # unworthy

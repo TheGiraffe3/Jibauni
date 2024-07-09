@@ -239,7 +239,7 @@ phrase "friendly jibauni civilian 4"
 		"labeled "
 		"titled "
 	phrase
-		"adjective"
+		"adjectives"
 	word
 		" "
 	phrase
@@ -583,7 +583,7 @@ news "hired jibauni assassin male"
 			"Assassin"
 			"Killer"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"Have you heard of "
@@ -602,7 +602,7 @@ news "hired jibauni assassin female"
 			"Assassin"
 			"Killer"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"Have you heard of "
@@ -620,7 +620,7 @@ news "jibauni thief"
 			"Jibauni"
 			"Character" 3
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"Can I borrow your ship? I'll give it back!" 3
@@ -634,7 +634,7 @@ news "jibauni chef"
 			"Chef"
 			"Cook"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"Know how to cook sealinet? It's terribly hard!"
@@ -651,7 +651,7 @@ news "jibauni military captain"
 			"Leader"
 			"Captain"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"Ever fought an alien ship? They are so powerful!"
@@ -662,7 +662,7 @@ news "jibauni mechanic"
 		word
 			"Mechanic"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"Any clue on the way the Yiyharsi's engines work?"
@@ -678,7 +678,7 @@ news "jibauni merchant"
 			"Captain"
 			"Pilot"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"I was flying through Kateaza when suddenly some Rebels jumped me. How do their Furuses go so fast?"
@@ -691,7 +691,7 @@ news "unemployed jibauni"
 		word
 			"Unemployed Youth"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"Get me off this dump. No, why do you think I can pay you?"
@@ -708,7 +708,7 @@ news "jibauni shipyard captain"
 			"Worker"
 			"Builder"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"Wow those alien, umm, "
@@ -727,7 +727,7 @@ news "jibauni shipyard captain"
 			"Worker"
 			"Builder"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			"The Military has been selling me captured alien ships. Can you buy me some?"

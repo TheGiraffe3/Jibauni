@@ -29,7 +29,7 @@ mission "Mission K"
 	
 	npc
 		personality waiting
-		government "Rebel Jibauni"
+		government "Jibauni (Rebel)"
 		ship "Raven (Afterburner)" "D.S.S. Wyrd"
 		on kill
 			set "dps wyrd dead"
@@ -37,7 +37,7 @@ mission "Mission K"
 	npc
 		personality waiting
 		system "Kateaza"
-		government "Rebel Jibauni"
+		government "Jibauni (Rebel)"
 		ship "Raven (Afterburner)" "D.S.S. Skuld"
 		on kill
 			set "dps skuld dead"
@@ -45,7 +45,7 @@ mission "Mission K"
 	npc
 		personality waiting
 		system "Kateaza"
-		government "Rebel Jibauni"
+		government "Jibauni (Rebel)"
 		ship "Raven (Afterburner)" "D.S.S. Verthandi"
 		on kill
 			set "dps verthandi dead"
@@ -65,6 +65,6 @@ mission "Discovered Jibauni Space"
 	landing
 	invisible
 	source
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	on offer
 		fail

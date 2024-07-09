@@ -511,7 +511,7 @@ mission "Jibauni Escorts Begin"
     name "Go to <planet>"
     description "Kanlanmo has contacted you and asked you to pick up some Jibauni ships on <planet>, then report to him on Baitoon."
     source
-        government "Jibauni" "Rebel Jibauni"
+        government "Jibauni" "Jibauni (Rebel)"
     destination Taltahard
     to offer
         and
@@ -591,7 +591,7 @@ mission "Jibauni Escorts 0"
         ship "Furus" "Minmin"
         ship "Furus" "Linlin"
     npc
-        government "Rebel Jibauni"
+        government "Jibauni (Rebel)"
         system destination
         personality
             confusion 10

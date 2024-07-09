@@ -20,7 +20,7 @@ government Jibauni
 	"crew attack" 3
 	"crew defense" 0.5
 	"attitude toward"
-		"Rebel Jibauni" -1
+		"Jibauni (Rebel)" -1
 		"Jibauni (Fueler)" 0.01
 		"Jibauni (Civilian)" 1
 		"Jibauni (Ruler)" 1
@@ -50,7 +50,7 @@ government "Jibauni (Ruler)"
 	"crew attack" 3
 	"crew defense" 0.5
 	"attitude toward"
-		"Rebel Jibauni" -1
+		"Jibauni (Rebel)" -1
 		"Jibauni (Fueler)" 0.01
 		"Jibauni (Civilian)" 1
 		"Jibauni" 1
@@ -71,7 +71,7 @@ government "Jibauni (Civilian)"
 	"crew defense" 0.5
 	"attitude toward"
 		Jibauni 1
-		"Rebel Jibauni" -1
+		"Jibauni (Rebel)" -1
 		"Jibauni (Fueler)" 0.01
 	"penalty for"
 		assist -10
@@ -122,7 +122,7 @@ government "Jibauni (Fueler)"
 	"crew defense" 400
 	"attitude toward"
 		Jibauni -0.01
-		"Rebel Jibauni" -0.01
+		"Jibauni (Rebel)" -0.01
 		"Sheragi (Jibauni)" 0.01
 		"Diba" 0.01
 	"bribe" 10000
@@ -138,7 +138,7 @@ government "Sheragi (Jibauni)"
 		Jibauni -0.01
 		"Jibauni (Civilian)" -0.01
 		"Jibauni (Fueler)" 0.01
-		"Rebel Jibauni" -0.01
+		"Jibauni (Rebel)" -0.01
 		Diba -0.01
 		"Sheragi (Pirate)" -0.1
 #	"travel restrictions" 
@@ -163,7 +163,7 @@ government "Sheragi Civilian (Jibauni)"
 		Jibauni -0.01
 		"Jibauni (Civilian)" -0.01
 		"Jibauni (Fueler)" 0.01
-		"Rebel Jibauni" -0.01
+		"Jibauni (Rebel)" -0.01
 		Diba -0.01
 		"Sheragi (Pirate)" -0.1
 	"bribe" 0.02 # wasting their time
@@ -219,7 +219,7 @@ government "Heliarch (Jibauni)"
 		"Coalition" 1
 		"Heliarch" 1
 		Jibauni -1
-		"Rebel Jibauni" -1
+		"Jibauni (Rebel)" -1
 		Diba -1
 		"Sheragi (Jibauni)" -1
 		"Sheragi Civilian (Jibauni)" -1
@@ -236,5 +236,5 @@ government "Sheragi (Pirate)"
 		Sheragi -0.1
 		"Sheragi Civilian (Jibauni)" -0.1
 		"Jibauni (Civilian)" -0.1
-		"Rebel Jibauni" -0.1
+		"Jibauni (Rebel)" -0.1
 	"bribe" 0.05 # unworthy

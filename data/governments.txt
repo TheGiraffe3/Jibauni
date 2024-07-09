@@ -80,8 +80,8 @@ government "Jibauni (Civilian)"
 		capture 5
 		destroy 10
 	"bribe" 0.02
-	"friendly hail" "friendly Jibauni (Civilian)"
-	"friendly disabled hail" "friendly disabled Jibauni (Civilian)"
+	"friendly hail" "friendly jibauni civilian"
+	"friendly disabled hail" "friendly disabled jibauni civilian"
 	"hostile hail" "hostile jibauni"
 	"hostile disabled hail" "hostile disabled jibauni"
 

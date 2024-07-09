@@ -218,7 +218,7 @@ ship "Muraw" "Muraw (Battle)"
 
 ship "Quyan" "Quyan (Fighting)"
 	outfits
-		"Zarwal Turret"
+		"Zarwal Laser Turret"
 		"Watsaq Energy Generator"
 		"Hyperdrive"
 		"Jamum Shield Generator"

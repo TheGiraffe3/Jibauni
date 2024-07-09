@@ -154,7 +154,7 @@ mission "Jibauni Rebel Bounty Small"
 			variant
 				Minaldmasmin
 			variant
-				"Qudaw (Fighting)"
+				"Quyan (Fighting)"
 		dialog phrase "jibauni got rid of bounty"
 		on kill
 			payment 40000

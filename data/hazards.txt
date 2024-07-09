@@ -24,7 +24,7 @@ hazard "Jibauni Disabled Remover"
 hazard "Jibauni Slowing"
 	"duration" 1 100
 	"period" 100
-	"strength" 50 99
+	"strength" 0.50 0.99
 	weapon
 		"slowing damage" 1
 

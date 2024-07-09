@@ -161,7 +161,7 @@ outfit "Jibauni Small Laser"
 		sprite "projectile/jibauni small laser"
 			"frame rate" 1
 		sound "jibauni small laser"
-		"hit effect" "beam heavy laser impact"
+		"hit effect" "beam laser impact"
 		"inaccuracy" .5
 		"velocity" 425
 		"lifetime" 1
@@ -185,7 +185,7 @@ outfit "Jibauni Medium Laser"
 	"gun ports" -1
 	weapon
 		sprite "projectile/jibauni medium laser"
-		"hit effect" "beam heavy laser impact"
+		"hit effect" "heavy laser impact"
 		sound "jibauni medium laser"
 		"parallel"
 		"velocity" 650

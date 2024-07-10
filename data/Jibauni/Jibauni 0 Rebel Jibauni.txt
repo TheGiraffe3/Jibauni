@@ -131,7 +131,7 @@ mission "Kanlanmo 0"
 			label whychoice
 			action
 				set "jibauni: first contact: why"
-            `	"Because I have some business to transact, something about the Rebel Jibauni."`
+			`	"Because I have some business to transact, something about the Rebel Jibauni."`
 			choice
 				`	"What are the Rebel Jibauni?"`
 					goto rebeljibauni

@@ -100,14 +100,14 @@ ship "Nathaq" "Nathaq (Bunks)"
 		"Large Bunk Room" 7
 		"Small Bunk Room"
 
-#ship "Safinat (Bunks Only)"
-#	outfits
-#		"Outfits Expansion" 17
-#		"Eimlaq Engines" 2
-#		"Hyperdrive"
-#		"Daltaq Energy Generator" 2
-#		"Large Bunk Room" 14
-#		"Small Bunk Room"
+# ship "Safinat (Bunks Only)"
+# 	outfits
+# 		"Outfits Expansion" 17
+# 		"Eimlaq Engines" 2
+# 		"Hyperdrive"
+# 		"Daltaq Energy Generator" 2
+# 		"Large Bunk Room" 14
+# 		"Small Bunk Room"
 
 ship "Qudaw" "Qudaw (Normal)"
 	sprite ship/mule

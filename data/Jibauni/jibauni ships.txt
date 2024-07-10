@@ -528,8 +528,8 @@ ship "Quyan"
 		"heat dissipation" .3
 		"fuel capacity" 400
 		"cargo space" 40
-		"outfit space" 188
-		"weapon capacity" 10
+		"outfit space" 180
+		"weapon capacity" 18
 		"engine capacity" 70
 		"jibauni generator" 2
 		"fuel protection" .65

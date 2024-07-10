@@ -133,6 +133,7 @@ mission "Jibauni Rebel Bounty Small"
 	to offer
 		random < 30
 		"combat rating" > 100
+		not "event: jibauni rebel jibauni peace"
 	npc kill
 		government "Jibauni (Rebel)"
 		personality
@@ -171,6 +172,7 @@ mission "Jibauni Rebel Bounty Large"
 	to offer
 		random < 30
 		"combat rating" > 200
+		not "event: jibauni rebel jibauni peace"
 	deadline 10
 	npc kill
 		government "Jibauni (Rebel)"

@@ -103,8 +103,8 @@ mission "Kanlanmo 0"
 			choice
 				`	"Of course!"`
 					accept
-				`	"Yes. Also, thank you for trusting me."`
-					accept
+				`	"Why?"`
+					goto whychoice
 				`	"Not yet, I have something I need to do first. But I'll be back shortly!"`
 					decline
 			label rude
@@ -123,7 +123,38 @@ mission "Kanlanmo 0"
 			label friendlyalpha
 			action
 				"reputation: Jibauni" = -1000
+				"reputation: Jibauni (Civilian)" = -1000
+				"reputation: Jibauni (Fueler)" = -1000
+				"reputation: Jibauni (Rebel)" = -1000
 			`	"Really? In that case, we must ask you to leave our planet immediately and never come back. Goodbye, and don't let us see your face ever again!"`
+				flee
+			label whychoice
+			action
+				set "jibauni: first contact: why"
+            `	"Because I have some business to transact, something about the Rebel Jibauni."`
+			choice
+				`	"What are the Rebel Jibauni?"`
+					goto rebeljibauni
+				`	"Sounds good. I'll take you."`
+					accept
+				`	"No. If it has to do with another faction, I can't."`
+					decline
+			label rebeljibauni
+			`	"They are, as the name might suggest, Jibauni who have split away from the real government. They are not very polite, and you definitely do not want to be on their side."`
+			choice
+				`	"That's what you think. Well, I'm joining the Rebels, whatever you may say."`
+						goto joinedrebels
+				`	"Okay. I'll take you."`
+						accept
+				`	"No, I won't take you. Sorry."`
+						decline
+			label joinedrebels
+			action
+				"reputation: Jibauni" = -10
+				"reputation: Jibauni (Civilian)" = -10
+				"reputation: Jibauni (Rebel)" = 10
+				set "jibauni: joined the rebels"
+			`	"Very well. Goodbye, and never land here again until you have made reparations."`
 				flee
 	on complete
 		payment 15000

@@ -33,7 +33,7 @@ phrase "Rebel Jibauni Military"
 phrase "Jibauni Fighters"
 	word
 		"J. F. S. "
-	phrase 
+	phrase
 		"Jibauni 1" 10
 		"Jibauni 2" 10
 		"Jibauni 3" 12
@@ -464,7 +464,7 @@ phrase "hostile jibauni"
 
 phrase "hostile jibauni military"
 	word
-		"Prepare to die,  "
+		"Prepare to die, "
 	word
 		"vile "
 		"cruel "
@@ -486,7 +486,7 @@ phrase "hostile jibauni military"
 
 phrase "hostile disabled jibauni civilian"
 	word
-		"Please don't shoot us! What have we done to you! We  "
+		"Please don't shoot us! What have we done to you! We "
 	word
 		"didn't "
 		"failed to "
@@ -496,7 +496,7 @@ phrase "hostile disabled jibauni civilian"
 
 phrase "hostile disabled jibauni military 1"
 	word
-		"We cannot be  "
+		"We cannot be "
 	word
 		"destroyed! "
 		"turned into a rapidly expanding cloud of debris! "

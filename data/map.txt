@@ -1299,6 +1299,16 @@ system Holo
 	asteroids "medium metal" 1 0.974
 	asteroids "large metal" 85 1.551
 	minables aluminum 4 2.188
+	trade Clothing 189
+	trade Electronics 769
+	trade Equipment 804
+	trade Food 120
+	trade "Heavy Metals" 1000
+	trade Industrial 754
+	trade "Luxury Goods" 1294
+	trade Medical 553
+	trade Metal 515
+	trade Plastic 470
 	fleet "Small Rebel Jibauni Military" 305
 	fleet "Large Rebel Jibauni Military" 730
 	hazard "Jibauni Slowing" 200

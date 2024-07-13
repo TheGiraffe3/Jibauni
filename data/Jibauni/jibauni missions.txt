@@ -26,9 +26,10 @@ mission "Jibauni Culture: Rebel Chase"
 
 mission "Jibauni Culture: Hajay Intersystem"
 	minor
-	source "Baitoon" "Kanlil"
-	#to offer
-		#random < 1
+	source
+		planet "Baitoon" "Kanlil"
+	to offer
+		random < 1
 	on offer
 		conversation
 			`A Quyan lands shortly after <ship> touches down, but it seems to have more Jibauni disembarking than any normal Quyan could have. Do you want to go investigate?`
@@ -41,4 +42,25 @@ mission "Jibauni Culture: Hajay Intersystem"
 				`	"How do you fit so many Jibauni on board?"`
 				`	(Never mind.)
 					decline
-			`	""`
+			`	"Oh," the captain says. "I removed my hyperdrive. Simple, and it lets you fit four more passengers for nothing."`
+			choice
+				`	"Why would you do that?"`
+				`	"I see."`
+			`	"I do it because the peaceful captain life is good enough for me. I don't need to go gallivanting around to strange places. I've been in Hajay my whole life, and enjoyed every bit of it."`
+			branch "knows type"
+				has "Sol-Bound Shuttle: declined"
+			action
+				log "Apparently some Jibauni use their Quyans without hyperdrives and just shuttle people around the system of Hajay."
+			choice
+				`	"Thanks for talking with me. That is a really interesting fact."`
+					decline
+				`	"Nice meeting you. Goodbye."`
+					decline
+			label "knows type"
+			action
+				log "Just like in Sol, some Jibauni have no hyperdrives on their ships and instead ferry people around the system of Hajay."
+			choice
+				`	"Thanks for talking with me. That is a really interesting fact."`
+					decline
+				`	"Nice meeting you. Goodbye."`
+					decline

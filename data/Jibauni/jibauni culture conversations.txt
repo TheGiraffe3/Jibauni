@@ -1,0 +1,65 @@
+mission "Jibauni Culture: Rebel Chase"
+	minor
+	source
+		government "Jibauni (Rebel)"
+	to offer
+		random < 1
+	on offer
+		conversation
+			`As you are walking through the spaceport, you hear a commotion behind you. A Jibauni is running your way, and behind it are several more in some sort of uniform.`
+			choice
+				`	(Go back to <ship> and wait for the ruckus to calm down.)`
+					goto wait
+				`	"What is going on?"`
+					goto question
+				`	(Stay where you are.)`
+					goto runinto
+			label wait
+			`	You go back to <ship>. The Jibauni who was being chased comes running your way, but is caught by the others and put in chains before passing your ship.`
+				decline
+			label runinto
+			`	As you stand where you are, the Jibauni come racing your way, knocking you down as the chase continues. Once all of the soldiers pass, a bystander helps you up and brushes you off, telling you that scenes like this are fairly frequent, happening either when a Jibauni is accused of stealing... or does something people of power dislike.`
+				decline
+			label question
+			`	All of the Jibauni keep running past you, intent on what they are doing. After the traces are gone, a bystander tells you that scenes like this are fairly frequent, when a Jibauni is accused of stealing... or doing something the Governor does not like.`
+				decline
+
+mission "Jibauni Culture: Hajay Intersystem"
+	minor
+	source "Kanlil"
+	to offer
+		random < 1
+	on offer
+		conversation
+			`A Quyan lands shortly after <ship> touches down, but it seems to have more Jibauni disembarking than any normal Quyan could have. Do you want to go investigate?`
+			choice
+				`	(Why not.)`
+				`	(No.)`
+					decline
+			`	You walk up to the Quyan, whose name you notice is ${Jibauni Civilian}. Indeed, the number of passengers is more than normal.`
+			choice
+				`	"How do you fit so many Jibauni on board?"`
+				`	(Never mind.)
+					decline
+			`	"Oh," the captain says. "I removed my hyperdrive. Simple, and it lets you fit four more passengers for nothing."`
+			choice
+				`	"Why would you do that?"`
+				`	"I see."`
+			`	"I do it because the peaceful captain life is good enough for me. I don't need to go gallivanting around to strange places. I've been in Hajay my whole life, and enjoyed every bit of it."`
+			branch "knows type"
+				has "Sol-Bound Shuttle: declined"
+			action
+				log "Apparently some Jibauni use their Quyans without hyperdrives and just shuttle people around the system of Hajay."
+			choice
+				`	"Thanks for talking with me. That is a really interesting fact."`
+					decline
+				`	"Nice meeting you. Goodbye."`
+					decline
+			label "knows type"
+			action
+				log "Just like in Sol, some Jibauni have no hyperdrives on their ships and instead ferry people around the system of Hajay."
+			choice
+				`	"Thanks for talking with me. That is a really interesting fact."`
+					decline
+				`	"Nice meeting you. Goodbye."`
+					decline

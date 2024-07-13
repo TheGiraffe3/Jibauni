@@ -44,7 +44,7 @@ system Jibtrav
 	minables tungsten 18 2.629
 	fleet "Small Southern Pirates" 800
 	#fleet "Jibauni Fighter Patrol" 30000
-	fleet "Large Jibauni Military"
+	fleet "Large Jibauni Military" 50000
 	hazard "Jibauni Disabled Remover" 100
 	object
 		sprite star/f0

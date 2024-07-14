@@ -1,3 +1,16 @@
+# Copyright (c) 2024 by Loymdayddaud
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 mission "Jibauni Culture: Rebel Chase"
 	minor
 	source
@@ -35,12 +48,12 @@ mission "Jibauni Culture: Hajay Intersystem"
 			choice
 				`	(Why not.)`
 				`	(No.)`
-					decline
+					goto no
 			`	You walk up to the Quyan, whose name you notice is ${Jibauni Civilian}. Indeed, the number of passengers is more than normal.`
 			choice
 				`	"How do you fit so many Jibauni on board?"`
 				`	(Never mind.)
-					decline
+					goto no
 			`	"Oh," the captain says. "I removed my hyperdrive. Simple, and it lets you fit four more passengers for nothing."`
 			choice
 				`	"Why would you do that?"`
@@ -63,3 +76,7 @@ mission "Jibauni Culture: Hajay Intersystem"
 					decline
 				`	"Nice meeting you. Goodbye."`
 					decline
+			label no
+			action
+				set "no jibauni hajay intersystem knowledge"
+			`	Well, who knows what was happening there. However, it doesn't concern you in the least, so you continue with your other business.`

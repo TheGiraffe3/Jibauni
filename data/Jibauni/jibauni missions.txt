@@ -1,11 +1,26 @@
+# Copyright (c) 2024 by Loymdayddaud
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 mission "Ru-win 0"
 	name "Captain to <planet>"
 	description "Take Ru-win, who you talked to on Kanlil, to Baitoon so she can try to buy a new ship."
 	minor
+	repeat
 	source "Kanlil"
 	destination "Baitoon"
 	to offer
 		has "Jibauni Culture: Hajay Intersystem: declined"
+		not "no jibauni hajay intersystem knowlege"
 		random < 25
 	on offer
 		conversation
@@ -18,4 +33,26 @@ mission "Ru-win 0"
 				`	(Leave.)`
 					decline
 			label go
-			`	You walk toward the Jibauni, and say, "What is happening?" The Jibauni gives a start and replies, "At last! The human captain, <first>! There you are! Come with me over here to a more quiet place, I need to ask you something."`
+			`	You walk toward the Jibauni, and ask, "What is happening?" The Jibauni gives a start and replies, "At last! The human captain, <first>! There you are! Come with me over here to a more quiet place, I need to ask you something." They push you over to a bench.`
+				goto question
+			label stay
+			`	After a bit longer of looking around, the Jibauni heads your way. "Captain <last>! I need to ask you something! Come over to this seating area with me?" The Jibauni then pushes you over to a bench.`
+				goto question
+			label question
+			`	"The thing I am looking for help with is transport to Baitoon. I need to get there and buy a ship, fast, before I run out of... well, let me tell you the story from the beginning. A while after you saw me, on Kanlil, my ship ran into snags. When I took it to the repair shop, they said they couldn't fix it. I sold it to them for a mere trifle."`
+			`	"So, what do you say? Will you take me to Baitoon? Do realize that I don't currently have the money to pay you though."`
+			choice
+				`	"Sure, I'll take you."`
+					goto accept
+				`	"No, sorry. I don't go around giving rides to random strangers."`
+					goto decline
+			label accept
+			`	"Great! Thank you so much. I'll be at your ship shortly. Oh, and by the way, my name is Ru-win. It is nice to meet you."`
+				accept
+			label decline
+			`	"Really? Well, at any rate, best of luck to you wherever you go." The Jibauni makes what you assume to be the equivalent of a sigh and disappears into the spaceport.`
+				decline
+	on complete
+		event "next ruwin mission" 10 45
+		payment 50
+		dialog `As you land on Baitoon, Ru-win gets off of your ship. Before she does, however, she presses a credit chip worth 50 credits into your hand. "This is all I can give you now, <first>. Thank you," she says.`

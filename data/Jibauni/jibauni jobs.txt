@@ -24,6 +24,7 @@ mission "Jibauni Pilgrims [0]"
 	destination
 		government "Jibauni"
 		attributes religious
+		not planet Laqualk
 	to offer
 		random < 80
 	on accept
@@ -51,6 +52,7 @@ mission "Jibauni Kasim Cargo (pre-war)"
 		not planet Baitoon
 		not planet Lamalmuq
 		distance 1 5
+		not planet Laqualk
 	to offer
 		not "event: jibauni rebel jibauni peace"
 		random < 65
@@ -72,6 +74,7 @@ mission "Jibauni Kasim Cargo (post-war)"
 		not planet Baitoon
 		not planet Lamalmuq
 		distance 1 5
+		not planet Laqualk
 	to offer
 		random < 50
 		has "event: jibauni rebel jibauni peace"
@@ -93,6 +96,7 @@ mission "Jibauni Res-redi Cargo (pre-war)"
 		system Hajay
 		system Almanhaq
 		not planet Lamalmuq
+		not planet Laqualk
 	to offer
 		not "event: jibauni rebel jibauni peace"
 		random < 65
@@ -113,6 +117,7 @@ mission "Jibauni Res-redi Cargo (post-war)"
 		system Hajay
 		system Almanhaq
 		not planet Lamalmuq
+		not planet Laqualk
 	to offer
 		has "event: jibauni rebel jibauni peace"
 		random < 50
@@ -142,6 +147,8 @@ mission "Jibauni Rebel Bounty Small"
 			target
 			nemesis
 			staying
+			unconstrained
+			marked
 		system
 			distance 1 1
 		fleet
@@ -159,6 +166,7 @@ mission "Jibauni Rebel Bounty Small"
 		dialog phrase "jibauni got rid of bounty"
 		on kill
 			payment 40000
+			fail
 
 mission "Jibauni Rebel Bounty Large"
 	name "Kill the <npc>"
@@ -182,40 +190,20 @@ mission "Jibauni Rebel Bounty Large"
 			target
 			nemesis
 			staying
+			unconstrained
+			marked
 		system
 			distance 1 1
 		fleet
 			names "Rebel Jibauni Military"
-			variant
+			variant 4
 				Nathar
-				Muraw 2
-			variant
-				Nathar
-				Latbaliday 2
-			variant
-				Nathar
-				Larajal 2
-			variant
-				Nathar
-				Larajal
-				Muraw
-			variant
-				Nathar
-				Latbaliday
-				Muraw
 			variant 2
 				Nakil
-				Muraw 2
-				Latbaliday 4
-				Duntay 4
-			variant 2
-				Nakil
-				Muraw 2
-				Larajal 4
-				Duntay 4
 		dialog phrase "jibauni got rid of bounty"
 		on kill
 			payment 100000
+			fail
 
 mission "Jibauni Passengers [0]"
 	name "Passengers to <planet>"
@@ -229,6 +217,7 @@ mission "Jibauni Passengers [0]"
 		random < 60
 	destination
 		distance 1 4
+		not planet Laqualk
 	on complete
 		payment
 		dialog "The <bunks> passengers get off your ship to do whatever they wanted to go here for, but not before they pay you <payment>."
@@ -245,6 +234,7 @@ mission "Jibauni Passengers [1]"
 		random < 60
 	destination
 		distance 1 4
+		not planet Laqualk
 	on complete
 		payment
 		dialog "The <bunks> passengers get off your ship to do whatever they wanted to go here for, but not before they pay you <payment>."
@@ -262,6 +252,7 @@ mission "Jibauni Passengers [2]"
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
+		not planet Laqualk
 	on complete
 		payment
 		payment 2000
@@ -321,6 +312,7 @@ mission "Jibauni Rush Delivery [0]"
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
+		not planet Laqualk
 	on complete
 		payment
 		payment 100
@@ -340,6 +332,7 @@ mission "Jibauni Rush Delivery [1]"
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
+		not planet Laqualk
 	on complete
 		payment
 		dialog "The cargo is unloaded from your ship and carted away."
@@ -358,6 +351,7 @@ mission "Jibauni Rush Delivery [2]"
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
+		not planet Laqualk
 	on complete
 		payment
 		dialog "The cargo is unloaded from your ship and carted away."
@@ -376,6 +370,7 @@ mission "Jibauni Bulk Delivery [0]"
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
+		not planet Laqualk
 	on complete
 		payment
 		payment 1000
@@ -395,6 +390,7 @@ mission "Jibauni Bulk Delivery [1]"
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
+		not planet Laqualk
 	on complete
 		payment
 		payment 3000

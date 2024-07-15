@@ -52,7 +52,7 @@ mission "Jibauni Culture: Hajay Intersystem"
 			`	You walk up to the Quyan, whose name you notice is ${Jibauni Civilian}. Indeed, the number of passengers is more than normal.`
 			choice
 				`	"How do you fit so many Jibauni on board?"`
-				`	(Never mind.)
+				`	(Never mind.)`
 					goto no
 			`	"Oh," the captain says. "I removed my hyperdrive. Simple, and it lets you fit four more passengers for nothing."`
 			choice

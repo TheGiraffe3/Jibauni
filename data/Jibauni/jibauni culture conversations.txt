@@ -49,24 +49,57 @@ mission "Jibauni Culture: Hajay Intersystem"
 				`	(Why not.)`
 				`	(No.)`
 					goto no
-			`	You walk up to the Quyan, whose name you notice is ${Jibauni Civilian}. Indeed, the number of passengers is more than normal.`
+			`	You walk up to the Quyan, whose name you notice is "C. S. Jandon". Indeed, the number of passengers is more than usual.`
 			choice
 				`	"How do you fit so many Jibauni on board?"`
-				`	(Never mind.)`
+				`	(Never mind. Get out of here before the captain notices you.)`
 					goto no
-			`	"Oh," the captain says. "I removed my hyperdrive. Simple, and it lets you fit four more passengers for nothing."`
+			`	"Oh," the captain says. "I removed my hyperdrive. Simple, easy, and it lets you fit four more passengers for nothing."`
 			choice
 				`	"Why would you do that?"`
 				`	"I see."`
-			`	"I do it because the peaceful captain life is good enough for me. I don't need to go gallivanting around to strange places. I've been in Hajay my whole life, and enjoyed every bit of it."`
+			`	"I do it because the peaceful captain life is good enough for me. I don't need to go gallivanting around to strange places. I've been in Hajay my whole life, and enjoyed every bit of it. May I ask you a question?"`
+			choice
+				`	"Sure."`
+					goto herquestion
+				`	"If you want."`
+					goto herquestion
+				`	"No thanks."`
+					goto nothanksship
+			label herquestion
+			`	"What is the name of your ship, <first>?"`
+			choice
+				`	"<ship>."`
+					goto toldship
+				`	"Wait. How do you know my name?"`
+					goto namequestion
+				`	"I thought you would know that I am Captain <first> <last> of the <ship>."`
+					goto thoughtyouknew
+			label toldship
+			`	"Okay. You probably already can see mine," the Jibauni winks at you.`
+				goto whoyou
+			label namequestion
+			`	"You are the only living non-Jibauni anywhere in our space," the Jibauni reminds you. "Everyone knows who you are. Will you answer my question?"`
+			choice
+				`	"<ship>."`
+					goto toldship
+				`	"I thought you would know that I am Captain <first> <last> of the <ship>."`
+					goto thoughtyouknew
+			label thoughtyouknew
+			`	"Nope," the Jibauni replies merrily. "We common Jibauni only know your first and last names."`
+				goto whoyou
+			label whoyou
+			`	"What is your name?" you ask. "I am surprised you would want to know," is the answer. "But I am Ru-win, daughter of Alson and Weni. At any rate, I have some business to attend to, so goodbye."`
+				goto finish # I wonder about putting an option to ask and find out that Jibauni female names end with a consonant, while male names end with a vowel, opposite to English
+			label finish
 			branch "knows type"
 				has "Sol-Bound Shuttle: declined"
 			action
-				log "Apparently some Jibauni use their Quyans without hyperdrives and just shuttle people around the system of Hajay."
+				log "Apparently some Jibauni use their ships without hyperdrives and just shuttle people around the system of Hajay."
 			choice
-				`	"Thanks for talking with me. That is a really interesting fact."`
+				`	"Thanks for talking with me. The non-hyperdrive part of it is a really interesting fact."`
 					decline
-				`	"Nice meeting you. Goodbye."`
+				`	"Nice meeting you. Goodbye too."`
 					decline
 			label "knows type"
 			action
@@ -78,5 +111,11 @@ mission "Jibauni Culture: Hajay Intersystem"
 					decline
 			label no
 			action
-				set "no jibauni hajay intersystem knowledge"
+				set "no jibauni hajay intersystem"
 			`	Well, who knows what was happening there. However, it doesn't concern you in the least, so you continue with your other business.`
+				decline
+			label nothanksship
+			action
+				set "no jibauni hajay intersystem"
+			`	"Well, good luck to you. I have some business now, so goodbye."`
+				decline

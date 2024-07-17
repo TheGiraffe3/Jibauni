@@ -1180,7 +1180,7 @@ system Sollo
 planet Shenal
 	attributes sheragi
 	landscape land/forest3
-	description `On Shenal, cities sprawl across the globe, ever increasing to accommodate for the growing Sheragi population. This planet is the most densely populated in the entirety of Alrodel, even more so than the capital system.`
+	description `On Shenal, cities sprawl across the globe, ever increasing to accommodate for the growing Sheragi population. This planet is the most densely populated in the entirety of Sheragi Alrodel, even more so than the capital system.`
 	description `	This also is where the main Sheragi government buildings and homes are.`
 	spaceport `The spaceport here is fairly standard for the Sheragi, with large hexagonal landing pads, and many transports hurrying about ferrying people to and fro between the spaceport and surrounding city.`
 	outfitter "Sheragi Basics"
@@ -1798,7 +1798,7 @@ system Chinjoka
 planet Inkon
 	attributes sheragi
 	landscape land/space2
-	description `This station at the very edge of Sheragi space was created in a desperate bid to expand upon the limited amount of habitable space located in Alrodel. Many of the residents of Inkon are elderly Sheragi who choose to live here at the very edge of their space, where they are guaranteed safety from both pirates and perhaps-treacherous allies.`
+	description `This station at the very edge of Sheragi space was created in a desperate bid to expand upon the limited amount of habitable space located in the southern part of Alrodel. Many of the residents of Inkon are elderly Sheragi who choose to live here at the very edge of their space, where they are guaranteed safety from both pirates and perhaps-treacherous allies.`
 	spaceport `The spaceport of Inkon is relatively small for the Sheragi, as the station rarely has to accommodate the large capital ships the Sheragi favor. Instead, it commonly receives transports and freighters.`
 	government "Sheragi (Jibauni)"
 	outfitter "Sheragi Advanced"
@@ -2028,7 +2028,7 @@ planet Hinserdan
 planet Shenal
 	attributes sheragi
 	landscape land/sky11
-	description `This planet is home to millions of Sheragi, many of which live here because Shenal is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering Alrodel.`
+	description `This planet is home to millions of Sheragi, many of which live here because Shenal is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering the part of Alrodel controlled by the Sheragi.`
 	spaceport `The spaceport here is one of the largest you've ever seen, seemingly built to hold the massive capital ships of the Sheragi military.`
 	shipyard "Sheragi Basics"
 	shipyard "Sheragi Advanced"

@@ -158,8 +158,9 @@ mission "Kanlanmo 0"
 				flee
 	on complete
 		payment 15000
+		set "language: Jibauni"
 		conversation
-			`	"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions." He goes off after handing you <payment>, and you sit back to wait until the time he specified."`
+			`	"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions. Also, here is a translator you can use, so you can talk to the rest of the populace." He goes off after handing you <payment>, and you sit back to wait until the time he specified.`
 
 mission "Kanlanmo (0 declined)"
 	name "Take Kanlanmo to <planet>"

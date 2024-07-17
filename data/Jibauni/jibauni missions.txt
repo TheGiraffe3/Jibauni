@@ -18,6 +18,7 @@ mission "Ru-win 0"
 	source "Kanlil"
 	destination "Baitoon"
 	to offer
+		has "language: Jibauni"
 		has "Jibauni Culture: Hajay Intersystem: declined"
 		not "no jibauni hajay intersystem"
 		random < 25
@@ -57,6 +58,8 @@ mission "Ru-win 0"
 		log "Took Ru-win to Baitoon. Reason is unknown."
 		dialog `As you land on Baitoon, Ru-win gets off of your ship. Before she does, however, she presses a credit chip worth 50 credits into your hand. "This is all I can give you now, <first>. Thank you," she says.`
 
+event "second ruwin mission"
+
 mission "Ru-win 1"
 	name "Ru-win back to <planet>"
 	description "Take Ru-win, who you talked to on Kanlil, to Baitoon so she can try to buy a new ship."
@@ -89,3 +92,5 @@ mission "Ru-win 1"
 			label keep
 			`	"No, you take it. I will go now." She presses the <payment> into your hand, and leaves before you can do anything.`
 			label done
+
+event "third ruwin mission"

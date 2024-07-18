@@ -121,3 +121,43 @@ mission "Jibauni Culture: Hajay Intersystem"
 				set "no jibauni hajay intersystem"
 			`	"Well, good luck to you. I have some business now, so goodbye."`
 				decline
+
+mission "Jibauni Culture: Steak Lovers"
+	minor
+	landing
+	source
+		government "Jibauni" "Jibauni (Rebel)"
+	to offer
+		random < 1
+	on offer
+		conversation
+			`Beside your ship as you touch down are a group of Jibauni children. They are digging a hole in the ground.`
+			`	As you watch, one of them finds a large box. They open it, and inside are three large pieces of meat. The Jibauni children immediately devour it, and throw the box in a nearby dumpster.`
+				decline
+
+mission "Jibauni Culture: Rebel Report"
+	minor
+	source
+		government "Jibauni"
+	to offer
+		has "language: Jibauni"
+		random < 1
+	on offer
+		conversation
+			`As you are passing by a restaurant, the door opens, and a small group of Jibauni come out. They are talking about politics, and as you listen, you realize that they are Rebels spying for some reason.`
+			choice
+				`	(Go report them to the police.)`
+					goto police
+				`	(Confront them.)`
+					goto confront
+			label police
+			action
+				payment 5000
+			`	When you tell the chief what just happened, they immediately send a force to disarm and capture the Rebels. When it turns out that your story was correct, the chief thanks you profusely and gives you a reward of <payment>.`
+				decline
+			label confront
+			`	The Jibauni act as if they don't know what you are talking about. When you keep pressing claims, one of them pulls out a taser and shoots you.`
+			action
+				payment -2000
+			`	When you wake up, you find that the Jibauni have robbed you and left a message. The message tells you to not be so foolhardy next time, and that they have left the planet so telling the police will be useless.`
+				decline

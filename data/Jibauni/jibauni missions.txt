@@ -11,7 +11,7 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-mission "Ru-win 0"
+mission "Jibauni: Ru-win 0"
 	name "Ru-win to <planet>"
 	description "Take Ru-win, who you talked to on Kanlil, to Baitoon."
 	minor
@@ -60,7 +60,7 @@ mission "Ru-win 0"
 
 event "second ruwin mission"
 
-mission "Ru-win 1"
+mission "Jibauni: Ru-win 1"
 	name "Ru-win back to <planet>"
 	description "Take Ru-win, who you talked to on Kanlil, to Baitoon so she can try to buy a new ship."
 	minor

@@ -11,7 +11,7 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-mission "Kanlanmo 0"
+mission "Jibauni: Kanlanmo 0"
 	name "Take Kanlanmo to <planet>"
 	description "Kanlanmo, who is a Jibauni in the shape of a Tyrannosaurus rex, has asked to go to <planet> on your ship. He will explain once you get there."
 	landing
@@ -162,7 +162,7 @@ mission "Kanlanmo 0"
 		conversation
 			`	"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions. Also, here is a translator you can use, so you can talk to the rest of the populace." He goes off after handing you <payment>, and you sit back to wait until the time he specified.`
 
-mission "Kanlanmo (0 declined)"
+mission "Jibauni: Kanlanmo (0 declined)"
 	name "Take Kanlanmo to <planet>"
 	description "Take Kanlanmo the Jibauni to <planet>. He will explain once you get there."
 	passengers 1
@@ -184,7 +184,7 @@ mission "Kanlanmo (0 declined)"
 		conversation
 			`	Kanlanmo says, "I've got an urgent meeting to get to. Thank you for bringing me. The meeting will be over fast, so if you want to hear about it, meet me in the spaceport soon. Oh, and before I forget, here is <payment> for your pains."`
 
-mission "Kanlanmo 1"
+mission "Jibauni: Kanlanmo 1"
 	name "Kanlanmo to <planet>"
 	description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
 	passengers 1
@@ -317,7 +317,7 @@ mission "Kanlanmo 1"
 			`	"Your choice," he says. "As long as you can get back here and take me to Kanlil by seven days from now!"`
 				decline
 
-mission "Kanlanmo cargo"
+mission "Jibauni: Kanlanmo cargo"
 	name "Cargo to <planet>"
 	description "Take this <cargo> to <planet> by <day> for <payment>."
 	cargo random 1 15
@@ -333,7 +333,7 @@ mission "Kanlanmo cargo"
 		payment 5250
 		dialog "You drop off the cargo at a large warehouse near the spaceport, which has many Jibauni hurrying to and fro. One hands you <payment>."
 		
-mission "Kanlanmo (1 declined)"
+mission "Jibauni: Kanlanmo (1 declined)"
 	landing
 	name "Kanlanmo to <planet>"
 	description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
@@ -355,7 +355,7 @@ mission "Kanlanmo (1 declined)"
 		event "kanlanmo ready to kanlil" 3
 		dialog `Kanlanmo pays you <payment>, then says, "Meet me in the spaceport, in three days."`
 
-mission "Kanlanmo 2"
+mission "Jibauni: Kanlanmo 2"
 	landing
 	name "Kanlanmo to <planet>"
 	description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
@@ -378,7 +378,7 @@ mission "Kanlanmo 2"
 		payment 12500
 		dialog `Kanlanmo gets off your ship. "Meet me in the spaceport in a hour or two," he reminds you.`
 
-mission "Kanlanmo 3"
+mission "Jibauni: Kanlanmo 3"
 	landing
 	name "Kanlanmo to <planet>"
 	description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
@@ -453,7 +453,7 @@ mission "Kanlanmo 3"
 		conversation
 			`   "Thank you for working with me so long," says Kanlanmo as he leaves the ship. "Meet me in the spaceport in a hour or two if you want to hear about it. But I will not be available tomorrow or the day afterwards, so you will have to come soon."`
 
-mission "Kanlanmo 4"
+mission "Jibauni: Kanlanmo 4"
 	landing
 	name "Hear about the Baitoon meeting"
 	source Kanlil
@@ -538,7 +538,7 @@ mission "Kanlanmo 4"
 		log `Decided not to work with the Jibauni any more.`
 
 
-mission "Jibauni Escorts Begin"
+mission "Jibauni: Escorts Begin"
 	landing
 	name "Go to <planet>"
 	description "Kanlanmo has contacted you and asked you to pick up some Jibauni ships on <planet>, then report to him on Baitoon."
@@ -563,7 +563,7 @@ mission "Jibauni Escorts Begin"
 	on complete
 		dialog `You should probably check the spaceport to find the ships.`
 			
-mission "Jibauni Escorts 0"
+mission "Jibauni: Escorts 0"
 	landing
 	name "Ships to <planet>"
 	description "Kanlanmo has contacted you and asked you to pick up some Jibauni ships on <origin>, then report to him on <planet>."
@@ -640,7 +640,7 @@ mission "Jibauni Escorts 0"
 				`   "Yes, flying here was fun."`
 			`   "Good. Now, can you-actually, meet me in the spaceport. I'll give you instructions there, but I have a report I need to make first."`
 
-mission "Jibauni Escorts 1 out"
+mission "Jibauni: Escorts 1 out"
 	name "Get ships from <planet>"
 	description "Pick up some more ships, from <planet>, them come back to <origin>."
 	source Baitoon

@@ -58,7 +58,7 @@ mission "Jibauni: Kanlanmo 0"
 						has "event: liberation of Poisonwood"
 					goto knownalphas
 				`	"No, I've never seen one matching the description."`
-					goto notseenl
+					goto notseen
 				`	"Of course. The person who pilots it is an Alpha. Should I tell you what the story behind them is?"`
 					to display
 						has "event: liberation of Poisonwood"
@@ -108,7 +108,7 @@ mission "Jibauni: Kanlanmo 0"
 				`	"Not yet, I have something I need to do first. But I'll be back shortly!"`
 					decline
 			label rude
-			`	The alien announces, though to what you cannot see, "The stranger has been ignominiously impolite." It turns to you. "What do you say, "weirdo"? Will you apologize? Or not, and see what happens?"`
+			`	The alien announces, though to what you cannot see, "The stranger has been ignominiously impolite." It turns to you. "What do you say, 'weirdo'? Will you apologize? Or not, and see what happens?"`
 			choice
 				`	"I apologize, and did not mean to insult you."`
 					goto rudeentry
@@ -199,7 +199,7 @@ mission "Jibauni: Kanlanmo 1"
 		log "Factions" "Jibauni" `These Jibauni are the ones who fought the green aliens off.`
 		log "Factions" "Rebel Jibauni" `The Rebel Jibauni used to fight what were termed the "green invaders", but when those were driven off, they turned on their Jibauni friends, whom they call the Lazies. They have been fighting the normal Jibauni for the past seven hundred years.`
 		conversation
-			`When Kanlanmo gets back rom his meeting, he finds you already in the cafe. "How is it going, <first>?" he asks. "And how many questions do you have? I have a lot of free time at present, so ask anything you want. But before you do, can I tell you about the Rebel Jibauni?"`
+			`When Kanlanmo gets back from his meeting, he finds you already in the cafe. "How is it going, <first>?" he asks. "And how many questions do you have? I have a lot of free time at present, so ask anything you want. But before you do, can I tell you about the Rebel Jibauni?"`
 			choice
 				`	"Sure!"`
 					goto rebeljibauni
@@ -650,9 +650,9 @@ mission "Jibauni: Escorts 1 out"
 		has "Jibauni Escorts 0: done"
 	on offer
 		conversation
-			`   Kanlanmo meets you in the spaceport, and hands you seventy-five thousand credits. "These are for bringing the Hirrih and company here safely.`
+			`Kanlanmo meets you in the spaceport, and hands you seventy-five thousand credits. "These are for bringing the Hirrih and company here safely.`
 			`   Also, the Leaders have decided to give you a daily salary of 200 credits, which seems to be all they can afford right now. They seem to figure having you around is advantageous."`
-			`   Now, could you get to <planet> and pick up the Yiyarsi and its escorts? We need every ship we can get, and the offensive starts in two weeks. Don't take any longer than one week getting them back here, okay?"`
+			`	Now, could you get to <planet> and pick up the Yiyarsi and its escorts? We need every ship we can get, and the offensive starts in two weeks. Don't take any longer than one week getting them back here, okay?"`
 			choice
 				`   "I'll be fast."`
 					accept
@@ -665,5 +665,3 @@ mission "Jibauni: Escorts 1 out"
 	on complete
 		conversation
 			`   What seems to be the captain of the fleet you will be escorting shows up on your viewpanel. "Meet me in the spaceport," they say. "As soon as possible!"`
-
-			

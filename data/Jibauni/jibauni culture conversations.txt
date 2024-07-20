@@ -161,3 +161,76 @@ mission "Jibauni Culture: Rebel Report"
 				payment -2000
 			`	When you wake up, you find that the Jibauni have robbed you and left a message. The message tells you to not be so foolhardy next time, and that they have left the planet so telling the police will be useless.`
 				decline
+
+mission "Jibauni Culture: Rude Rebel"
+	minor
+	source
+		government "Jibauni (Rebel)"
+	to offer
+		has "language: Jibauni"
+		#random < 1
+	on offer
+		conversation
+			`The part of the spaceport you are currently in is quite interesting, but also seems to be a slum. There are many armed Rebels standing around, and it feels rather strange seeing guns all over the place.`
+			`	A Rebel Jibauni swaggers up to you. "Is this the strange alien who doesn't know how to fight well?" it asks. "Perhaps you should be put off of our planet and all real Jibauni planets. You don't know anything, anyway."`
+			choice
+				`	"I don't think I should leave at all."`
+					goto dontthink
+				`	"You don't even know how to be polite. How rude you are."`
+					goto rude
+				`	"I take that as a personal insult."`
+					goto Iwasinsulted
+				`	(Quietly walk away.)`
+					goto walkedaway
+			label dontthink
+			`	"Well, you are wrong," replies the Jibauni. "There is nothing you will help us with, anyway."`
+			choice
+				`	"Wrong."`
+					goto pretalkbattle
+				`	(Quietly walk away.)`
+					goto walkedaway
+			label rude
+			`	"What!" yells the Rebel. "That is an insult! I cannot ignore this direct affront to my dignity!"`
+				goto talkbattle
+			label Iwasinsulted
+			`	"Who cares," remarks the Rebel. "I sure don't, for one thing. I doubt any other of us does either."`
+				goto talkbattle
+			label pretalkbattle
+			`	"Well, I think I'm right. At any rate, you are a wicked alien scum."`
+			label talkbattle
+			choice
+				`	"Yep. You are rude, and no one in the universe can deny it."`
+					goto yourudecantdeny
+				`	(Quietly walk away.)`
+					goto walkedaway
+			label yourudecantdeny
+			`	"Perhaps not, but I do deny it, and care nothing for any of your thoughts." The Jibauni rudely turns its back on you.`
+			choice
+				`	"Nor do I."`
+					nordo
+				`	(Quietly walk away.)`
+				`	(Shoot the rude Rebel Jibauni and leave.)`
+					goto shot
+				`	"Nor do I. Get out of here."`
+					goto getout
+			label nordo
+			`	"Well, who cares," the Jibauni insults you again, while keeping its back turned.`
+			choice
+				`	"Get out of here."`
+					goto getout
+				`	(Quietly walk away.)`
+					goto walkedaway
+				`	(Shoot the rude Rebel and leave.)`
+					goto shot
+			label getout
+			`	The Jibauni whips around to face you. "No. You do."`
+			`	A squadron of Rebel Jibauni soldiers comes around a corner and forcibly escorts you to your ship, then tell you that if you don't leave they will open fire on <ship>. You decide to leave.`
+				flee
+			label shot
+			action
+				"reputation: Jibauni (Rebel)" -= 1
+			`	Your shot hits the Rebel squarely in the back, killing it instaneously. You get back to <ship> without anyone seeing you, and leave immediately.`
+				flee
+			label walkedaway
+			`	You turn and walk away, with the Rebel Jibauni laughing at you the whole while. That did not go very well.`
+				decline

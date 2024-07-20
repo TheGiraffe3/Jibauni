@@ -480,7 +480,7 @@ phrase "hostile jibauni military"
 	word
 		"soon"
 		"within seconds"
-		"in ${digit} ${digit} seconds"
+		"in ${digit}${digit} seconds"
 	word
 		"!"
 

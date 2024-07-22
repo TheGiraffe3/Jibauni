@@ -15,10 +15,18 @@ galaxy "label alrodel"
 	pos -1604 585
 	sprite label/alrodel
 
+galaxy "label diba"
+	pos -1430 630
+	sprite label/diba
+
 galaxy "label jibauni"
 	pos -1350 700
 	sprite label/jibauni
 	scale 0.1
+
+galaxy "label sheragi"
+	pos -1550 950
+	sprite label/sheragi
 
 planet Taltahard
 	attributes jibauni moon

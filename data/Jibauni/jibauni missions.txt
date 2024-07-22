@@ -11,6 +11,34 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+mission "Discovered Jibauni Space"
+	landing
+	invisible
+	source
+		government "Jibauni" "Jibauni (Rebel)"
+	on offer
+		event "label jibauni space"
+		fail
+
+event "label jibauni space"
+	galaxy "label jibauni"
+		sprite "label/jibauni"
+
+mission "Discovered Alrodel"
+	landing
+	invisible
+	to offer
+		has "event: label diba space"
+		has "event: label jibauni space"
+		has "event: label sheragi space"
+	on offer
+		event "label alrodel"
+		fail
+
+event "label alrodel"
+	galaxy "label alrodel"
+		sprite "label/alrodel"
+
 mission "Jibauni: Ru-win 0"
 	name "Ru-win to <planet>"
 	description "Take Ru-win, who you talked to on Kanlil, to Baitoon."

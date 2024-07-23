@@ -49,7 +49,8 @@ ship "Llama"
 	explode "small explosion" 5
 
 ship "Ithquaya"
-	sprite "ship/model 64"
+	sprite "ship/ithquaya one"
+	thumbnail "thumbnail/ithquaya one"
 	attributes
 		category "Interceptor"
 		"cost" 1000000

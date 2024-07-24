@@ -500,8 +500,8 @@ system Huyya
 		distance 1259
 		period 384.478
 	object "Jibauni Wormhole"
-		sprite planet/wormhole
-		distance 2300
+		sprite planet/wormhole-green
+		distance 5200
 		period 897.817
 		object
 			sprite planet/miranda

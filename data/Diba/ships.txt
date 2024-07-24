@@ -51,6 +51,7 @@ ship "Llama"
 ship "Ithquaya"
 	sprite "ship/ithquaya one"
 	thumbnail "thumbnail/ithquaya one"
+	swizzle 0
 	attributes
 		category "Interceptor"
 		"cost" 1000000

@@ -1568,8 +1568,8 @@ planet Kanlil
 
 planet Lamalmuq
 	attributes jibauni pilgrims tourism
-	landscape land/farm3
-	description `This planet seems to have some sort of religious significance to the Jibauni. There are many of them here, wearing simple black robes and walking in twos and threes. There also seem to be many religious buildings and none of the pubs and bars expected on a normal planet. No screens or personal tablets are evident, but billboards are posted all over the place advertising something impossible to read.`
+	landscape land/valley16
+	description `This planet has a religious significance to the Jibauni. There are many of them here, wearing simple black robes and walking in twos and threes. There also are many religious buildings and none of the pubs and bars expected on a normal planet. Billboards are posted everywhere advertising something impossible to read.`
 	description `	This is the planet of the gods to the Jibauni. Their ancient legends tell of a place where the rulers of the universe lived, and where all was quiet and peaceful.`
 	description `	This, they believe, is that planet, and so have been very careful not to spoil it.`
 	spaceport `The spaceport here has many ships landing and taking off. But there are not many cargo handling facilities, and only a few ships look as if they were built for carrying cargo, while the number of passenger transports is great. Many Jibauni are in the bustle of security and luggage scanning that is common to most of their worlds. There is only one city; all the rest of the planet seems untouched by the Jibauni.`

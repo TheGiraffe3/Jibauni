@@ -40,6 +40,23 @@ mission "Jibauni Pilgrims [0]"
 		"pilgrim help" --
 		"left pilgrims" ++
 
+#mission "Scrapper test"
+#	name "Scrapper test"
+#	description "ST"
+#	job
+#	repeat
+#	source
+#		government "Jibauni" "Jibauni (Rebel)"
+#	on complete
+#		dialog "Yay."
+#	npc kill
+#		government Pirate
+#		personality heroic staying nemesis target
+#		fleet
+#			names pirate
+#			variant
+#				Scrapper
+
 mission "Jibauni Kasim Cargo (pre-war)"
 	name "Cargo to <planet>"
 	description "Take these <cargo> to <planet> for Kasim Aboagye, a wealthy businessman. Payment will be <payment>."

@@ -28,6 +28,12 @@ galaxy "label sheragi"
 	pos -1550 950
 	sprite label/sheragi
 
+planet Owiay
+	attributes jibauni uninhabited
+	landscape land/water21
+	description `This is a beautiful world, with rushing rivers and great trees. No other ships, hostile or friendly, seem to be here.`
+	description `	The wildlife on Owiay is abundant, and there do not seem to be predators. All animals you see eat nothing but leaves.`
+
 planet Taltahard
 	attributes jibauni moon
 	landscape land/mining1
@@ -2683,22 +2689,14 @@ system Quinlo
 		sprite planet/cloud2
 		distance 839
 		period 160.9
-	object
-		sprite planet/jupiter
+	object Owiay
+		sprite planet/water0
 		distance 1725
 		period 474.348
 		object
 			sprite planet/oberon-b
 			distance 252
 			period 246.374
-		object
-			sprite planet/rock17
-			distance 370
-			period 438.326
-		object
-			sprite planet/rock20
-			distance 517
-			period 444.362
 	object
 		sprite planet/gas10-b
 		distance 2635

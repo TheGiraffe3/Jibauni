@@ -359,11 +359,12 @@ outfit "Jibauni Anti-Missile"
 		"hardpoint sprite" "hardpoint/hai anti-missile"
 		"velocity" 155
 		"lifetime" 1
-		"anti-missile" 4
+		"anti-missile" 1
 		"firing energy" 6
 		"firing fuel" 0.05
 		"reload" 5
 		"firing heat" 2
+	description "This is the Jibauni take on an anti-missile. It fires quite fast, but is not that powerful."
 
 outfit "Ruksay Missile"
 	cost 525
@@ -615,7 +616,6 @@ outfit "Jibauni Mining Laser"
 		"reload" 1
 		"hull damage" .0167
 		"shield damage" .01
-#		"mixable damage" 3
 		"prospecting" 1.1
 		"minable damage" 3
 		"slowing damage" .01

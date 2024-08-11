@@ -292,12 +292,6 @@ phrase "friendly jibauni military"
 		"territory"
 	word
 		". "
-	word
-		"Especially ${Jibauni Title}s and peaceful aliens." 100
-		""
-	replace
-		"Captain of the " "Captains of the "
-		"<ship>s" <ship>
 
 phrase "friendly jibauni military"
 	word

@@ -68,6 +68,7 @@ outfitter "Jibauni Basics"
 	"Jibauni Mining Laser"
 	"Cargo Scanner"
 	"Alhaja Engines"
+	"Flak Launcher"
 
 outfitter "Jibauni Advanced"
 	"Ruksay Missile Launcher"

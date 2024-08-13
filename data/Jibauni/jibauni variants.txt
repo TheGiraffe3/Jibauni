@@ -223,3 +223,9 @@ ship "Quyan" "Quyan (Fighting)"
 		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Eimlaq Engines"
+
+ship "Duntay" "Duntay (Flak)"
+	outfits
+		"Flak Launcher"
+		"Jahgir Energy Generator"
+		"Alhaja Engines"

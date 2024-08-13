@@ -469,6 +469,53 @@ outfit "Rukjay Missile Launcher"
 		"fused"
 	description "The missiles this launches have great tracking and do some splash damage at the cost of generating some heat. Most Jibauni captains regard the tracking as good enough to more than make up for the heat inefficiency."
 
+outfit "Flak Launcher"
+	category "Guns"
+	cost 158000
+	thumbnail "outfit/flak launcher"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/tinyflare"
+			"random start frame"
+		sound "gatling"
+		"inaccuracy" 50
+		"velocity" 4
+		"lifetime" 5
+		"reload" 0.5
+		"burst count" 100
+		"burst reload" 2
+		"firing energy" .1
+		"firing fuel" .07
+		"firing heat" 1
+		"submunition" "flaklauncher"
+		"hit effect" "flak impact"
+	description "A marvel in mechanical engineering, the Flak Launcher has perfected the art of throwing projectiles in many directions."
+
+outfit "flaklauncher"
+	weapon
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		"random velocity" 8
+		"lifetime" 30
+		"random lifetime" 5
+		"shield damage" 2
+		"hull damage" 4
+		"hit force" 3
+		"hit effect" "bullet impact"
+
+effect "flak impact"
+	sprite "effect/bullet impact"
+		"no repeat"
+		"frame rate" 60
+	"lifetime" 8
+	"random angle" 40
+	"velocity scale" -.05
+
 outfit "Zarhal Laser Turret"
 	category "Turrets"
 	cost 350000

@@ -141,6 +141,89 @@ phrase "Jibauni planet"
 		Laqualk
 		Kahbani
 
+phrase "consonant capitalized"
+	word
+		B
+		C
+		D
+		F
+		G
+		H
+		J
+		K
+		L
+		M
+		N
+		P
+		Q
+		R
+		S
+		T
+		V
+		W
+		X
+		Z
+
+phrase "consonant uncapitalized"
+	word
+		b
+		c
+		d
+		f
+		g
+		h
+		j
+		k
+		l
+		m
+		n
+		p
+		q
+		r
+		s
+		t
+		u
+		v
+		w
+		x
+		z
+
+phrase "jibauni untranslated"
+	word
+		"Jamku"
+		"Je"
+		"Hqiavepr"
+		"Xambuna"
+		"Cuf"
+		"Hiuf"
+		"Jamn"
+		"Tumuen"
+	word
+		"."
+		"!"
+
+phrase "jibauni untranslated"
+	word
+		"${digit} ${digit}" 10
+		"${digit} ${digit} ${digit}" 5
+		"${digit}"
+
+phrase "jibauni untranslated"
+	phrase
+		"consonant capitalized"
+	phrase
+		"vocal"
+	phrase
+		"consonant uncapitalized"
+	phrase
+		"vocal"
+	phrase
+		"vocal"
+	phrase
+		"consonant uncapitalized"
+	word
+		"."
+
 phrase "friendly jibauni civilian"
 	phrase
 		"friendly jibauni civilian 1" 2

@@ -59,7 +59,7 @@ mission "Jibauni: Kanlanmo 0"
 					goto knownalphas
 				`	"No, I've never seen one matching the description."`
 					goto notseen
-				`	"Of course. The person who pilots it is an Alpha. Should I tell you what the story behind them is?"`
+				`	"Of course. The person who pilots it is an Alpha. Shall I tell you what the story behind them is?"`
 					to display
 						has "event: liberation of Poisonwood"
 					goto alphas
@@ -205,7 +205,7 @@ mission "Jibauni: Kanlanmo 1"
 				`	"Sure!"`
 					goto rebeljibauni
 			label rebeljibauni
-			`	He begins, "They have been attacking us for about seven hundred years.. In addition, the part that many of my people feel sorely, is the fact that they call us the Lazies. It all began  a hundred years before then. They alien species whose name we have no idea about and whose ships are all a greenish color invaded. Do I bore you?"`
+			`	He begins, "They have been attacking us for about seven hundred years.. In addition, the part that many of my people feel sorely, is the fact that they call us the Lazies. It all began a hundred years before then. Then an alien species whose name we have no idea of and whose ships are all a greenish color invaded. Do I bore you?"`
 			choice
 				`	"No, this is very interesting."`
 					goto continue
@@ -345,11 +345,11 @@ mission "Jibauni: Kanlanmo (1 declined)"
 		has "Kanlanmo 1: declined"
 	on offer
 		conversation
-			`   Kanlanmo contacts you as you land. He asks, "Can you take me to <planet> now?"`
+			`	Kanlanmo contacts you as you land. He asks, "Can you take me to <planet> now?"`
 			choice
-				`   "Sure!"`
+				`	"Sure!"`
 					accept
-				`   "No. Later."`
+				`	"No. Later."`
 					defer
 	on complete
 		payment 2500
@@ -369,11 +369,11 @@ mission "Jibauni: Kanlanmo 2"
 	on offer
 		event "kanlanmo books elsewhere" 4
 		conversation
-			`   Kanlanmo opens communications with you as you land. "Are you ready?" he asks.`
+			`	Kanlanmo opens communications with you as you land. "Are you ready?" he asks.`
 			choice
-				`   "Of course!"`
+				`	"Of course!"`
 					accept
-				`   "Not now."`
+				`	"Not now."`
 					defer
 	on complete
 		payment 12500
@@ -390,60 +390,60 @@ mission "Jibauni: Kanlanmo 3"
 		has "Kanlanmo 2: done"
 	on offer
 		conversation
-			`   Kanlanmo comes back to your ship, looking rather discouaged. You consider talking to him.`
+			`	Kanlanmo comes back to your ship, looking rather discouaged. You consider talking to him.`
 			choice
-				`   (Ask what is wrong.)`
+				`	(Ask what is wrong.)`
 					goto question
-				`   (Leave him along, he has enough problems already.)`
+				`	(Leave him along, he has enough problems already.)`
 					goto leavehim
 			label leavehim
-			`   Kanlanmo greets you as he comes in, then heads toward his cabin. He then appears to change his mind, and comes back toward you.`
+			`	Kanlanmo greets you as he comes in, then heads toward his cabin. He then appears to change his mind, and comes back toward you.`
 			choice
-				`   "What happened?"`
+				`	"What happened?"`
 					goto question
-				`   "I`m kind of busy, can we talk later?"`
+				`	"I`m kind of busy, can we talk later?"`
 					goto destination
 			label question
-			`   "The insane people here won`t furnish a good fleet," he says. "Not to blame them, because they do have a life that does not include fighting, but we were couring on most of our help from that corner."`
-			`   "Now, we`re going to need more from other worlds."`
+			`	"The insane people here won`t furnish a good fleet," he says. "Not to blame them, because they do have a life that does not include fighting, but we were couring on most of our help from that corner."`
+			`	"Now, we`re going to need more from other worlds."`
 			choice
-				`   "I have a large fleet, so I could help."`
+				`	"I have a large fleet, so I could help."`
 					to display
 						"total ships" > 10
 					goto fleetlarge
-				`   "My fleet is not large, but it can fight the Rebel Jibauni."`
+				`	"My fleet is not large, but it can fight the Rebel Jibauni."`
 					to display
 						and
 							"total ships" < 10
 							"total ships" > 1
 					goto fleetsmall
-				`   "My ship can help."`
+				`	"My ship can help."`
 					to display
 						not "flagship model: Puffin"
 					goto singleship
 			label fleetlarge
-			`   "Great," he says. "I have seen your big fleet, and it does look powerful."
+			`	"Great," he says. "I have seen your big fleet, and it does look powerful."
 				goto thanksoffer
 			label fleetsmall
-			`   "You know what?" he asks. "Every little bit counts, and your fleet is not insignificant."`
+			`	"You know what?" he asks. "Every little bit counts, and your fleet is not insignificant."`
 				goto thanksoffer
 			label singleship
-			`   "Well, even if <ship> could not hurt a fly, the Rebel Jibauni would not like the idea of an alien fighting on our side. They were formed, as you know, to stop the Greens."`
+			`	"Well, even if <ship> could not hurt a fly, the Rebel Jibauni would not like the idea of an alien fighting on our side. They were formed, as you know, to stop the Greens."`
 			label thanksoffer
-			`   "Anyway, thanks for offering to help fight the Rebels. It is very kind of you, a stranger, to fight our internal conflicts. Now, one more thing. Can you take me back to <planet>? I need to report back to The Leaders."`
+			`	"Anyway, thanks for offering to help fight the Rebels. It is very kind of you, a stranger, to fight our internal conflicts. Now, one more thing. Can you take me back to <planet>? I need to report back to The Leaders."`
 			goto choicetake
 			label destination
-			`   "Okay," he says. "By later I assume you mean once we are back on <planet>? Will you take me there?"`
+			`	"Okay," he says. "By later I assume you mean once we are back on <planet>? Will you take me there?"`
 			label choicetake
 			choice
-				`   "Of course!"`
+				`	"Of course!"`
 					goto accept
-				`   "Why not?"`
+				`	"Why not?"`
 					goto accept
-				`   "No, I have had enough of working with the Jibauni."`
+				`	"No, I have had enough of working with the Jibauni."`
 					decline
 			label accept
-			`   "Thank you for all your hard work, <first>. It really means a lot to us."`
+			`	"Thank you for all your hard work, <first>. It really means a lot to us."`
 				accept
 	on accept
 		event "jibauni gather fleet against rebels" 25 35
@@ -452,7 +452,7 @@ mission "Jibauni: Kanlanmo 3"
 		payment 15000
 		event "nokanlanmomeet1" 1
 		conversation
-			`   "Thank you for working with me so long," says Kanlanmo as he leaves the ship. "Meet me in the spaceport in a hour or two if you want to hear about it. But I will not be available tomorrow or the day afterwards, so you will have to come soon."`
+			`	"Thank you for working with me so long," says Kanlanmo as he leaves the ship. "Meet me in the spaceport in a hour or two if you want to hear about it. But I will not be available tomorrow or the day afterwards, so you will have to come soon."`
 
 mission "Jibauni: Kanlanmo 4"
 	landing
@@ -466,69 +466,69 @@ mission "Jibauni: Kanlanmo 4"
 			not "event: nokanlanmomeet1"
 	on offer
 		conversation
-			`   When you get to the cafe, you see Kanlanmo already there, in earnest conversation with another Jibauni. As you walk up, the other Jibauni looks around. "Should I go?" he inquires of Kanlanmo.`
-			`   "No," orders Kanlanmo. "You should meet Captain <last>. <first>, this is Kasim Aboagye. His company makes most of our fighters and warships."`
+			`	When you get to the cafe, you see Kanlanmo already there, in earnest conversation with another Jibauni. As you walk up, the other Jibauni looks around. "Should I go?" he inquires of Kanlanmo.`
+			`	"No," orders Kanlanmo. "You should meet Captain <last>. <first>, this is Kasim Aboagye. His company makes most of our fighters and warships."`
 			choice
-				`   "Pleased to meet you."`
+				`	"Pleased to meet you."`
 					goto shakehands
-				`   "What ships does he make?"`
+				`	"What ships does he make?"`
 					goto ships
-				`   (Nod)`
+				`	(Nod)`
 					goto nod
 			label shakehands
-			`   He reaches out his hand, and you shake it. "What ships do your shipyards make?" you ask.`
+			`	He reaches out his hand, and you shake it. "What ships do your shipyards make?" you ask.`
 				goto ships
 			label nod
-			`   He nods back in acknowledgement. "What ships do you make?" you ask.`
+			`	He nods back in acknowledgement. "What ships do you make?" you ask.`
 				goto ships
 			label ships
-			`   Kasim lights up. "Aboagye Shipyards makes quite a few ships," he says. "The only ones we do not make are the Yiyharsi, Saghir, and one or two other ships, which are made by the untrustwor-"`
-			`   Kanlanmo cuts in, "Okay. Did you want to hear about the results of the meeting?"`
+			`	Kasim lights up. "Aboagye Shipyards makes quite a few ships," he says. "The only ones we do not make are the Yiyharsi, Saghir, and one or two other ships, which are made by the untrustwor-"`
+			`	Kanlanmo cuts in, "Okay. Did you want to hear about the results of the meeting?"`
 			choice
-				`   "Yes."`
+				`	"Yes."`
 					goto meetingresults
-				`   "Kasim, what are the one or two other ships you do not make?"`
+				`	"Kasim, what are the one or two other ships you do not make?"`
 					goto daybalmuraw
 			label daybalmuraw
-			`   "To be specific, the Daybal and the Muraw. The Daybal is a not-great cargo carrying drone, but the Muraw has a turret mount on a fighter. Those crazy people of Res-redi's Sh-" "The results of the meeting," `
-			`   "The results of the meeting," Kanlanmo says icily, "are that the leaders are very pleased. They didn't expect Hajay to contibute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
+			`	"To be specific, the Daybal and the Muraw. The Daybal is a not-great cargo carrying drone, but the Muraw has a turret mount on a fighter. Those crazy people of Res-redi's Sh-" "The results of the meeting," `
+			`	"The results of the meeting," Kanlanmo says icily, "are that the leaders are very pleased. They didn't expect Hajay to contibute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
 				goto ok
 			label meetingresults
-			`   "The leaders are very pleased. They didn't expect Hajay to contibute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
+			`	"The leaders are very pleased. They didn't expect Hajay to contibute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
 			label ok
 			choice
-				`   "No questions."`
+				`	"No questions."`
 					goto done
-				`   "What is this other shipyard called?"`
+				`	"What is this other shipyard called?"`
 					goto resredi
 			label resredi
-			`   "It's called Res-redi Shipyards. The quality of their ships is not high," replies Kasim. "And think of putting a turret mount on a fighter! Preposterous! The Res-redians have no idea of good ship design at all!"`
-			`   "You very well know that if <first> keeps working with us, Resredi will have to be involved, Kasim," remarks Kanlanmo.`
-			`   "<first>, will you volunteer to do some escort duty later, for the government?"`
+			`	"It's called Res-redi Shipyards. The quality of their ships is not high," replies Kasim. "And think of putting a turret mount on a fighter! Preposterous! The Res-redians have no idea of good ship design at all!"`
+			`	"You very well know that if <first> keeps working with us, Resredi will have to be involved, Kasim," remarks Kanlanmo.`
+			`	"<first>, will you volunteer to do some escort duty later, for the government?"`
 			choice
-				`   "Sure."`
+				`	"Sure."`
 					goto good
-				`   "No, I don't want to work with the Jibauni anymore."`
+				`	"No, I don't want to work with the Jibauni anymore."`
 					goto stripped
 			label good
-			`   "Great. I will report that, then." Kasim cuts in, "You are lucky you said yes! Kanlanmo is the Undersecretary of the Department of Defense, and he can command you. He didn't have to give you a choice."`
+			`	"Great. I will report that, then." Kasim cuts in, "You are lucky you said yes! Kanlanmo is the Undersecretary of the Department of Defense, and he can command you. He didn't have to give you a choice."`
 			choice
-				`   "I had no idea you were so powerful!"`
+				`	"I had no idea you were so powerful!"`
 					goto power
-				`   "You mean I've been unknowingly transporting an important government offical?"`
+				`	"You mean I've been unknowingly transporting an important government offical?"`
 					goto government
 			label power
-			`   "It isn't used the way you think, <last>," says Kanlanmo. "Thank you for saying yes, and now I have something to do." He hurries away."`
-			`   "Poor Kanlanmo," remarks Kasim. "He has been shy about his job ever since he was appointed to government office. I remember when-well, that's a story for another time. I too have something to do, so goodbye." He ambles away as you go back to your business.`
+			`	"It isn't used the way you think, <last>," says Kanlanmo. "Thank you for saying yes, and now I have something to do." He hurries away."`
+			`	"Poor Kanlanmo," remarks Kasim. "He has been shy about his job ever since he was appointed to government office. I remember when-well, that's a story for another time. I too have something to do, so goodbye." He ambles away as you go back to your business.`
 				accept
 			label government
-			`   "Yes, you have," says Kanlanmo. "Goodbye, I have something to do." He hurries away."`
-			`   "Poor Kanlanmo," remarks Kasim. "He has been shy about his job ever since he was appointed to government office. I remember when-well, that's a story for another time. I too have something to do, so goodbye." He ambles away as you go back to your business.`
+			`	"Yes, you have," says Kanlanmo. "Goodbye, I have something to do." He hurries away."`
+			`	"Poor Kanlanmo," remarks Kasim. "He has been shy about his job ever since he was appointed to government office. I remember when-well, that's a story for another time. I too have something to do, so goodbye." He ambles away as you go back to your business.`
 				accept
 			label stripped
 			action
 				set "not working with jibauni"
-			`   "Your, admittedly mistaken, choice. I will tell my colleagues."`
+			`	"Your, admittedly mistaken, choice. I will tell my colleagues."`
 				decline
 	on accept
 		log `It turns out that Kanlanmo is Undersecretary of the Jibauni Department of Defense.`
@@ -552,12 +552,12 @@ mission "Jibauni: Escorts Begin"
 			has "event: jibauni gather fleet against rebels"
 	on offer
 		conversation
-			`   As <ship> touches down on the assigned pad, you receive a message from Kanlanmo.`
-			`   "Hello, <first>. Go to <planet>. There will be ships waiting for you to escort back to Baitoon. Meet me there after they arrive. Oh, and also have one bunk free when you get to <planet>."`
+			`	As <ship> touches down on the assigned pad, you receive a message from Kanlanmo.`
+			`	"Hello, <first>. Go to <planet>. There will be ships waiting for you to escort back to Baitoon. Meet me there after they arrive. Oh, and also have one bunk free when you get to <planet>."`
 			choice
-				`   "I'm on it!"`
+				`	"I'm on it!"`
 					accept
-				`   "I have an urgent delivery, but I'll come later. Send the message again to remind me."`
+				`	"I have an urgent delivery, but I'll come later. Send the message again to remind me."`
 					defer
 	on accept
 		log `Have begun working with the Jibauni once more. Currently supposed to escort some ships to Baitoon, the home planet.`
@@ -576,16 +576,16 @@ mission "Jibauni: Escorts 0"
 		conversation
 			branch defer
 				has "Jibauni Escorts 0: deferred"
-			`   As you land and go into the spaceport, you see none other than Kasim Aboagye standing there to meet you. "Hello, <last>," he greets you. "How is it going? Your job is to escort the <npc> and company to Baitoon, and also, I'm coming in your ship. Okay?`
+			`	As you land and go into the spaceport, you see none other than Kasim Aboagye standing there to meet you. "Hello, <last>," he greets you. "How is it going? Your job is to escort the <npc> and company to Baitoon, and also, I'm coming in your ship. Okay?`
 				goto choice
 			label defer
-			`   "Are you finally ready to take me, the <npc>, and company to Baitoon, <first>?" Kasim asks as you step out of the <ship>.`
+			`	"Are you finally ready to take me, the <npc>, and company to Baitoon, <first>?" Kasim asks as you step out of the <ship>.`
 				goto choice
 			label choice
 			choice
-				`   "Sure thing!"`
+				`	"Sure thing!"`
 					accept
-				`   "Not now, sorry."`
+				`	"Not now, sorry."`
 					defer
 	npc accompany save
 		government Jibauni
@@ -634,12 +634,12 @@ mission "Jibauni: Escorts 0"
 		log `Escorted some Jibauni ships from Taltahard to Baitoon. Will be escorting more soon.`
 		payment 75000
 		conversation
-			`   As you and Kasim get off your ship, Kanlanmo comes to greet you. "Hello! I see you've brought the ships all safe and sound!"`
+			`	As you and Kasim get off your ship, Kanlanmo comes to greet you. "Hello! I see you've brought the ships all safe and sound!"`
 			choice
-				`   "Of course I have!"`
-				`   "Why wouldn't I?"`
-				`   "Yes, flying here was fun."`
-			`   "Good. Now, can you-actually, meet me in the spaceport. I'll give you instructions there, but I have a report I need to make first."`
+				`	"Of course I have!"`
+				`	"Why wouldn't I?"`
+				`	"Yes, flying here was fun."`
+			`	"Good. Now, can you-actually, meet me in the spaceport. I'll give you instructions there, but I have a report I need to make first."`
 
 mission "Jibauni: Escorts 1 out"
 	name "Get ships from <planet>"
@@ -652,17 +652,17 @@ mission "Jibauni: Escorts 1 out"
 	on offer
 		conversation
 			`Kanlanmo meets you in the spaceport, and hands you seventy-five thousand credits. "These are for bringing the Hirrih and company here safely.`
-			`   Also, the Leaders have decided to give you a daily salary of 200 credits, which seems to be all they can afford right now. They seem to figure having you around is advantageous."`
+			`	Also, the Leaders have decided to give you a daily salary of 200 credits, which seems to be all they can afford right now. They seem to figure having you around is advantageous."`
 			`	Now, could you get to <planet> and pick up the Yiyarsi and its escorts? We need every ship we can get, and the offensive starts in two weeks. Don't take any longer than one week getting them back here, okay?"`
 			choice
-				`   "I'll be fast."`
+				`	"I'll be fast."`
 					accept
-				`   "Speed, here I come!"`
+				`	"Speed, here I come!"`
 					accept
-				`   "I won't work with the Jibauni any more, thank you."`
+				`	"I won't work with the Jibauni any more, thank you."`
 					flee
 	on accept
 		"salary: Jibauni" == 200
 	on complete
 		conversation
-			`   What seems to be the captain of the fleet you will be escorting shows up on your viewpanel. "Meet me in the spaceport," they say. "As soon as possible!"`
+			`	What seems to be the captain of the fleet you will be escorting shows up on your viewpanel. "Meet me in the spaceport," they say. "As soon as possible!"`

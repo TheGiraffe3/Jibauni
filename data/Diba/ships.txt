@@ -29,6 +29,7 @@ ship "Llama"
 		"weapon capacity" 0
 		"thrust" 10
 		"turn" 60
+		"shield generation" .05
 		"cargo space" 100 # maybe should be lowered?
 		licenses
 			Diba
@@ -72,6 +73,7 @@ ship "Ithquaya"
 		"reverse thrust" 2
 		"hull repair" .02
 		"shield generation" .2
+		"shield delay" 4
 		"self destruct" .2
 		"scram drive" .2
 		"jump fuel" 100
@@ -125,6 +127,7 @@ ship "Arbquaya"
 		"reverse thrust" 4
 		"hull repair" .04
 		"shield generation" .4
+		"shield delay" 8
 		"self destruct" .5
 		"scram drive" .4
 		"jump fuel" 100
@@ -186,6 +189,7 @@ ship "Tamquaya"
 		"reverse thrust" 8
 		"hull repair" .08
 		"shield generation" .8
+		"shield delay" 16
 		"self destruct" .7
 		"scram drive" .6
 		"jump fuel" 100
@@ -261,6 +265,7 @@ ship "Tahquaya"
 		"reverse thrust" 8
 		"hull repair" .08
 		"shield generation" .8
+		"shield delay" 32
 		"self destruct" .9
 		"scram drive" .4
 		"jump fuel" 100

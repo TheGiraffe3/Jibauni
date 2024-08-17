@@ -472,7 +472,7 @@ outfit "Rukjay Missile Launcher"
 outfit "Flak Launcher"
 	category "Guns"
 	cost 158000
-	thumbnail "outfit/flak launcher"
+#	thumbnail "outfit/flak launcher"
 	"mass" 10
 	"outfit space" -10
 	"weapon capacity" -10
@@ -492,6 +492,8 @@ outfit "Flak Launcher"
 		"firing heat" 1
 		"submunition" "flaklauncher"
 		"hit effect" "flak impact"
+		"no asteroid collisions"
+		"no minable collisions"
 	description "A marvel in mechanical engineering, the Flak Launcher has perfected the art of throwing projectiles in many directions."
 
 outfit "flaklauncher"

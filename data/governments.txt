@@ -37,10 +37,10 @@ government Jibauni
 #		system "Haqal"
 #		system "Holo"
 #		system "Yinkin"
-	"friendly hail" "friendly jibauni military"
-	"friendly disabled hail" "friendly disabled jibauni military"
-	"hostile hail" "hostile jibauni military"
-	"hostile disabled hail" "hostile disabled jibauni military"
+	"friendly hail" "jibauni untranslated"
+	"friendly disabled hail" "jibauni untranslated"
+	"hostile hail" "jibauni untranslated"
+	"hostile disabled hail" "jibauni untranslated"
 
 government "Jibauni (Ruler)"
 	color "governments: Jibauni" 0 0.353 0
@@ -57,10 +57,10 @@ government "Jibauni (Ruler)"
 	"penalty for"
 		assist 0
 	"bribe" 0.05 # for daring to attack them
-	"friendly hail" "friendly Jibauni (Civilian)"
-	"friendly disabled hail" "friendly disabled Jibauni (Civilian)"
-	"hostile hail" "hostile jibauni"
-	"hostile disabled hail" "hostile disabled jibauni"
+	"friendly hail" "jibauni untranslated"
+	"friendly disabled hail" "jibauni untranslated"
+	"hostile hail" "jibauni untranslated"
+	"hostile disabled hail" "jibauni untranslated"
 
 government "Jibauni (Civilian)"
 	color "governments: Jibauni" 0 0.353 0
@@ -80,10 +80,10 @@ government "Jibauni (Civilian)"
 		capture 5
 		destroy 10
 	"bribe" 0.02
-	"friendly hail" "friendly jibauni civilian"
-	"friendly disabled hail" "friendly disabled jibauni civilian"
-	"hostile hail" "hostile jibauni"
-	"hostile disabled hail" "hostile disabled jibauni"
+	"friendly hail" "jibauni untranslated"
+	"friendly disabled hail" "jibauni untranslated"
+	"hostile hail" "jibauni untranslated"
+	"hostile disabled hail" "jibauni untranslated"
 
 
 government "Jibauni (Rebel)"
@@ -154,7 +154,7 @@ government "Sheragi (Jibauni)"
 
 government "Sheragi Civilian (Jibauni)"
 	swizzle 19
-	"display name" "Sheragi Civilian"
+	"display name" "Sheragi (Civilian)"
 	color 0.196 0.588 1
 	"player reputation" 1
 	"crew attack" 0.5

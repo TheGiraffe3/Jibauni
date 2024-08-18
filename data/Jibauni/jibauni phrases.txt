@@ -662,6 +662,28 @@ phrase "jibauni first name"
 		"jibauni woman"
 		"jibauni man"
 
+news "jibauni talking jibunese"
+	name
+		word
+			"Jibauni"
+	location
+		government "Jibauni" "Rebel Jibauni"
+	message
+		word
+			`"`
+		word
+			"Je"
+			"Jamku"
+			"Hqiavepr"
+			"Xambuna"
+			"Hiuf"
+			"Jamn"
+			"Tumuen"
+			`Nu'tumunu`
+			"Ekeulol"
+		word
+			`."`
+
 news "hired jibauni assassin male"
 	name
 		word

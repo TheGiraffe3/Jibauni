@@ -2062,7 +2062,7 @@ planet Shenal
 
 planet Zigzogzinzo
 	attributes sheragi
-	landscape land/valley9
+	landscape land/mountain31
 	description `Zigzogzinzo is the primary economic center of Sheragi space, and all trading and business runs through the cities here in one way or another. The vast wealth that flows through this planet has led to it being the home of many of the wealthiest citizens. Rumor has it that near the top of the economic food chain of rich business owners is a Jibauni.`
 	spaceport `Due to the sheer amount of money on Zigzogzinzo, the floating spaceport is so fancy that you feel slightly bad for scuffing your shoes along the gleaming white floor. They also seem to have made the spaceport with a set of viewing windows for the landscape.`
 	government "Sheragi (Jibauni)"
@@ -2136,7 +2136,7 @@ planet Linkson
 system Sarkan
 	hidden
 	pos -1582 753
-	government Uninhabited
+	government "Sheragi (Jibauni)"
 	habitable 2560
 	belt 1475 3
 	link Chinjoka

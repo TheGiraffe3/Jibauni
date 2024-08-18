@@ -48,6 +48,12 @@ ship "Llama"
 	leak "flame" 50 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
+	description "The Diba fighter. It is not very powerful for its size, but it has a goodly amount of shields and hull, plus a large amount of cargo space."
+
+ship "Llama" "Llama (Anti-Missile)"
+	outfits
+		"Diba Anti-Missile"
+	turret "Diba Anti-Missile"
 
 ship "Ithquaya"
 	sprite "ship/ithquaya one"
@@ -203,34 +209,35 @@ ship "Tamquaya"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Diba Laser Turret" 8
+		"Diba Anti-Missile"
+		"Diba Laser Turret" 6
 	engine 0 0
 	bay Fighter 0 -98.5
 		over
 	bay Fighter 0 137.5
 		over
-	turret 0 -96 # top
+	turret 0 -96 "Diba Anti-Missile" # top
 		angle 0
 		arc -30 30
-	turret 0 96 # bottom
+	turret 0 96 "Diba Anti-Missile" # bottom
 		angle 180
 		arc -30 30
-	turret -67.5 24.5 # left
+	turret -67.5 24.5 "Diba Laser Turret" # left
 		angle 270
 		arc -30 30
-	turret 67.5 24.5 # right
+	turret 67.5 24.5 "Diba Laser Turret" # right
 		angle 90
 		arc -30 30
-	turret -55 -55 # top left
+	turret -55 -55 "Diba Laser Turret" # top left
 		angle 315
 		arc -30 30
-	turret 55 -55 # top right
+	turret 55 -55 "Diba Laser Turret" # top right
 		angle 45
 		arc -30 30
-	turret -50 105 # bottom left
+	turret -50 105 "Diba Laser Turret" # bottom left
 		angle 225
 		arc -30 30
-	turret 50 105 # bottom right
+	turret 50 105 "Diba Laser Turret" # bottom right
 		angle 135
 		arc -30 30
 	leak "leak" 50 50

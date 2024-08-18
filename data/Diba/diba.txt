@@ -37,7 +37,31 @@ outfit "Diba Laser Turret"
 		"shield damage" 3
 		"hull damage" 4.5
 		"turret turn" 50
-	description "This is appears to be a Heavy Laser from back in human space, except for the seeming fact that it has been heavily modified to only fit on Diba ships."
+	description "This appears to be a Heavy Laser from back in human space, except for the seeming fact that it has been heavily modified to only fit on Diba ships."
+
+outfit "Diba Anti-Missile"
+	category "Turrets"
+	cost 60000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 20
+	"outfit space" 0
+	"weapon capacity" 0
+	"turret mounts" -1
+	"diba gun ports" 1
+	"unplunderable" 1
+	licenses
+		Diba
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 4
+		"velocity" 100
+		"lifetime" 2
+		"reload" 4
+		"firing energy" 0
+		"firing heat" 0
+	description "This appears to be a Heavy Anti-Missile Turret from back in human space, except for the seeming fact that it has been heavily modified to only fit on Diba ships."
 
 fleet "Small Diba"
 	government Diba
@@ -52,16 +76,22 @@ fleet "Small Diba"
 		unconstrained
 		ramming
 		mute
-	variant 5
-		Ithquaya 2
-	variant 5
-		Arbquaya
-		Llama
-	variant 3
-		Tamquaya
-		Llama 2
 	variant 10
-		Ithquaya
+		"Ithquaya"
+	variant 6
+		"Ithquaya" 2
+	variant 4
+		"Arbquaya"
+		"Llama"
+	variant 3
+		"Arbquaya"
+		"Llama (Anti-Missile)"
+	variant
+		"Tamquaya"
+		"Llama" 2
+	variant
+		"Tamquaya"
+		"Llama (Anti-Missile)" 2
 
 fleet "Large Diba"
 	government Diba
@@ -77,27 +107,31 @@ fleet "Large Diba"
 		ramming
 		mute
 	variant 5
-		Tamquaya 2
-		Llama 4
-	variant 5
-		Tahquaya
-		Llama 4
-	variant
-		Tamquaya
-		Llama 2
-	variant 2
-		Tahquaya 3
-		Llama 12
+		"Tahquaya"
+		"Llama" 4
 	variant 3
-		Tahquaya 2
-		Llama 8
+		"Tahquaya" 2
+		"Llama" 8
+	variant 3
+		"Tamquaya" 2
+		"Llama" 4
+	variant 2
+		"Tamquaya" 2
+		"Llama" 2
+		"Llama (Anti-Missile)" 2
+	variant 2
+		"Tahquaya" 3
+		"Llama" 12
 	variant
-		Ithquaya 8
+		"Tamquaya"
+		"Llama" 2
 	variant
-		Arbquaya 5
-		Llama 10
+		"Ithquaya" 8
 	variant
-		Llama 20
+		"Arbquaya" 5
+		"Llama" 10
+	variant
+		"Llama" 20
 
 # hails
 
@@ -275,11 +309,11 @@ phrase "Diba"
 		"digit"
 
 shipyard "Diba"
-	Llama
-	Ithquaya
-	Arbquaya
-	Tamquaya
-	Tahquaya
+	"Llama"
+	"Ithquaya"
+	"Arbquaya"
+	"Tamquaya"
+	"Tahquaya"
 	Falcon
 
 outfitter "Diba"

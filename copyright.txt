@@ -102,12 +102,15 @@ Copyright: dominickvietor (https://pixabay.com/users/dominickvietor-6362547/)
 License: Pixabay Copyright License
 
 Files:
+ images/land/mountain33*
  images/land/valley16*
+ images/land/valley17*
  images/land/water21*
 Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
 License: Pixabay Copyright License
 
 Files:
+ images/land/clouds_09*
  images/land/sky12*
 Copyright: ELG21 (https://pixabay.com/users/elg21-3764790/)
 License: Pixabay Copyright License
@@ -143,3 +146,8 @@ Files:
  images/land/snow24*
 Copyright: Baptiste_lheurette (https://pixabay.com/users/baptiste_lheurette-15407445)
 License: Pixabay Copyright License
+
+Files:
+ images/land/fields28*
+Copyright: photoangel (https://www.freepik.com/author/photoangel)
+License: CC0

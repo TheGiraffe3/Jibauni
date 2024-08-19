@@ -1574,7 +1574,7 @@ planet Kanlil
 
 planet Lamalmuq
 	attributes jibauni pilgrims tourism
-	landscape land/valley16
+	landscape land/valley17
 	description `This planet has a religious significance to the Jibauni. There are many of them here, wearing simple black robes and walking in twos and threes. There also are many religious buildings and none of the pubs and bars expected on a normal planet. Billboards are posted everywhere advertising something impossible to read.`
 	description `	This is the planet of the gods to the Jibauni. Their ancient legends tell of a place where the rulers of the universe lived, and where all was quiet and peaceful.`
 	description `	This, they believe, is that planet, and so have been very careful not to spoil it.`
@@ -1898,7 +1898,7 @@ system Draig
 
 planet Andeslid
 	attributes sheragi
-	landscape land/lava8
+	landscape land/lava14
 	description `The volcanic activity of Andeslid creates an abundance of raw metal deposits close to the surface, and a booming mining industry has grown here. All across the planet incredibly hazardous mines are hard at work fueling the intense material need of the Sheragi.`
 	spaceport `The spaceport here is the only safe thing on the whole planet, strong enough to hold up against the intense strain of the freighters coming and going. It is also mostly heatproof, allowing for lava to erupt freely all around without causing problems.`
 	government "Sheragi (Jibauni)"
@@ -2267,8 +2267,8 @@ system Dakon
 
 planet Xicalins
 	attributes sheragi
-	landscape land/canyon14
-	description `Xicalins is one huge testing area, with the majority of all research and development in Sheragi space carried out right here. The marks of this extensive technology can be seen all over the planet, and as you come in low you see a mountain that has had its top taken clean off, leaving you only to wonder what kind of weapon could have done such a thing.`
+	landscape land/valley16 # had been canyon14
+	description `Xicalins is one huge and mountainous testing area, with the majority of all research and development in Sheragi space carried out right here. The marks of this extensive technology can be seen all over the planet, and as you come in low you see a mountain that has had its top taken clean off, leaving you only to wonder what kind of weapon could have done such a thing.`
 	spaceport `The spaceport is located just outside of a university, with students and scientists alike streaming in and out of its entry. There are also weapons bins scattered in many places, and a large collection of some type of documents.`
 	government "Sheragi (Jibauni)"
 	shipyard "Sheragi Basics"

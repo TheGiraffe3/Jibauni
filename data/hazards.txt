@@ -30,8 +30,8 @@ hazard "Jibauni Slowing"
 
 hazard "Sheragi Ion"
 	"duration" 1 100
-	"strength" 100
+	"strength" 25 99
 	"system-wide"
 #	"environmental effect" "ion hazard" 20
 	weapon
-		"ion damage" 0.1
+		"ion damage" 0.05

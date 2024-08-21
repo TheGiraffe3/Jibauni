@@ -204,9 +204,11 @@ phrase "jibauni untranslated"
 
 phrase "jibauni untranslated"
 	word
-		"${digit} ${digit}" 10
-		"${digit} ${digit} ${digit}" 5
+		"${digit}${digit}" 10
+		"${digit}${digit}${digit}" 5
 		"${digit}"
+	word
+		"."
 
 phrase "jibauni untranslated"
 	phrase

@@ -45,7 +45,7 @@ government Jibauni
 government "Jibauni (Ruler)"
 	color "governments: Jibauni" 0 0.353 0
 	swizzle 19
-	"display name" "Jibauni Leaders"
+	"display name" "Jibauni Leader"
 	"player reputation" 0
 	"crew attack" 3
 	"crew defense" 0.5

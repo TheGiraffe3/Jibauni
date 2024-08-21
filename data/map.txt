@@ -1147,10 +1147,15 @@ system Rilal
 		sprite planet/gas16
 		distance 2407
 		period 14937.37
-		object
+		object Sio
 			sprite planet/ice0-b
 			distance 219
 			period 122.509
+
+planet Sio
+	attributes uninhabited
+	landscape land/beach16
+	description `Snow is abundant in your landing location. There is ice on the surface of the water, and dead trees are standing on the edge, ready to topple at the slightest breath of wind. Rocks are embedded in the ice, causing there to be great white humps and hillocks. Snowdrifts are many, as are deep holes.`
 
 system Sollo
 	pos -1748.222 343.556

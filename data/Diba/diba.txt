@@ -145,28 +145,29 @@ phrase "diba explode"
 
 phrase "diba bad"
 	word
-		"rude "
-		"impolite "
-		"mean "
-		"bad "
-		"wicked "
-		"evil "
+		"rude"
+		"impolite"
+		"mean"
+		"bad"
+		"wicked"
+		"evil"
 
 phrase "diba suspicion"
 	word
-		"Syndicate "
-		"Republic "
-		"Navy "
-		"Deep "
-		"planet of Earth "
-		"planet of Valhalla "
+		"Syndicate"
+		"Republic"
+		"Navy"
+		"Deep"
+		"planet of Earth"
+		"planet of Valhalla"
 
 phrase "friendly diba"
 	word
-		"Do not blow ${diba explode} up." 5
-		"Do not blow yourself up. "
-		"Are you from the ${diba suspicion}?" 4
-		"We come from Diba Station."
+		"Do not blow ${diba explode} up." 8
+		"Do not blow yourself up." 2
+		"Are you from the ${diba suspicion}?" 8
+		"We come from Diba Station." 2
+		"Hello, stranger."
 
 phrase "friendly disabled diba"
 	phrase
@@ -177,7 +178,7 @@ phrase "friendly disabled diba"
 phrase "friendly disabled diba 1"
 	word
 		"For the sake of glorious warriors, do not shoot us. "
-		"Do not blow us up, we may be a home for a glorious warrior."
+		"Do not blow us up, for we may be a home for a glorious warrior."
 		"We come from Diba Station, so repair us."
 
 phrase "friendly disabled diba 2"
@@ -230,24 +231,24 @@ phrase "hostile diba 3"
 		"must be from "
 		"must come from "
 	word
-		"the ${diba suspicion}! "
+		"the ${diba suspicion}!"
 	word
-		"Explode!"
-		" "
+		" Explode!"
+		""
+
+#phrase "hostile disabled diba"
+#	phrase
+#		"hostile disabled diba 1"
+#		"hostile disabled diba 2"
+#		"hostile disabled diba 3"
 
 phrase "hostile disabled diba"
-	phrase
-		"hostile disabled diba 1"
-		"hostile disabled diba 2"
-		"hostile disabled diba 3"
-
-phrase "hostile disabled diba 1"
 	word
 		"Self destructing in ${digit} seconds."
 		"Self destructing in ${digit} ${digit} ${digit} nanoseconds."
 		"We come from Diba Station, so do not blow us up."
 
-phrase "hostile disabled diba 2"
+phrase "hostile disabled diba"
 	word
 		"You "
 		"Your ship "
@@ -266,7 +267,7 @@ phrase "hostile disabled diba 2"
 		"friendly "
 		"opposed to the ${diba suspicion}!"
 
-phrase "hostile disabled diba 3"
+phrase "hostile disabled diba"
 	word
 		"Blowing "
 	word

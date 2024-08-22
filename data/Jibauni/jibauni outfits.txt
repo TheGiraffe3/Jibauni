@@ -356,7 +356,7 @@ outfit "Jibauni Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hit effect" "small anti-missile"
-		"hardpoint sprite" "hardpoint/hai anti-missile"
+		"hardpoint sprite" "hardpoint/anti-missile hai"
 		"velocity" 155
 		"lifetime" 1
 		"anti-missile" 1

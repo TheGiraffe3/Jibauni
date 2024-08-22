@@ -318,6 +318,8 @@ mission "Jibauni: Kanlanmo 1"
 			`	"Your choice," he says. "As long as you can get back here and take me to Kanlil by seven days from now!"`
 				decline
 
+event "kanlanmo ready to kanlil"
+
 mission "Jibauni: Kanlanmo cargo"
 	name "Cargo to <planet>"
 	description "Take this <cargo> to <planet> by <day> for <payment>."
@@ -327,7 +329,7 @@ mission "Jibauni: Kanlanmo cargo"
 	source Kahbani
 	destination Baitoon
 	to offer
-	has "Kanlanmo 1: done"
+		has "Jibauni: Kanlanmo 1: done"
 	on accept
 		dialog "The cargo is in a deserted lication near the <ship>. Weird."
 	on complete
@@ -379,6 +381,8 @@ mission "Jibauni: Kanlanmo 2"
 		payment 12500
 		dialog `Kanlanmo gets off your ship. "Meet me in the spaceport in a hour or two," he reminds you.`
 
+event "kanlanmo books elsewhere"
+
 mission "Jibauni: Kanlanmo 3"
 	landing
 	name "Kanlanmo to <planet>"
@@ -394,18 +398,17 @@ mission "Jibauni: Kanlanmo 3"
 			choice
 				`	(Ask what is wrong.)`
 					goto question
-				`	(Leave him along, he has enough problems already.)`
+				`	(Leave him alone, he has enough problems already.)`
 					goto leavehim
 			label leavehim
 			`	Kanlanmo greets you as he comes in, then heads toward his cabin. He then appears to change his mind, and comes back toward you.`
 			choice
 				`	"What happened?"`
 					goto question
-				`	"I`m kind of busy, can we talk later?"`
+				`	"I'm kind of busy, can we talk later?"`
 					goto destination
 			label question
-			`	"The insane people here won`t furnish a good fleet," he says. "Not to blame them, because they do have a life that does not include fighting, but we were couring on most of our help from that corner."`
-			`	"Now, we`re going to need more from other worlds."`
+			`	"The insane people here won't furnish a good fleet," he says. "Not to blame them, because they do have a life that does not include fighting, but we were counting on most of our help from here. Now, we're going to need more from other worlds."`
 			choice
 				`	"I have a large fleet, so I could help."`
 					to display
@@ -422,7 +425,7 @@ mission "Jibauni: Kanlanmo 3"
 						not "flagship model: Puffin"
 					goto singleship
 			label fleetlarge
-			`	"Great," he says. "I have seen your big fleet, and it does look powerful."
+			`	"Great," he says. "I have seen your big fleet, and it does look powerful."`
 				goto thanksoffer
 			label fleetsmall
 			`	"You know what?" he asks. "Every little bit counts, and your fleet is not insignificant."`
@@ -431,7 +434,7 @@ mission "Jibauni: Kanlanmo 3"
 			`	"Well, even if <ship> could not hurt a fly, the Rebel Jibauni would not like the idea of an alien fighting on our side. They were formed, as you know, to stop the Greens."`
 			label thanksoffer
 			`	"Anyway, thanks for offering to help fight the Rebels. It is very kind of you, a stranger, to fight our internal conflicts. Now, one more thing. Can you take me back to <planet>? I need to report back to The Leaders."`
-			goto choicetake
+				goto choicetake
 			label destination
 			`	"Okay," he says. "By later I assume you mean once we are back on <planet>? Will you take me there?"`
 			label choicetake
@@ -454,6 +457,10 @@ mission "Jibauni: Kanlanmo 3"
 		conversation
 			`	"Thank you for working with me so long," says Kanlanmo as he leaves the ship. "Meet me in the spaceport in a hour or two if you want to hear about it. But I will not be available tomorrow or the day afterwards, so you will have to come soon."`
 
+event "nokanlanmomeet1"
+
+event "jibauni gather fleet against rebels"
+
 mission "Jibauni: Kanlanmo 4"
 	landing
 	name "Hear about the Baitoon meeting"
@@ -473,7 +480,7 @@ mission "Jibauni: Kanlanmo 4"
 					goto shakehands
 				`	"What ships does he make?"`
 					goto ships
-				`	(Nod)`
+				`	(Nod.)`
 					goto nod
 			label shakehands
 			`	He reaches out his hand, and you shake it. "What ships do your shipyards make?" you ask.`
@@ -498,7 +505,7 @@ mission "Jibauni: Kanlanmo 4"
 			label ok
 			choice
 				`	"No questions."`
-					goto done
+					goto good
 				`	"What is this other shipyard called?"`
 					goto resredi
 			label resredi

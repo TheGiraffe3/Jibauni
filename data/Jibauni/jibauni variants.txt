@@ -204,7 +204,7 @@ ship "Nathar" "Nathar (Government)"
 		"Jibauni Medium Laser" 2
 		"Jibauni Government Helper License"
 
-ship "Muraw" "Muraw (Battle)"
+ship "Muraw" "Muraw (Fighting)"
 	add attributes
 		"weapon capacity" 6
 		"outfit space" 8

@@ -209,7 +209,7 @@ ship "Tamquaya"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Diba Anti-Missile"
+		"Diba Anti-Missile" 2
 		"Diba Laser Turret" 6
 	engine 0 0
 	bay Fighter 0 -98.5

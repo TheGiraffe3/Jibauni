@@ -35,7 +35,7 @@ outfitter "Cheat"
 
 outfit "Diba License"
 	category "Licenses"
-	thumbnail "outfit/unkown"
+	thumbnail "outfit/unknown"
 	"unplunderable" 1
 	description "This should not be in the game at all."
 

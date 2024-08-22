@@ -22,7 +22,7 @@ galaxy "label diba"
 galaxy "label jibauni"
 	pos -1350 700
 	sprite label/jibauni
-	scale 0.1
+		scale 0.1
 
 galaxy "label sheragi"
 	pos -1550 950
@@ -167,7 +167,7 @@ system Rabalin
 	fleet "Jibauni Leaders" 8800
 	hazard "Jibauni Slowing" 200
 	object
-		sprite planet/browndwarf-l-rouge
+		sprite planet/browndwarf-l-rogue
 		distance 262.5
 		period 212.649
 	object
@@ -1064,7 +1064,7 @@ system Mimson
 	minables copper 4 3.081
 	minables lead 26 2.151
 	object
-		sprite planet/browndwarf-y-rouge
+		sprite planet/browndwarf-y-rogue
 		period 10
 	object
 		sprite planet/cloud1-b
@@ -1127,7 +1127,7 @@ system Rilal
 		distance 223
 		period 166.505
 	object
-		sprite planet/browndwarf-l-rouge
+		sprite planet/browndwarf-l-rogue
 		distance 223
 		period 166.505
 		offset 180
@@ -1342,7 +1342,7 @@ system Holo
 	fleet "Large Rebel Jibauni Military" 730
 	hazard "Jibauni Slowing" 200
 	object
-		sprite planet/browndwarf-l-rouge
+		sprite planet/browndwarf-l-rogue
 		period 10
 	object
 		sprite planet/ocean0
@@ -2318,7 +2318,7 @@ system Dodon
 	fleet "Small Sheragi Military" 970
 	fleet "Large Sheragi Military" 1480
 	object
-		sprite planet/browndwarf-l-rouge
+		sprite planet/browndwarf-l-rogue
 		distance 253.5
 		period 201.807
 		offset 180
@@ -2545,7 +2545,7 @@ system Nin
 	trade Metal 471
 	trade Plastic 319
 	object
-		sprite planet/browndwarf-y-rouge
+		sprite planet/browndwarf-y-rogue
 		distance 286
 		period 241.835
 	object

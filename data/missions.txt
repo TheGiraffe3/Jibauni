@@ -13,12 +13,13 @@
 
 mission "Mission K"
 	landing
-	name "Deep Archaeology"
-	description "Return to <destination> with the wood samples that you retrieved from the church on <origin>."
+	name "Jibauni Rebel License"
+	description "Go to <destination>."
 	source "Baitoon"
 	destination "Station of Power"
+	repeat
 	to offer
-		"reputation: Rebel Jibauni" == -1000
+		"reputation: Jibauni (Rebel)" == -1000
 	on offer
 		conversation
 			scene "thumbnail/gunboat"
@@ -27,30 +28,13 @@ mission "Mission K"
 				outfit "Jibauni Rebel Fighter License" 1
 				"Jibauni Government Like" += 2
 	
-	npc
+	npc kill
 		personality waiting
 		government "Jibauni (Rebel)"
 		ship "Raven (Afterburner)" "D.S.S. Wyrd"
 		on kill
 			set "dps wyrd dead"
-	
-	npc
-		personality waiting
-		system "Kateaza"
-		government "Jibauni (Rebel)"
-		ship "Raven (Afterburner)" "D.S.S. Skuld"
-		on kill
-			set "dps skuld dead"
-	
-	npc
-		personality waiting
-		system "Kateaza"
-		government "Jibauni (Rebel)"
-		ship "Raven (Afterburner)" "D.S.S. Verthandi"
-		on kill
-			set "dps verthandi dead"
-	to complete
-		has "dps verthandi dead"
+			payment 5000000
 
 mission "Rebel Dislike"
 	repeat
@@ -58,13 +42,5 @@ mission "Rebel Dislike"
 	source Baitoon
 	description "The Rebels Dislike You."
 	on offer
-		"reputation: Rebel Jibauni" = -1000
-		fail
-	
-mission "Discovered Jibauni Space"
-	landing
-	invisible
-	source
-		government "Jibauni" "Jibauni (Rebel)"
-	on offer
+		"reputation: Jibauni (Rebel)" = -1000
 		fail

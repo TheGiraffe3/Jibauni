@@ -207,7 +207,7 @@ mission "Jibauni Culture: Rude Rebel"
 			`	"Perhaps not, but I do deny it, and care nothing for any of your thoughts." The Jibauni rudely turns its back on you.`
 			choice
 				`	"Nor do I."`
-					nordo
+					goto nordo
 				`	(Quietly walk away.)`
 				`	(Shoot the rude Rebel Jibauni and leave.)`
 					goto shot

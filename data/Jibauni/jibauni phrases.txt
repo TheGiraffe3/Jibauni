@@ -669,7 +669,7 @@ news "jibauni talking jibunese"
 		word
 			"Jibauni"
 	location
-		government "Jibauni" "Rebel Jibauni"
+		government "Jibauni" "Jibauni (Rebel)"
 	message
 		word
 			`"`

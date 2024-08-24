@@ -78,7 +78,7 @@ mission "Jibauni: Kanlanmo 0"
 				`	"In the sake of establishing a good relationship, sure!"`
 					accept
 				`	"Of course, but unfortunately I don't have space right now. I can come back later though."`
-			`"Okay," says Kanlanmo. "Chances are, I still won't have found transport, so I will be waiting here next time you come."`
+			`	"Okay," says Kanlanmo. "Chances are, I still won't have found transport, so I will be waiting here next time you come."`
 				decline
 			label notseen
 			`	"Okay. In that case, I have another request for you. Can you take me to <planet> in the <system> system? I will mark it on your map, and explain more once we get there. Oh yes, and my name is Kanlanmo. Kanlanmo of the Jibauni."`

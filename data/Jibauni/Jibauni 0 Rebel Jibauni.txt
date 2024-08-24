@@ -161,7 +161,7 @@ mission "Jibauni: Kanlanmo 0"
 		set "language: Jibauni"
 		event "jibauni translated hails"
 		conversation
-			`	"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions. Also, here is a translator you can use, so you can talk to the rest of the populace." He goes off after handing you <payment>, and you sit back to wait until the time he specified.`
+			`	"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions. Also, here is a translator you can use, so you can talk to other Jibauni." He goes off after handing you <payment>, and you sit back to wait until the time he specified.`
 
 mission "Jibauni: Kanlanmo (0 declined)"
 	name "Take Kanlanmo to <planet>"
@@ -171,10 +171,10 @@ mission "Jibauni: Kanlanmo (0 declined)"
 	source Baitoon
 	destination Taltahard
 	to offer
-		has "Kanlanmo 0: declined"
+		has "Jibauni: Kanlanmo 0: declined"
 	on offer
 		conversation
-			`	Kanlanmo hails you as you land. "You couldn't take me to <planet> last time, can you now?"`
+			`Kanlanmo hails you as you land. "You couldn't take me to <planet> last time, but can you now?"`
 			choice
 				`	"Yes, certainly!"`
 					accept
@@ -183,22 +183,21 @@ mission "Jibauni: Kanlanmo (0 declined)"
 	on complete
 		payment 8000
 		conversation
-			`	Kanlanmo says, "I've got an urgent meeting to get to. Thank you for bringing me. The meeting will be over fast, so if you want to hear about it, meet me in the spaceport soon. Oh, and before I forget, here is <payment> for your pains."`
+			`As you land Kanlanmo says, "I've got an urgent meeting to get to. Thank you for bringing me. The meeting will be over in about an hour, so if you want to hear about it, meet me in the spaceport then. Oh, and before I forget, here is <payment> for your pains."`
 
 mission "Jibauni: Kanlanmo 1"
 	name "Kanlanmo to <planet>"
 	description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
 	passengers 1
 	to offer
-	#	or
-		has "Kanlanmo 0: done"
-	#		has "Kanlanmo (0 declined): done"
+		or
+			has "Jibauni: Kanlanmo 0: done"
+			has "Jibauni: Kanlanmo (0 declined): done"
 	source Taltahard
 	destination Kahbani
 	on offer
 		log "Factions" "Jibauni" `The Jibauni are an alien race accessed by a strange anomaly in a system south of Men. They have been invaded by a species whose name they do not know, and who paint all their ships green. They were fought off, but they have been fighting a rebel faction of their own kind for the past seven hundred years.`
-		log "Factions" "Jibauni" `These Jibauni are the ones who fought the green aliens off.`
-		log "Factions" "Rebel Jibauni" `The Rebel Jibauni used to fight what were termed the "green invaders", but when those were driven off, they turned on their Jibauni friends, whom they call the Lazies. They have been fighting the normal Jibauni for the past seven hundred years.`
+		log "Factions" "Rebel Jibauni" `The Rebel Jibauni used to fight what were termed the "green invaders," but when those were driven off, they turned on their Jibauni friends, whom they call the Lazies. They have been fighting the normal Jibauni for the past seven hundred years.`
 		conversation
 			`When Kanlanmo gets back from his meeting, he finds you already in the cafe. "How is it going, <first>?" he asks. "And how many questions do you have? I have a lot of free time at present, so ask anything you want. But before you do, can I tell you about the Rebel Jibauni?"`
 			choice
@@ -322,8 +321,8 @@ event "kanlanmo ready to kanlil"
 
 mission "Jibauni: Kanlanmo cargo"
 	name "Cargo to <planet>"
-	description "Take this <cargo> to <planet> by <day> for <payment>."
-	cargo random 1 15
+	description "Take these <cargo> to <planet> by <day> for <payment>."
+	cargo "Fancy cars" 1 15
 	deadline 3
 	job
 	source Kahbani
@@ -331,7 +330,7 @@ mission "Jibauni: Kanlanmo cargo"
 	to offer
 		has "Jibauni: Kanlanmo 1: done"
 	on accept
-		dialog "The cargo is in a deserted lication near the <ship>. Weird."
+		dialog "The cargo is in a deserted location near the <ship>. Weird."
 	on complete
 		payment 5250
 		dialog "You drop off the cargo at a large warehouse near the spaceport, which has many Jibauni hurrying to and fro. One hands you <payment>."
@@ -344,10 +343,10 @@ mission "Jibauni: Kanlanmo (1 declined)"
 	destination Kahbani
 	passengers 1
 	to offer
-		has "Kanlanmo 1: declined"
+		has "Jibauni: Kanlanmo 1: declined"
 	on offer
 		conversation
-			`	Kanlanmo contacts you as you land. He asks, "Can you take me to <planet> now?"`
+			`Kanlanmo contacts you as you land. He asks, "Can you take me to <planet> now?"`
 			choice
 				`	"Sure!"`
 					accept
@@ -369,32 +368,31 @@ mission "Jibauni: Kanlanmo 2"
 	to offer
 		has "event: kanlanmo ready to kanlil"
 	on offer
-		event "kanlanmo books elsewhere" 4
 		conversation
-			`	Kanlanmo opens communications with you as you land. "Are you ready?" he asks.`
+			`Kanlanmo opens communications with you as you land. "Are you ready?" he asks.`
 			choice
 				`	"Of course!"`
 					accept
 				`	"Not now."`
 					defer
 	on complete
+		event "kanlanmo books elsewhere" 1
 		payment 12500
 		dialog `Kanlanmo gets off your ship. "Meet me in the spaceport in a hour or two," he reminds you.`
 
 event "kanlanmo books elsewhere"
 
 mission "Jibauni: Kanlanmo 3"
-	landing
 	name "Kanlanmo to <planet>"
 	description "Kanlanmo is now interested in going to <planet>. Take him there for <payment>."
 	source Kanlil
 	destination Baitoon
 	passengers 1
 	to offer
-		has "Kanlanmo 2: done"
+		has "Jibauni: Kanlanmo 2: done"
 	on offer
 		conversation
-			`	Kanlanmo comes back to your ship, looking rather discouaged. You consider talking to him.`
+			`Kanlanmo comes back to your ship, looking rather discouraged. You consider talking to him.`
 			choice
 				`	(Ask what is wrong.)`
 					goto question
@@ -459,8 +457,6 @@ mission "Jibauni: Kanlanmo 3"
 
 event "nokanlanmomeet1"
 
-event "jibauni gather fleet against rebels"
-
 mission "Jibauni: Kanlanmo 4"
 	landing
 	name "Hear about the Baitoon meeting"
@@ -469,7 +465,7 @@ mission "Jibauni: Kanlanmo 4"
 	passengers 1
 	to offer
 		and
-			has "Kanlanmo 3: done"
+			has "Jibauni: Kanlanmo 3: done"
 			not "event: nokanlanmomeet1"
 	on offer
 		conversation
@@ -545,6 +541,7 @@ mission "Jibauni: Kanlanmo 4"
 	on decline
 		log `Decided not to work with the Jibauni any more.`
 
+event "jibauni gather fleet against rebels"
 
 mission "Jibauni: Escorts Begin"
 	landing

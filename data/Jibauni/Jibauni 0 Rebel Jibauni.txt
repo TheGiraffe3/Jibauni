@@ -539,7 +539,7 @@ mission "Jibauni: Kanlanmo 4"
 		log "People" "Kasim Aboagye" `Kasim is the owner of Aboagye Shipyards, which makes most of the Jibauni ships. He seems quite touchy about the other shipyards, called the Shipyards of Res-redi.`
 		fail
 	on decline
-		log `Decided not to work with the Jibauni any more.`
+		log `Decided not to work with the Jibauni anymore.`
 
 event "jibauni gather fleet against rebels"
 

@@ -11,9 +11,6 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-disable mission
-	"Scrapper test"
-
 mission "Jibauni Pilgrims [0]"
 	name "Pilgrims to <planet>"
 	description "Bring these <fare> to <planet> in the <system> system. Payment will be <payment>. The pilgrimage requires that you get there before <date>."
@@ -38,34 +35,10 @@ mission "Jibauni Pilgrims [0]"
 		payment 1250
 		"Jibauni government" ++
 		"pilgrim help" ++
-		dialog "The <bunks> pilgrims get off the ship, but not before one of them hands you <payment>."
+		dialog "The <bunks> pilgrims get off the <ship>, but not before one of them hands you <payment>."
 	on fail
 		"pilgrim help" --
 		"left pilgrims" ++
-
-mission "Scrapper test"
-	name "Scrapper test"
-	description "ST"
-	job
-	repeat
-	source
-		government "Jibauni" "Jibauni (Rebel)"
-	on complete
-		dialog "Yay."
-	npc kill
-		government Alpha
-		personality heroic staying nemesis target marked
-		fleet
-			names pirate
-			variant
-				Scrapper
-	npc kill
-		government "Navy (Oathkeeper)"
-		personality heroic staying nemesis target marked
-		fleet
-			names pirate
-			variant
-				Furus
 
 mission "Jibauni Kasim Cargo (pre-war)"
 	name "Cargo to <planet>"

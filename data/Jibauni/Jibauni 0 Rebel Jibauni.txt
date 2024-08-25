@@ -161,7 +161,7 @@ mission "Jibauni: Kanlanmo 0"
 		set "language: Jibauni"
 		event "jibauni translated hails"
 		conversation
-			`	"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions. Also, here is a translator you can use, so you can talk to other Jibauni." He goes off after handing you <payment>, and you sit back to wait until the time he specified.`
+			`"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions. Also, here is a translator you can use, so you can talk to other Jibauni." He goes off after handing you <payment>, and you sit back to wait until the time he specified.`
 
 mission "Jibauni: Kanlanmo (0 declined)"
 	name "Take Kanlanmo to <planet>"
@@ -293,15 +293,15 @@ mission "Jibauni: Kanlanmo 1"
 	on accept
 		conversation
 			branch manyquestions
-		#		has
-		#			and
-		#				"jibauni come"
-		#				"jibauni purple"
-		#				"jibauni situation"
-				has "jibauni language question"
-			`	"Thank you for being willing to take me. I'll be in your ship soon."`
+				and
+					has "jibauni come"
+					has "jibauni purple"
+					has "jibauni situation"
+					has "jibauni language question"
+			`"Thank you for being willing to take me. I'll be in your ship soon."`
 			label manyquestions
-			`	"You asked many questions indeed. Also, let me thank you for being willing to take me."`
+			`"You asked many questions indeed. Also, let me thank you for being willing to take me."`
+
 	on complete
 		clear "jibauni come"
 		clear "jibauni purple"
@@ -309,7 +309,7 @@ mission "Jibauni: Kanlanmo 1"
 		clear "jibauni language question"
 		event "kanlanmo ready to kanlil" 3
 		conversation
-			`	"As you land, Kanlanmo gets off the <ship>. After about a hour, he comes back. "Okay. That meeting went will. In about thirty days, I'll need you to escort some ships from here to Baitoon. In the meantime, I will soon need transport to Kanlil. I have contacted the governor and arranged a meeting next week. You can't take me yet, though, so there I checked and there is a mission going to Baitoon. You could take and complete that mission and come back in time to take me to Kanlil. Will you do that?"`
+			`"As you land, Kanlanmo gets off the <ship>. After about a hour, he comes back. "Okay. That meeting went will. In about thirty days, I'll need you to escort some ships from here to Baitoon. In the meantime, I will soon need transport to Kanlil. I have contacted the governor and arranged a meeting next week. You can't take me yet, though, so there I checked and there is a mission going to Baitoon. You could take and complete that mission and come back in time to take me to Kanlil. Will you do that?"`
 			choice
 				`	"Sure!"`
 					decline
@@ -420,21 +420,29 @@ mission "Jibauni: Kanlanmo 3"
 					goto fleetsmall
 				`	"My ship can help."`
 					to display
-						not "flagship model: Puffin"
+						not "flagship model: Puffin" # any other ships that can't fight should be added here
 					goto singleship
+				`	"That's sad."`
+					to display
+						or
+							has "flagship model: Puffin" # any other ships that can't fight should be added here
+					goto prechoicetake
 			label fleetlarge
 			`	"Great," he says. "I have seen your big fleet, and it does look powerful."`
 				goto thanksoffer
 			label fleetsmall
-			`	"You know what?" he asks. "Every little bit counts, and your fleet is not insignificant."`
+			`	"Good! Because do you know what? Every little bit counts, and your fleet is not insignificant."`
 				goto thanksoffer
 			label singleship
-			`	"Well, even if <ship> could not hurt a fly, the Rebel Jibauni would not like the idea of an alien fighting on our side. They were formed, as you know, to stop the Greens."`
+			`	"Thanks. Even if <ship> could not hurt a fly, the Rebel Jibauni would not like the idea of an alien fighting on our side. They were formed, as you know, to stop the Greens."`
 			label thanksoffer
-			`	"Anyway, thanks for offering to help fight the Rebels. It is very kind of you, a stranger, to fight our internal conflicts. Now, one more thing. Can you take me back to <planet>? I need to report back to The Leaders."`
+			`	"Anyway, thank you for offering to help fight the Rebels. It is very kind of you, a stranger, to fight in our internal conflicts. Now, one more thing. Can you take me back to <planet>? I need to report back to The Leaders."`
 				goto choicetake
 			label destination
 			`	"Okay," he says. "By later I assume you mean once we are back on <planet>? Will you take me there?"`
+				goto choicetake
+			label prechoicetake
+			`	"It is. But can you take me to <planet>? I probably have a report to make about this."`
 			label choicetake
 			choice
 				`	"Of course!"`
@@ -448,12 +456,14 @@ mission "Jibauni: Kanlanmo 3"
 				accept
 	on accept
 		event "jibauni gather fleet against rebels" 25 35
-		log `Took a Jibauni named Kanlanmo around all the Jibauni systems. Reason is unknown so far.`
+	on decline
+		log `Decided not to work with the Jibauni anymore.`
 	on complete
 		payment 15000
 		event "nokanlanmomeet1" 1
+		log `Took a Jibauni named Kanlanmo around all the Jibauni systems. Reason is unknown so far.`
 		conversation
-			`	"Thank you for working with me so long," says Kanlanmo as he leaves the ship. "Meet me in the spaceport in a hour or two if you want to hear about it. But I will not be available tomorrow or the day afterwards, so you will have to come soon."`
+			`"Thank you for working with me so long," says Kanlanmo as he leaves the ship. "Meet me in the spaceport in a hour or two if you want to hear about it. But I will not be available tomorrow or the day afterwards, so you will have to come soon."`
 
 event "nokanlanmomeet1"
 
@@ -469,7 +479,7 @@ mission "Jibauni: Kanlanmo 4"
 			not "event: nokanlanmomeet1"
 	on offer
 		conversation
-			`	When you get to the cafe, you see Kanlanmo already there, in earnest conversation with another Jibauni. As you walk up, the other Jibauni looks around. "Should I go?" he inquires of Kanlanmo.`
+			`When you get to the cafe, you see Kanlanmo already there, in earnest conversation with another Jibauni. As you walk up, the other Jibauni looks around. "Should I go?" he inquires of Kanlanmo.`
 			`	"No," orders Kanlanmo. "You should meet Captain <last>. <first>, this is Kasim Aboagye. His company makes most of our fighters and warships."`
 			choice
 				`	"Pleased to meet you."`
@@ -556,7 +566,7 @@ mission "Jibauni: Escorts Begin"
 			has "event: jibauni gather fleet against rebels"
 	on offer
 		conversation
-			`	As <ship> touches down on the assigned pad, you receive a message from Kanlanmo.`
+			`As <ship> touches down on the assigned pad, you receive a message from Kanlanmo.`
 			`	"Hello, <first>. Go to <planet>. There will be ships waiting for you to escort back to Baitoon. Meet me there after they arrive. Oh, and also have one bunk free when you get to <planet>."`
 			choice
 				`	"I'm on it!"`
@@ -638,7 +648,7 @@ mission "Jibauni: Escorts 0"
 		log `Escorted some Jibauni ships from Taltahard to Baitoon. Will be escorting more soon.`
 		payment 75000
 		conversation
-			`	As you and Kasim get off your ship, Kanlanmo comes to greet you. "Hello! I see you've brought the ships all safe and sound!"`
+			`As you and Kasim get off your ship, Kanlanmo comes to greet you. "Hello! I see you've brought the ships all safe and sound!"`
 			choice
 				`	"Of course I have!"`
 				`	"Why wouldn't I?"`
@@ -668,5 +678,4 @@ mission "Jibauni: Escorts 1 out"
 	on accept
 		"salary: Jibauni" == 200
 	on complete
-		conversation
-			`	What seems to be the captain of the fleet you will be escorting shows up on your viewpanel. "Meet me in the spaceport," they say. "As soon as possible!"`
+		dialog `What seems to be the captain of the fleet you will be escorting shows up on your viewpanel. "Meet me in the spaceport," they say. "As soon as possible!"`

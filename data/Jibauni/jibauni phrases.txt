@@ -1360,7 +1360,7 @@ phrase "generic jibauni shipyard delivery"
 		"taken off "
 	word
 		"your ship, "
-		"<ship>, "
+		"the <ship>, "
 	word
 		and
 	word

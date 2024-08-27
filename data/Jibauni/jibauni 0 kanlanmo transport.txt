@@ -514,8 +514,9 @@ mission "Jibauni: Kanlanmo 3"
 event "nokanlanmomeet1"
 
 mission "Jibauni: Kanlanmo 4"
-	name "Hear about the Baitoon meeting"
-	source Kanlil
+	name "Baitoon meeting"
+	description "Hear about the Baitoon meeting."
+	source Baitoon
 	destination Baitoon
 	passengers 1
 	to offer
@@ -524,7 +525,7 @@ mission "Jibauni: Kanlanmo 4"
 	on offer
 		conversation
 			`When you get to the cafe, you see Kanlanmo already there, in earnest conversation with another Jibauni. As you walk up, the other Jibauni looks around. "Should I go?" he inquires of Kanlanmo.`
-			`	"No," orders Kanlanmo. "You should meet Captain <last>. <first>, this is Kasim Aboagye. His company makes most of our fighters and warships."`
+			`	"No," says Kanlanmo. "You should meet Captain <last>. <first>, this is Kasim Aboagye. His company makes most of our fighters and warships."`
 			choice
 				`	"Pleased to meet you."`
 					goto shakehands
@@ -561,7 +562,7 @@ mission "Jibauni: Kanlanmo 4"
 			label resredi
 			`	"It's called Res-redi Shipyards. The quality of their ships is not high," replies Kasim. "And think of putting a turret mount on a fighter! Preposterous! The Res-redians have no idea of good ship design at all!"`
 			`	"You very well know that if <first> keeps working with us, Resredi will have to be involved, Kasim," remarks Kanlanmo.`
-			`	"<first>, will you volunteer to do some escort duty later, for the government?"`
+			`	"But <first>, will you volunteer to do some escort duty later, for the government?"`
 			choice
 				`	"Sure."`
 					goto good
@@ -577,11 +578,11 @@ mission "Jibauni: Kanlanmo 4"
 			label power
 			`	"It isn't used the way you think, <last>," says Kanlanmo. "Thank you for saying yes, and now I have something to do." He hurries away."`
 			`	"Poor Kanlanmo," remarks Kasim. "He has been shy about his job ever since he was appointed to government office. I remember when-well, that's a story for another time. I too have something to do, so goodbye." He ambles away as you go back to your business.`
-				accept
+				decline
 			label government
 			`	"Yes, you have," says Kanlanmo. "Goodbye, I have something to do." He hurries away."`
 			`	"Poor Kanlanmo," remarks Kasim. "He has been shy about his job ever since he was appointed to government office. I remember when-well, that's a story for another time. I too have something to do, so goodbye." He ambles away as you go back to your business.`
-				accept
+				decline
 			label stripped
 			action
 				set "not working with jibauni"
@@ -605,9 +606,8 @@ mission "Jibauni: Escorts Begin"
 		government "Jibauni" "Jibauni (Rebel)"
 	destination Taltahard
 	to offer
-		and
-			not "not working with jibauni"
-			has "event: jibauni gather fleet against rebels"
+		not "not working with jibauni"
+		has "event: jibauni gather fleet against rebels"
 	on offer
 		conversation
 			`As <ship> touches down on the assigned pad, you receive a message from Kanlanmo.`

@@ -27,7 +27,7 @@ mission "Jibauni Pilgrims [0]"
 		not planet Laqualk
 	to offer
 		has "language: Jibauni"
-		random < 80
+		random < 40
 	on accept
 		dialog "The <bunks> passengers get onto your ship, and get settled in their cabins."
 	on complete
@@ -57,7 +57,7 @@ mission "Jibauni Kasim Cargo (pre-war)"
 	to offer
 		has "language: Jibauni"
 		not "event: jibauni rebel jibauni peace"
-		random < 65
+		random < 33
 	on complete
 		payment
 		payment 250
@@ -79,7 +79,7 @@ mission "Jibauni Kasim Cargo (post-war)"
 		not planet Laqualk
 	to offer
 		has "language: Jibauni"
-		random < 50
+		random < 25
 		has "event: jibauni rebel jibauni peace"
 	on complete
 		payment
@@ -103,7 +103,7 @@ mission "Jibauni Res-redi Cargo (pre-war)"
 	to offer
 		has "language: Jibauni"
 		not "event: jibauni rebel jibauni peace"
-		random < 65
+		random < 33
 	on complete
 		payment
 		dialog phrase "generic jibauni shipyard delivery"
@@ -125,7 +125,7 @@ mission "Jibauni Res-redi Cargo (post-war)"
 	to offer
 		has "language: Jibauni"
 		has "event: jibauni rebel jibauni peace"
-		random < 50
+		random < 25
 	on complete
 		payment
 		payment 1500
@@ -222,7 +222,7 @@ mission "Jibauni Passengers [0]"
 		government "Jibauni" "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		random < 60
+		random < 30
 	destination
 		distance 1 4
 		not planet Laqualk
@@ -240,7 +240,7 @@ mission "Jibauni Passengers [1]"
 		government "Jibauni" "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		random < 60
+		random < 30
 	destination
 		distance 1 4
 		not planet Laqualk
@@ -258,7 +258,7 @@ mission "Jibauni Passengers [2]"
 		government "Jibauni" "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		random < 45
+		random < 23
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
@@ -320,7 +320,7 @@ mission "Jibauni Rush Delivery [0]"
 		government "Jibauni" "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		random < 45
+		random < 23
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
@@ -341,7 +341,7 @@ mission "Jibauni Rush Delivery [1]"
 		government "Jibauni" "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		random < 45
+		random < 23
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
@@ -361,7 +361,7 @@ mission "Jibauni Rush Delivery [2]"
 		government "Jibauni" "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		random < 45
+		random < 23
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
@@ -381,7 +381,7 @@ mission "Jibauni Bulk Delivery [0]"
 		government "Jibauni" "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		random < 80
+		random < 40
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
@@ -402,7 +402,7 @@ mission "Jibauni Bulk Delivery [1]"
 		government "Jibauni" "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		random < 80
+		random < 40
 	destination
 		distance 1 4
 		government "Jibauni" "Jibauni (Rebel)"
@@ -444,4 +444,3 @@ trade
 #		"parts of a Daybal"
 #		"parts of a Saghir"
 #		"parts of a Yiyharsi"
-

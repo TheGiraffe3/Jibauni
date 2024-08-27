@@ -514,7 +514,6 @@ mission "Jibauni: Kanlanmo 3"
 event "nokanlanmomeet1"
 
 mission "Jibauni: Kanlanmo 4"
-	landing
 	name "Hear about the Baitoon meeting"
 	source Kanlil
 	destination Baitoon

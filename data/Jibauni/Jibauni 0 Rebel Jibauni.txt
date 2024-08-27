@@ -389,6 +389,7 @@ mission "Jibauni: Kanlanmo books elsewhere"
 	destination Kahbani
 	to offer
 		has "event: kanlanmo books elsewhere"
+		not "Jibauni: Kanlanmo 3: offered"
 	on offer
 		conversation
 			`A call comes in from Kanlanmo the moment you get reception. He sounds quite angry as he yells, "You were supposed to meet me in the spaceport of <destination>! I'm late for an important meeting now!"`
@@ -406,18 +407,18 @@ mission "Jibauni: Kanlanmo books elsewhere"
 			`	"Because you said that you liked the Jibauni. It seems that you loathe us as much as the Rebels do!"`
 				goto end
 			label cutoff
-			log `Got in big trouble for being rude to Kanlanmo. Work for the Jibauni seems to have stopped.`
 			action
+				log `Got in big trouble for being rude to Kanlanmo. Work for the Jibauni seems to have stopped.`
 				"reputation: Jibauni" = -1000
 				"reputation: Jibauni (Civilian)" = -1000
 				"reputation: Jibauni (Fueler)" = 0
 				"reputation: Jibauni (Rebel)" = 0
 			`	As soon as you end the call, a Jibauni arrives in front of your ship and calls out, "You have dishonored one of our leaders. You shall leave now."`
-			`	You see the planetary defense mechanisms of <origin> preparing to open fire on the <ship> and decide to leave before anything else happens. Perhaps the Rebel Jibauni will take you in.`
+			`	You see the defense mechanisms of <origin> preparing to open fire on the <ship> and decide to leave before anything else happens. Perhaps the Rebel Jibauni will take you in.`
 				flee
 			label end
-			log `Refrained from meeting Kanlanmo in the spaceport of Kahbani, and got told off by him for not doing so. The Jibauni don't love that.`
 			action
+				log `Refrained from meeting Kanlanmo in the spaceport of Kahbani, and got told off by him for not doing so. The Jibauni don't love that and have restricted access to all worlds.`
 				"reputation: Jibauni" = 0
 				"reputation: Jibauni (Civilian)" = 0
 				"reputation: Jibauni (Fueler)" = 0

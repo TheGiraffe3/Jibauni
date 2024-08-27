@@ -882,7 +882,8 @@ ship "Safinat"
 	description "The Jibauni's only Space Liner also serves as a heavy warship in its own right."
 
 ship "Osra"
-	sprite "ship/osra"
+	sprite "ship/dropship"
+	thumbnail "thumbnail/dropship"
 	attributes
 		category "Drone"
 		"cost" 375000

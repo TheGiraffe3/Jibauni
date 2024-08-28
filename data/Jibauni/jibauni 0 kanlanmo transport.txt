@@ -142,10 +142,10 @@ mission "Jibauni: Kanlanmo 0"
 			label rebeljibauni
 			`	"They are, as the name might suggest, Jibauni who have split away from the real government. They are not very polite, and you definitely do not want to be on their side."`
 			choice
-				`	"That's what you think. Well, I'm joining the Rebels, whatever you may say."`
-					goto joinedrebels
 				`	"Okay. I'll take you."`
 					accept
+				`	"That's what you think. Well, I'm joining the Rebels, whatever you may say."`
+					goto joinedrebels
 				`	"No, I won't take you. Sorry."`
 					decline
 			label joinedrebels

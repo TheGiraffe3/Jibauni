@@ -1,0 +1,77 @@
+# Copyright (c) 2024 by Loymdayddaud
+#
+# Jibauni is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Jibauni is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+mission "First Contact: Rebel Jibauni"
+	name "<destination> travel"
+	description "Travel to <destination> to meet up with the leaders of this Rebel Jibauni faction."
+	landing
+	source
+		government "Jibauni (Rebel)"
+	destination Andwerfen
+	to offer
+		not "Jibauni: Kanlanmo 0: active"
+		not "Jibauni: Kanlanmo 0: done"
+		not "Jibauni: Kanlanmo (0 declined): active"
+		not "Jibauni: Kanlanmo (0 declined): done"
+	on offer
+		conversation
+			branch "flagship andwerfen"
+				has "flagship planet: Andwerfen"
+			branch "met and declined the jibauni"
+				has "jibauni: joined the rebels"
+				not "flagship planet: Andwerfen"
+			branch "met and declined the jibauni and on andwerfen"
+				has "jibauni: joined the rebels"
+				not "flagship planet: Andwerfen"
+			label nothing
+			`As you land on <origin>, a strange creature comes up to you. It is in the shape the fabled Tyrannosaurus Rex from Earth, but it is covered in what is seemingly metal armor.`
+			`	Dangerous, yes, but it might also be wise to go out and attempt to communicate with the mysterious dinosaur.`
+			choice
+				`	(Go try to speak with the alien.)`
+					goto speak
+				`	(Leave. The danger isn't worth it.)`
+					flee
+				`	(The unknown is dangerous. Shoot the thing.)`
+					goto shot
+			label speak
+			`	Before you can do anything, you hear strange words, something like "Je. Vqekuves?" Suddenly the words are converted to a language you can barely understand. "Go to <planet>." Apparently that is the only thing they have to say, and the huge crowd disperses.`
+				accept
+			label shot
+			branch "shot and missed"
+				random < 30
+			action
+				"reputation: Jibauni (Rebel)" = -1
+			`	You grab a weapon from the interior of the <ship> and point it at the stranger. But before you can attack, a loud noise sounds, and your ship is launched into the air, with the likeness of planetary defenses pointing at it.`
+			`	You decide to leave before anything else can happen.`
+				flee
+			label "shot and missed"
+			`	Grabbing a pistol from the inside of the <ship>, you rush outside and fire. Aim was hasty, however, and you see the bullet miss wildly.`
+				goto speak
+			label "flagship andwerfen"
+			action
+				"reputation: Jibauni (Rebel)" = 10
+			`As you land on this alien planet, a pedastal raises out of the ground about a mile away from the <ship>. A creature with a megaphone is on top of it, and begins yelling something. You faintly hear words telling you to take off and land again, so that they will have time to properly prepare for your arrival. They then use a strange device to launch you into the air.`
+				flee
+			label "met and declined the jibauni and on andwerfen"
+			action
+				"reputation: Jibauni (Rebel)" = 10
+			`A Rebel Jibauni comes up to your ship as you land, telling you to take off and land again so that they can prepare for your arrival. You then are unceremoniously launched by a strange spring.`
+				flee
+			label "met and declined the jibauni"
+			`Upon landing, a Rebel comes up to you telling you to go to <planet> to consult with the leaders. You don't have another option, and so you tell the Jibauni that you will.`
+				accept
+	on complete
+		"reputation: Jibauni (Rebel)" = 10
+		conversation
+			`A Rebel Jibauni tells you to take off and re-land so that they can prepare for your arrival. You are then unceremoniously launched with some strange mechanism.`
+				launch

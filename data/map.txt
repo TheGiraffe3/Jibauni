@@ -514,7 +514,7 @@ system Huyya
 			distance 302
 			period 248.269
 	object Baitoon
-		sprite planet/oberon
+		sprite planet/baitoon
 		distance 3332
 		#hazard "Jibauni Gravity" 1
 		period 1655.353

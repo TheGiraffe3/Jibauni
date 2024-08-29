@@ -85,6 +85,8 @@ mission "Jibauni: Kanlanmo 0"
 			choice
 				`	"Of course! You can get on the <ship> right away!"`
 					accept
+				`	"Why?"`
+					goto whychoice
 				`	"I'm sorry, I can't take you now. Later maybe though."`
 					decline
 			label wormholeentry
@@ -182,8 +184,10 @@ mission "Jibauni: Kanlanmo (0 declined)"
 					defer
 	on complete
 		payment 8000
+		set "language: Jibauni"
+		event "jibauni translated hails"
 		conversation
-			`As you land Kanlanmo says, "I've got an urgent meeting to get to. Thank you for bringing me. The meeting will be over in about an hour, so if you want to hear about it, meet me in the spaceport then. Oh, and before I forget, here is <payment> for your pains."`
+			`As you land Kanlanmo says, "I've got an urgent meeting to get to. Thank you for bringing me. The meeting will be over in about an hour, so if you want to hear about it, meet me in the spaceport then. Oh, and before I forget, here is <payment> and a translator for your pains."`
 
 mission "Jibauni: Kanlanmo 1"
 	name "Kanlanmo to <planet>"

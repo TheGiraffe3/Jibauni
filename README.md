@@ -40,3 +40,7 @@ The Sheragi are closer to T1.3, because they focus on _massive_ ships.
 I would welcome any help making this plugin. If possible, the things I need most help on are making ship and outfit sprites, preferably with .blend and .gimp files to go along.
 I have sprites for the Diba/Sheragi, but not the Jibauni.
 It would be nice if they followed a more uniform pattern than they do now. Sounds would also be appreciated.
+
+## Other notes
+
+Some of the Rebel Jibauni storyline may throw errors if you are not playing with the mainstream PR #6298. However, it is only used in one place and kills you if you have become a pirate, so I don't suppose that's a problem.

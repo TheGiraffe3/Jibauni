@@ -83,7 +83,8 @@ The rest will come later.
 <details>
 <summary>"Rebel" Storyline</summary>
 
-In first contact, the player will eventually have the option to decide that the Rebel Jibauni are right and the Normal are wrong. If this happens, the Rebel storyline can begin.
+In the Jibauni first contact, the player will eventually have the option to decide that the Rebel Jibauni are right and the Normal are wrong. If this happens, the Rebel storyline can begin.
+The first contact has a condition for if you are a pirate which won't be added until #6298 is merged. I fully expect that to happen before the Jibauni are ready, but if not, that should be disabled; it is meant to test if you have swizzle 6 or not.
 To begin with, you are tasked with fetching some alien warships (3 Scrappers), which take part in the Battle for Baitoon.
 The player leads the assault, but is driven back by sheer numbers. You must then defend Almanhaq from a Jibauni counterattack, but with the whole Rebel armada on your side, this is quite easy. Landing on Almanhaq, you are given a Rebel license and a salary of 1,200 credits. (This also can be adjusted.) Fleets on both sides are increased.
 

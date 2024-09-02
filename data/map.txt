@@ -604,6 +604,7 @@ system Almanhaq
 	belt 1131 2
 	belt 1856 2
 	belt 2560
+	"invisible fence" 15000
 	haze _menu/haze-green
 	link Haqal
 	link Holo
@@ -1388,6 +1389,7 @@ system Yinkin
 	#departure 60
 	habitable 5600
 	belt 1216
+	"invisible fence" 15000
 	haze _menu/haze-green
 	link Almanhaq
 	link Haqal

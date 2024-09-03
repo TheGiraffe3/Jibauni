@@ -447,7 +447,7 @@ phrase "friendly disabled jibauni civilian 2"
 		"enjoyable, "
 		"entertaining, "
 	word
-		"please "
+		"so please "
 	word
 		"help "
 		"assist "

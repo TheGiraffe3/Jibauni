@@ -34,7 +34,7 @@ mission "First Contact: Rebel Jibauni"
 				has "jibauni: joined the rebels"
 				not "flagship planet: Andwerfen"
 			label nothing
-			`As you land on <origin>, a strange creature comes up to you. It is in the shape the fabled Tyrannosaurus Rex from Earth, but it is covered in what is seemingly metal armor.`
+			`As you land on <origin>, a strange creature comes up to you. It is in the shape of the fabled Tyrannosaurus Rex from Earth, but it is covered in what is seemingly metal armor.`
 			`	Dangerous, yes, but it might also be wise to go out and attempt to communicate with the mysterious dinosaur.`
 			choice
 				`	(Go try to speak with the alien.)`

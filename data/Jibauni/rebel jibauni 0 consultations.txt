@@ -88,7 +88,7 @@ mission "Rebel Jibauni: Landed on Andwerfen"
 			has "First Contact: Rebel Jibauni: declined"
 			has "First Contact: Rebel Jibauni: done"
 		not "attempted to shoot a rebel jibauni"
-		event "rebel jibauni ready first contact"
+		has "event: rebel jibauni ready first contact"
 	on offer
 		conversation
 			`A long wait ensues after you land on <origin>. The Rebel Jibauni seem to be trying to find someone you can speak your language. Feeling bored, you wonder about going to see what's happening.`

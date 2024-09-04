@@ -38,6 +38,12 @@ fleet "Jibauni Pilgrim Transport"
 	variant 10
 		Quyan
 		Saghir
+	variant 30
+		Yankul
+	variant 10
+		Quyan
+		Saghir
+		Yankul
 
 fleet "Hajay Pilgrim Transport"
 	government "Jibauni (Civilian)"
@@ -51,6 +57,8 @@ fleet "Hajay Pilgrim Transport"
 		"Quyan (Inter-system)"
 	variant 4
 		"Quyan (Inter-system)" 2
+	variant
+		Yankul 4
 
 fleet "Jibauni Fighter Patrol"
 	government Jibauni
@@ -188,8 +196,6 @@ fleet "Jibauni Leaders"
 		"Nathaq (Government)" 2
 	variant
 		"Nathar (Government)" 2
-
-
 
 fleet "Large Rebel Jibauni Military"
 	government "Jibauni (Rebel)"

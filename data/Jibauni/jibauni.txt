@@ -27,6 +27,7 @@ shipyard "Aboagye Advanced"
 	"Qudaw (Normal)"
 
 shipyard "Resredi Basics"
+	Yankul
 	Muraw
 	Daybal
 	Saghir

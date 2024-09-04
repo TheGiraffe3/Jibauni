@@ -248,6 +248,45 @@ ship "Duntay"
 	description "The Jibauni drone weapons bearer, the Duntay mostly works by zipping around targets to confuse their turrets and do tiny amounts of damage at the same time."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
+ship "Yankul"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes
+		category "Transport"
+		"cost" 650000
+		"shields" 900
+		"hull" 500
+		"required crew" 1
+		"bunks" 7
+		"mass" 79
+		"drag" 1.53
+		"heat dissipation" .34
+		"fuel capacity" 200
+		"cargo space" 11
+		"outfit space" 45
+		"weapon capacity" 4
+		"engine capacity" 0
+		"jibauni generator" 0.5
+		"fuel protection" .7
+		"thrust" 1
+		"turn" 8
+		licenses
+			Jibauni
+		weapon
+			"blast radius" 10
+			"shield damage" 150
+			"hull damage" 65
+			"hit force" 200
+	outfits
+		"Jahgir Energy Generator"
+		"Musaghar Shield Generator"
+		"Hyperdrive"
+	engine 0 0
+	gun 0 0 "Jibauni Small Laser"
+	explode "tiny explosion" 20
+	"final explode" "final explosion small"
+	description "The smallest ship the Jibauni possess, this ship is terrible at combat and only mediocre at cargo hauling. Its fame comes from the fact that it has many bunks for the cost, and that it can sport a weapon, though by default it does not come with one."
+
 ship "Saghir"
 	sprite "ship/sparrow"
 	thumbnail "thumbnail/sparrow"
@@ -308,8 +347,8 @@ ship "Furus"
 		"cost" 1600000
 		"shields" 1740
 		"hull" 1000
-		"required crew" 1
-		"bunks" 7
+		"required crew" 2
+		"bunks" 8
 		"mass" 130
 		"drag" 2.1
 		"heat dissipation" .3

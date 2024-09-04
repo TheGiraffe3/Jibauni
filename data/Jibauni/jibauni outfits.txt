@@ -11,6 +11,18 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+outfit "Musaghar Shield Generator"
+	category "Systems"
+	thumbnail "outfit/musaghar shield generator"
+	cost 50000
+	"mass" 3
+	"outfit space" -3
+	"shield generation" .05
+	"shield energy" .3
+	"shield fuel" .005
+	"shield heat" -0.5
+	"fuel capacity" 2
+
 outfit "Jamum Shield Generator"
 	category "Systems"
 	plural "Jamum Shield Generators"

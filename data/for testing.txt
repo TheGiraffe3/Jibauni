@@ -101,21 +101,31 @@ outfit "Diba License"
 	"unplunderable" 1
 	description "This should not be in the game at all."
 
-conversation "blank"
+conversation "jibauni cheat start"
 	scene "scene/lobby"
 	label start
 	`What is your name?`
 	name
 	`	Good to know. Here is a custom ship, have fun!`
 
-start "cheatj"
-	name "Jibauni"
-	description `Cheat Jibauni.`
+conversation "jibauni start"
+	scene "scene/lobby"
+	label start
+	`You are a Jibauni, preparing to start your first interstellar travel experience. This is a very exciting day for you as you enter the bank and take out a loan.`
+	`	The banker asks you to sign your name, and you oblige.`
+	name
+	`	You cannot tell when you get to the level of the floor and exit. There are two sensible ships in your price range.`
+	`	This will decide what you do in the future.`
+
+start "Cheat Jibauni"
+	name "Jibauni Tester"
+	description `A Jibauni start that should only be used for testing. Gives you almost unlimited money and a special ship.`
+	description `	Definitely cheating.`
 	thumbnail "scene/lobby"
 	date 16 11 3013
 	system "Huyya"
 	planet "Baitoon"
-	conversation "blank"
+	conversation "jibauni cheat start"
 	account
 		credits 596000000000000
 		score 800

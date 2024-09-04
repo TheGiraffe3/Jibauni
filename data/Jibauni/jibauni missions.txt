@@ -61,7 +61,7 @@ mission "Jibauni: Ru-win 0"
 				`	(Leave.)`
 					decline
 			label go
-			`	You walk toward the Jibauni, and ask, "What is happening?" As you notice that it's Ru-win, she gives a start and replies, "At last! The human captain, <first>! There you are! Come with me over here to a more quiet place, I need to ask you something." They push you over to a bench.`
+			`	You walk toward the Jibauni, and ask, "What is happening?" As you notice that it's Ru-win, she gives a start and replies, "At last! The human captain, <first>! There you are! Come with me over here to a more quiet place, I need to ask you something." She pushes you over to a bench.`
 				goto question
 			label stay
 			`	After a bit longer of looking around, the Jibauni heads your way, and you notice she is Ru-win. "Captain <last>! I need to ask you something! Come over to this seating area with me?" She pushes you over to a bench.`

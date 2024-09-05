@@ -40,7 +40,7 @@ mission "First Contact: Rebel Jibauni"
 				`	(Go try to speak with the alien.)`
 					goto speak
 				`	(Leave. The danger isn't worth it.)`
-					flee
+					goto flee
 				`	(The unknown is dangerous. Shoot the thing.)`
 					goto shot
 			label speak
@@ -51,7 +51,7 @@ mission "First Contact: Rebel Jibauni"
 				random < 30
 			action
 				"reputation: Jibauni (Rebel)" = -1
-				set "attempted to shoot a rebel jibauni"
+				set "jibauni: disliked by the rebels"
 			`	You grab a weapon from the interior of the <ship> and point it at the stranger. But before you can attack, a loud noise sounds, and your ship is launched into the air, with the likeness of planetary defenses pointing at it.`
 			`	You decide to leave before anything else can happen.`
 				flee
@@ -71,6 +71,10 @@ mission "First Contact: Rebel Jibauni"
 			label "met and declined the jibauni"
 			`Upon landing, a Rebel comes up to you telling you to go to <planet> to consult with the leaders. You don't have another option, and so you tell the Jibauni that you will. As the Rebels seem to expect you to leave immediately, you decide to do so.`
 				launch
+			label flee
+			action
+				"reputation: Rebel Jibauni" = -1
+				set "jibauni: disliked by the rebels"
 	on complete
 		event "rebel jibauni ready first contact" 1
 		"reputation: Jibauni (Rebel)" = 10

@@ -19,6 +19,8 @@ mission "Jibauni: Kanlanmo 0"
 	destination Taltahard
 	on offer
 		conversation
+			branch jibauniinsider
+				has "species: jibauni"
 			`One of the weird aliens who appear to dwell here and who seem to be in the shape of the mythic Tyrannosaurus Rex, approaches your ship as you land. When you land and start out of your ship, grabbing your sidearm and donning armor as you go, it is standing by the hatch. "Hello, fair stranger," it says. "How may I serve you on this delightful day?"`
 			choice
 				`	"Hello. My name is <first> <last>, and I come in peace."`
@@ -158,12 +160,28 @@ mission "Jibauni: Kanlanmo 0"
 				set "jibauni: joined the rebels"
 			`	"Very well. Goodbye, and never land here again until you have made reparations."`
 				flee
+			label jibauniinsider
+			action
+				event "jibauni translated hails"
+				set "language: Jibauni"
+			`A Jibauni comes up to you when you walk out of the shipyard. "Could you take me to <planet> for <payment>? It is something to do with the Rebel Jibauni, and I need to have a meeting with someone. My name is Kanlanmo.`
+			choice
+				`	"If you would like."`
+					accept
+				`	"No, sorry. I can't right now."`
+					decline
 	on complete
 		payment 15000
-		set "language: Jibauni"
-		event "jibauni translated hails"
+		set "First Contact: Jibauni: offered"
 		conversation
+			branch insider
+				has "species: jibauni"
+			action
+				event "jibauni translated hails"
+				set "language: Jibauni"
 			`"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions. Also, here is a translator you can use, so you can talk to other Jibauni." He goes off after handing you <payment>, and you sit back to wait until the time he specified.`
+			label insider
+			`"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. Now, I know you are burning with questions, but I have an urgent meeting. If you meet me in the spaceport soon, though, I can answer your questions.`
 
 mission "Jibauni: Kanlanmo (0 declined)"
 	name "Take Kanlanmo to <planet>"
@@ -184,10 +202,16 @@ mission "Jibauni: Kanlanmo (0 declined)"
 					defer
 	on complete
 		payment 8000
-		set "language: Jibauni"
-		event "jibauni translated hails"
+		set "First Contact: Jibauni: offered"
 		conversation
+			branch insider
+				has "species: jibauni"
+			action
+				event "jibauni translated hails"
+				set "language: Jibauni"
 			`As you land Kanlanmo says, "I've got an urgent meeting to get to. Thank you for bringing me. The meeting will be over in about an hour, so if you want to hear about it, meet me in the spaceport then. Oh, and before I forget, here is <payment> and a translator for your pains."`
+			label insider
+			`As you land Kanlanmo says, "I've got an urgent meeting to get to. Thank you for bringing me. The meeting will be over in about an hour, so if you want to hear about it, meet me in the spaceport then. Oh, and before I forget, here is <payment> for your pains.`
 
 mission "Jibauni: Kanlanmo 1"
 	name "Kanlanmo to <planet>"

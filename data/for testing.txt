@@ -111,11 +111,12 @@ conversation "jibauni cheat start"
 conversation "jibauni start"
 	scene "scene/lobby"
 	label start
-	`You are a Jibauni, preparing to start your first interstellar travel experience. This is a very exciting day for you as you enter the bank and take out a loan.`
+	`You are a Jibauni, preparing to start your first interstellar travel experience. This is a very exciting day for you as you enter the bank and apply for a license.`
+	`	It has been a long path here since the day you found an abandoned spaceship near the desert on Baitoon. Restoring the ship took time and money. But finally you have gotten everything ready and gotten a small loan to start your transport business.`
 	`	The banker asks you to sign your name, and you oblige.`
 	name
-	`	You cannot tell when you get to the level of the floor and exit. There are two sensible ships in your price range.`
-	`	This will decide what you do in the future.`
+	`	You will start with a Yankul, a very small ship that has but seven bunks. However, it is possible to sell it completely and buy a Saghir so that you can live a fighting life.`
+	`	What you choose now will decide what you do in the future.`
 
 start "Cheat Jibauni"
 	name "Jibauni Tester"

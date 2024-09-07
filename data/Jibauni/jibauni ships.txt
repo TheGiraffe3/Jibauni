@@ -282,7 +282,7 @@ ship "Yankul"
 		"Musaghar Shield Generator"
 		"Hyperdrive"
 	engine 0 0
-	gun 0 0 "Jibauni Small Laser"
+	gun 0 0
 	explode "tiny explosion" 20
 	"final explode" "final explosion small"
 	description "The smallest ship the Jibauni possess, this ship is terrible at combat and only mediocre at cargo hauling. Its fame comes from the fact that it has many bunks for the cost, and that it can sport a weapon, though by default it does not come with one."

@@ -247,3 +247,47 @@ start "Cheat Jibauni"
 		"final explode" "final explosion large"
 		description "Successive raider designs have been the Korath warship of choice for plundering neighboring species for generations. Named for a celebrated captain who gave her life to ensure her crippled vessel made it back to port with its desperately needed cargo of stolen fish, the Palavret-Class Raiding Ship continues that grim tradition."
 		description "	Like all Exile ships, the Palavret has been adapted to house as many Korath as possible, as comfortably as possible, inflating its size beyond similarly armed warships. The spaceborne construction techniques employed allow for the ship's easy replacement, facilitating continued raids of nearby systems."
+
+mission "jibauni start displayed"
+	landing
+	invisible
+	to offer
+		or
+			has "First Contact: Jibauni: done"
+			and
+				has "First Contact: Rebel Jibauni: declined"
+				not "jibauni: disliked by the rebels"
+			has "First Contact: Rebel Jibauni: done"
+	on offer
+		set "global: jibauni start displayed"
+		fail
+
+mission "jibauni start unlocked"
+	landing
+	invisible
+	to offer
+		has "jibauni start displayed"
+		has "event: jibauni rebel jibauni peace"
+	on offer
+		set "global: jibauni start unlocked"
+		fail
+
+start "jibauni space"
+	name "Jibauni Start"
+	description `You grew up on Huyya, a Jibauni planet.`
+	description `	(This is the non-cheating start that comes with the the Jibauni plugin.)`
+	thumbnail "scene/lobby"
+	system "Huyya"
+	planet "Baitoon"
+	date 16 11 3013
+	to display
+		has "jibauni start displayed"
+	on display
+		description "This start is locked."
+	to unlock
+		has "jibauni start unlocked"
+	conversation "jibauni start"
+	set "species: Jibauni"
+	set "jibauni start"
+	set "First Contact: Jibauni: offered"
+	set "Intro [0]: offered"

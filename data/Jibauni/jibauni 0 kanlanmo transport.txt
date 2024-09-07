@@ -20,7 +20,7 @@ mission "Jibauni: Kanlanmo 0"
 	on offer
 		conversation
 			branch jibauniinsider
-				has "species: jibauni"
+				has "species: Jibauni"
 			`One of the weird aliens who appear to dwell here and who seem to be in the shape of the mythic Tyrannosaurus Rex, approaches your ship as you land. When you land and start out of your ship, grabbing your sidearm and donning armor as you go, it is standing by the hatch. "Hello, fair stranger," it says. "How may I serve you on this delightful day?"`
 			choice
 				`	"Hello. My name is <first> <last>, and I come in peace."`
@@ -175,7 +175,7 @@ mission "Jibauni: Kanlanmo 0"
 		set "First Contact: Jibauni: offered"
 		conversation
 			branch insider
-				has "species: jibauni"
+				has "species: Jibauni"
 			action
 				event "jibauni translated hails"
 				set "language: Jibauni"
@@ -205,7 +205,7 @@ mission "Jibauni: Kanlanmo (0 declined)"
 		set "First Contact: Jibauni: offered"
 		conversation
 			branch insider
-				has "species: jibauni"
+				has "species: Jibauni"
 			action
 				event "jibauni translated hails"
 				set "language: Jibauni"

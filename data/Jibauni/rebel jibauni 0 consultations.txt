@@ -215,3 +215,21 @@ mission "Rebel Jibauni: Landed on Andwerfen"
 		fleet "Small Rebel Jibauni Military" 3
 
 event "rebel jibauni: initial transportation"
+
+mission "Rebel Jibauni: Transportation 1"
+	landing
+	source Andwerfen
+	destination Sinsansun
+	to offer
+		has "event: rebel jibauni: initial transportation"
+		not "jibauni: disliked by the rebels"
+	on offer
+		conversation
+			`A Rebel Jibauni comes up and announces something. Your translator converts it to, "Take me to <planet> for our leaders and the good of the Rebel Jibauni. Do not dare refuse."`
+				accept
+	on complete
+		event "rebel jibauni: first transportation done and second offered"
+		conversation
+			`The Rebel Jibauni thanks you, and tells you that you will be on call whenever the leaders want.`
+
+event "rebel jibauni: first transportation done and second offered"

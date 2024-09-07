@@ -92,10 +92,10 @@ outfit "Eimlaq Engines"
 	"slowing resistance fuel" .1
 	"steering flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
-	"steering flare sound" "atomic large"
+	"steering flare sound" "eimlaq engines"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
-	"flare sound" "atomic huge"
+	"flare sound" "eimlaq engines"
 
 outfit "Wasita Engines"
 	category "Engines"
@@ -124,10 +124,10 @@ outfit "Wasita Engines"
 	"slowing resistance fuel" .05
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 11
-	"steering flare sound" "atomic tiny"
+	"steering flare sound" "wasita engines"
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 10
-	"flare sound" "atomic small"
+	"flare sound" "wasita engines"
 
 outfit "Alhaja Engines"
 	category "Engines"
@@ -156,10 +156,10 @@ outfit "Alhaja Engines"
 	"slowing resistance fuel" .01
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 11
-	"steering flare sound" "atomic tiny"
+	"steering flare sound" "alhaja engines"
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 10
-	"flare sound" "atomic small"
+	"flare sound" "alhaja engines"
 
 outfit "Jibauni Small Laser"
 	category "Guns"

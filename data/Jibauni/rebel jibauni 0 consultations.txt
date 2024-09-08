@@ -220,6 +220,7 @@ mission "Rebel Jibauni: Transportation 1"
 	landing
 	source Andwerfen
 	destination Sinsansun
+	passengers 1
 	to offer
 		has "event: rebel jibauni: initial transportation"
 		not "jibauni: disliked by the rebels"
@@ -228,8 +229,45 @@ mission "Rebel Jibauni: Transportation 1"
 			`A Rebel Jibauni comes up and announces something. Your translator converts it to, "Take me to <planet> for our leaders and the good of the Rebel Jibauni. Do not dare refuse."`
 				accept
 	on complete
-		event "rebel jibauni: first transportation done and second offered"
+		event "rebel jibauni: first transportation done and second ready to offer" 2 14
 		conversation
 			`The Rebel Jibauni thanks you, and tells you that you will be on call whenever the leaders want.`
 
-event "rebel jibauni: first transportation done and second offered"
+event "rebel jibauni: first transportation done and second ready to offer"
+
+mission "Rebel Jibauni: Transportation 2"
+	landing
+	source Andwerfen
+	destination Minmanmun
+	passengers 1
+	to offer
+		has "event: rebel jibauni: first transportation done and second ready to offer"
+	on offer
+		conversation
+			`A Rebel Jibauni comes up to the <ship> and says, "The Rebel Jibauni leaders request you to kindly transport me to <planet>. They will back it up."`
+				accept
+	on complete
+		event "rebel jibauni: second transportation done and third ready to offer" 3 9
+		conversation
+			`The Rebel Jibauni leaves after telling you that you will be on call as needed.`
+
+event "rebel jibauni: second transportation done and third ready to offer"
+
+mission "Rebel Jibauni: Transportation 3"
+	landing
+	source Andwerfen
+	destination Muntisir
+	passengers 3
+	to offer
+		has "event: rebel jibauni: second transportation done and third ready to offer"
+	on offer
+		conversation
+			`A group of Rebels approach the landing pad that the <ship> is landed on and ask you to take them to <planet>. You do not seem to be able to refuse.`
+				accept
+	on complete
+		event "rebel jibauni: transportation done" 10 25
+		payment 50000
+		conversation
+			`The group disembarks, but one of them gives you <payment>, "As a small token of our gratitude."`
+
+event "rebel jibauni: transportation done"

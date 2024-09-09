@@ -271,3 +271,86 @@ mission "Rebel Jibauni: Transportation 3"
 			`The group disembarks, but one of them gives you <payment>, "As a small token of our gratitude."`
 
 event "rebel jibauni: transportation done"
+
+mission "Rebel Jibauni: Bring Them Back"
+	source Andwerfen
+	stopover Minmanmun
+	stopover Muntisir
+	stopover Sinsansun
+	passengers 5
+	to offer
+		has "event: rebel jibauni: transportation done"
+	on offer
+		payment 10000
+		conversation
+			`The spaceport of <origin> is a very busy place. As you walk around admiring the sights, you are suddenly pulled into an alley by an unknown assailant and yanked away from the main thoroughfare. You are then knocked out.`
+			`	A while later, when you wake up, you find yourself in the same place as you were when the Rebel Jibauni Leaders spoke to you. As you think this, the same Jibauni enter and are seated.`
+			`	"Good job not being startled when kidnapped," one of them says in complimentary tones. "This is surprising to many of our people, but I see that you are special."`
+			`	Another one speaks. "Our request for you today is that you will go to <planet stopovers> to pick up the members of our people whom you transported there. You will receive money for this, and indeed have already gained ten thousand credits for doing what you have so far."`
+			`	"So, what do you say? Will you bring them back here? Or be stripped of all further services?"`
+			choice
+				`	"I'll do whatever you want."`
+					goto accept
+				`	"As you like."`
+					goto acceptone
+				`	"Never, foul tyrants!"`
+					goto foul
+				`	"No, not really."`
+					goto nonotreally
+			label acceptone
+			action
+				set "rebel jibauni: calm"
+			label accept
+			`	"Perfect! The agents will be waiting for you at the spaceports."`
+				accept
+			label foul
+			`	"What! An insult! How dare you!" the Rebel Jibauni simultaneously exclaim. They jump out of their seats and mob you.`
+			`	It is a bad idea to be impolite to the Jibauni.`
+				die
+			label nonotreally
+			`	"Positive? We don't really love people who decline us, you know..."`
+			choice
+				`	"Oh, whatever. I'll take them."`
+					goto accept
+				`	"Never, foul tyrannosauruses!"`
+					goto foul
+				`	"No means no, my friends."`
+					goto nomeansno
+			label nomeansno
+			`	"No, no means yes. But this is your final chance. Say no one more time, and you will be stripped of all connections with us."`
+			choice
+				`	"If you insist, you insist. I'll take them, I guess."`
+					goto accept
+				`	"I have already given you my answer."`
+					goto alreadyanswer
+			label alreadyanswer
+			action
+				"reputation: Jibauni (Rebel)" = -100 # I would like to make this so that you have a two-day time limit before the Rebels become hostile, but that doesn't seem possible.
+			`	"As you please. Guards," and the Rebel snaps its fingers. You are escorted back to the <ship> and warned that no mercy will be shown when you take off. You are also informed that you are taking off now.`
+				flee
+	on stopover
+		dialog `Also, that was the last Jibauni. You should go back to Andwerfen now to drop them off.`
+	on complete
+		event "rebel jibauni: storyline can continue: bring them back" 20 60
+		payment 50000
+		conversation
+			`This time when you land you and the Jibauni you were transporting are escorted in state to the government building. Instead of going through a side alley, the entourage goes right up the main steps and into the same room, where the Leaders are already waiting for you.`
+			`	"Excellent, excellent, excellent!" exclaims one of them. "So glad to see that you're back here, and with everybody safe and sound! How goes it?"`
+			choice
+				`	"Well."`
+				`	"As fine as ever."`
+			`	"Thank you for bringing Rin, Min, Lin, Nin, and Iin back to Andwerfen. Really quite kind of you."`
+			choice
+				`	"Because you definitely didn't force me to do so."`
+					goto forced
+				`	(Say nothing.)`
+					goto nothing
+			label forced
+			action
+				set "rebel jibauni: sarcasm"
+			`	"No, not really. But let us not speak of those things."`
+			label nothing
+			`	A different Rebel speaks up, "You are being rewarded with <payment> and the knowledge that you have helped the Rebel Jibauni. You may go now."`
+			`	You are escorted out of the building and back to your ship. This seems to be everything for now.`
+
+event "rebel jibauni: storyline can continue: bring them back"

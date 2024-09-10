@@ -273,6 +273,8 @@ mission "Rebel Jibauni: Transportation 3"
 event "rebel jibauni: transportation done"
 
 mission "Rebel Jibauni: Bring Them Back"
+	name "Transport Rebels Back"
+	description "Get the Rebel Jibauni that you transported out to <stopovers> back to <destination>."
 	source Andwerfen
 	stopover Minmanmun
 	stopover Muntisir
@@ -286,7 +288,7 @@ mission "Rebel Jibauni: Bring Them Back"
 			`The spaceport of <origin> is a very busy place. As you walk around admiring the sights, you are suddenly pulled into an alley by an unknown assailant and yanked away from the main thoroughfare. You are then knocked out.`
 			`	A while later, when you wake up, you find yourself in the same place as you were when the Rebel Jibauni Leaders spoke to you. As you think this, the same Jibauni enter and are seated.`
 			`	"Good job not being startled when kidnapped," one of them says in complimentary tones. "This is surprising to many of our people, but I see that you are special."`
-			`	Another one speaks. "Our request for you today is that you will go to <planet stopovers> to pick up the members of our people whom you transported there. You will receive money for this, and indeed have already gained ten thousand credits for doing what you have so far."`
+			`	Another one speaks. "Our request for you today is that you will go to <stopovers> to pick up the members of our people whom you transported there. You will receive money for this, and indeed have already gained ten thousand credits for doing what you have so far."`
 			`	"So, what do you say? Will you bring them back here? Or be stripped of all further services?"`
 			choice
 				`	"I'll do whatever you want."`
@@ -329,7 +331,7 @@ mission "Rebel Jibauni: Bring Them Back"
 			`	"As you please. Guards," and the Rebel snaps its fingers. You are escorted back to the <ship> and warned that no mercy will be shown when you take off. You are also informed that you are taking off now.`
 				flee
 	on stopover
-		dialog `Also, that was the last Jibauni. You should go back to Andwerfen now to drop them off.`
+		dialog `All of the Rebel Jibauni are on your ship. Now return to Andwerfen for the reward.`
 	on complete
 		event "rebel jibauni: storyline can continue: bring them back" 20 60
 		payment 50000
@@ -351,6 +353,40 @@ mission "Rebel Jibauni: Bring Them Back"
 			`	"No, not really. But let us not speak of those things."`
 			label nothing
 			`	A different Rebel speaks up, "You are being rewarded with <payment> and the knowledge that you have helped the Rebel Jibauni. You may go now."`
-			`	You are escorted out of the building and back to your ship. This seems to be everything for now.`
+			`	You are escorted out of the building and back to your ship. This seems to be everything the Rebels want you to do for now.`
+	on visit
+		dialog `You've returned to Andwerfen, but you do not yet have all of the Rebel Jibauni on your ship! Go and get them before landing again.`
 
 event "rebel jibauni: storyline can continue: bring them back"
+
+#event "rebel jibauni hostile"
+#	"reputation: Rebel Jibauni" = -100
+#
+#mission "Rebel Jibauni: Bring Them Back: Minmanmun"
+#	landing
+#	source Minmanmun
+#	to offer
+#		has "Rebel Jibauni: Bring Them Back: active"
+#	on offer
+#		conversation
+#			``
+#				accept
+#	on accept
+#		dialog `The Jibauni you transported here is just as polite as ever and salutes you as he hops on board.`
+#			fail
+#
+#mission "Rebel Jibauni: Bring Them Back: Sinsansun"
+#	landing
+#	source Sinsansun
+#	to offer
+#		has "Rebel Jibauni: Bring Them Back: active"
+#	on offer
+#		dialog `While continuing to be stern, the Rebel on this planet seems glad to see you.`
+
+#mission "Rebel Jibauni: Bring Them Back: Muntisir"
+#	landing
+#	source Muntisir
+#	to offer
+#		has "Rebel Jibauni: Bring Them Back: active"
+#	on offer
+#		dialog `The Rebel Jibauni group rush onto your ship and urge you to leave immediately, without giving any explanation.`

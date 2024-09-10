@@ -138,6 +138,8 @@ mission "Jibauni: Ru-win 2"
 	on accept
 		event "jibauni: ruwin more than sixty days" 55
 
+event "jibauni: ruwin more than sixty days"
+
 mission "Jibauni: Ru-win 3"
 	name "Escort Ru-win"
 	description "Escort Ru-win to <planet destination> so that she can see a human planet."

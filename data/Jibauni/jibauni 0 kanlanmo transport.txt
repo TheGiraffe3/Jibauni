@@ -565,7 +565,7 @@ mission "Jibauni: Kanlanmo 4"
 			`	He reaches out his hand, and you shake it. "What ships do your shipyards make?" you ask.`
 				goto ships
 			label nod
-			`	He nods back in acknowledgement. "What ships do you make?" you ask.`
+			`	He nods back in acknowledgment. "What ships do you make?" you ask.`
 				goto ships
 			label ships
 			`	Kasim lights up. "Aboagye Shipyards makes quite a few ships," he says. "The only ones we do not make are the Yiyharsi, Saghir, and one or two other ships, which are made by the untrustwor-"`
@@ -577,10 +577,10 @@ mission "Jibauni: Kanlanmo 4"
 					goto daybalmuraw
 			label daybalmuraw
 			`	"To be specific, the Daybal and the Muraw. The Daybal is a not-great cargo carrying drone, but the Muraw has a turret mount on a fighter. Those crazy people of Res-redi's Sh-" "The results of the meeting," `
-			`	"The results of the meeting," Kanlanmo says icily, "are that the leaders are very pleased. They didn't expect Hajay to contibute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
+			`	"The results of the meeting," Kanlanmo says icily, "are that the leaders are very pleased. They didn't expect Hajay to contribute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
 				goto ok
 			label meetingresults
-			`	"The leaders are very pleased. They didn't expect Hajay to contibute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
+			`	"The leaders are very pleased. They didn't expect Hajay to contribute any ships at all, so the few promised are a great boon to them. Well, now you know. Anything else?"`
 			label ok
 			choice
 				`	"No questions."`
@@ -601,7 +601,7 @@ mission "Jibauni: Kanlanmo 4"
 			choice
 				`	"I had no idea you were so powerful!"`
 					goto power
-				`	"You mean I've been unknowingly transporting an important government offical?"`
+				`	"You mean I've been unknowingly transporting an important government official?"`
 					goto government
 			label power
 			`	"It isn't used the way you think, <last>," says Kanlanmo. "Thank you for saying yes, and now I have something to do." He hurries away."`

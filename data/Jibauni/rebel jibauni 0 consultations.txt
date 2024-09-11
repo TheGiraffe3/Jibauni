@@ -359,10 +359,10 @@ mission "Rebel Jibauni: Bring Them Back"
 
 event "rebel jibauni: storyline can continue: bring them back"
 
-#event "rebel jibauni hostile"
+# event "rebel jibauni hostile"
 #	"reputation: Rebel Jibauni" = -100
 #
-#mission "Rebel Jibauni: Bring Them Back: Minmanmun"
+# mission "Rebel Jibauni: Bring Them Back: Minmanmun"
 #	landing
 #	source Minmanmun
 #	to offer
@@ -375,15 +375,15 @@ event "rebel jibauni: storyline can continue: bring them back"
 #		dialog `The Jibauni you transported here is just as polite as ever and salutes you as he hops on board.`
 #			fail
 #
-#mission "Rebel Jibauni: Bring Them Back: Sinsansun"
+# mission "Rebel Jibauni: Bring Them Back: Sinsansun"
 #	landing
 #	source Sinsansun
 #	to offer
 #		has "Rebel Jibauni: Bring Them Back: active"
 #	on offer
 #		dialog `While continuing to be stern, the Rebel on this planet seems glad to see you.`
-
-#mission "Rebel Jibauni: Bring Them Back: Muntisir"
+#
+# mission "Rebel Jibauni: Bring Them Back: Muntisir"
 #	landing
 #	source Muntisir
 #	to offer

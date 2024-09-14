@@ -6,7 +6,7 @@ It is in very active development and will be changing often.
 It may break quite a few things, so use at your own risk. 
 
 ## General Information
-This plugin readds the Sheragi, and also adds a robotic faction called the Diba and a species named the Jibauni. 
+This plugin re-adds the Sheragi, and also adds a robotic faction called the Diba and a species named the Jibauni. 
 
 I am currently focusing on the Jibauni most, so the Sheragi and Diba are quite lacking in many respects. 
 
@@ -30,7 +30,7 @@ I am aiming for the Diba to be slightly more powerful then humans, but only a bi
 
 ## Sheragi
 
-This plugin also readds the Sheragi, and uses outfits and ship sprites mainly taken from @Petersupes' plugin Sheragi Rebirth. These Sheragi do not use the Emerald Sword, though they have a less powerful version of it called the Platinum Spear, which does not have a Dragonflame Cannon.
+This plugin also re-adds the Sheragi, and uses outfits and ship sprites mainly taken from @Petersupes' plugin Sheragi Rebirth. These Sheragi do not use the Emerald Sword, though they have a less powerful version of it called the Platinum Spear, which does not have a Dragonflame Cannon.
 The Sheragi are closer to T1.3, because they focus on _massive_ ships.
 
 

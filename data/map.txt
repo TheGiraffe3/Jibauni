@@ -30,7 +30,7 @@ galaxy "label sheragi"
 
 planet Owiay
 	attributes jibauni uninhabited
-	landscape land/water23
+	landscape land/water27
 	description `This is a beautiful world, with rushing rivers and great trees. No other ships, hostile or friendly, seem to be here.`
 	description `	The wildlife on Owiay is abundant, and there do not seem to be predators. All animals you see eat nothing but leaves.`
 

@@ -112,7 +112,7 @@ Files:
  images/land/mountain33*
  images/land/valley16*
  images/land/valley17*
- images/land/water23*
+ images/land/water27*
 Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
 License: Pixabay Copyright License
 
@@ -133,7 +133,7 @@ Copyright: sasint (https://pixabay.com/users/sasint-3639875/)
 License: Pixabay Copyright License
 
 Files:
- images/land/water24*
+ images/land/water28*
  images/land/mars5*
 Copyright: ryannoeker (https://pixabay.com/users/ryannoeker-41074070/)
 License: Pixabay Copyright License

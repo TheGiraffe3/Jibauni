@@ -10,7 +10,7 @@ This plugin re-adds the Sheragi, and also adds a robotic faction called the Diba
 
 I am currently focusing on the Jibauni most, so the Sheragi and Diba are quite lacking in many respects. 
 
-The Jibauni mostly use human ship sprites, which I am hoping will change soon (see #Contributing). 
+The Jibauni mostly use human ship sprites, which I am hoping will change soon (see [Contributing](#Contributing)). 
 
 You can find the fork of Endless Sky with the Jibauni integrated [here](https://github.com/Alrodel/endless-sky/tree/Jibauni).
 

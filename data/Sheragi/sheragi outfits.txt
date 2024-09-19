@@ -58,11 +58,11 @@ outfit "Large Fission Drive"
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
-	"flare sound" "atomic small"
+	"flare sound" "fissiondrive"
 	"steering flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
-	"steering flare sound" "atomic tiny"
+	"steering flare sound" "fissiondrive"
 	licenses
 		"Sheragi Capital"
 	description "This large complex engine is fission powered, resulting in a massive amount of energy to drive heavy ships forwards."

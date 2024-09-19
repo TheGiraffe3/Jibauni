@@ -377,10 +377,10 @@ outfit "Kinetic Spear Launcher"
 	"gun ports" -1
 	"kinetic spear capacity" 6
 	weapon
-		sprite "projectile/kinetic spear"
-		sound "piercer"
-		ammo "Kinetic Spear"
+		sound "kspear"
 		icon "icon/kinetic spear"
+		sprite "projectile/kinetic spear"
+		ammo "Kinetic Spear"
 		"fire effect" "basic launch"
 		"hit effect" "kinetic impact"
 		"die effect" "missile death"

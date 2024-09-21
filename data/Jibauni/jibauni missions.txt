@@ -189,6 +189,8 @@ mission "Jibauni: Ru-win 3"
 
 mission "Jibauni: Ru-win 4"
 	priority
+	name "Escort the <npc>"
+	description "Escort the ship of Ru-win, which is called <npc> to <planet stopovers> and back to <planet>. The Jibauni are interested in exploring, and this is one of the ways you can help them."
 	source Taltahard
 	stopover Solace
 	destination Taltahard

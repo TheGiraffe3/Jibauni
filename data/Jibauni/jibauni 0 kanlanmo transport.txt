@@ -311,8 +311,8 @@ mission "Jibauni: Kanlanmo 1"
 			action
 				set "jibauni dinosaur skulls"
 				log "Factions" "Jibauni" `There used to be other dinosaurs on the Jibauni home planet of Baitoon, which they used to hunt and eat. However, these dinosaurs were transplanted to Owiay, where they thrive on all the vegetation.`
-			`	"Long ago the Jibauni had petty wars and duels on our home planet of Baitoon. When we discovered how to make vessels capable of spaceflight, we decided it would be a good memorial to all our fallen friends to create our ships in the shape of skulls. When the green aliens invaded, we quickly discovered that they were good at fighting. Therefore, our warships are in the shape of dragon skulls, which is what those green aliens were."`
-			`	"The smaller interceptors are in the shape of our skulls. Other non-combat ships are in the shape of other dinosaurs' which we used to eat skulls."`
+			`	"Long ago we had petty wars and duels on our home planet of Baitoon. When we discovered how to make vessels capable of spaceflight, we agreed to create our ships in the shape of the skulls of fallen friends. When the green aliens invaded, we quickly discovered that they were excellent warriors. Therefore, our warships designed for nothing but combat are in the shape of dragon skulls, as a testament to our invaders' prowess.`
+			`	"The smaller interceptors are the memorials, representing fallen friends. Other non-combat ships are in the shape of other dinosaurs' which we used to eat skulls."`
 			choice
 				`	"And what happened to those other dinosaurs? Where are they now?"`
 					goto dinosaurskullsothers

@@ -2,9 +2,6 @@
 
 This is a plugin for the free, open-source game Endless Sky (endless-sky.github.io). 
 
-It is in very active development and will be changing often. 
-It may break quite a few things, so use at your own risk. 
-
 ## General Information
 This plugin re-adds the Sheragi, and also adds a robotic faction called the Diba and a species named the Jibauni. 
 

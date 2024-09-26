@@ -344,11 +344,10 @@ mission "Jibauni: Kanlanmo 1"
 					has "jibauni purple"
 					has "jibauni situation"
 					has "jibauni language question"
-					has "jibauni knowledge: dinosaur skulls"
-			`"Thank you for being willing to take me. I'll be in your ship soon.`
+			`	"Thank you for being willing to take me. I'll be in your ship soon.`
 				goto end
 			label manyquestions
-			`"You asked many questions indeed. Also, let me thank you for being willing to take me.`
+			`	"You asked many questions indeed. Also, let me thank you for being willing to take me.`
 			label end
 			`	"I'll be in your ship soon."`
 	on complete

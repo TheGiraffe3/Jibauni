@@ -263,7 +263,7 @@ mission "Jibauni: Kanlanmo 1"
 					goto language
 				`	"Why are your ships shaped like dinosaur skulls?"`
 					to display
-						not "jibauni dinosaur skulls"
+						not "jibauni knowledge: dinosaur skulls"
 					goto dinosaurskulls
 				`	"I have no more questions."`
 					goto done
@@ -309,7 +309,7 @@ mission "Jibauni: Kanlanmo 1"
 				goto choice
 			label dinosaurskulls
 			action
-				set "jibauni dinosaur skulls"
+				set "jibauni knowledge: dinosaur skulls"
 				log "Factions" "Jibauni" `There used to be other dinosaurs on the Jibauni home planet of Baitoon, which they used to hunt and eat. However, these dinosaurs were transplanted to Owiay, where they thrive on all the vegetation.`
 			`	"Long ago we had petty wars and duels on our home planet of Baitoon. When we discovered how to make vessels capable of spaceflight, we agreed to create our ships in the shape of the skulls of fallen friends. When the green aliens invaded, we quickly discovered that they were excellent warriors. Therefore, our warships designed for nothing but combat are in the shape of dragon skulls, as a testament to our invaders' prowess.`
 			`	"The smaller interceptors are the memorials, representing fallen friends. The appearances of non-combat ships are inspired by the skull shapes of dinosaurs we used to hunt."`
@@ -344,7 +344,7 @@ mission "Jibauni: Kanlanmo 1"
 					has "jibauni purple"
 					has "jibauni situation"
 					has "jibauni language question"
-					has "jibauni dinosaur skulls"
+					has "jibauni knowledge: dinosaur skulls"
 			`"Thank you for being willing to take me. I'll be in your ship soon.`
 				goto end
 			label manyquestions

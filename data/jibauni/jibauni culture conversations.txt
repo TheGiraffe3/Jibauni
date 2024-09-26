@@ -162,13 +162,13 @@ mission "Jibauni Culture: Rebel Report"
 			`	When you wake up, you find that the Jibauni have robbed you and left a message. The message tells you to not be so foolhardy next time, and that they have left the planet, so telling the police will be useless.`
 				decline
 
-mission "Jibauni Culture: Rude Rebel"
+mission "Rebel Jibauni Culture: Rude Rebel"
 	minor
 	source
 		government "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		#random < 1
+		random < 1
 	on offer
 		conversation
 			`The part of the spaceport you are currently in is quite interesting, but also seems to be a slum. There are many armed Rebels standing around, and it feels rather strange seeing guns all over the place.`
@@ -224,13 +224,25 @@ mission "Jibauni Culture: Rude Rebel"
 					goto shot
 			label getout
 			`	The Jibauni whips around to face you. "No. You do."`
-			`	A squadron of Rebel Jibauni soldiers comes around a corner and forcibly escorts you to your ship, then tell you that if you don't leave they will open fire on <ship>. You decide to leave.`
+			`	A squad of Rebel Jibauni soldiers come around a corner and forcibly escort you to your ship, then tell you that if you don't leave they will open fire on the <ship>. You decide to leave.`
 				flee
 			label shot
 			action
 				"reputation: Jibauni (Rebel)" -= 1
-			`	Your shot hits the Rebel squarely in the back, killing it instaneously. You get back to <ship> without anyone seeing you, and leave immediately.`
+			`	Your shot hits the Rebel squarely in the back, killing it instaneously. You get back to the <ship> without anyone seeing you, and leave immediately.`
 				flee
 			label walkedaway
 			`	You turn and walk away, with the Rebel Jibauni laughing at you the whole while. That did not go very well.`
+				decline
+
+mission "Rebel Jibauni Culture: Fleeing Rebel"
+	minor
+	landing
+	source
+		government "Jibauni (Rebel)"
+	to offer
+		random < 1
+	on offer
+		conversation
+			`After landing the <ship> on <origin>, you decide to go for a stroll. But upon opening the airlock, you see a Rebel Jibauni running away from a squad of soldiers. Before you can do anything, the Rebel is caught by the military and taken back to wherever it came from.`
 				decline

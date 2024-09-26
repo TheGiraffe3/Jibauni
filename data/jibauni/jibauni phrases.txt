@@ -670,7 +670,7 @@ phrase "jibauni first name"
 		"jibauni woman"
 		"jibauni man"
 
-news "jibauni talking jibunese"
+news "jibauni speaking jibunese"
 	name
 		word
 			"Jibauni"
@@ -680,17 +680,19 @@ news "jibauni talking jibunese"
 		word
 			`"`
 		word
-			"Je"
-			"Jamku"
-			"Hqiavepr"
-			"Xambuna"
-			"Hiuf"
-			"Jamn"
-			"Tumuen"
-			`Nu'tumunu`
-			"Ekeulol"
+			"Je." # Hi
+			"Jamku." # Hello
+			"Hqiavepr." # Greetings
+			"Xambuna." # Welcome
+			"Hiuf." # Good
+			"Jamn!" # Help
+			"Tumuen." # Salaam (Arabic, translates to "Peace")
+			`Nu'tumunu.` # Ma'salama (Arabic, translates to "Goodbye")
+			"Ekeulol." # Alaikum (Arabic, translates to "be with you")
+			"Tumuen Ekeulol." # Salaam Alaikum (Arabic, translates to "Peace be with you")
+			`Jix'r os hiomh?` # How's it going?
 		word
-			`."`
+			`"`
 
 news "hired jibauni assassin male"
 	name

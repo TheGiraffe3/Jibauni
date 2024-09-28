@@ -95,7 +95,7 @@ Copyright: Wolfgang-1958 (https://pixabay.com/users/wolfgang-1958-32693390/)
 License: Pixabay Copyright License
 
 Files:
- images/land/snow24*
+ images/land/snow26*
 Copyright: Baptiste_lheurette (https://pixabay.com/users/baptiste_lheurette-15407445)
 License: Pixabay Copyright License
 

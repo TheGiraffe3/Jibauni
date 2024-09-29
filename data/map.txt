@@ -599,11 +599,6 @@ system Kateaza
 			sprite planet/dust3
 			distance 369
 			period 267.942
-	object "Station of Power"
-		sprite planet/sheragistation
-			scale 2
-		distance 3373.643
-		period 450
 
 system Almanhaq
 	pos -1390 535
@@ -1382,19 +1377,11 @@ system Yinkin
 		distance 10239.744
 		period 1970
 
-planet "Station of Power"
-	attributes jibauni "old sheragi"
-	landscape land/sheragistation
-	description `This station is uninhabited, but there is an eerie feeling about it, as if there was a reason it was abandoned. But it seems to be in fully functional condition and apparently only needs a few hard workers to put it right and make it livable.`
-	description `	It was built by the Sheragi long ago, before the Jibauni drove them out of Lalin. The Sheragi presence is still evident, however, because of the hugeness of the station. It is rather spooky.`
-	port
-		description `Not many people or Jibauni are here. Just a sad stillness and a huge emptiness. However, a few Rebels and Normals roam the passageways in peace, because this is important to them.`
-
 planet Kanlil
 	attributes jibauni station tourism
 	landscape land/station13
 	description `As the station for the popular destination of Lamalmuq, this place is quite busy, also selling things that are illegal on that planet, such as Luxury Goods. In fact this is where the main trading of the system happens-in the place where all the passengers have layovers.`
-	description `	This station was built fairly recently, only one hundred years ago. The company which built it, though, Dertoy Enterprises, has gone out of business, and most Jibauni think that the station has been there since the beginning-the same way the Station of Power has been.`
+	description `	This station was built fairly recently, only one hundred years ago. The company which built it, though, Dertoy Enterprises, has gone out of business, and most Jibauni think that the station has been there since the beginning.`
 	spaceport `Quite a few Jibauni are walking around, many with black robes. There also many of the Jibauni who wear the uniforms which here are the mark of being a spaceport employee. There are many ships nearby, and many Jibauni unloading and reloading all aspects of them.`
 	government Jibauni
 	shipyard "Aboagye Basics"
@@ -1499,7 +1486,7 @@ planet Andwerfen
 	attributes capital jibauni "rebel jibauni" "seat of government"
 	landscape land/rocks1
 	description `That this is the place where the Rebels have their government is easy to see, because there are many fortified buildings and bunkers in readiness to shoot any invaders, and the many planetary defenses are very powerful.`
-	description `	The credit for discovering this planet goes to Wahlkin, a Jibauni who had been a peaceful planet-dweller until the Sheragi came. When the war was over, he started exploring, and subsequently started the colony of Andwerfen, which grew into the planet it is today.`
+	description `	The credit for discovering this planet goes to Wahlkin, a Jibauni who had once been a peaceful planet-dweller. Eventually, however, he started exploring, and subsequently started the colony of Andwerfen, which grew into the planet it is today.`
 	description `	Many Jibauni wish that Andwerfen had never been founded.`
 	spaceport `Little is here except for the many armed patrols the Rebel Jibauni keep patrolling the neighborhoods, looking for disruptors of the peace. The Jibauni around you all look frightened, and the number here that must wish to get back to normal Jibauni space must be large.`
 

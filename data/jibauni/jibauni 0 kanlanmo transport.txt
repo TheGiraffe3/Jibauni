@@ -231,7 +231,7 @@ mission "Jibauni: Kanlanmo 1"
 			choice
 				`	"Sure!"`
 			label rebeljibauni
-			`	He begins, "They have been attacking us for about seven hundred years. In addition, the part that many of my people feel sorely, is the fact that they call us the Lazies. It all began a hundred years before then, when a leader suddenly declared independance and decided to rebel. Do you have any questions?"`
+			`	He begins, "They have been attacking us for about seven hundred years. In addition, the part that many of my people feel sorely, is the fact that they call us the Lazies. It all began a hundred years before then, when a leader suddenly declared independence and decided to rebel. Do you have any questions?"`
 				goto realchoice
 			label choice
 			`	After a suitable silence, Kanlanmo again asks, "Do you have any other questions?"`

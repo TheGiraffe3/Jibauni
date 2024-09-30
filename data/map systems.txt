@@ -170,6 +170,56 @@ system Alphan
 		distance 1717
 		period 304.26
 
+system Greiun
+	pos -1560 526
+	government Uninhabited
+	habitable 0
+	belt 1708 6
+	belt 1754 2
+	asteroids "small rock" 2 2.74
+	asteroids "medium rock" 8 3.627
+	asteroids "large rock" 1 3.99
+	asteroids "medium metal" 11 2.499
+	asteroids "large metal" 3 2.902
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/forest1
+		distance 274
+		period 340
+	object
+		sprite planet/vulpa
+		distance 1475
+		object
+			sprite planet/rhea
+			distance 320
+			period 178.034
+		object
+			sprite planet/dust7-b
+			distance 451
+			period 362.047
+	object
+		sprite planet/gas2
+		distance 2980
+		period 560
+		object
+			sprite planet/dust5-b
+			distance 322
+			period 151.217
+	object
+		sprite planet/gas4-b
+		distance 5729
+		period 2501
+		object
+			sprite planet/moon56
+			distance 329.5
+			period 36.92
+		object
+			sprite planet/dust4
+			distance 562
+			period 414.365
+
 system Hajay
 	pos -1534 435
 	government Jibauni

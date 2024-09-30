@@ -1412,8 +1412,8 @@ system Jiggi
 		sprite planet/gas7-b
 		distance 2614
 		period 451.098
-	object
-		sprite planet/gas17-b
+	object "Mahata Station"
+		sprite planet/station10
 		distance 3830
 		period 800.037
 
@@ -1435,6 +1435,8 @@ system Alphan
 	minables tungsten 16 11.663
 	minables gold 11 13.257
 	minables iron 19 8.872
+	fleet "Small Diba" 240
+	fleet "Large Diba" 560
 	object
 		sprite star/o8
 		distance 37.271
@@ -1456,8 +1458,8 @@ system Alphan
 		sprite planet/ocean8
 		distance 1329
 		period 207.194
-	object
-		sprite planet/rock4
+	object "Gare Station"
+		sprite planet/station10
 		distance 1717
 		period 304.26
 

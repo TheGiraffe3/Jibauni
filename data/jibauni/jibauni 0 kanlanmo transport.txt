@@ -287,7 +287,7 @@ mission "Jibauni: Kanlanmo 1"
 			`	"I would rather not tell you," he replies. "I believe it is a secret kept from less advanced races such as yours, and most of mine."`
 				goto choice
 			label jd
-			`	"There have been ships with Jump Drives here. The one that kidnapped our prophet was one, and there have been other strange ships around mining asteroids. Anyway, I know not much, so don't ask me more about that subject."`
+			`	"There have been ships with Jump Drives here. The one that kidnapped our prophet was one, and there have been other strange ships around. Anyway, I know not much, so don't ask me more about that subject."`
 				goto choice
 			label language
 			action

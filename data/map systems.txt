@@ -257,6 +257,7 @@ system Greiun
 	belt 1708 6
 	belt 1754 2
 	link Rabalin
+	link Reere
 	asteroids "small rock" 2 2.74
 	asteroids "medium rock" 8 3.627
 	asteroids "large rock" 1 3.99
@@ -304,12 +305,10 @@ system Greiun
 system Hajay
 	pos -1534 435
 	government Jibauni
-	#music "ambient/jibauni space"
-	#arrival 1500
-	#departure 6000
 	habitable 7900
 	belt 1826 7
 	haze _menu/haze-green
+	link Hanal
 	link Huyya
 	link Kanalsa
 	link Rabalin
@@ -403,6 +402,7 @@ system Hanal
 	belt 1662 6
 	belt 1914 10
 	haze _menu/haze-green
+	link Hajay
 	link Mimson
 	link Nifon
 	asteroids "medium rock" 11 2.856
@@ -446,8 +446,6 @@ system Hanal
 system Haqal
 	pos -1325 512
 	government "Jibauni (Rebel)"
-	#arrival 50
-	#departure 2001
 	habitable 7000
 	belt 1430 9
 	haze _menu/haze-green
@@ -530,8 +528,6 @@ system Haqal
 system Holo
 	pos -1362 576
 	government "Jibauni (Rebel)"
-	#arrival 30
-	#departure 1004
 	habitable 10
 	belt 1747 5
 	haze _menu/haze-green
@@ -601,9 +597,6 @@ system Holo
 system Huyya
 	pos -1439 470
 	government Jibauni
-	#music "ambient/jibauni space"
-	#arrival 10
-	#departure 300
 	habitable 2160
 	belt 1500
 	belt 750
@@ -823,6 +816,7 @@ system Jiggi
 	belt 2127
 	link Alphan
 	link "Sol Diba"
+	link Zeelo
 	minables gold 2 4
 	fleet "Small Diba" 580
 	fleet "Large Diba" 700
@@ -863,9 +857,6 @@ system Jiggi
 system Kanalsa
 	pos -1469 433
 	government Jibauni
-	#music "ambient/jibauni space"
-	#arrival 50
-	#departure 4500
 	habitable 17025
 	belt 1675 8
 	haze _menu/haze-green
@@ -935,8 +926,6 @@ system Kanalsa
 system Kateaza
 	pos -1398 496
 	government Uninhabited
-	#arrival 1100
-	#departure 7800
 	habitable 22749.505
 	belt 1831 3
 	belt 2226 7
@@ -1209,12 +1198,6 @@ system Ondelon
 system Quinlo
 	pos -1376 440
 	government Uninhabited
-	#arrival
-		#link 5000
-		#jump 50
-	#departure
-		#link 50
-		#jump 5000
 	habitable 3650
 	belt 1615 10
 	"jump range" 150
@@ -1288,9 +1271,6 @@ system Quinlo
 system Rabalin
 	pos -1534 500
 	government Jibauni
-	#music "ambient/jibauni space"
-	#arrival 1200
-	#departure 2200
 	habitable 22300.002
 	belt 1015
 	belt 2261 9
@@ -1455,9 +1435,6 @@ system Rilal
 system Sabibal
 	pos -1469 503
 	government Jibauni
-	#music "ambient/jibauni space"
-	#arrival 500
-	#departure 500
 	habitable 1434.617
 	belt 1926 9
 	belt 2389 7
@@ -1581,7 +1558,7 @@ system Sollo
 		sprite planet/cloud7
 			scale 2
 		distance 5168.236
-		period 591.6981
+		period 591.698
 	object
 		sprite planet/forest1
 		distance 6020.284
@@ -1591,7 +1568,6 @@ system "Sol Diba"
 	hidden
 	pos -1457 643
 	government Diba
-	#arrival 0
 	habitable 1310
 	haze _menu/haze-green
 	link Jiggi
@@ -1631,6 +1607,7 @@ system Treon
 	government Uninhabited
 	habitable 963.379
 	belt 1479 6
+	link Anilo
 	link Eiulo
 	asteroids "small rock" 23 2.32
 	asteroids "medium rock" 22 4.176

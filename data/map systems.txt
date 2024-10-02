@@ -69,8 +69,6 @@ system Areina
 system Almanhaq
 	pos -1390 535
 	government "Jibauni (Rebel)"
-	#arrival 1020
-	#departure 6000
 	habitable 14525.237
 	belt 1131 2
 	belt 1856 2
@@ -656,14 +654,13 @@ system Huyya
 	object Baitoon
 		sprite planet/baitoon
 		distance 3332
-		#hazard "Jibauni Gravity" 1
 		period 1655.353
 
 system Jibtrav
 	pos -888 432
 	government Uninhabited
 	habitable 4458.262
-	#arrival 5000
+	arrival 5000
 	belt 1452 10
 	belt 1554 5
 	belt 2821 4
@@ -678,7 +675,6 @@ system Jibtrav
 	minables copper 6 3.144
 	minables tungsten 18 2.629
 	fleet "Small Southern Pirates" 800
-	#fleet "Jibauni Fighter Patrol" 30000
 	fleet "Large Jibauni Military" 50000
 	hazard "Jibauni Disabled Remover" 100
 	object
@@ -917,7 +913,6 @@ system Kanalsa
 		sprite planet/nebula1
 		distance 3407.739
 		period 175
-		#hazard "Jibauni Gravity" 1
 		object
 			sprite planet/dust4
 			distance 301.985
@@ -1219,7 +1214,6 @@ system Quinlo
 	fleet "Small Rebel Jibauni Military" 500
 	fleet "Large Rebel Jibauni Military" 1500
 	fleet "Small Rebel Jibauni Civilian" 1600
-	fleet "Heliarch (Jibauni)" 600
 	object
 		sprite star/a0
 		period 10
@@ -1666,8 +1660,6 @@ system Treon
 system Yinkin
 	pos -1295 562.667
 	government "Jibauni (Rebel)"
-	#arrival 5001
-	#departure 60
 	habitable 5600
 	belt 1216
 	"invisible fence" 15000

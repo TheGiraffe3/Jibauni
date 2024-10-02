@@ -20,6 +20,51 @@ galaxy "label jibauni"
 	sprite label/jibauni
 		scale 0.1
 
+system Anilo
+	pos -1739 520
+	government Uninhabited
+	habitable 3146.824
+	belt 1852
+	link Rendes
+	link Treon
+	asteroids "small rock" 20 2.029
+	asteroids "medium rock" 16 1.254
+	asteroids "large rock" 18 1.642
+	asteroids "small metal" 5 2.006
+	asteroids "medium metal" 58 1.505
+	asteroids "large metal" 12 1.915
+	minables aluminum 1 1.728
+	minables titanium 5 1.899
+	object
+		sprite star/a8
+		distance 158.921
+		period 69.65
+	object
+		sprite star/k5-old
+		distance 62.079
+		period 69.65
+		offset 180
+	object
+		sprite planet/cloud3
+		distance 414
+		period 60.065
+	object
+		sprite planet/desert7-b
+		distance 745
+		period 144.997
+	object
+		sprite planet/desert10-b
+		distance 1281
+		period 326.925
+	object
+		sprite planet/gas12-b
+		distance 2131
+		period 701.454
+		object
+			sprite planet/dust0-b
+			distance 308
+			period 332.905
+
 system Areina
 	pos -1727 388
 	government Uninhabited
@@ -988,6 +1033,43 @@ system Kateaza
 			distance 369
 			period 267.942
 
+system Londol
+	pos -1638 632
+	government Uninhabited
+	habitable 370
+	belt 1606 3
+	link Reere
+	link Reie
+	link Rendes
+	asteroids "small metal" 123 1.244
+	asteroids "medium metal" 31 2.04
+	asteroids "large metal" 75 1.04
+	minables titanium 3 2.563
+	minables tungsten 37 2.087
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/ganymede
+		distance 361
+		period 142.633
+	object
+		sprite planet/gas10-b
+		distance 866
+		period 529.951
+	object
+		sprite planet/gas14
+		distance 1472
+		period 1174.413
+	object
+		sprite planet/gas13
+		distance 3923
+		period 5109.596
+	object
+		sprite planet/gas13-b
+		distance 4813
+		period 6943.572
+
 system Men
 	add link Jibtrav
 
@@ -1336,6 +1418,184 @@ system Rabalin
 			sprite planet/rhea
 			distance 307
 			period 167.296
+
+system Reere
+	pos -1588 559
+	government Uninhabited
+	habitable 135
+	belt 1507 8
+	link Greiun
+	link Londol
+	link Rendes
+	asteroids "medium rock" 1 2.957
+	asteroids "large rock" 1 2.304
+	asteroids "large metal" 1 3.456
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/ice2-b
+		distance 502
+		period 387.212
+		object
+			sprite planet/rock3
+			distance 186
+			period 95.889
+	object
+		sprite planet/gas0-hot
+		distance 1431
+		period 1863.599
+		object
+			sprite planet/dust5-b
+			distance 266
+			period 113.538
+	object
+		sprite planet/lava0
+		distance 2928
+		period 5454.434
+	object
+		sprite planet/gas9
+		distance 4909
+		period 11840.844
+		object
+			sprite planet/oberon-b
+			distance 269
+			period 271.721
+		object
+			sprite planet/rock7-b
+			distance 395
+			period 371.371
+	object
+		sprite planet/gas3
+		distance 5882
+		period 15530.328
+		object
+			sprite planet/io
+			distance 325
+			period 221.475
+
+system Reie
+	pos -1592 695
+	government Uninhabited
+	habitable 5048.762
+	belt 1519
+	link Londol
+	link Zeelo
+	asteroids "small rock" 2 4.019
+	asteroids "medium rock" 2 4.528
+	asteroids "large rock" 25 4.435
+	asteroids "small metal" 2 3.465
+	asteroids "large metal" 3 3.373
+	minables iron 1 4.27
+	minables aluminum 6 4.828
+	object
+		sprite star/g3
+		distance 106.88
+		period 57.55
+	object
+		sprite star/b8
+		distance 60.12
+		period 57.55
+		offset 180
+	object
+		sprite planet/lava5-b
+		distance 337
+		period 34.827
+	object
+		sprite planet/gas5-b
+		distance 871
+		period 144.709
+		object
+			sprite planet/rock7
+			distance 266
+			period 205.227
+	object
+		sprite planet/sheragi_postverta
+		distance 1555
+		period 345.194
+		object
+			sprite planet/miranda-b
+			distance 158
+			period 93.95
+	object
+		sprite planet/gas0-b
+		distance 2807
+		period 837.204
+	object
+		sprite planet/saturn
+		distance 3727
+		period 1280.875
+		object
+			sprite planet/tethys-b
+			distance 247
+			period 239.078
+	object
+		sprite planet/treser
+		distance 4994
+		period 1986.737
+
+system Rendes
+	pos -1681 559
+	government Uninhabited
+	habitable 1365.65
+	belt 1058 6
+	belt 1509 9
+	link Anilo
+	link Londol
+	link Reere
+	asteroids "small rock" 7 0.702
+	asteroids "medium rock" 91 1.174
+	asteroids "large rock" 4 1.016
+	asteroids "small metal" 65 1.162
+	asteroids "medium metal" 142 0.69
+	asteroids "large metal" 49 0.799
+	minables silver 37 1.454
+	minables lead 41 1.296
+	object
+		sprite star/g5-old
+		distance 20.958
+		period 19.909
+	object
+		sprite star/g8
+		distance 72.542
+		period 19.909
+		offset 180
+	object
+		sprite planet/desert7
+		distance 327
+		period 64.005
+	object
+		sprite planet/desert0-b
+		distance 862
+		period 273.937
+		object
+			sprite planet/ice8-b
+			distance 182
+			period 92.813
+	object
+		sprite planet/gas8
+		distance 1765
+		period 802.615
+		object
+			sprite planet/rhea
+			distance 329
+			period 185.598
+	object
+		sprite planet/gas10-hot
+		distance 2906
+		period 1695.64
+	object
+		sprite planet/gas2-b
+		distance 5242
+		period 4108.051
+	object
+		sprite planet/gas13
+		distance 6112
+		period 5172.081
+		object
+			sprite planet/dust1-b
+			distance 312
+			period 171.4
 
 system Rinl
 	pos -1376 652
@@ -1735,3 +1995,67 @@ system Yinkin
 		sprite planet/rock10
 		distance 10239.744
 		period 1970
+
+system Zeelo
+	pos -1482 714
+	government Uninhabited
+	habitable 3450
+	belt 1092 2
+	link Jiggi
+	link Reie
+	asteroids "medium rock" 2 3.696
+	asteroids "large rock" 7 2.856
+	asteroids "small metal" 4 4.2
+	asteroids "medium metal" 9 3.612
+	asteroids "large metal" 1 3.402
+	object
+		sprite star/m-supergiant
+		period 10
+	object
+		sprite planet/gas17-b
+		distance 1189
+		period 279.205
+		object
+			sprite planet/miranda-b
+			distance 217
+			period 151.217
+	object
+		sprite planet/gas7-hot
+		distance 2163
+		period 685.07
+		object
+			sprite "planet/asteroid base"
+			distance 204
+			period 76.254
+		object
+			sprite planet/luna-b
+			distance 381
+			period 281.118
+		object
+			sprite planet/desert4
+			distance 535
+			period 585.386
+	object
+		sprite planet/gas7-b
+		distance 3977
+		period 1707.984
+		object
+			sprite "planet/yniu ena"
+			distance 254
+			period 153.021
+		object
+			sprite planet/dust4
+			distance 423
+			period 270.576
+	object
+		sprite planet/neptune
+		distance 5082
+		period 2467.189
+		object
+			sprite planet/rock7-b
+			distance 233
+			period 168.246
+	object
+		sprite planet/io
+		distance 5721
+		period 2946.852

@@ -11,10 +11,6 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-galaxy "label alrodel"
-	pos -1604 585
-	sprite label/alrodel
-
 galaxy "label diba"
 	pos -1430 630
 	sprite label/diba
@@ -23,6 +19,52 @@ galaxy "label jibauni"
 	pos -1350 700
 	sprite label/jibauni
 		scale 0.1
+
+system Areina
+	pos -1727 388
+	government Uninhabited
+	habitable 3450
+	belt 1992 2
+	belt 2391 7
+	link Eiulo
+	link Jicson
+	link Sollo
+	asteroids "small rock" 8 4.385
+	asteroids "medium rock" 91 3.593
+	asteroids "large rock" 133 4.08
+	asteroids "small metal" 1 3.715
+	asteroids "medium metal" 18 3.289
+	asteroids "large metal" 5 4.202
+	minables silicon 33 3.924
+	minables neodymium 18 6.249
+	minables titanium 35 6.608
+	object
+		sprite star/m-supergiant
+		period 10
+	object
+		sprite planet/ice7-b
+		distance 1044
+		period 229.721
+	object
+		sprite planet/gas0-b
+		distance 1842
+		period 538.375
+		object
+			sprite planet/luna-b
+			distance 278
+			period 175.214
+	object
+		sprite planet/gas9-b
+		distance 2933
+		period 1081.729
+	object
+		sprite planet/gas9
+		distance 5451
+		period 2740.72
+		object
+			sprite planet/io
+			distance 281
+			period 178.057
 
 system Almanhaq
 	pos -1390 535
@@ -169,6 +211,44 @@ system Alphan
 		sprite planet/station10
 		distance 1717
 		period 304.26
+
+system Eiulo
+	pos -1750 438
+	government Uninhabited
+	habitable 8400
+	belt 1512 5
+	link Areina
+	link Mimson
+	link Treon
+	asteroids "medium rock" 8 6.586
+	asteroids "large rock" 2 6.25
+	asteroids "small metal" 2 5.578
+	asteroids "medium metal" 7 5.712
+	asteroids "large metal" 3 3.562
+	minables lead 2 5.929
+	object
+		sprite star/f-supergiant
+		period 10
+	object
+		sprite planet/cloud5-b
+		distance 654
+		period 72.994
+	object
+		sprite planet/dust6-b
+		distance 1175
+		period 175.783
+	object
+		sprite planet/uranus
+		distance 2197
+		period 449.433
+		object
+			sprite planet/ice0
+			distance 379
+			period 278.907
+	object
+		sprite planet/pontes
+		distance 3158
+		period 774.531
 
 system Greiun
 	pos -1560 526
@@ -664,6 +744,7 @@ system Jicson
 	habitable 10019.512
 	belt 1173 3
 	haze _menu/haze-green
+	link Areina
 	link Mimson
 	link Nifon
 	link Rilal
@@ -933,6 +1014,7 @@ system Mimson
 	belt 1494 10
 	belt 2112 10
 	haze _menu/haze-green
+	link Eiulo
 	link Hanal
 	link Jicson
 	asteroids "small rock" 6 1.674
@@ -1462,6 +1544,7 @@ system Sollo
 	habitable 8010.345
 	belt 1056 3
 	haze _menu/haze-green
+	link Areina
 	link Rilal
 	asteroids "medium rock" 1 3.132
 	asteroids "large rock" 1 1.914
@@ -1542,6 +1625,66 @@ system "Sol Diba"
 		sprite planet/station10
 		distance 2135.944
 		period 200
+
+system Treon
+	pos -1709 481
+	government Uninhabited
+	habitable 963.379
+	belt 1479 6
+	link Eiulo
+	asteroids "small rock" 23 2.32
+	asteroids "medium rock" 22 4.176
+	asteroids "large rock" 19 3.387
+	asteroids "small metal" 11 2.32
+	asteroids "medium metal" 25 3.016
+	asteroids "large metal" 13 3.99
+	minables silver 2 6.119
+	minables iron 24 6.228
+	object
+		sprite star/m5
+		distance 187.069
+		period 74.199
+		offset 180
+	object
+		sprite star/k5-old
+		distance 29.931
+		period 74.199
+	object
+		sprite planet/browndwarf-l
+		distance 506
+		period 146.685
+	object
+		sprite planet/ice5
+		distance 967
+		period 387.526
+	object
+		sprite planet/forest3
+		distance 1376
+		period 657.793
+	object
+		sprite planet/gas12-b
+		distance 2311
+		period 1431.73
+		object
+			sprite planet/dust0
+			distance 303
+			period 324.832
+	object
+		sprite planet/treser
+		distance 3506
+		period 2675.341
+		object
+			sprite planet/io
+			distance 331
+			period 227.637
+	object
+		sprite planet/gas15
+		distance 7131
+		period 7760.451
+		object
+			sprite planet/rock14-b
+			distance 243
+			period 99.135
 
 system Yinkin
 	pos -1295 562.667

@@ -21,14 +21,23 @@ mission "Jibauni: Kanlanmo 0"
 		conversation
 			branch jibauniinsider
 				has "species: Jibauni"
-			`Your landing location is wonderfully clear, and there is a long view across miles of empty space. Dinosaurs in the shape of the mythical Tyrannosaurus Rex are roaming the green fields, apparently planting some crop. A while after you land, one of these dinosaurs approaches your ship.`
+			`Your landing location is on a large set of old landing pads. There didn't seem to be anywhere else that was available for spaceships to arrive. The city is filled with dinosaurs in the shape of the mythical Tyrannosaurus Rex, although here they are smaller then the old fables. A while after you land, one of these dinosaurs approaches your ship.`
 			choice
 				`	(Go out and meet it.)`
 					goto meeting
 				`	(Leave now, before something bad happens.)`
 					depart
 				`	(Stay in the ship.)`
-			`	The dinosaur calls out, "Could you come out of your ship to have a meeting?"`
+			`	The dinosaur opens its mouth, and a moment later you hear the words, "Could you come out of your ship to have a meeting?"`
+				to display
+					not "language: Coalition"
+				goto initialchoice1
+			action
+				set "knows the Jibauni have Heliarch translators"
+			`	The dinosaur opens its mouth to say something, but you notice that it has a Coalition translator box around its neck. Before you can do anything it says, "Could you come out of your ship to have a meeting?"`
+				to display
+					has "language: Coalition"
+			label initialchoice1
 			choice
 				`	(Go outside the <ship> and meet the strange beast.)`
 					goto meeting
@@ -36,13 +45,24 @@ mission "Jibauni: Kanlanmo 0"
 					defer
 			label meeting
 			`	"Hello, fair stranger," it says. "Is there a way I may serve you on this delightful day?"`
+			label meetingquestions
 			choice
 				`	"Hello. My name is <first> <last>, and I come in peace."`
 					goto lastisknown
+				`	"How do you have a Coalition translator?"`
+					to display
+						has "knows the Jibauni have Heliarch translators"
+						not "asked about the Jibauni translators"
+					goto cotrans
 				`	"Hi, weirdo. What's up?"`
 					goto rude
 				`	(Shoot the alien with your sidearm.)`
 					goto deathshot
+			label cotrans
+			action
+				set "asked about the Jibauni translators"
+			`	"I am not authorized to give you that information. So how may I serve you?"`
+				goto meetingquestions
 			label lastisknown
 			`	"Yes. We know about you, <first>, Captain of the <ship>. How have you come here, for we did not detect any purple sparks?"`
 			choice
@@ -135,7 +155,7 @@ mission "Jibauni: Kanlanmo 0"
 			`	A cluster of anti-ship weaponry is fired from all sides, immediately exploding the <ship> and everything inside it. It is sad your life had to end in such a way.`
 				die
 			label deathshot
-			`	You pull your sidearm from its holster, but before you can fire it, hidden anti-ship weaponry on this planet trains fire on your ship. Caught in crossfire, the <ship> immediately explodes, blowing you and everything in it sky high.`
+			`	You pull your sidearm from its holster, but before you can fire it, hidden anti-ship weaponry trains fire on your ship. Caught in crossfire, the <ship> immediately explodes, blowing you and everything in it sky high.`
 				die
 			label friendlyalpha
 			action

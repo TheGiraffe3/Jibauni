@@ -13,7 +13,7 @@
 
 mission "Jibauni: Kanlanmo 0"
 	name "Take Kanlanmo to <planet>"
-	description "Kanlanmo, who is a Jibauni in the shape of a Tyrannosaurus rex, has asked to go to <planet> on your ship. He will explain once you get there."
+	description "Kanlanmo, who is a Jibauni in the shape of a Tyrannosaurus Rex, has asked to go to <planet> on your ship. He will explain more once you get there."
 	landing
 	source Baitoon
 	destination Taltahard
@@ -21,7 +21,21 @@ mission "Jibauni: Kanlanmo 0"
 		conversation
 			branch jibauniinsider
 				has "species: Jibauni"
-			`One of the weird aliens who appear to dwell here and who seem to be in the shape of the mythic Tyrannosaurus Rex, approaches your ship as you land. When you land and start out of your ship, grabbing your sidearm and donning armor as you go, it is standing by the hatch. "Hello, fair stranger," it says. "How may I serve you on this delightful day?"`
+			`Your landing location is wonderfully clear, and there is a long view across miles of empty space. Dinosaurs in the shape of the mythical Tyrannosaurus Rex are roaming the green fields, apparently planting some crop. A while after you land, one of these dinosaurs approaches your ship.`
+			choice
+				`	(Go out and meet it.)`
+					goto meeting
+				`	(Leave now, before something bad happens.)`
+					depart
+				`	(Stay in the ship.)`
+			`	The dinosaur calls out, "Could you come out of your ship to have a meeting?"`
+			choice
+				`	(Go outside the <ship> and meet the strange beast.)`
+					goto meeting
+				`	(Leave the planet.)`
+					defer
+			label meeting
+			`	"Hello, fair stranger," it says. "Is there a way I may serve you on this delightful day?"`
 			choice
 				`	"Hello. My name is <first> <last>, and I come in peace."`
 					goto lastisknown
@@ -52,10 +66,9 @@ mission "Jibauni: Kanlanmo 0"
 				goto pinkship
 			label rudeentry
 			`	"There is an odd ship who seemed to come the way you did," says the alien as it fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
-				goto pinkship
 			label pinkship
 			choice
-				`	"Yes, I have, actually, called the Dominator, an Alpha ship."`
+				`	"Yes, I have. They're probably Alphas."`
 					to display
 						has "event: liberation of Poisonwood"
 					goto knownalphas
@@ -122,7 +135,7 @@ mission "Jibauni: Kanlanmo 0"
 			`	A cluster of anti-ship weaponry is fired from all sides, immediately exploding the <ship> and everything inside it. It is sad your life had to end in such a way.`
 				die
 			label deathshot
-			`	You pull your sidearm from its holster, but before you can fire it, the anti-ship weaponry of this planet trains fire on your ship. Caught in crossfire, the <ship> immediately explodes, blowing you and everything in it sky high.`
+			`	You pull your sidearm from its holster, but before you can fire it, hidden anti-ship weaponry on this planet trains fire on your ship. Caught in crossfire, the <ship> immediately explodes, blowing you and everything in it sky high.`
 				die
 			label friendlyalpha
 			action
@@ -137,7 +150,7 @@ mission "Jibauni: Kanlanmo 0"
 				set "jibauni: first contact: why"
 			`	"Because I have some business to transact, something about the Rebel Jibauni."`
 			choice
-				`	"What are the Rebel Jibauni?"`
+				`	"Who are the Rebel Jibauni?"`
 					goto rebeljibauni
 				`	"Sounds good. I'll take you."`
 					accept

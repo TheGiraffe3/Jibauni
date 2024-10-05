@@ -66,13 +66,12 @@ system Anilo
 			period 332.905
 
 system Areina
-	pos -1727 388
+	pos -1809 420
 	government Uninhabited
 	habitable 3450
 	belt 1992 2
 	belt 2391 7
 	link Eiulo
-	link Jicson
 	link Sollo
 	asteroids "small rock" 8 4.385
 	asteroids "medium rock" 91 3.593
@@ -261,7 +260,6 @@ system Eiulo
 	habitable 8400
 	belt 1512 5
 	link Areina
-	link Mimson
 	link Treon
 	asteroids "medium rock" 8 6.586
 	asteroids "large rock" 2 6.25
@@ -446,6 +444,7 @@ system Hanal
 	belt 1914 10
 	haze _menu/haze-green
 	link Hajay
+	link Jicson
 	link Mimson
 	link Nifon
 	asteroids "medium rock" 11 2.856
@@ -668,7 +667,6 @@ system Huyya
 	fleet "Small Jibauni Military" 530
 	fleet "Large Jibauni Military" 940
 	fleet "Small Jibauni Civilian" 310
-	#fleet "Jibauni Fighter Patrol" 2000
 	fleet "Jibauni Leaders" 3880
 	fleet "Large Rebel Jibauni Military" 5920
 	hazard "Jibauni Disabled Remover" 1
@@ -704,8 +702,8 @@ system Huyya
 system Jibtrav
 	pos -888 432
 	government Uninhabited
-	habitable 4458.262
 	arrival 5000
+	habitable 4458.262
 	belt 1452 10
 	belt 1554 5
 	belt 2821 4
@@ -773,15 +771,14 @@ system Jibtrav
 		period 1500
 
 system Jicson
-	pos -1679 370
+	pos -1653 407
 	government Uninhabited
 	habitable 10019.512
 	belt 1173 3
 	haze _menu/haze-green
-	link Areina
+	link Hanal
 	link Mimson
 	link Nifon
-	link Rilal
 	asteroids "small rock" 7 5.657
 	asteroids "medium rock" 105 5.425
 	asteroids "large rock" 3 4.34
@@ -1074,15 +1071,15 @@ system Men
 	add link Jibtrav
 
 system Mimson
-	pos -1651 427
+	pos -1630 489
 	government Uninhabited
 	habitable 10
 	belt 1494 10
 	belt 2112 10
 	haze _menu/haze-green
-	link Eiulo
 	link Hanal
 	link Jicson
+	link Treon
 	asteroids "small rock" 6 1.674
 	asteroids "medium rock" 2 1.555
 	asteroids "large rock" 4 2.063
@@ -1426,7 +1423,9 @@ system Reere
 	belt 1507 8
 	link Greiun
 	link Londol
+	link Opiinn
 	link Rendes
+	link Trenni
 	asteroids "medium rock" 1 2.957
 	asteroids "large rock" 1 2.304
 	asteroids "large metal" 1 3.456
@@ -1480,6 +1479,7 @@ system Reie
 	habitable 5048.762
 	belt 1519
 	link Londol
+	link Trenni
 	link Zeelo
 	asteroids "small rock" 2 4.019
 	asteroids "medium rock" 2 4.528
@@ -1646,7 +1646,6 @@ system Rilal
 	habitable 10
 	belt 1088 3
 	haze _menu/haze-green
-	link Jicson
 	link Nifon
 	link Sollo
 	asteroids "small rock" 43 3.4
@@ -1863,6 +1862,7 @@ system Treon
 	belt 1479 6
 	link Anilo
 	link Eiulo
+	link Mimson
 	asteroids "small rock" 23 2.32
 	asteroids "medium rock" 22 4.176
 	asteroids "large rock" 19 3.387
@@ -2003,6 +2003,7 @@ system Zeelo
 	belt 1092 2
 	link Jiggi
 	link Reie
+	link Trenni
 	asteroids "medium rock" 2 3.696
 	asteroids "large rock" 7 2.856
 	asteroids "small metal" 4 4.2

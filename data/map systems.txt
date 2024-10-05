@@ -1269,6 +1269,41 @@ system Ondelon
 			distance 399
 			period 208.582
 
+system Opiinn
+	pos -1506 587
+	government Uninhabited
+	habitable 320
+	belt 1987 10
+	belt 2381 4
+	belt 2878 9
+	link Reere
+	asteroids "medium rock" 10 1.847
+	asteroids "large rock" 2 2.786
+	asteroids "small metal" 3 1.944
+	asteroids "medium metal" 3 2.268
+	asteroids "large metal" 3 1.814
+	minables aluminum 1 3.885
+	minables uranium 3 3.584
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/forest1
+		distance 369
+		period 158.498
+	object
+		sprite planet/ocean8-b
+		distance 1016
+		period 724.145
+	object
+		sprite planet/gas1
+		distance 2110
+		period 2167.248
+	object
+		sprite planet/vesvi
+		distance 3204
+		period 4055.307
+
 system Quinlo
 	pos -1376 440
 	government Uninhabited
@@ -1854,6 +1889,67 @@ system "Sol Diba"
 		sprite planet/station10
 		distance 2135.944
 		period 200
+
+system Trenni
+	pos -1546 642
+	government Uninhabited
+	habitable 135
+	belt 1005 10
+	link Reere
+	link Reie
+	link Zeelo
+	asteroids "small rock" 5 3.78
+	asteroids "medium rock" 31 4.752
+	asteroids "large rock" 131 2.916
+	asteroids "small metal" 18 5.022
+	asteroids "medium metal" 67 4.698
+	asteroids "large metal" 1 3.24
+	minables iron 7 5.796
+	minables lead 3 6.352
+	minables aluminum 12 5.52
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/forest5
+		distance 448
+		period 326.445
+		object
+			sprite planet/rock7-b
+			distance 175
+			period 109.514
+	object
+		sprite planet/gas4-b
+		distance 1258
+		period 1536.081
+		object
+			sprite planet/callisto-b
+			distance 264
+			period 112.26
+		object
+			sprite planet/dust5
+			distance 394
+			period 204.674
+	object
+		sprite planet/browndwarf-t
+		distance 3233
+		period 6328.513
+		object
+			sprite planet/ice7-b
+			distance 324
+			period 152.628
+	object
+		sprite planet/browndwarf-l
+		distance 5870
+		period 15482.827
+		object
+			sprite planet/dust5-b
+			distance 310
+			period 142.843
+	object
+		sprite planet/ice9-b
+		distance 18279
+		period 85078.878
 
 system Treon
 	pos -1709 481

@@ -12,11 +12,11 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 galaxy "label diba"
-	pos -1430 630
+	pos -1400 690
 	sprite label/diba
 
 galaxy "label jibauni"
-	pos -1350 700
+	pos -1350 800
 	sprite label/jibauni
 		scale 0.1
 

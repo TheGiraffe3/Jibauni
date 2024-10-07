@@ -45,9 +45,10 @@ shipyard "Jibauni Colonism"
 
 outfitter "Lamalmuq"
 	"Cargo Expansion"
+	"Hyperdrive"
+	"Jibauni Scanning Device"
 	"Outfits Expansion"
 	"Small Map"
-	"Jibauni Scanning Device"
 
 outfitter "Jibauni Basics"
 	"Ruksay Missile"
@@ -66,6 +67,7 @@ outfitter "Jibauni Basics"
 	"Cargo Scanner"
 	"Alhaja Engines"
 	"Jibauni Scanning Device"
+	"Hyperdrive"
 
 outfitter "Jibauni Advanced"
 	"Ruksay Missile Launcher"
@@ -109,6 +111,7 @@ outfitter "Jibauni Advanced"
 	"Jibauni Mining Laser"
 	"Cargo Scanner"
 	"Alhaja Engines"
+	"Hyperdrive"
 
 
 event "jibauni translated hails"

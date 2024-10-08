@@ -12,11 +12,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 shipyard "Diba"
-	Llama
-	Ithquaya
-	Arbquaya
-	Tamquaya
-	Tahquaya
+	Falcon
+
+outfitter "Diba"
+	"Diba License"
 
 disable mission
 	"Scrapper test"

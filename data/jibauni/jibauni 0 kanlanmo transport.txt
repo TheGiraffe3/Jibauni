@@ -245,6 +245,7 @@ mission "Jibauni: Kanlanmo (0 declined)"
 	on complete
 		payment 8000
 		set "First Contact: Jibauni: offered"
+		set "license: Jibauni"
 		conversation
 			branch insider
 				has "species: Jibauni"

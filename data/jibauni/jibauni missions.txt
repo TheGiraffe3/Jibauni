@@ -41,7 +41,7 @@ mission "Jibauni: Jibauni Rebel Fighter License"
 	on complete
 		conversation
 			scene "thumbnail/gunboat"
-			#scene "outfit/jibauni rebel fighter license"
+			# scene "outfit/jibauni rebel fighter license"
 			action
 				set "license: Jibauni Rebel Fighter"
 			`The Jibauni authorities contact your ship as you land. "Thank you for fighting the Rebel Jibauni so much," they say. "Here is the license as a thank you for your hard work."`

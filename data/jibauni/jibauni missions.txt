@@ -50,6 +50,24 @@ mission "Jibauni: Jibauni Rebel Fighter License"
 		government "Jibauni (Rebel)"
 		ship "Nathar (Laser)" "T.N.S. Kopa"
 
+mission "Jibauni: Jibauni Government License 1"
+	landing
+	name "Go to <planet>"
+	description "Go to <planet> to talk with Kanlanmo."
+	source
+		government "Jibauni"
+	to offer
+		or
+			has "Kanlanmo 0: done"
+			has "Kanlanmo (0 declined): done"
+		has "Jibauni: Jibauni Rebel Fighter License"
+		not "kanlanmo in mission"
+	on offer
+		conversation
+			# scene "outfit/jibauni government license"
+			`Kanlanmo contacts the <ship> when you land. "Come to <planet>, please, <first>," he says in a curt tone, and hangs up.`
+				accept
+
 mission "Jibauni: Ru-win 0"
 	minor
 	name "Ru-win to <planet>"

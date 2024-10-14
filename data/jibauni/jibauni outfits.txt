@@ -189,19 +189,6 @@ outfit "Small Map" # Tiny Map?
 	description "This data chip contains complete information on the three star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
 
-outfit "Jibauni Hyperdrive"
-	category "Systems"
-	cost 200000
-	thumbnail "outfit/hyperdrive"
-	"mass" 20
-	"outfit space" -18
-	"jump speed" .3
-	"jump fuel" 125
-	"hyperdrive" 1
-	description "This mysterious box sits quietly at the heart of your ship, thinking its own inscrutable thoughts. When it comes time to travel between the stars it sets off a nuclear fusion reaction powerful enough to level an entire city, and then somehow tucks the resulting explosion in between the folds of regular space-time like a wasp stinging an oak leaf to lay her eggs inside. Your ship rides the resulting ripple in the fabric of space."
-	description "	They say that almost all the Jibauni understand the inner workings of the hyperdrive."
-
-
 outfit "Fuel-Leak 10"
 	category "Turrets"
 	cost 15000

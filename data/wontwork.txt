@@ -1,0 +1,12 @@
+mission "Test"
+	name ""
+	landing
+	description ""
+	sourre Baitoon
+	destination Hill
+	on offer
+		conversation
+			``
+				accept
+	on complete
+		dialog ``

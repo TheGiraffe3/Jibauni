@@ -76,14 +76,16 @@ mission "Rebel Jibauni: Scam Government Transportation 1"
 	name "Take a Rebel to <planet>"
 	description "Take a Rebel Jibauni to <destination>."
 	source
-		government "Rebel Jibauni"
+		government "Jibauni (Rebel)"
 	destination
-		government "Rebel Jibauni"
+		government "Jibauni (Rebel)"
 		distance 1 2
 	passengers 1
 	to offer
 		has "event: rebel jibauni: initial transportation"
-		not "jibauni: disliked by the rebels"
+		has "Rebel Jibauni: Landed on Andwerfen: declined"
+		has "rebel jibauni: will transport upon request"
+		random < 80
 	on offer
 		conversation
 			`A Rebel arrives panting at the door of the <ship> as it opens. "Take me to <destination>," they say. "This has been requested by Rebel Jibauni."`

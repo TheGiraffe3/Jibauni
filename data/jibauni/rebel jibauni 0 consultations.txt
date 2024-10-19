@@ -176,6 +176,8 @@ mission "Rebel Jibauni: Landed on Andwerfen"
 				`	"Unlikely."`
 					goto thatisterrible
 			label good
+			action
+				set "rebel jibauni: will transport upon request"
 			`	"Perfect! We will contact you when we want you. Goodbye." The same Rebel who led you here takes you back to the <ship> and you are left to your own devices.`
 				decline
 			label thatisterrible
@@ -222,6 +224,7 @@ mission "Rebel Jibauni: Government Transportation 1"
 	passengers 1
 	to offer
 		has "event: rebel jibauni: initial transportation"
+		has "rebel jibauni: will transport upon request"
 		not "jibauni: disliked by the rebels"
 	on offer
 		conversation

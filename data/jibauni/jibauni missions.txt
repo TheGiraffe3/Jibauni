@@ -198,7 +198,7 @@ mission "Jibauni: An-lo and Re-sop 1"
 				set "jibauni: paid an-lo and re-sop back"
 			`	"Very kind of you," she says. An-lo cuts in with, "That was our son. He's been looking out for us for years, ever since I lost my job. But let bygones be bygones, shall we?"`
 			label end
-			`	Both Jibauni exit the <ship> with their bags, and you go about your business.`			
+			`	Both Jibauni exit the <ship> with their bags, and you go about your business.`
 
 
 mission "Jibauni: Ru-win 0"
@@ -460,3 +460,49 @@ mission "Jibauni: Ji-wi"
 		payment 1500
 		conversation
 			`"Thank you for transporting me to <planet stopovers> and back," says Ji-wi, paying you <payment>. The Jibauni walks off into the spaceport of <origin>, leaving you with some questions.`
+
+
+mission "Jibauni: Dran-li 0"
+	minor
+	source
+		government "Jibauni"
+	destination
+		government "Jibauni (Rebel)"
+	to offer
+		random < 45
+	on offer
+		conversation
+			`As you are walking through the spaceport, you collide with a younger Jibauni. He immediately stands up and apologizes, then notices who you are. "Oh, the strange alien! Hello! May I ask of you a favor?"`
+			choice
+				`	"I guess."`
+				`	"Sorry for bumping into you. Sure you can ask!"`
+				`	"Nope, not right now. Other things to do."`
+					goto decline
+			`	"Would you be willing to transport me, Dran-li, to the planet of <planet>? I'd be interested in seeing the Rebel Jibauni and how they operate. I may end up joining them, or else I'll ask you to take me back to a Jibauni planet."`
+			choice	
+				`	"You know, the Rebel Jibauni are bad creatures. Are you sure you want to go?"`
+					goto rebelsbad
+				`	"The wonderful Rebel Jibauni? Sure, I'll take you immediately!"`
+					goto rebelsgood
+			label rebelsbad
+			action
+				set "jibauni: dran-li: says rebels are bad"
+			`	"I'd like to at least check it out. Come on, please take me?"`
+				goto choice
+			label rebelsgood
+			action
+				set "jibauni: dran-li: says rebels are good"
+			`	"I'm... surprised that you say that. Most Jibauni I've met give them a bad reputation and a good scolding. But I'd be happy to be taken!"`
+			label choice
+			choice
+				`	"Alright, I'll take you."`
+					accept
+				`	"Anyway, I need to do something else, so I'm not going to take you after all."`
+			label decline
+			`	The Jibauni drifts off disappointedly.`
+				decline
+	on complete
+		payment
+		event "jibauni: dran-li: gone" 1
+		conversation
+			`Dran-li says, "I'm going to explore the spaceport. Could you meet me at the main hotel in a few hours? If you don't, I'll assume you don't want to take me back."`

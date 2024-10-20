@@ -563,7 +563,7 @@ mission "Jibauni: Dran-li 1"
 				event "jibauni: dran-li abandoned" 1
 			`	He is back soon. "I really do not like this place," he announces. "It's even worse than <origin>, and that's saying a lot. Please meet me in the spaceport in an hour. I'm going to the capital to ask a few questions. I mean, I guess I can stay if you don't come, but it would really be much appreciated if you do."`
 			branch "dran-li put in jail 2"
-				random < 20
+				random < 15
 			``
 				goto end
 			label "dran-li likes"
@@ -592,6 +592,11 @@ mission "Jibauni: Dran-li 1"
 			action
 				set "jibauni: dran-li stays with the rebels"
 			`	"Well, he'll just stay there for life, then," replies the Rebel. You are taken back to the <ship> and left to ponder what you have just done.`
+				goto end
+			label "dran-li put in jail 2"
+			action
+				set "jibauni: dran-li stays with the rebels"
+			`	You figure out that Dran-li has been imprisoned, but you're not able to get him out of jail, no matter what the price. This ended sadly.`
 			label end
 			
 event "jibauni: dran-li abandoned"

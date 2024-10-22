@@ -947,4 +947,4 @@ ship "Osra"
 	leak "big leak" 90 30
 	explode "tiny explosion" 30
 	"final explode" "final explosion small"
-	description "The Osra is a tiny ship, barely big enough to see in the void of space. Yet its interior has space for up to six crew, and some cargo. As a result, it moves quite slowly.
+	description "The Osra is a tiny ship, barely big enough to see in the void of space. Yet its interior has space for up to six crew, and some cargo. As a result, it moves quite slowly."

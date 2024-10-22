@@ -925,7 +925,7 @@ ship "Osra"
 		"heat dissipation" .9
 		"fuel capacity" 10
 		"cargo space" 8
-		"outfit space" 30
+		"outfit space" 35
 		"weapon capacity" 0
 		"engine capacity" 15
 		"jibauni generator" .5

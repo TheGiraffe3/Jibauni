@@ -291,7 +291,29 @@ outfit "Scythe"
 	"capture attack" 4
 	"capture defense" 0.5
 	"unplunderable" 1
-	"description" "While not that useful for hiding behind bulkheads to defend, it is very good in close attack fighting."
+	"description" "While the Jibauni Scythe is not that useful for hiding behind bulkheads to defend, it is very good in close attack fighting."
+
+
+outfit "Jibauni Tractor Beam"
+	category "Turrets"
+	cost 90000
+	thumbnail "outfit/jibauni tractor beam"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/jibauni tractor beam"
+		"hardpoint offset" 4.
+		sound "tractor beam"
+		"hit effect" "tractor beam"
+		"tractor beam" 9
+		"velocity" 250
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.3
+		"firing fuel" .2
+	description "The Jibauni Tractor Beam, while invented primarily to gather harvested asteroid bits, has been put by the Rebels to the very different use of gathering flotsam from destroyed enemy ships."
 
 
 outfit "Jibauni Anti-Missile"
@@ -621,7 +643,7 @@ outfit "Jibauni Mining Laser"
 	"weapon capacity" -20
 	"gun ports" -1
 	weapon
-		sprite "projectile/mining laser"
+		sprite "projectile/jibauni mining laser"
 			"frame rate" 1
 		sound "mining laser"
 		"firing energy" 1
@@ -632,7 +654,7 @@ outfit "Jibauni Mining Laser"
 		"hull damage" .0167
 		"shield damage" .01
 		"prospecting" 1.1
-		"minable damage" 3
+		"minable damage" 5
 		"slowing damage" .01
 		"no asteroid collisions"
 	description "The Jibauni Mining Laser is a huge technological acheivement for the Jibauni. The way most of their weapons are built, it is impossible to hit asteroids with them. The Mining Laser was designed in a collaboration on Baitoon by a group of scientists from all over Jibauni space."

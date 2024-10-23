@@ -657,7 +657,7 @@ outfit "Jibauni Mining Laser"
 		"minable damage" 5
 		"slowing damage" .01
 		"no asteroid collisions"
-	description "The Jibauni Mining Laser is a huge technological acheivement for the Jibauni. The way most of their weapons are built, it is impossible to hit asteroids with them. The Mining Laser was designed in a collaboration on Baitoon by a group of scientists from all over Jibauni space."
+	description "The Jibauni Mining Laser is a huge technological achievement for the Jibauni. The way most of their weapons are built, it is impossible to hit asteroids with them. The Mining Laser was designed in a collaboration on Baitoon by a group of scientists from all over Jibauni space."
 
 
 outfit "Tiny Bunk Room"

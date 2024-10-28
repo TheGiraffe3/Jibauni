@@ -727,7 +727,7 @@ ship "Nathas"
 		"Jamum Shield Generator"
 		"Minjal" 2
 
-		"Eimlaq Engines"		
+		"Eimlaq Engines"
 		"Hyperdrive"
 
 	engine 0 0

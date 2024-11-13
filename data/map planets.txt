@@ -144,6 +144,13 @@ planet Laqualk
 		fleet "Large Jibauni Military" 6
 		fleet "Small Jibauni Military" 20
 
+planet Ligastoli
+	attributes uninhabited
+	landscape land/ligastoli
+	description `Ligastoli is a wonderful world, with lush greenery much like ancient rice terraces. In fact, it is remarkably like Earth, except for the wildlife.`
+	description `	The only animals here, your ship's computer decides, are called Stoli, and are a mix between a fox and a raccoon. They seem to live in trees.`
+	description `	Nothing else exists on the lush slopes of Ligastoli.`
+
 planet "Mahata Station"
 	attributes diba robot station
 	landscape land/station50
@@ -235,6 +242,11 @@ planet Taltahard
 		threshold 6000
 		fleet "Large Jibauni Military"
 		fleet "Small Jibauni Military" 2
+
+planet Vardelu
+	attributes uninhabited
+	landscape land/vardelu
+	description `A green planet with beautiful clouds, Vardelu is peaceful and aesthetic. Yet all is not as idollic as it seems. Innocent-looking clouds conceal deadly birds of prey, and exiting a spaceship brings great flocks of predators down upon anybody who dares set foot on the world.`
 
 planet Weloon
 	attributes uninhabited

@@ -670,7 +670,7 @@ system Huyya
 	fleet "Jibauni Leaders" 3880
 	fleet "Large Rebel Jibauni Military" 5920
 	hazard "Jibauni Slowing" 200
-	object
+	object Cheat-test
 		sprite star/g0-old
 		period 10
 	object

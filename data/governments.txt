@@ -46,7 +46,6 @@ government "Jibauni (Civilian)"
 	"attitude toward"
 		Jibauni 1
 		"Jibauni (Rebel)" -1
-		"Jibauni (Fueler)" 0.01
 	"penalty for"
 		assist -10
 		disable 0.2
@@ -90,7 +89,6 @@ government "Jibauni (Ruler)"
 	"crew defense" 0.5
 	"attitude toward"
 		"Jibauni (Rebel)" -1
-		"Jibauni (Fueler)" 0.01
 		"Jibauni (Civilian)" 1
 		"Jibauni" 1
 	"penalty for"

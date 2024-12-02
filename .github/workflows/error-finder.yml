@@ -1,11 +1,6 @@
 name: Error Check
 
-on:
-  push:
-     branches:
-       - master
-  pull_request:
-     types: [opened, synchronize]
+on: [push, pull_request]
 
 jobs:
   test-parse:

@@ -19,9 +19,10 @@ outfit "Musaghar Shield Generator"
 	"outfit space" -3
 	"shield generation" .05
 	"shield energy" .3
-	"shield fuel" .005
+	"shield fuel" .04
 	"shield heat" -0.5
 	"fuel capacity" 2
+	description "The Musaghar Shield Generator is sufficient for only the smallest of Jibauni ships, and as such, costs the least."
 
 outfit "Jamum Shield Generator"
 	category "Systems"
@@ -35,6 +36,7 @@ outfit "Jamum Shield Generator"
 	"shield fuel" .1
 	"shield heat" -4
 	"fuel capacity" 20
+	description "The Jamum Shield Generator is between and more efficient then either the Musaghar or the Tamum Shield Generators."
 
 outfit "Tamum Shield Generator"
 	category "Systems"
@@ -42,12 +44,13 @@ outfit "Tamum Shield Generator"
 	thumbnail "outfit/tamum shield generator"
 	cost 125000
 	"mass" 48
-	"outfit space" -50
+	"outfit space" -48
 	"shield generation" 1.25
-	"shield energy" 6.25
-	"shield fuel" .5
+	"shield energy" 6.3
+	"shield fuel" .51
 	"shield heat" -20
 	"fuel capacity" 110
+	description "The Tamum Shield Generator is not the most efficient reshielder the Jibauni possess, but it does have the greatest integrated fuel capacity."
 
 
 outfit "Eimlaq Steering"
@@ -66,6 +69,8 @@ outfit "Eimlaq Steering"
 	"steering flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
 	"steering flare sound" "eimlaq engines"
+	description "The Eimlaq Steering - along with the thruster set under the same name - are the greatest invention of the company that first produced them, Darro-ol. These huge rockets produce large amounts of flame, driving Jibauni ships with great speed."
+	description "	Jibauni engines are mainly powered by fuel, so all spacecraft the Jibauni produce use generators to match."
 
 outfit "Eimlaq Thrusters"
 	plural "Eimlaq Thrusters"
@@ -83,6 +88,8 @@ outfit "Eimlaq Thrusters"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"flare sound" "eimlaq engines"
+	description "The Eimlaq Thrusters - along with the steering set under the same name - are the greatest invention of the company that first produced them, Darro-ol. These huge rockets produce large amounts of flame, driving Jibauni ships with great speed."
+	description "	Jibauni engines are mainly powered by fuel, so all spacecraft the Jibauni produce use generators to match."
 
 outfit "Wasita Steering"
 	category "Engines"
@@ -100,6 +107,8 @@ outfit "Wasita Steering"
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 11
 	"steering flare sound" "wasita engines"
+	description "Surprisingly, the Wasita Steering and its parallel thruster set were the first engines produced by the Jibauni which remain in existence today. Now, the Wasita pair are produced by Aboagye Shipyards, even though their rivals from Res-redi use them sometimes."
+	description "	Jibauni engines are mainly powered by fuel, so all spacecraft the Jibauni produce use generators to match."
 
 outfit "Wasita Thrusters"
 	category "Engines"
@@ -117,6 +126,8 @@ outfit "Wasita Thrusters"
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 10
 	"flare sound" "wasita engines"
+	description "Surprisingly, the Wasita Thrusters and their parallel steering set were the first engines produced by the Jibauni which remain in existence today. Now, the Wasita pair are produced by Aboagye Shipyards, even though Aboagye's rivals from Res-redi use them sometimes."
+	description "	Jibauni engines are mainly powered by fuel, so all spacecraft the Jibauni produce use generators to match."
 
 outfit "Alhaja Steering"
 	category "Engines"
@@ -133,6 +144,8 @@ outfit "Alhaja Steering"
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 11
 	"steering flare sound" "alhaja engines"
+	description "Any Jibauni who must fly a fighter or other small ship thanks Res-redi for its Alhaja inventions. The latest Jibauni engines to be designed, the Alhaja pair is used to power only the smallest of Jibauni ships - many of which are made by Res-redi's rival Aboagye Shipyards."
+	description "	Jibauni engines are mainly powered by fuel, so all spacecraft the Jibauni produce use generators to match."
 
 outfit "Alhaja Thrusters"
 	category "Engines"
@@ -149,6 +162,8 @@ outfit "Alhaja Thrusters"
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 10
 	"flare sound" "alhaja engines"
+	description "Any Jibauni who must fly a fighter or other small ship thanks Res-redi for its Alhaja inventions. The latest Jibauni engines to be designed, the Alhaja pair is used to power only the smallest of Jibauni ships - many of which are made by Res-redi's rival Aboagye Shipyards."
+	description "	Jibauni engines are mainly powered by fuel, so all spacecraft the Jibauni produce use generators to match."
 
 
 outfit "Jibauni Small Laser"
@@ -176,7 +191,7 @@ outfit "Jibauni Small Laser"
 		"parallel"
 		"hit force" 1.2
 		"phasing"
-	description "A small Jibauni laser, this is mostly found on the ships that cannot support more heavy ordnance."
+	description "The developers of the Jibauni Small Laser, Res-redi, have realized that they only sell to small ships, as larger ones can support heavier ordnance."
 
 outfit "Jibauni Medium Laser"
 	category "Guns"
@@ -201,7 +216,7 @@ outfit "Jibauni Medium Laser"
 		"reload" 1
 		"hit force" 3
 		"phasing"
-	description "This is a semi-powerful laser that is mostly used on the large Jibauni ships. Although it cannot stay in one place for more than a second, it still does enough damage to be worth it."
+	description "Aboagye Shipyards, the producer of this weapon, was delighted when even Res-redi had to admit its excellence and install it on the Yiyharsi."
 
 
 outfit "Small Map"
@@ -217,10 +232,10 @@ outfit "Minjal"
 	category "Hand to Hand"
 	cost 12000
 	thumbnail "outfit/minjal"
-	"capture attack" 4
+	"capture attack" 2
 	"capture defense" 0.5
 	"unplunderable" 1
-	"description" "While the Jibauni Minjal is not that useful for hiding behind bulkheads to defend, it is very good in close attack fighting."
+	description "The Jibauni Minjal has had a long history of use in skirmishes, especially before spacecraft were discovered. Nowadays its defensive power is limited by restrictive bulkheads, and the Minjal is only useful when fighting in close quarters."
 
 
 outfit "Aljaraar Tractor Beam"
@@ -242,7 +257,7 @@ outfit "Aljaraar Tractor Beam"
 		"reload" 1
 		"firing energy" 2.3
 		"firing fuel" .2
-	description "The Aljaraar Tractor Beam, while invented primarily to gather harvested asteroid bits, has been put by the Rebels to the very different use of gathering flotsam from destroyed enemy ships."
+	description "The Aljaraar Tractor Beam, while initially invented to gather harvested asteroid parts, has been put by the Rebel Jibauni to the very different use of gathering flotsam from destroyed enemy ships."
 
 
 outfit "Lilsa Anti-Missile"
@@ -262,7 +277,7 @@ outfit "Lilsa Anti-Missile"
 		"firing fuel" 0.1
 		"reload" 5
 		"firing heat" 3
-	description "The Lilsa Anti-Missile operates in a quite different manner to most other anti-missiles. While they zap lasers at incoming hostile projectiles, the Lilsa sprays burning fuel at targets, causing them to explode before coming to the ship it is installed on."
+	description "The Lilsa Anti-Missile operates in a quite different manner to most other anti-missiles. While they zap lasers at incoming hostile projectiles, the Lilsa sprays burning fuel at targets, causing them to explode before arriving at the ship the Lilsa has been installed on."
 
 outfit "Ruksay Missile"
 	cost 525
@@ -309,7 +324,7 @@ outfit "Ruksay Missile Launcher"
 		"hit force" 170
 		"missile strength" 6
 		"phasing"
-	description "The missiles this launches are not as good at tracking and don't do splash damage the way the Rukjay missiles do, but some captains regard the nonexistence of heat creation as worth it for the less powerful defenses."
+	description "Ruksay missiles are not as good at tracking and don't do splash damage the way Rukjay missiles do, but some captains regard the nonexistence of heat creation as worth it for the lessening defenses."
 
 outfit "Rukjay Missile"
 	cost 875
@@ -329,7 +344,7 @@ outfit "Rukjay Missile Launcher"
 	"outfit space" -18
 	"weapon capacity" -18
 	"gun ports" -1
-	"rukjay capacity" 30
+	"rukjay capacity" 45
 	weapon
 		sprite "projectile/rukjay"
 			"frame rate" 4
@@ -366,7 +381,7 @@ outfit "Rukjay Missile Launcher"
 		"safe"
 		"fused"
 		"phasing"
-	description "The missiles this launches have great tracking and do some splash damage at the cost of generating some heat. Most Jibauni captains regard the tracking as good enough to more than make up for the heat inefficiency."
+	description "Rukjay missiles have great tracking and do some splash damage at the cost of generating some heat. Most Jibauni captains regard the tracking as good enough to more than make up for the heat inefficiency."
 
 effect "jibauni missile hit"
 	sprite "effect/explosion/medium"
@@ -404,7 +419,7 @@ outfit "Flak Launcher"
 		"submunition" "flaklauncher"
 		"hit effect" "flak impact"
 		"phasing"
-	description "A marvel in mechanical engineering, the Flak Launcher has perfected the art of throwing projectiles in many directions."
+	description "A marvel in mechanical engineering, the Flak Launcher has perfected the art of throwing projectiles in many directions. It took the Jibauni over ten years to develop it, and much to the embaressment of both Res-redi and Aboagye, a smaller company by the name of Darro-ol created the final design."
 
 outfit "flaklauncher"
 	weapon
@@ -432,7 +447,7 @@ outfit "Zarhal Laser Turret"
 	category "Turrets"
 	cost 350000
 	thumbnail "outfit/zarhal turret"
-	"mass" 25
+	"mass" 35
 	"outfit space" -35
 	"weapon capacity" -22
 	"turret mounts" -1
@@ -442,7 +457,7 @@ outfit "Zarhal Laser Turret"
 		sprite "projectile/jibauni medium laser"
 		"inaccuracy" 2
 		"hit effect" "heavy laser impact"
-		"turret turn" 2
+		"turret turn" 1.1
 		"reload" 1
 		"firing energy" 1
 		"firing heat" 2.25
@@ -452,7 +467,7 @@ outfit "Zarhal Laser Turret"
 		"hull damage" 2.2
 		"velocity" 650
 		"phasing"
-	description "While doing more damage per ton, the Zarhal Turret is not as much of a universal favorite because it cannot go through ships that are not its target the way the Zarwal Turret can. But the power it wields still holds great sway over Jibauni captains who don't care who their enemy is."
+	description "Jibauni inventors didn't know how to make a laser that could hit asteroids - nor did they care much. The Zarhal Laser Turret does the most damage of any Jibauni weapon, but the abysmal turn rate has sent many captains down the opposite path of the Zarwal Turret."
 
 outfit "Zarwal Laser Turret"
 	category "Turrets"
@@ -467,7 +482,7 @@ outfit "Zarwal Laser Turret"
 		sprite "projectile/jibauni small laser"
 		"hit effect" "heavy laser impact"
 		"inaccuracy" 2
-		"turret turn" 2.5
+		"turret turn" 2
 		"reload" 1
 		"firing energy" 0.5
 		"firing heat" 1
@@ -477,11 +492,11 @@ outfit "Zarwal Laser Turret"
 		"hull damage" .83
 		"velocity" 425
 		"phasing"
-	description "While not doing as much raw damage as the Zarhal Turret, Jibauni captains use this in great numbers because the beams it shoots have the ability to go though any ship except for their target, meaning a Jibauni captain whose ship is equipped with these can focus on any opponent they please without being hindered by other ships getting in the way."
+	description "The Zarwal Turret does not do nearly as much damage as the Zarhal. However, having the turret turn at more than a millimeter a second is a great blessing to Jibauni captains which use it."
 
 
 outfit "Jahgir Energy Generator"
-	cost 40000
+	cost 30000
 	category "Power"
 	thumbnail "outfit/jahgir generator"
 	"outfit space" -15
@@ -489,6 +504,7 @@ outfit "Jahgir Energy Generator"
 	"heat generation" 1.5
 	"mass" 15
 	"ramscoop" .01
+	description "When compared to other Jibauni generators, the Jahgir is only worthwhile because of its diminuative size."
 
 outfit "Watsaq Energy Generator"
 	cost 50000
@@ -501,6 +517,7 @@ outfit "Watsaq Energy Generator"
 	"fuel generation" .2
 	"ramscoop" .05
 	"jibauni generator" -1
+	description "The Watsaq generator has a ramscoop built-in like the Jahgir, but unlike it, the Watsaq actually generates fuel."
 
 outfit "Tawasitaq Energy Generator"
 	cost 310000
@@ -508,11 +525,12 @@ outfit "Tawasitaq Energy Generator"
 	thumbnail "outfit/tawasitaq generator"
 	"outfit space" -45
 	"energy generation" 5
-	"heat generation" 1.9
+	"heat generation" 4.1
 	"mass" 45
 	"fuel generation" .5
 	"ramscoop" .1
 	"jibauni generator" -2
+	description "The Tawasitaq Generator dwarfs both the Watsaq and the Jahgir, but because of its size heat problems plague Jibauni captains which use it."
 
 outfit "Daltaq Energy Generator"
 	cost 4000000
@@ -525,6 +543,7 @@ outfit "Daltaq Energy Generator"
 	"fuel generation" .8
 	"ramscoop" .15
 	"jibauni generator" -4
+	description "The Watsaq is the largest Jibauni generator and outsizes all previous versions in every way - including space for Jibauni generators on a ship."
 
 
 outfit "Saybatrit Battery"
@@ -542,6 +561,7 @@ outfit "Farbatal Battery"
 	"outfit space" -48
 	"energy capacity" 32000
 	"mass" 65
+	description "The Farbatal Battery's large mass stems from the fact that it is larger on the inside then the outside. At least, so it says on the side."
 
 
 outfit "Tashwish Radar Jammer"
@@ -550,6 +570,7 @@ outfit "Tashwish Radar Jammer"
 	"mass" 15
 	"outfit space" -14
 	"radar jamming" 7
+	description "Wonderful for its radar jamming purposes, the Tashwish nevertheless takes up large amounts of space when compared to other non-Jibauni jammers."
 
 
 outfit "Altaedin Laser"
@@ -575,7 +596,7 @@ outfit "Altaedin Laser"
 		"minable damage" 5
 		"slowing damage" .01
 		"no asteroid collisions"
-	description "The Altaedin Laser is a huge technological achievement for the Jibauni. The way most of their weapons are built, it is impossible to hit asteroids with them. The Mining Laser was designed in a collaboration on Baitoon by a group of scientists from all over Jibauni space."
+	description "The Altaedin Laser is a huge technological achievement for the Jibauni. Before this new design, created in a collaboration on Baitoon by a group of scientists from all over Jibauni space, no Jibauni weapon had ever been able to hit an asreroid effectively."
 
 
 outfit "Bunk"
@@ -622,7 +643,7 @@ outfit "Rebel Jibauni License"
 	category "Licenses"
 	thumbnail "outfit/license"
 	"unplunderable" 1
-	description "Placeholder."
+	description "The Rebels deem it a great trust to be gifted this license."
 
 outfit "Rebel Jibauni Capital License"
 	category "Licenses"
@@ -638,6 +659,7 @@ outfit "Alwaqud Fuel Pod"
 	"mass" 8
 	"outfit space" -5
 	"fuel capacity" 65
+	description "Giving Jibauni ships' dependence on fuel to survive, what a small amount the Alwaqud pod adds is a little unnerving."
 
 outfit "Jibauni Ramscoop"
 	category "Systems"
@@ -646,6 +668,7 @@ outfit "Jibauni Ramscoop"
 	"mass" 15
 	"outfit space" -10
 	"ramscoop" 1.1
+	description "Nothing astounding resides in the personage of this ramscoop, unless it's the fact that the Jibauni need fuel so much and the ramscoop provides so little."
 
 
 outfit "Almash Scanner"
@@ -661,4 +684,4 @@ outfit "Almash Scanner"
 	"cargo scan efficiency" 2
 	"cargo scan sound" "jibauni scanner"
 	"tactical scan power" 3
-	description "This Jibauni scanner is not great, but it is cheap and takes up hardly any space. If you install more than one the scan range and speed is increased."
+	description "This Jibauni scanner is not powerful, but it is cheap and takes up hardly any space. If you install more than one the scan range and speed is increased."

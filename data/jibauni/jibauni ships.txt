@@ -28,7 +28,7 @@ ship "Larajal"
 		"cargo space" 5
 		"outfit space" 90
 		"weapon capacity" 12
-		"engine capacity" 30
+		"engine capacity" 20
 		"jibauni generator" .5
 		"fuel protection" .05
 		"slowing resistance" 100
@@ -81,7 +81,7 @@ ship "Muraw"
 		"cargo space" 5
 		"outfit space" 67
 		"weapon capacity" 12
-		"engine capacity" 15
+		"engine capacity" 20
 		"jibauni generator" .5
 		"fuel protection" .05
 		"slowing resistance" 100
@@ -132,7 +132,7 @@ ship "Latbaliday"
 		"cargo space" 20
 		"outfit space" 56
 		"weapon capacity" 26
-		"engine capacity" 15
+		"engine capacity" 20
 		"jibauni generator" .5
 		"fuel protection" .05
 		"slowing resistance" 100
@@ -224,12 +224,7 @@ ship "Duntay"
 		"cargo space" 0
 		"outfit space" 45
 		"weapon capacity" 10
-		"engine capacity" 15
-		"thrust" 1.5
-		"turn" 6
-		"turning energy" 1
-		"thrusting energy" .15
-		"reverse thrust" 1
+		"engine capacity" 20
 		"fuel protection" .05
 		"slowing resistance" 100
 		"fuel generation" 1
@@ -323,7 +318,7 @@ ship "Saghir"
 		"cargo space" 10
 		"outfit space" 143
 		"weapon capacity" 20
-		"engine capacity" 30
+		"engine capacity" 52
 		"jibauni generator" 1
 		"fuel protection" .4
 		licenses
@@ -432,7 +427,7 @@ ship "Minaldmasmin"
 		"cargo space" 35
 		"outfit space" 213
 		"weapon capacity" 45
-		"engine capacity" 70
+		"engine capacity" 95
 		"atmosphere scan" 50
 		"asteroid scan power" 75
 		"outfit scan power" 25
@@ -475,54 +470,6 @@ ship "Minaldmasmin"
 	"final explode" "final explosion medium"
 	description "This is a powerful Jibauni mining ship, with built-in scanners and some anti-missile defenses. It also has Small Lasers for offensive use."
 
-ship "Qudaw"
-	sprite "ship/qudaw"
-	thumbnail "thumbnail/qudaw"
-	"never disabled"
-	attributes
-		category "Utility"
-		"hull" 10000000
-		"thrust" 100
-		"turn" 300
-		"energy generation" 300
-		"energy capacity" 3000
-		"shields" 100000000
-		"required crew" 3
-		"bunks" 4
-		"mass" 260
-		"drag" 3
-		"heat dissipation" .4
-		"fuel capacity" 1000
-		"cargo space" 0
-		"outfit space" 145
-		"weapon capacity" 75
-		"engine capacity" 30
-		"jibauni generator" 2
-		"fuel protection" 5
-		licenses
-			"Jibauni Rebel Fighter"
-		weapon
-			"blast radius" 10000
-			"shield damage" 5000
-			"hull damage" 1000
-			"hit force" 10000
-	outfits
-		"Fueler 100"
-		"Watsaq Energy Generator"
-		"Wasita Steering"
-		"Wasita Thrusters"
-		
-	engine 0 0
-	turret 0 0
-	leak "leak" 50 50
-	leak "flame" 50 80
-	leak "big leak" 90 30
-	explode "tiny explosion" 10
-	explode "small explosion" 25
-	explode "medium explosion" 25
-	explode "large explosion" 10
-	"final explode" "final explosion medium"
-
 ship "Nakil"
 	sprite "ship/nakil"
 	thumbnail "thumbnail/nakil"
@@ -540,7 +487,7 @@ ship "Nakil"
 		"cargo space" 45
 		"outfit space" 200
 		"weapon capacity" 30
-		"engine capacity" 70
+		"engine capacity" 100
 		"jibauni generator" 4
 		"fuel protection" .7
 		licenses
@@ -600,7 +547,7 @@ ship "Quyan"
 		"cargo space" 40
 		"outfit space" 200
 		"weapon capacity" 18
-		"engine capacity" 70
+		"engine capacity" 71
 		"jibauni generator" 2
 		"fuel protection" .65
 		licenses
@@ -617,7 +564,7 @@ ship "Quyan"
 		"Jamum Shield Generator"
 		"Minjal" 12
 
-		"Eimlaq Steering"
+		"Wasita Steering"
 		"Eimlaq Thrusters"
 		"Hyperdrive"
 		
@@ -651,7 +598,7 @@ ship "Yiyharsi"
 		"cargo space" 10
 		"outfit space" 200
 		"weapon capacity" 50
-		"engine capacity" 30
+		"engine capacity" 51
 		"slowing resistance" 1
 		"slowing resistance fuel" -1
 		"jibauni generator" 4
@@ -711,7 +658,7 @@ ship "Nathas"
 		"cargo space" 50
 		"outfit space" 215
 		"weapon capacity" 22
-		"engine capacity" 70
+		"engine capacity" 73
 		"jibauni generator" 4
 		"fuel protection" .6
 		licenses
@@ -731,7 +678,7 @@ ship "Nathas"
 		"Minjal" 2
 
 		"Eimlaq Steering"
-		"Eimlaq Thrusters"
+		"Wasita Thrusters"
 		"Hyperdrive"
 
 	engine 0 0
@@ -766,7 +713,7 @@ ship "Nathaq"
 		"cargo space" 250
 		"outfit space" 295
 		"weapon capacity" 50
-		"engine capacity" 85
+		"engine capacity" 96
 		"jibauni generator" 4
 		"fuel protection" .7
 		licenses
@@ -825,9 +772,7 @@ ship "Nathar"
 		"cargo space" 60
 		"outfit space" 450
 		"weapon capacity" 135
-		"engine capacity" 70
-		"shield generation" 10
-		"shield energy" 40
+		"engine capacity" 94
 		"jibauni generator" 4
 		"fuel protection" .8
 		licenses
@@ -893,7 +838,7 @@ ship "Safinat"
 		"cargo space" 330
 		"outfit space" 800
 		"weapon capacity" 300
-		"engine capacity" 170
+		"engine capacity" 240
 		"jibauni generator" 12
 		"fuel protection" .65
 		licenses
@@ -961,14 +906,14 @@ ship "Osra"
 		"hull" 500
 		"automaton" 1
 		"bunks" 6
-		"mass" 60
+		"mass" 70
 		"drag" .67
 		"heat dissipation" .9
 		"fuel capacity" 10
 		"cargo space" 8
 		"outfit space" 35
 		"weapon capacity" 0
-		"engine capacity" 15
+		"engine capacity" 20
 		"jibauni generator" .5
 		"fuel protection" .05
 		licenses

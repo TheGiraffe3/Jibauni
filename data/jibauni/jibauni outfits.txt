@@ -419,7 +419,7 @@ outfit "Jibauni Ramscoop"
 outfit "Almash Scanner"
 	category "Systems"
 	cost 55000
-	thumbnail "outfit/jibauni scanner"
+	thumbnail "outfit/almash scanner"
 	"mass" 2
 	"outfit space" -2
 	"outfit scan power" 5
@@ -429,6 +429,7 @@ outfit "Almash Scanner"
 	"cargo scan efficiency" 2
 	"cargo scan sound" "jibauni scanner"
 	"tactical scan power" 3
+	"atmosphere scan" 100
 	description "This Jibauni scanner is not powerful, but it is cheap and takes up hardly any space. If you install more than one the scan range and speed is increased."
 
 outfit "Tashwish Radar Jammer"

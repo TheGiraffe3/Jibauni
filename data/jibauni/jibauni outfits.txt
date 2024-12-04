@@ -266,9 +266,9 @@ outfit "Rukjay Missile Launcher"
 		"drag" .3
 		"turn" 4
 		"homing" 4
-		"infrared tracking" .1
+		"infrared tracking" .05
 		"radar tracking" .85
-		"tracking" .24
+		"tracking" .11
 		"shield damage" 500
 		"hull damage" 215
 		"hit force" 170

@@ -95,7 +95,7 @@ planet Kanlil
 	landscape land/station13
 	description `Kanlil is the stopover for pilgrims wishing to visit Lamalmuq, and as such is quite busy. It also sells luxurious goods unavailable on that planet, such as personal tablets and cigars. Most trading in this system naturally passes through Kanlil.`
 	description `	Surprisingly, the station is a fairly recent creation, only built two hundred years ago. Dertoy Enterprises, the original founder, went out of business soon afterwards; this contributes to the rumor that Kanlil has existed since the beginning of time as the Jibauni know it.`
-	spaceport `Most Jibauni loitering on Kanlil wear black robes; the rest wear the generic spaceport employee uniforms that permeate Jibauni space. Many ships are docked ot the station, and the spaceport workers are kept busy unloading and reloading the large amounts of traffic in Hajay.`
+	spaceport `Most Jibauni loitering on Kanlil wear black robes; the rest wear the generic spaceport employee uniforms that permeate Jibauni space. Many ships are docked to the station, and the spaceport workers are kept busy unloading and reloading the large amounts of traffic in Hajay.`
 	government Jibauni
 	shipyard "Aboagye Basics"
 	shipyard "Resredi Basics"

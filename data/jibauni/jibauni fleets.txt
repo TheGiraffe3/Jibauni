@@ -157,6 +157,7 @@ fleet "Jibauni Leaders"
 		"Quyan (Government)"
 	variant 2
 		"Nathaq (Government)"
+		"Duntay" 4
 	variant 2
 		"Nathar (Government)"
 	variant
@@ -167,6 +168,8 @@ fleet "Jibauni Leaders"
 		"Quyan (Government)" 2
 	variant
 		"Nathaq (Government)" 2
+		"Daybal" 2
+		"Duntay" 6
 	variant
 		"Nathar (Government)" 2
 
@@ -230,25 +233,25 @@ fleet "Small Rebel Jibauni Military"
 		opportunistic
 		plunders
 	variant 20
-		"Furus"
+		"Saghir"
 	variant 18
-		"Furus"
+		"Saghir"
 		"Yiyharsi (Rebel)"
-	variant 18
-		"Furus" 2
+	variant 16
+		"Saghir" 2
 	variant 15
 		"Yiyharsi"
 	variant 14
 		"Yiyharsi (Flak)"
 	variant 14
 		"Yiyharsi (Tractor Flak)"
-	variant 8
-		"Furus (Flak)"
 	variant 5
 		"Yiyharsi"
 		"Yiyharsi (Tractor Flak)"
+	variant 3
+		"Furus"
 	variant 2
-		"Furus (Flak)" 2
+		"Furus (Flak)"
 	variant
 		"Nathar"
 		"Muraw" 2
@@ -258,10 +261,10 @@ fleet "Small Rebel Jibauni Military"
 		"Larajal" 2
 		"Duntay" 4
 
+
 fleet "Rebel Jibauni Civilian"
 	government "Jibauni (Rebel)"
 	names "rebel jibauni civilian"
-	cargo 2
 	personality
 		confusion 20
 		merciful
@@ -271,65 +274,69 @@ fleet "Rebel Jibauni Civilian"
 		"Yankul"
 	variant 9
 		"Saghir"
-	variant 6
-		"Furus"
+	variant 7
+		"Quyan"
 	variant 5
 		"Yankul" 2
-	variant 2
-		"Nathas"
-	variant 2
-		"Nathas" 2
-	variant
-		"Nathas"
-		"Furus"
-	variant 8
-		"Quyan"
 	variant 4
 		"Yiyharsi"
 	variant 2
+		"Nathas"
+		"Daybal" 2
+	variant 2
+		"Nathas" 2
+		"Daybal" 2
+		"Duntay" 2
+	variant 2
 		"Quyan"
 		"Yiyharsi"
-	variant
-		"Yiyharsi"
-		"Furus"
 	variant 2
 		"Yiyharsi"
+		"Saghir"
+	variant
+		"Furus"
+	variant
+		"Nathas"
+		"Duntay" 2
 		"Saghir"
 
 fleet "Jibauni Civilian"
 	government "Jibauni"
 	names "jibauni civilian"
-	cargo 2
+	cargo 4
 	personality
 		confusion 20
 		merciful
 		opportunistic
 		timid
-	variant 10
+	variant 8
 		"Yankul"
-	variant 9
-		"Saghir"
-	variant 6
+	variant 7
+		"Quyan"
+	variant 7
+		"Nathas"
+		"Daybal" 2
+	variant 4
+		"Nathas" 2
+		"Daybal" 4
+	variant 3
+		"Nathaq"
+		"Daybal" 4
+	variant 3
+		"Yiyharsi"
+	variant 3
+		"Nathas"
+		"Daybal" 2
 		"Furus"
-	variant 5
+	variant 3
 		"Yankul" 2
 	variant 2
-		"Nathas"
-	variant 2
-		"Nathas" 2
-	variant
-		"Nathas"
-		"Furus"
-	variant 8
-		"Quyan"
-	variant 4
+		"Nathaq"
+		"Daybal" 4
 		"Yiyharsi"
 	variant 2
 		"Quyan"
 		"Yiyharsi"
 	variant
-		"Yiyharsi"
-		"Furus"
-	variant 2
-		"Yiyharsi"
-		"Saghir"
+		"Nathar"
+		"Daybal" 2

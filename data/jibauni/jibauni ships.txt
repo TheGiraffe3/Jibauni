@@ -161,7 +161,8 @@ ship "Nathas"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Nathas is fairly unnoticeable. It has a slight amount of firepower, and will be able to get away from attacking Rebels short of enemy Nathars, but has no means of defending itself in protracted combat."
+	description "A fairly recent design, the Nathas is a lighter, cheaper, and smaller ship then the original Nathaq model. The smaller number of drone bays is the main reason Aboagye was able to speed up Res-redi's cargo model."
+	description "	This ship is also capable of filling its drone bays with the Daybal cargo drone to increase space for hauling."
 
 ship "Nathaq"
 	sprite "ship/nathaq"
@@ -220,7 +221,8 @@ ship "Nathaq"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Nathaq is quite powerful for its size. With a huge cargo capacity and many drone bays, its only downside is the complete lack of offensive turrets."
+	description "The Nathaq is the oldest purely cargo design the Jibauni have. First built in 2400, it also has drone bays to guard against Rebel attacks; most Jibauni dislike the fact that by itself the Nathaq is quite vulnerable."
+	description "	This ship is also capable of filling its drone bays with the Daybal cargo drone to increase space for hauling."
 
 ship "Minaldmasmin"
 	sprite "ship/minaldmasmin"
@@ -286,7 +288,7 @@ ship "Nakil"
 	sprite "ship/nakil"
 	thumbnail "thumbnail/nakil"
 	attributes
-		category "Utility"
+		category "Heavy Warship"
 		"cost" 7000000
 		"shields" 4000
 		"hull" 5000
@@ -477,7 +479,7 @@ ship "Saghir"
 	thumbnail "thumbnail/saghir"
 	attributes
 		category "Interceptor"
-		"cost" 1250000
+		"cost" 990000
 		"shields" 1500
 		"hull" 800
 		"required crew" 1
@@ -524,7 +526,7 @@ ship "Saghir"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "A small ship like this one is not great for fighting purposes, with the Larajal being better for fighting, but it has weapons pointing behind ready to help defend when the Saghir is running away, and it has more durability than the fragile Larajal fighter. It can also jump under its own power."
+	description "The Saghir exists mainly as a hyperspace capable mix of the Latbaliday and Larajal. It has a backward-facing port for missiles, but can defend itself in face to face combat relatively easily. Given that the Furus is faster, however, only the Rebel Jibauni produce and use the Saghir, for its cheapness."
 
 ship "Yiyharsi"
 	sprite "ship/yiyharsi"
@@ -583,7 +585,7 @@ ship "Yiyharsi"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Yiyharsi is a medium-strength warship. While being more powerful than the Furus in some ways, it is dwarfed by the Nakil's incredible drone and fighter swarms, and will lose against a well-piloted and well-equipped Nathaq."
+	description "The Yiyharsi is a medium-strength warship. While comparatively slow to the Furus' large engines and dwarfed by the Nakil's incredible drone and fighter swarms, the Yiyharsi under a well-trained pilot can destroy any Jibauni ship but the Nathar - provided that it doesn't run out of fuel."
 
 ship "Nathar"
 	sprite "ship/nathar"

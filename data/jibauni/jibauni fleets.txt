@@ -19,31 +19,26 @@ fleet "Jibauni Pilgrim Transport"
 		confusion 35
 		appeasing
 		timid
-	variant 5
+	variant 46
+		"Quyan" 2
+	variant 23
+		"Yankul"
+	variant 14
+		"Quyan" 2
+		"Furus" 2
+	variant 10
+		"Quyan"
+		"Furus"
+	variant 9
+		"Quyan"
+		"Yankul"
+	variant
 		"Quyan" 5
-		"Saghir" 3
-		"Furus" 1
-	variant 6
+		"Saghir"
+		"Furus" 3
+	variant
 		"Quyan" 4
-		"Saghir"
-		"Furus" 2
-	variant 7
-		"Quyan" 3
-		"Furus" 4
-	variant 50
-		"Quyan" 2
-	variant 20
-		"Quyan" 2
-		"Furus" 2
-	variant 10
-		"Quyan"
-		"Saghir"
-	variant 30
-		"Yankul"
-	variant 10
-		"Quyan"
-		"Saghir"
-		"Yankul"
+		"Furus" 3
 
 fleet "Hajay Pilgrim Transport"
 	government "Jibauni (Civilian)"
@@ -52,12 +47,11 @@ fleet "Hajay Pilgrim Transport"
 	personality
 		appeasing
 		timid
-	variant 10
+	variant 9
 		"Quyan (Inter-system)"
 	variant 4
 		"Quyan (Inter-system)" 2
-	variant
-		"Yankul" 4
+
 
 fleet "Large Jibauni Military"
 	government "Jibauni"
@@ -70,45 +64,45 @@ fleet "Large Jibauni Military"
 		merciful
 		opportunistic
 		plunders
-	variant 20
+	variant 22
 		"Nathar"
 		"Larajal" 2
 	variant 20
 		"Nathar"
 		"Muraw" 2
-	variant 20
+	variant 18
 		"Nathar"
-		Latbaliday 2
-	variant 20
+		"Latbaliday" 2
+	variant 14
 		"Nathar"
 		"Larajal" 2
 		"Yiyharsi"
 		"Furus"
+	variant 11
+		"Yiyharsi" 2
 	variant 10
+		"Yiyharsi (Flak)" 2
+	variant 9
+		"Yiyharsi" 3
+	variant 8
 		"Yiyharsi"
 		"Nakil"
 		"Muraw" 2
 		"Larajal" 2
 		"Latbaliday" 2
 		"Duntay" 4
-	variant 10
-		"Yiyharsi" 3
-	variant 5
-		"Yiyharsi" 2
+	variant 4
+		"Furus"
+		"Furus (Flak)"
+	variant 2
+		"Furus" 2
 	variant 2
 		"Yiyharsi"
-	variant 4
+	variant
 		"Yiyharsi" 5
-	variant 5
-		"Yiyharsi (Flak)" 3
-	variant
-		"Furus" 5
-	variant
-		"Saghir" 5
 	variant
 		"Furus" 2
-	variant
-		"Saghir" 3
+		"Furus (Flak)" 3
 
 fleet "Small Jibauni Military"
 	government "Jibauni"
@@ -123,36 +117,30 @@ fleet "Small Jibauni Military"
 		plunders
 	variant 40
 		"Yiyharsi"
-	variant 30
+	variant 35
+		"Furus"
+	variant 20
+		"Furus"
+		"Yiyharsi"
+	variant 18
+		"Furus" 2
+	variant 14
+		"Yiyharsi (Flak)"
+	variant 8
+		"Furus (Flak)"
+	variant 5
 		"Yiyharsi" 2
-	variant 1
+	variant 2
+		"Furus (Flak)" 2
+	variant
 		"Nathar"
 		"Muraw" 2
-	variant 1
+	variant
 		"Nakil"
 		"Muraw" 4
 		"Larajal" 2
 		"Duntay" 4
-	variant 25
-		"Saghir" 2
-	variant 20
-		"Furus" 2
-	variant 35
-		"Saghir"
-	variant 35
-		"Furus"
-	variant 40
-		"Yiyharsi"
-		"Furus"
-	variant 40
-		"Yiyharsi"
-		"Saghir"
-	variant 10
-		"Yiyharsi (Flak)"
-	variant 4
-		"Saghir (Flak)"
-	variant 3
-		"Furus (Flak)"
+
 
 fleet "Jibauni Leaders"
 	government "Jibauni (Ruler)"
@@ -181,6 +169,7 @@ fleet "Jibauni Leaders"
 		"Nathaq (Government)" 2
 	variant
 		"Nathar (Government)" 2
+
 
 fleet "Large Rebel Jibauni Military"
 	government "Jibauni (Rebel)"

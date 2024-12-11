@@ -194,6 +194,7 @@ planet Muntisir
 	government "Jibauni (Rebel)"
 	shipyard "Aboagye Advanced"
 	shipyard "Aboagye Basics"
+	shipyard "Rebel Jibauni"
 	shipyard "Resredi Advanced"
 	shipyard "Resredi Basics"
 	outfitter "Jibauni Advanced"

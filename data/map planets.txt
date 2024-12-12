@@ -269,7 +269,7 @@ planet Vardelu
 planet Weloon
 	attributes uninhabited
 	landscape land/hills6-sfiera
-	description `Yellow slopes underneath clouds and rolling fog dominate the small trees on Weloon. Mountains dwarf the hills, covered with light wisps of some unkown plant native to this cold planet. Trees, visible but hue-shifting, dot the nearer sides of the mesas at the top of the world, while on the other side a long fall awaits those who step too far.`
+	description `Yellow slopes underneath clouds and rolling fog dominate the small trees on Weloon. Mountains dwarf the hills, covered with light wisps of some unknown plant native to this cold planet. Trees, visible but hue-shifting, dot the nearer sides of the mesas at the top of the world, while on the other side a long fall awaits those who step too far.`
 
 planet Zilat
 	attributes uninhabited

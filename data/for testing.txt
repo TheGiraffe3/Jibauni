@@ -98,9 +98,8 @@ conversation "jibauni start"
 start "Cheat Jibauni"
 	name "Jibauni Tester"
 	description `A Jibauni start that should only be used for testing. Gives you almost unlimited money and a special ship.`
-	description `	Definitely cheating.`
 	thumbnail "scene/lobby"
-	date 16 11 3013
+	date 16 11 3000
 	system "Huyya"
 	planet "Baitoon"
 	conversation "jibauni cheat start"
@@ -128,6 +127,7 @@ start "Cheat Jibauni"
 			"weapon capacity" 33900
 			"engine capacity" 15900
 			"cloak" 1
+			"jibauni generator" 595493
 			weapon
 				"blast radius" 25000000
 				"shield damage" 3600000

@@ -101,7 +101,7 @@ news "hired jibauni assassin male"
 		word
 			"Have you heard of "
 		word
-			"${jibauni man} ${family names}" 150
+			"${jibauni male first name} ${family names}" 150
 			"Kasim Aboagye"
 		word
 			"? Do you know where he lives? I have a job there."
@@ -125,7 +125,7 @@ news "hired jibauni assassin female"
 		word
 			"Have you heard of "
 		word
-			"${jibauni woman} ${family names}"
+			"${jibauni female first name} ${family names}"
 		word
 			"? Do you know where she lives? I have a job there."
 		word

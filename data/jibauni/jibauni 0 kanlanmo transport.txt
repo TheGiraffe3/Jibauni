@@ -598,6 +598,7 @@ mission "Jibauni: Kanlanmo 4"
 				`	"Sure."`
 				`	"No, I don't want to work with the Jibauni anymore."`
 					goto stripped
+			label good
 			`	"Great. I will report that, then." Kasim cuts in, "You are lucky you said yes! Kanlanmo is the Undersecretary of the Department of Defense, and he can command you. He did not have to give you a choice."`
 			choice
 				`	"I had no idea you were so powerful!"`

@@ -468,7 +468,7 @@ mission "Jibauni: Ji-wi"
 		random < 15
 	on offer
 		conversation
-			`You notice a Jibauni running between captains, every now and then pausing to ask something. You notice the Jibauni turn towards you and appraoch at a resolute pace.`
+			`You notice a Jibauni running between captains, every now and then pausing to ask something. You notice the Jibauni turn towards you and approach at a resolute pace.`
 			choice
 				`	(Wait for the Jibauni to reach you.)`
 				`	(Leave the area.)`
@@ -621,7 +621,7 @@ mission "Jibauni: Dran-lin 1"
 			label dranlinimprisoned
 			action
 				set "jibauni: dran-lin stays with the rebels"
-				"reputation: Jibauni" -=3
+				"reputation: Jibauni" -= 3
 			`	"Well, he will just stay there for life, then," replies the Rebel. You are taken back to the <ship> and left to ponder what you have just done.`
 			label end
 			

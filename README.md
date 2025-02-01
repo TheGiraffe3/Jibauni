@@ -2,7 +2,7 @@
 
 **The Jibauni have been PRed to vanilla Endless Sky. The pull request is here: [#10867](https://github.com/endless-sky/endless-sky/pull/10867)**
 
-This is a plugin for the free, open-source game Endless Sky (endless-sky.github.io). 
+This is a plugin for the free, open-source game [Endless Sky](endless-sky.github.io). 
 
 ## General Information
 This plugin adds a robotic faction called the Diba and a species named the Jibauni.

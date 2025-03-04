@@ -29,9 +29,9 @@ ship "Nathar" "Nathar (Laser)"
 		"weapon capacity" 10
 	outfits
 		"Lilsa Anti-Missile"
-		"Zarhal Laser Turret" 4
+		"Ardonex Turret" 4
 		"Outfits Expansion" 2
-		"Jibauni Medium Laser" 4
+		"Ardonex Laser" 4
 		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Tamum Shield Generator"
@@ -90,12 +90,12 @@ ship "Yiyharsi" "Yiyharsi (Government)"
 		"Wasita Thrusters"
 		"Ruksay Missile" 55
 		"Ruksay Missile Launcher" 2
-		"Jibauni Small Laser" 2
+		"Dracorex Laser" 2
 		"Jibauni Government License"
 
 ship "Furus" "Furus (Government)"
 	outfits
-		"Jibauni Small Laser" 2
+		"Dracorex Laser" 2
 		"Rukjay Missile Launcher"
 		"Rukjay Missile Blueprint"
 		"Watsaq Energy Generator"
@@ -131,8 +131,8 @@ ship "Nathar" "Nathar (Government)"
 	outfits
 		"Lilsa Anti-Missile" 2
 		"Daltaq Energy Generator"
-		"Zarwal Laser Turret"
-		"Zarhal Laser Turret" 2
+		"Dracorex Turret"
+		"Ardonex Turret" 2
 		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Tamum Shield Generator"
@@ -140,7 +140,7 @@ ship "Nathar" "Nathar (Government)"
 		"Eimlaq Thrusters"
 		"Ruksay Missile" 59
 		"Ruksay Missile Launcher" 2
-		"Jibauni Medium Laser" 2
+		"Ardonex Laser" 2
 		"Jibauni Government License"
 
 ship "Muraw" "Muraw (Fighting)"
@@ -149,7 +149,7 @@ ship "Muraw" "Muraw (Fighting)"
 		"outfit space" 8
 		"cargo space" -5
 	outfits
-		"Zarwal Laser Turret"
+		"Dracorex Turret"
 		"Watsaq Energy Generator"
 		
 		"Alhaja Steering"
@@ -157,7 +157,7 @@ ship "Muraw" "Muraw (Fighting)"
 
 ship "Quyan" "Quyan (Fighting)"
 	outfits
-		"Zarwal Laser Turret"
+		"Dracorex Turret"
 		"Watsaq Energy Generator"
 		"Hyperdrive"
 		"Jamum Shield Generator"
@@ -166,33 +166,33 @@ ship "Quyan" "Quyan (Fighting)"
 
 ship "Duntay" "Duntay (Flak)"
 	outfits
-		"Flak Launcher"
+		"Troodon"
 		"Jahgir Energy Generator"
 		"Alhaja Steering"
 		"Alhaja Thrusters"
 
 ship "Yiyharsi" "Yiyharsi (Rebel)"
 	outfits
-		"Aljaraar Tractor Beam"
+		"Sinraptor Beam"
 		"Tawasitaq Energy Generator"
 		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Wasita Steering"
 		"Wasita Thrusters"
-		"Jibauni Small Laser" 4
-	gun "Jibauni Small Laser"
-	gun "Jibauni Small Laser"
-	gun "Jibauni Small Laser"
-	gun "Jibauni Small Laser"
-	turret "Aljaraar Tractor Beam"
+		"Dracorex Laser" 4
+	gun "Dracorex Laser"
+	gun "Dracorex Laser"
+	gun "Dracorex Laser"
+	gun "Dracorex Laser"
+	turret "Sinraptor Beam"
 
 ship "Nathar" "Nathar (Rebel)"
 	outfits
 		"Ruksay Missile" 45
 		"Ruksay Missile Launcher" 2
-		"Jibauni Medium Laser" 2
-		"Aljaraar Tractor Beam"
-		"Zarhal Laser Turret" 2
+		"Ardonex Laser" 2
+		"Sinraptor Beam"
+		"Ardonex Turret" 2
 		"Lilsa Anti-Missile" 2
 		"Daltaq Energy Generator"
 		"Jamum Shield Generator"
@@ -203,17 +203,17 @@ ship "Nathar" "Nathar (Rebel)"
 		"Hyperdrive"
 	gun "Ruksay Missile Launcher"
 	gun "Ruksay Missile Launcher"
-	gun "Jibauni Medium Laser"
-	gun "Jibauni Medium Laser"
+	gun "Ardonex Laser"
+	gun "Ardonex Laser"
 	turret "Lilsa Anti-Missile"
 	turret "Lilsa Anti-Missile"
-	turret "Aljaraar Tractor Beam"
-	turret "Zarhal Laser Turret"
-	turret "Zarhal Laser Turret"
+	turret "Sinraptor Beam"
+	turret "Ardonex Turret"
+	turret "Ardonex Turret"
 
 ship "Latbaliday" "Latbaliday (Flak)"
 	outfits
-		"Flak Launcher"
+		"Troodon"
 
 		"Jahgir Energy Generator"
 		"Minjal"
@@ -223,7 +223,7 @@ ship "Latbaliday" "Latbaliday (Flak)"
 
 ship "Yiyharsi" "Yiyharsi (Flak)"
 	outfits
-		"Flak Launcher" 4
+		"Troodon" 4
 		"Lilsa Anti-Missile"
 
 		"Tawasitaq Energy Generator"
@@ -236,7 +236,7 @@ ship "Yiyharsi" "Yiyharsi (Flak)"
 
 ship "Saghir" "Saghir (Flak)"
 	outfits
-		"Flak Launcher" 2
+		"Troodon" 2
 
 		"Watsaq Energy Generator"
 		"Jamum Shield Generator"
@@ -248,7 +248,7 @@ ship "Saghir" "Saghir (Flak)"
 
 ship "Furus" "Furus (Flak)"
 	outfits
-		"Flak Launcher" 2
+		"Troodon" 2
 		"Watsaq Energy Generator"
 		"Jamum Shield Generator"
 		"Minjal"
@@ -257,23 +257,23 @@ ship "Furus" "Furus (Flak)"
 		"Eimlaq Thrusters"
 		"Hyperdrive"
 	gun
-	gun "Flak Launcher"
-	gun "Flak Launcher"
+	gun "Troodon"
+	gun "Troodon"
 
 ship "Yiyharsi" "Yiyharsi (Tractor Flak)"
 	outfits
-		"Aljaraar Tractor Beam"
+		"Sinraptor Beam"
 		"Tawasitaq Energy Generator"
 		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Wasita Steering"
 		"Wasita Thrusters"
-		"Flak Launcher" 2
-	gun "Flak Launcher"
-	gun "Flak Launcher"
+		"Troodon" 2
+	gun "Troodon"
+	gun "Troodon"
 	gun
 	gun
-	turret "Aljaraar Tractor Beam"
+	turret "Sinraptor Beam"
 
 ship "Furus" "Furus (Religious Leader)"
 	outfits

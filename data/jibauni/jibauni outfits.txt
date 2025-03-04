@@ -11,7 +11,7 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-outfit "Jibauni Small Laser"
+outfit "Dracorex Laser"
 	category "Guns"
 	cost 50000
 	thumbnail "outfit/jibauni small laser"
@@ -38,7 +38,7 @@ outfit "Jibauni Small Laser"
 		"phasing"
 	description "The developers of the Jibauni Small Laser, Res-redi, have realized that they only sell to small ships, as larger ones can support heavier ordnance."
 
-outfit "Jibauni Medium Laser"
+outfit "Ardonex Laser"
 	category "Guns"
 	thumbnail "outfit/jibauni medium laser"
 	cost 121000
@@ -132,7 +132,7 @@ outfit "Altaedin Laser"
 
 
 
-outfit "Zarhal Laser Turret"
+outfit "Ardonex Turret"
 	category "Turrets"
 	cost 350000
 	thumbnail "outfit/zarhal turret"
@@ -159,9 +159,9 @@ outfit "Zarhal Laser Turret"
 		"shield damage" 4.5
 		"hull damage" 2.2
 		"phasing"
-	description "Jibauni inventors didn't know how to make a laser that could hit asteroids - nor did they care much. The Zarhal Laser Turret does the most damage of any Jibauni weapon, but the abysmal turn rate has sent many captains down the opposite path of the Zarwal Turret - and it has a disadvantage in range against the Zarhal turret."
+	description "Jibauni inventors didn't know how to make a laser that could hit asteroids - nor did they care much. The Ardonex Turret does the most damage of any Jibauni weapon, but the abysmal turn rate has sent many captains down the opposite path of the Zarwal Turret - and it has a disadvantage in range against the Zarhal turret."
 
-outfit "Zarwal Laser Turret"
+outfit "Dracorex Turret"
 	category "Turrets"
 	cost 150000
 	thumbnail "outfit/zarwal turret"
@@ -190,7 +190,7 @@ outfit "Zarwal Laser Turret"
 	description "The Zarwal Turret does not do nearly as much damage as the Zarhal. However, having the turret turn at more than a millimeter a second is a great blessing to Jibauni captains which use it - and the extra range helps."
 
 
-outfit "Aljaraar Tractor Beam"
+outfit "Sinraptor Beam"
 	category "Turrets"
 	cost 90000
 	thumbnail "outfit/aljaraar tractor beam"
@@ -209,7 +209,7 @@ outfit "Aljaraar Tractor Beam"
 		"reload" 1
 		"firing energy" 2.3
 		"firing fuel" .2
-	description "The Aljaraar Tractor Beam, while initially invented to gather harvested asteroid parts, has been put by the Rebel Jibauni to the very different use of gathering flotsam from destroyed enemy ships."
+	description "The Sinraptor Beam, while initially invented to gather harvested asteroid parts, has been put by the Rebel Jibauni to the very different use of gathering flotsam from destroyed enemy ships."
 
 
 outfit "Lilsa Anti-Missile"

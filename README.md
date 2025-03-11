@@ -22,10 +22,3 @@ I am aiming to make the Jibauni about T1.
 
 The Diba are a faction of robots much like the Kor Mereti and Kor Sestor, except for these are controlled by an escaped Alpha. 
 I am aiming for the Diba to be slightly more powerful then humans, but only a bit.
-
-
-
-## Contributing
-
-I would welcome any help making this plugin. If possible, the things I need most help on are making ship and outfit sprites, preferably with .blend and .gimp files to go along.
-I have sprites for the Diba but not the Jibauni.

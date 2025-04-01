@@ -7,8 +7,6 @@ This is a plugin for the free, open-source game [Endless Sky](endless-sky.github
 ## General Information
 This plugin adds a robotic faction called the Diba and a species named the Jibauni.
 
-The Jibauni mostly use human ship sprites, which I am hoping will change soon (see [Contributing](#Contributing)). 
-
 You can find the fork of Endless Sky with the Jibauni integrated [here](https://github.com/Alrodel/endless-sky/tree/Jibauni).
 
 ## Jibauni

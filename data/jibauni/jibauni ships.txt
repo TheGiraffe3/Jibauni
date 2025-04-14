@@ -681,12 +681,12 @@ ship "Nathar"
 	gun 27 -30.5 "Ruksay Missile Launcher"
 	gun -15.5 -77.5 "Jibauni Medium Laser"
 	gun 15.5 -77.5 "Jibauni Medium Laser"
-	turret -22 68 "Lilsa Anti-Missile"
-	turret 22 68 "Lilsa Anti-Missile"
-	turret 0 -45.5 "Zarwal Laser Turret"
-	turret -42.5 38 "Zarhal Laser Turret"
+	turret -20 68 "Lilsa Anti-Missile"
+	turret 20 68 "Lilsa Anti-Missile"
+	turret -2 -45.5 "Zarwal Laser Turret"
+	turret -44.5 38 "Zarhal Laser Turret"
 		under
-	turret 42.5 38 "Zarhal Laser Turret"
+	turret 44.5 38 "Zarhal Laser Turret"
 		under
 	bay "Fighter" -32.5 111.5
 		over
